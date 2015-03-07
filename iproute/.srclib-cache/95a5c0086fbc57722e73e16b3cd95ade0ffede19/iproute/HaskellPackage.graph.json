@@ -1,0 +1,594 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/kazu-yamamoto/iproute",
+      "UnitType": "HaskellPackage",
+      "Unit": "iproute",
+      "Path": "iproute/Data/IP",
+      "Name": "IP",
+      "Kind": "Module",
+      "File": "Data/IP.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "iproute/Data/IP"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/iproute",
+      "UnitType": "HaskellPackage",
+      "Unit": "iproute",
+      "Path": "iproute/Data/IP/Addr",
+      "Name": "Addr",
+      "Kind": "Module",
+      "File": "Data/IP/Addr.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "iproute/Data/IP/Addr"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/iproute",
+      "UnitType": "HaskellPackage",
+      "Unit": "iproute",
+      "Path": "iproute/Data/IP/Mask",
+      "Name": "Mask",
+      "Kind": "Module",
+      "File": "Data/IP/Mask.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "iproute/Data/IP/Mask"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/iproute",
+      "UnitType": "HaskellPackage",
+      "Unit": "iproute",
+      "Path": "iproute/Data/IP/Op",
+      "Name": "Op",
+      "Kind": "Module",
+      "File": "Data/IP/Op.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "iproute/Data/IP/Op"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/iproute",
+      "UnitType": "HaskellPackage",
+      "Unit": "iproute",
+      "Path": "iproute/Data/IP/Range",
+      "Name": "Range",
+      "Kind": "Module",
+      "File": "Data/IP/Range.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "iproute/Data/IP/Range"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/iproute",
+      "UnitType": "HaskellPackage",
+      "Unit": "iproute",
+      "Path": "iproute/Data/IP/RouteTable",
+      "Name": "RouteTable",
+      "Kind": "Module",
+      "File": "Data/IP/RouteTable.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "iproute/Data/IP/RouteTable"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/iproute",
+      "UnitType": "HaskellPackage",
+      "Unit": "iproute",
+      "Path": "iproute/Data/IP/RouteTable/Internal",
+      "Name": "Internal",
+      "Kind": "Module",
+      "File": "Data/IP/RouteTable/Internal.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "iproute/Data/IP/RouteTable/Internal"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/iproute",
+      "UnitType": "HaskellPackage",
+      "Unit": "iproute",
+      "Path": "iproute/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "iproute/Setup"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/iproute",
+      "UnitType": "HaskellPackage",
+      "Unit": "iproute",
+      "Path": "iproute/test/IPSpec",
+      "Name": "IPSpec",
+      "Kind": "Module",
+      "File": "test/IPSpec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "iproute/test/IPSpec"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/iproute",
+      "UnitType": "HaskellPackage",
+      "Unit": "iproute",
+      "Path": "iproute/test/RouteTableSpec",
+      "Name": "RouteTableSpec",
+      "Kind": "Module",
+      "File": "test/RouteTableSpec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "iproute/test/RouteTableSpec"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/iproute",
+      "UnitType": "HaskellPackage",
+      "Unit": "iproute",
+      "Path": "iproute/test/Spec",
+      "Name": "Spec",
+      "Kind": "Module",
+      "File": "test/Spec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "iproute/test/Spec"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/iproute",
+      "UnitType": "HaskellPackage",
+      "Unit": "iproute",
+      "Path": "iproute/test/doctests",
+      "Name": "doctests",
+      "Kind": "Module",
+      "File": "test/doctests.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "iproute/test/doctests"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Control/Applicative",
+      "File": "test/IPSpec.hs",
+      "Start": 102,
+      "End": 121
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Control/Applicative",
+      "File": "test/RouteTableSpec.hs",
+      "Start": 110,
+      "End": 129
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Control/Monad",
+      "File": "Data/IP/Addr.hs",
+      "Start": 55,
+      "End": 68
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Control/Monad",
+      "File": "Data/IP/Range.hs",
+      "Start": 91,
+      "End": 104
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Control/Monad",
+      "File": "test/RouteTableSpec.hs",
+      "Start": 137,
+      "End": 150
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/Bits",
+      "File": "Data/IP/Addr.hs",
+      "Start": 76,
+      "End": 85
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/Bits",
+      "File": "Data/IP/Mask.hs",
+      "Start": 34,
+      "End": 43
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/Bits",
+      "File": "Data/IP/Op.hs",
+      "Start": 32,
+      "End": 41
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/Bits",
+      "File": "Data/IP/Range.hs",
+      "Start": 112,
+      "End": 121
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/Char",
+      "File": "Data/IP/Addr.hs",
+      "Start": 93,
+      "End": 102
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/Addr",
+      "File": "Data/IP.hs",
+      "Start": 411,
+      "End": 423
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/Addr",
+      "File": "Data/IP/Addr.hs",
+      "Start": 28,
+      "End": 40
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/Addr",
+      "File": "Data/IP/Mask.hs",
+      "Start": 51,
+      "End": 63
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/Addr",
+      "File": "Data/IP/Op.hs",
+      "Start": 49,
+      "End": 61
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/Addr",
+      "File": "Data/IP/Range.hs",
+      "Start": 129,
+      "End": 141
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/Mask",
+      "File": "Data/IP/Mask.hs",
+      "Start": 7,
+      "End": 19
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/Mask",
+      "File": "Data/IP/Op.hs",
+      "Start": 69,
+      "End": 81
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/Mask",
+      "File": "Data/IP/Range.hs",
+      "Start": 149,
+      "End": 161
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/Op",
+      "File": "Data/IP.hs",
+      "Start": 431,
+      "End": 441
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/Op",
+      "File": "Data/IP/Op.hs",
+      "Start": 7,
+      "End": 17
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/Range",
+      "File": "Data/IP.hs",
+      "Start": 449,
+      "End": 462
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/Range",
+      "File": "Data/IP/Op.hs",
+      "Start": 89,
+      "End": 102
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/Range",
+      "File": "Data/IP/Range.hs",
+      "Start": 63,
+      "End": 76
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/RouteTable/Internal",
+      "File": "Data/IP/RouteTable.hs",
+      "Start": 551,
+      "End": 578
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/RouteTable/Internal",
+      "File": "test/RouteTableSpec.hs",
+      "Start": 173,
+      "End": 200
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP/RouteTable",
+      "File": "Data/IP/RouteTable.hs",
+      "Start": 277,
+      "End": 295
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP",
+      "File": "Data/IP.hs",
+      "Start": 68,
+      "End": 75
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP",
+      "File": "test/IPSpec.hs",
+      "Start": 129,
+      "End": 136
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IP",
+      "File": "test/RouteTableSpec.hs",
+      "Start": 158,
+      "End": 165
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/IntMap",
+      "File": "Data/IP/Mask.hs",
+      "Start": 88,
+      "End": 99
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/List",
+      "File": "Data/IP/Addr.hs",
+      "Start": 110,
+      "End": 119
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/List",
+      "File": "test/RouteTableSpec.hs",
+      "Start": 208,
+      "End": 217
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/String",
+      "File": "Data/IP/Addr.hs",
+      "Start": 149,
+      "End": 160
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/String",
+      "File": "Data/IP/Range.hs",
+      "Start": 169,
+      "End": 180
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/Word",
+      "File": "Data/IP/Addr.hs",
+      "Start": 168,
+      "End": 177
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Data/Word",
+      "File": "Data/IP/Mask.hs",
+      "Start": 71,
+      "End": 80
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 7,
+      "End": 26
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/IPSpec",
+      "File": "test/IPSpec.hs",
+      "Start": 81,
+      "End": 87
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Main",
+      "File": "test/doctests.hs",
+      "Start": 7,
+      "End": 11
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Network/Socket",
+      "File": "Data/IP/Addr.hs",
+      "Start": 185,
+      "End": 199
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Numeric",
+      "File": "Data/IP/Addr.hs",
+      "Start": 207,
+      "End": 214
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/RouteTableSpec",
+      "File": "test/IPSpec.hs",
+      "Start": 244,
+      "End": 258
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/RouteTableSpec",
+      "File": "test/RouteTableSpec.hs",
+      "Start": 81,
+      "End": 95
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Safe",
+      "File": "test/IPSpec.hs",
+      "Start": 144,
+      "End": 148
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/System/ByteOrder",
+      "File": "Data/IP/Addr.hs",
+      "Start": 241,
+      "End": 257
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Test/DocTest",
+      "File": "test/doctests.hs",
+      "Start": 26,
+      "End": 38
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Test/Hspec/QuickCheck",
+      "File": "test/IPSpec.hs",
+      "Start": 184,
+      "End": 205
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Test/Hspec/QuickCheck",
+      "File": "test/RouteTableSpec.hs",
+      "Start": 255,
+      "End": 276
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Test/Hspec",
+      "File": "test/IPSpec.hs",
+      "Start": 166,
+      "End": 176
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Test/Hspec",
+      "File": "test/RouteTableSpec.hs",
+      "Start": 237,
+      "End": 247
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Test/QuickCheck",
+      "File": "test/IPSpec.hs",
+      "Start": 220,
+      "End": 235
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Test/QuickCheck",
+      "File": "test/RouteTableSpec.hs",
+      "Start": 291,
+      "End": 306
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Text/Appar/String",
+      "File": "Data/IP/Addr.hs",
+      "Start": 265,
+      "End": 282
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "iproute",
+      "DefPath": "iproute/Text/Appar/String",
+      "File": "Data/IP/Range.hs",
+      "Start": 188,
+      "End": 205
+    }
+  ]
+}

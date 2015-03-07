@@ -1,0 +1,56 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "warp-tls",
+      "Path": "warp-tls/Network/Wai/Handler/WarpTLS",
+      "Name": "WarpTLS",
+      "Kind": "Module",
+      "File": "warp-tls/Network/Wai/Handler/WarpTLS.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "warp-tls/Network/Wai/Handler/WarpTLS"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "warp-tls",
+      "Path": "warp-tls/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "warp-tls/Setup.lhs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "warp-tls/Setup"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "warp-tls",
+      "Path": "warp-tls/graceful-pong",
+      "Name": "graceful-pong",
+      "Kind": "Module",
+      "File": "warp-tls/graceful-pong.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "warp-tls/graceful-pong"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "warp-tls",
+      "Path": "warp-tls/pong",
+      "Name": "pong",
+      "Kind": "Module",
+      "File": "warp-tls/pong.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "warp-tls/pong"
+    }
+  ]
+}

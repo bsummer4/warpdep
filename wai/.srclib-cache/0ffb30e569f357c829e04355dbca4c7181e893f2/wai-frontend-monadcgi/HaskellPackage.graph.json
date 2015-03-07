@@ -1,0 +1,82 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai-frontend-monadcgi",
+      "Path": "wai-frontend-monadcgi/Network/Wai/Frontend/MonadCGI",
+      "Name": "MonadCGI",
+      "Kind": "Module",
+      "File": "wai-frontend-monadcgi/Network/Wai/Frontend/MonadCGI.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai-frontend-monadcgi/Network/Wai/Frontend/MonadCGI"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai-frontend-monadcgi",
+      "Path": "wai-frontend-monadcgi/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "wai-frontend-monadcgi/Setup.lhs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai-frontend-monadcgi/Setup"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai-frontend-monadcgi",
+      "Path": "wai-frontend-monadcgi/samples/plain_cgi",
+      "Name": "plain_cgi",
+      "Kind": "Module",
+      "File": "wai-frontend-monadcgi/samples/plain_cgi.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai-frontend-monadcgi/samples/plain_cgi"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai-frontend-monadcgi",
+      "Path": "wai-frontend-monadcgi/samples/wai_cgi",
+      "Name": "wai_cgi",
+      "Kind": "Module",
+      "File": "wai-frontend-monadcgi/samples/wai_cgi.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai-frontend-monadcgi/samples/wai_cgi"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai-frontend-monadcgi",
+      "Path": "wai-frontend-monadcgi/samples/wai_cgi_generic",
+      "Name": "wai_cgi_generic",
+      "Kind": "Module",
+      "File": "wai-frontend-monadcgi/samples/wai_cgi_generic.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai-frontend-monadcgi/samples/wai_cgi_generic"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai-frontend-monadcgi",
+      "Path": "wai-frontend-monadcgi/samples/wai_fastcgi",
+      "Name": "wai_fastcgi",
+      "Kind": "Module",
+      "File": "wai-frontend-monadcgi/samples/wai_fastcgi.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai-frontend-monadcgi/samples/wai_fastcgi"
+    }
+  ]
+}

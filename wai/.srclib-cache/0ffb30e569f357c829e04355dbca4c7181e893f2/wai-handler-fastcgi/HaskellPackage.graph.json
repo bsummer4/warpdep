@@ -1,0 +1,30 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai-handler-fastcgi",
+      "Path": "wai-handler-fastcgi/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "wai-handler-fastcgi/Setup.lhs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai-handler-fastcgi/Setup"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai-handler-fastcgi",
+      "Path": "wai-handler-fastcgi/test",
+      "Name": "test",
+      "Kind": "Module",
+      "File": "wai-handler-fastcgi/test.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai-handler-fastcgi/test"
+    }
+  ]
+}

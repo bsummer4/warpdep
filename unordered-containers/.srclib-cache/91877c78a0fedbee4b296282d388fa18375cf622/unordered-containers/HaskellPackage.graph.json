@@ -1,0 +1,1328 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/Data/HashMap/Array",
+      "Name": "Array",
+      "Kind": "Module",
+      "File": "Data/HashMap/Array.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/Data/HashMap/Array"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/Data/HashMap/Base",
+      "Name": "Base",
+      "Kind": "Module",
+      "File": "Data/HashMap/Base.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/Data/HashMap/Base"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/Data/HashMap/Lazy",
+      "Name": "Lazy",
+      "Kind": "Module",
+      "File": "Data/HashMap/Lazy.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/Data/HashMap/Lazy"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/Data/HashMap/PopCount",
+      "Name": "PopCount",
+      "Kind": "Module",
+      "File": "Data/HashMap/PopCount.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/Data/HashMap/PopCount"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/Data/HashMap/Strict",
+      "Name": "Strict",
+      "Kind": "Module",
+      "File": "Data/HashMap/Strict.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/Data/HashMap/Strict"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/Data/HashMap/Unsafe",
+      "Name": "Unsafe",
+      "Kind": "Module",
+      "File": "Data/HashMap/Unsafe.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/Data/HashMap/Unsafe"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/Data/HashMap/UnsafeShift",
+      "Name": "UnsafeShift",
+      "Kind": "Module",
+      "File": "Data/HashMap/UnsafeShift.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/Data/HashMap/UnsafeShift"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/Data/HashSet",
+      "Name": "HashSet",
+      "Kind": "Module",
+      "File": "Data/HashSet.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/Data/HashSet"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/Setup"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/benchmarks/Benchmarks",
+      "Name": "Benchmarks",
+      "Kind": "Module",
+      "File": "benchmarks/Benchmarks.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/benchmarks/Benchmarks"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/benchmarks/Util/ByteString",
+      "Name": "ByteString",
+      "Kind": "Module",
+      "File": "benchmarks/Util/ByteString.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/benchmarks/Util/ByteString"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/benchmarks/Util/Int",
+      "Name": "Int",
+      "Kind": "Module",
+      "File": "benchmarks/Util/Int.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/benchmarks/Util/Int"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/benchmarks/Util/String",
+      "Name": "String",
+      "Kind": "Module",
+      "File": "benchmarks/Util/String.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/benchmarks/Util/String"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/tests/HashMapProperties",
+      "Name": "HashMapProperties",
+      "Kind": "Module",
+      "File": "tests/HashMapProperties.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/tests/HashMapProperties"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/tests/HashSetProperties",
+      "Name": "HashSetProperties",
+      "Kind": "Module",
+      "File": "tests/HashSetProperties.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/tests/HashSetProperties"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/tests/Regressions",
+      "Name": "Regressions",
+      "Kind": "Module",
+      "File": "tests/Regressions.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/tests/Regressions"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/tests/Strictness",
+      "Name": "Strictness",
+      "Kind": "Module",
+      "File": "tests/Strictness.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/tests/Strictness"
+    },
+    {
+      "Repo": "github.com/tibbe/unordered-containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "unordered-containers",
+      "Path": "unordered-containers/utils/Stats",
+      "Name": "Stats",
+      "Kind": "Module",
+      "File": "utils/Stats.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unordered-containers/utils/Stats"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Control/Applicative",
+      "File": "Data/HashMap/Array.hs",
+      "Start": 837,
+      "End": 856
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Control/Applicative",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 1539,
+      "End": 1558
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Control/Applicative",
+      "File": "tests/Regressions.hs",
+      "Start": 26,
+      "End": 45
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Control/DeepSeq/Generics",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 126,
+      "End": 150
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Control/DeepSeq",
+      "File": "Data/HashMap/Array.hs",
+      "Start": 885,
+      "End": 900
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Control/DeepSeq",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 1711,
+      "End": 1726
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Control/DeepSeq",
+      "File": "Data/HashSet.hs",
+      "Start": 1377,
+      "End": 1392
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Control/DeepSeq",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 103,
+      "End": 118
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Control/Monad/ST",
+      "File": "Data/HashMap/Array.hs",
+      "Start": 908,
+      "End": 924
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Control/Monad/ST",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 1748,
+      "End": 1764
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Control/Monad",
+      "File": "tests/HashMapProperties.hs",
+      "Start": 212,
+      "End": 225
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Control/Monad",
+      "File": "tests/Regressions.hs",
+      "Start": 61,
+      "End": 74
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Criterion/Main",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 171,
+      "End": 185
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Bits",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 1777,
+      "End": 1786
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Bits",
+      "File": "Data/HashMap/PopCount.hs",
+      "Start": 143,
+      "End": 152
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Bits",
+      "File": "Data/HashMap/Strict.hs",
+      "Start": 1891,
+      "End": 1900
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Bits",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 237,
+      "End": 246
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/ByteString/Char8",
+      "File": "benchmarks/Util/ByteString.hs",
+      "Start": 178,
+      "End": 199
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/ByteString",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 304,
+      "End": 319
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/ByteString",
+      "File": "benchmarks/Util/ByteString.hs",
+      "Start": 140,
+      "End": 155
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Data",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 1821,
+      "End": 1830
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Data",
+      "File": "Data/HashSet.hs",
+      "Start": 1413,
+      "End": 1422
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Foldable",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 1866,
+      "End": 1879
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Foldable",
+      "File": "Data/HashSet.hs",
+      "Start": 1681,
+      "End": 1694
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Foldable",
+      "File": "tests/HashMapProperties.hs",
+      "Start": 253,
+      "End": 266
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Foldable",
+      "File": "tests/HashSetProperties.hs",
+      "Start": 204,
+      "End": 217
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Function",
+      "File": "tests/HashMapProperties.hs",
+      "Start": 286,
+      "End": 299
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Array",
+      "File": "Data/HashMap/Array.hs",
+      "Start": 216,
+      "End": 234
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Array",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 2093,
+      "End": 2111
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Array",
+      "File": "Data/HashMap/Strict.hs",
+      "Start": 2026,
+      "End": 2044
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Array",
+      "File": "utils/Stats.hs",
+      "Start": 112,
+      "End": 130
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Base",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 271,
+      "End": 288
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Base",
+      "File": "Data/HashMap/Lazy.hs",
+      "Start": 1858,
+      "End": 1875
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Base",
+      "File": "Data/HashMap/Strict.hs",
+      "Start": 2067,
+      "End": 2084
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Base",
+      "File": "Data/HashMap/Strict.hs",
+      "Start": 2098,
+      "End": 2115
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Base",
+      "File": "Data/HashSet.hs",
+      "Start": 1448,
+      "End": 1465
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Base",
+      "File": "utils/Stats.hs",
+      "Start": 143,
+      "End": 160
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Base",
+      "File": "utils/Stats.hs",
+      "Start": 192,
+      "End": 209
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Lazy",
+      "File": "Data/HashMap/Lazy.hs",
+      "Start": 951,
+      "End": 968
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Lazy",
+      "File": "Data/HashSet.hs",
+      "Start": 1724,
+      "End": 1741
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Lazy",
+      "File": "tests/HashMapProperties.hs",
+      "Start": 469,
+      "End": 486
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/PopCount",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 2192,
+      "End": 2213
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/PopCount",
+      "File": "Data/HashMap/PopCount.hs",
+      "Start": 55,
+      "End": 76
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Strict",
+      "File": "Data/HashMap/Strict.hs",
+      "Start": 982,
+      "End": 1001
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Strict",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 390,
+      "End": 409
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Strict",
+      "File": "tests/Regressions.hs",
+      "Start": 105,
+      "End": 124
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Strict",
+      "File": "tests/Strictness.hs",
+      "Start": 376,
+      "End": 395
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Strict",
+      "File": "tests/Strictness.hs",
+      "Start": 423,
+      "End": 442
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Unsafe",
+      "File": "Data/HashMap/Array.hs",
+      "Start": 1703,
+      "End": 1722
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Unsafe",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 2232,
+      "End": 2251
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Unsafe",
+      "File": "Data/HashMap/Strict.hs",
+      "Start": 2291,
+      "End": 2310
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/Unsafe",
+      "File": "Data/HashMap/Unsafe.hs",
+      "Start": 350,
+      "End": 369
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/UnsafeShift",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 2267,
+      "End": 2291
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap/UnsafeShift",
+      "File": "Data/HashMap/UnsafeShift.hs",
+      "Start": 35,
+      "End": 59
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashMap",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 353,
+      "End": 365
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashSet",
+      "File": "Data/HashSet.hs",
+      "Start": 915,
+      "End": 927
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/HashSet",
+      "File": "tests/HashSetProperties.hs",
+      "Start": 325,
+      "End": 337
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Hashable",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 2134,
+      "End": 2147
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Hashable",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 2160,
+      "End": 2173
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Hashable",
+      "File": "Data/HashMap/Strict.hs",
+      "Start": 1955,
+      "End": 1968
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Hashable",
+      "File": "Data/HashSet.hs",
+      "Start": 1497,
+      "End": 1510
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Hashable",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 262,
+      "End": 275
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Hashable",
+      "File": "tests/HashMapProperties.hs",
+      "Start": 312,
+      "End": 325
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Hashable",
+      "File": "tests/HashSetProperties.hs",
+      "Start": 237,
+      "End": 250
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Hashable",
+      "File": "tests/Strictness.hs",
+      "Start": 135,
+      "End": 148
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/IntMap",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 433,
+      "End": 444
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/List",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 1909,
+      "End": 1918
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/List",
+      "File": "Data/HashMap/Strict.hs",
+      "Start": 1933,
+      "End": 1942
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/List",
+      "File": "Data/HashSet.hs",
+      "Start": 1764,
+      "End": 1773
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/List",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 489,
+      "End": 498
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/List",
+      "File": "tests/HashMapProperties.hs",
+      "Start": 368,
+      "End": 377
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/List",
+      "File": "tests/HashSetProperties.hs",
+      "Start": 293,
+      "End": 302
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/List",
+      "File": "tests/Regressions.hs",
+      "Start": 138,
+      "End": 147
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Map",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 468,
+      "End": 476
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Map",
+      "File": "tests/HashMapProperties.hs",
+      "Start": 517,
+      "End": 525
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Maybe",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 515,
+      "End": 525
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Maybe",
+      "File": "tests/Regressions.hs",
+      "Start": 164,
+      "End": 174
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Monoid",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 1593,
+      "End": 1604
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Monoid",
+      "File": "Data/HashSet.hs",
+      "Start": 1559,
+      "End": 1570
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Monoid",
+      "File": "utils/Stats.hs",
+      "Start": 223,
+      "End": 234
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Set",
+      "File": "tests/HashSetProperties.hs",
+      "Start": 360,
+      "End": 368
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Traversable",
+      "File": "Data/HashMap/Array.hs",
+      "Start": 768,
+      "End": 784
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Traversable",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 1638,
+      "End": 1654
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Typeable",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 2328,
+      "End": 2341
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Typeable",
+      "File": "Data/HashSet.hs",
+      "Start": 1789,
+      "End": 1802
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Data/Word",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 1680,
+      "End": 1689
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 7,
+      "End": 26
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/GHC/Base",
+      "File": "Data/HashMap/Unsafe.hs",
+      "Start": 402,
+      "End": 410
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/GHC/Exts",
+      "File": "Data/HashMap/Array.hs",
+      "Start": 1135,
+      "End": 1143
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/GHC/Exts",
+      "File": "Data/HashMap/Array.hs",
+      "Start": 1529,
+      "End": 1537
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/GHC/Exts",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 1931,
+      "End": 1939
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/GHC/Exts",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 2392,
+      "End": 2400
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/GHC/Exts",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 2466,
+      "End": 2474
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/GHC/Exts",
+      "File": "Data/HashMap/UnsafeShift.hs",
+      "Start": 118,
+      "End": 126
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/GHC/Exts",
+      "File": "Data/HashSet.hs",
+      "Start": 1598,
+      "End": 1606
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/GHC/Exts",
+      "File": "Data/HashSet.hs",
+      "Start": 1880,
+      "End": 1888
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/GHC/Generics",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 545,
+      "End": 557
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/GHC/ST",
+      "File": "Data/HashMap/Array.hs",
+      "Start": 1305,
+      "End": 1311
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/GHC/ST",
+      "File": "Data/HashMap/Unsafe.hs",
+      "Start": 431,
+      "End": 437
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Main",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 84,
+      "End": 88
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Main",
+      "File": "tests/HashMapProperties.hs",
+      "Start": 186,
+      "End": 190
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Main",
+      "File": "tests/HashSetProperties.hs",
+      "Start": 168,
+      "End": 172
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Main",
+      "File": "tests/Regressions.hs",
+      "Start": 7,
+      "End": 11
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Main",
+      "File": "tests/Strictness.hs",
+      "Start": 109,
+      "End": 113
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Prelude",
+      "File": "Data/HashMap/Array.hs",
+      "Start": 1433,
+      "End": 1440
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Prelude",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 1988,
+      "End": 1995
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Prelude",
+      "File": "Data/HashMap/Strict.hs",
+      "Start": 1987,
+      "End": 1994
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Prelude",
+      "File": "Data/HashSet.hs",
+      "Start": 1622,
+      "End": 1629
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Prelude",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 575,
+      "End": 582
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Stats",
+      "File": "utils/Stats.hs",
+      "Start": 82,
+      "End": 87
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/System/Random",
+      "File": "benchmarks/Util/Int.hs",
+      "Start": 118,
+      "End": 131
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/System/Random",
+      "File": "benchmarks/Util/String.hs",
+      "Start": 120,
+      "End": 133
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/ChasingBottoms/IsBottom",
+      "File": "tests/Strictness.hs",
+      "Start": 181,
+      "End": 209
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/Framework/Providers/HUnit",
+      "File": "tests/Regressions.hs",
+      "Start": 262,
+      "End": 292
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/Framework/Providers/QuickCheck2",
+      "File": "tests/HashMapProperties.hs",
+      "Start": 643,
+      "End": 679
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/Framework/Providers/QuickCheck2",
+      "File": "tests/HashSetProperties.hs",
+      "Start": 471,
+      "End": 507
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/Framework/Providers/QuickCheck2",
+      "File": "tests/Regressions.hs",
+      "Start": 311,
+      "End": 347
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/Framework/Providers/QuickCheck2",
+      "File": "tests/Strictness.hs",
+      "Start": 270,
+      "End": 306
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/Framework",
+      "File": "tests/HashMapProperties.hs",
+      "Start": 590,
+      "End": 604
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/Framework",
+      "File": "tests/HashSetProperties.hs",
+      "Start": 418,
+      "End": 432
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/Framework",
+      "File": "tests/Regressions.hs",
+      "Start": 220,
+      "End": 234
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/Framework",
+      "File": "tests/Strictness.hs",
+      "Start": 217,
+      "End": 231
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/HUnit",
+      "File": "tests/Regressions.hs",
+      "Start": 182,
+      "End": 192
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/QuickCheck",
+      "File": "tests/HashMapProperties.hs",
+      "Start": 538,
+      "End": 553
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/QuickCheck",
+      "File": "tests/HashSetProperties.hs",
+      "Start": 383,
+      "End": 398
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/QuickCheck",
+      "File": "tests/Regressions.hs",
+      "Start": 370,
+      "End": 385
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Test/QuickCheck",
+      "File": "tests/Strictness.hs",
+      "Start": 329,
+      "End": 344
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Text/Read",
+      "File": "Data/HashMap/Base.hs",
+      "Start": 2051,
+      "End": 2060
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Text/Read",
+      "File": "Data/HashSet.hs",
+      "Start": 1821,
+      "End": 1830
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Util/ByteString",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 617,
+      "End": 632
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Util/ByteString",
+      "File": "benchmarks/Util/ByteString.hs",
+      "Start": 100,
+      "End": 115
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Util/Int",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 657,
+      "End": 665
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Util/Int",
+      "File": "benchmarks/Util/Int.hs",
+      "Start": 95,
+      "End": 103
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Util/String",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 689,
+      "End": 700
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Util/String",
+      "File": "benchmarks/Util/ByteString.hs",
+      "Start": 213,
+      "End": 224
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unordered-containers",
+      "DefPath": "unordered-containers/Util/String",
+      "File": "benchmarks/Util/String.hs",
+      "Start": 94,
+      "End": 105
+    }
+  ]
+}

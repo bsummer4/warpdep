@@ -1,0 +1,371 @@
+{
+  "Defs": [
+    {
+      "Repo": "git.haskell.org/packages/ghc-prim",
+      "UnitType": "HaskellPackage",
+      "Unit": "ghc-prim",
+      "Path": "ghc-prim/GHC/CString",
+      "Name": "CString",
+      "Kind": "Module",
+      "File": "GHC/CString.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "ghc-prim/GHC/CString"
+    },
+    {
+      "Repo": "git.haskell.org/packages/ghc-prim",
+      "UnitType": "HaskellPackage",
+      "Unit": "ghc-prim",
+      "Path": "ghc-prim/GHC/Classes",
+      "Name": "Classes",
+      "Kind": "Module",
+      "File": "GHC/Classes.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "ghc-prim/GHC/Classes"
+    },
+    {
+      "Repo": "git.haskell.org/packages/ghc-prim",
+      "UnitType": "HaskellPackage",
+      "Unit": "ghc-prim",
+      "Path": "ghc-prim/GHC/Debug",
+      "Name": "Debug",
+      "Kind": "Module",
+      "File": "GHC/Debug.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "ghc-prim/GHC/Debug"
+    },
+    {
+      "Repo": "git.haskell.org/packages/ghc-prim",
+      "UnitType": "HaskellPackage",
+      "Unit": "ghc-prim",
+      "Path": "ghc-prim/GHC/IntWord64",
+      "Name": "IntWord64",
+      "Kind": "Module",
+      "File": "GHC/IntWord64.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "ghc-prim/GHC/IntWord64"
+    },
+    {
+      "Repo": "git.haskell.org/packages/ghc-prim",
+      "UnitType": "HaskellPackage",
+      "Unit": "ghc-prim",
+      "Path": "ghc-prim/GHC/Magic",
+      "Name": "Magic",
+      "Kind": "Module",
+      "File": "GHC/Magic.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "ghc-prim/GHC/Magic"
+    },
+    {
+      "Repo": "git.haskell.org/packages/ghc-prim",
+      "UnitType": "HaskellPackage",
+      "Unit": "ghc-prim",
+      "Path": "ghc-prim/GHC/Tuple",
+      "Name": "Tuple",
+      "Kind": "Module",
+      "File": "GHC/Tuple.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "ghc-prim/GHC/Tuple"
+    },
+    {
+      "Repo": "git.haskell.org/packages/ghc-prim",
+      "UnitType": "HaskellPackage",
+      "Unit": "ghc-prim",
+      "Path": "ghc-prim/GHC/Types",
+      "Name": "Types",
+      "Kind": "Module",
+      "File": "GHC/Types.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "ghc-prim/GHC/Types"
+    },
+    {
+      "Repo": "git.haskell.org/packages/ghc-prim",
+      "UnitType": "HaskellPackage",
+      "Unit": "ghc-prim",
+      "Path": "ghc-prim/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "ghc-prim/Setup"
+    },
+    {
+      "Repo": "git.haskell.org/packages/ghc-prim",
+      "UnitType": "HaskellPackage",
+      "Unit": "ghc-prim",
+      "Path": "ghc-prim/tests/T6026",
+      "Name": "T6026",
+      "Kind": "Module",
+      "File": "tests/T6026.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "ghc-prim/tests/T6026"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/Control/Monad",
+      "File": "Setup.hs",
+      "Start": 94,
+      "End": 107
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/Data/List",
+      "File": "Setup.hs",
+      "Start": 115,
+      "End": 124
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/Data/Maybe",
+      "File": "Setup.hs",
+      "Start": 132,
+      "End": 142
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/Distribution/PackageDescription",
+      "File": "Setup.hs",
+      "Start": 150,
+      "End": 181
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/Distribution/Simple/LocalBuildInfo",
+      "File": "Setup.hs",
+      "Start": 216,
+      "End": 250
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/Distribution/Simple/Program",
+      "File": "Setup.hs",
+      "Start": 258,
+      "End": 285
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/Distribution/Simple/Utils",
+      "File": "Setup.hs",
+      "Start": 293,
+      "End": 318
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 189,
+      "End": 208
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/Distribution/Text",
+      "File": "Setup.hs",
+      "Start": 326,
+      "End": 343
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/CString",
+      "File": "GHC/CString.hs",
+      "Start": 622,
+      "End": 633
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/Classes",
+      "File": "GHC/Classes.hs",
+      "Start": 712,
+      "End": 723
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/Debug",
+      "File": "GHC/Debug.hs",
+      "Start": 100,
+      "End": 109
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/IntWord64",
+      "File": "GHC/IntWord64.hs",
+      "Start": 653,
+      "End": 666
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/Magic",
+      "File": "GHC/Classes.hs",
+      "Start": 785,
+      "End": 794
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/Magic",
+      "File": "GHC/Magic.hs",
+      "Start": 586,
+      "End": 595
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/Prim",
+      "File": "GHC/CString.hs",
+      "Start": 782,
+      "End": 790
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/Prim",
+      "File": "GHC/Classes.hs",
+      "Start": 805,
+      "End": 813
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/Prim",
+      "File": "GHC/Debug.hs",
+      "Start": 148,
+      "End": 156
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/Prim",
+      "File": "tests/T6026.hs",
+      "Start": 61,
+      "End": 69
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/Tuple",
+      "File": "GHC/Classes.hs",
+      "Start": 821,
+      "End": 830
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/Tuple",
+      "File": "GHC/Debug.hs",
+      "Start": 181,
+      "End": 190
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/Types",
+      "File": "GHC/CString.hs",
+      "Start": 765,
+      "End": 774
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/Types",
+      "File": "GHC/Classes.hs",
+      "Start": 838,
+      "End": 847
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/Types",
+      "File": "GHC/Debug.hs",
+      "Start": 164,
+      "End": 173
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/GHC/Types",
+      "File": "tests/T6026.hs",
+      "Start": 77,
+      "End": 86
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/Main",
+      "File": "Setup.hs",
+      "Start": 68,
+      "End": 72
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/Main",
+      "File": "tests/T6026.hs",
+      "Start": 35,
+      "End": 39
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/System/Cmd",
+      "File": "Setup.hs",
+      "Start": 351,
+      "End": 361
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/System/Directory",
+      "File": "Setup.hs",
+      "Start": 411,
+      "End": 427
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/System/Exit",
+      "File": "Setup.hs",
+      "Start": 392,
+      "End": 403
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "ghc-prim",
+      "DefPath": "ghc-prim/System/FilePath",
+      "File": "Setup.hs",
+      "Start": 369,
+      "End": 384
+    }
+  ]
+}

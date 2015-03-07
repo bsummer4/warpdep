@@ -1,0 +1,3699 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Blaze/ByteString/Builder",
+      "Name": "Builder",
+      "Kind": "Module",
+      "File": "Blaze/ByteString/Builder.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Blaze/ByteString/Builder"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Blaze/ByteString/Builder/ByteString",
+      "Name": "ByteString",
+      "Kind": "Module",
+      "File": "Blaze/ByteString/Builder/ByteString.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Blaze/ByteString/Builder/ByteString"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Blaze/ByteString/Builder/Char/Utf8",
+      "Name": "Utf8",
+      "Kind": "Module",
+      "File": "Blaze/ByteString/Builder/Char/Utf8.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Blaze/ByteString/Builder/Char/Utf8"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Blaze/ByteString/Builder/Char8",
+      "Name": "Char8",
+      "Kind": "Module",
+      "File": "Blaze/ByteString/Builder/Char8.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Blaze/ByteString/Builder/Char8"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Blaze/ByteString/Builder/HTTP",
+      "Name": "HTTP",
+      "Kind": "Module",
+      "File": "Blaze/ByteString/Builder/HTTP.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Blaze/ByteString/Builder/HTTP"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Blaze/ByteString/Builder/Html/Utf8",
+      "Name": "Utf8",
+      "Kind": "Module",
+      "File": "Blaze/ByteString/Builder/Html/Utf8.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Blaze/ByteString/Builder/Html/Utf8"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Blaze/ByteString/Builder/Int",
+      "Name": "Int",
+      "Kind": "Module",
+      "File": "Blaze/ByteString/Builder/Int.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Blaze/ByteString/Builder/Int"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "Name": "Internal",
+      "Kind": "Module",
+      "File": "Blaze/ByteString/Builder/Internal.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Blaze/ByteString/Builder/Internal"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Blaze/ByteString/Builder/Internal/Buffer",
+      "Name": "Buffer",
+      "Kind": "Module",
+      "File": "Blaze/ByteString/Builder/Internal/Buffer.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Blaze/ByteString/Builder/Internal/Buffer"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Blaze/ByteString/Builder/Internal/Types",
+      "Name": "Types",
+      "Kind": "Module",
+      "File": "Blaze/ByteString/Builder/Internal/Types.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Blaze/ByteString/Builder/Internal/Types"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Blaze/ByteString/Builder/Internal/UncheckedShifts",
+      "Name": "UncheckedShifts",
+      "Kind": "Module",
+      "File": "Blaze/ByteString/Builder/Internal/UncheckedShifts.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Blaze/ByteString/Builder/Internal/UncheckedShifts"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Blaze/ByteString/Builder/Internal/Write",
+      "Name": "Write",
+      "Kind": "Module",
+      "File": "Blaze/ByteString/Builder/Internal/Write.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Blaze/ByteString/Builder/Internal/Write"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Blaze/ByteString/Builder/Word",
+      "Name": "Word",
+      "Kind": "Module",
+      "File": "Blaze/ByteString/Builder/Word.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Blaze/ByteString/Builder/Word"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Criterion/ScalingBenchmark",
+      "Name": "ScalingBenchmark",
+      "Kind": "Module",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Criterion/ScalingBenchmark"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Foreign/UPtr",
+      "Name": "UPtr",
+      "Kind": "Module",
+      "File": "Foreign/UPtr.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Foreign/UPtr"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/Setup"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/BenchThroughput",
+      "Name": "BenchThroughput",
+      "Kind": "Module",
+      "File": "benchmarks/BenchThroughput.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/BenchThroughput"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/BenchmarkServer",
+      "Name": "BenchmarkServer",
+      "Kind": "Module",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/BenchmarkServer"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/BlazeVsBinary",
+      "Name": "BlazeVsBinary",
+      "Kind": "Module",
+      "File": "benchmarks/BlazeVsBinary.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/BlazeVsBinary"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/BoundedWrite",
+      "Name": "BoundedWrite",
+      "Kind": "Module",
+      "File": "benchmarks/BoundedWrite.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/BoundedWrite"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/BuilderBufferRange",
+      "Name": "BuilderBufferRange",
+      "Kind": "Module",
+      "File": "benchmarks/BuilderBufferRange.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/BuilderBufferRange"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/ChunkedWrite",
+      "Name": "ChunkedWrite",
+      "Kind": "Module",
+      "File": "benchmarks/ChunkedWrite.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/ChunkedWrite"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/Compression",
+      "Name": "Compression",
+      "Kind": "Module",
+      "File": "benchmarks/Compression.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/Compression"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/FastPut",
+      "Name": "FastPut",
+      "Kind": "Module",
+      "File": "benchmarks/FastPut.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/FastPut"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/LazyByteString",
+      "Name": "LazyByteString",
+      "Kind": "Module",
+      "File": "benchmarks/LazyByteString.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/LazyByteString"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/PlotTest",
+      "Name": "PlotTest",
+      "Kind": "Module",
+      "File": "benchmarks/PlotTest.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/PlotTest"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/StrictIO",
+      "Name": "StrictIO",
+      "Kind": "Module",
+      "File": "benchmarks/StrictIO.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/StrictIO"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/StringAndText",
+      "Name": "StringAndText",
+      "Kind": "Module",
+      "File": "benchmarks/StringAndText.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/StringAndText"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/Throughput/BinaryBuilder",
+      "Name": "BinaryBuilder",
+      "Kind": "Module",
+      "File": "benchmarks/Throughput/BinaryBuilder.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/Throughput/BinaryBuilder"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/Throughput/BinaryBuilderDeclarative",
+      "Name": "BinaryBuilderDeclarative",
+      "Kind": "Module",
+      "File": "benchmarks/Throughput/BinaryBuilderDeclarative.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/Throughput/BinaryBuilderDeclarative"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/Throughput/BinaryPut",
+      "Name": "BinaryPut",
+      "Kind": "Module",
+      "File": "benchmarks/Throughput/BinaryPut.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/Throughput/BinaryPut"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/Throughput/BlazeBuilder",
+      "Name": "BlazeBuilder",
+      "Kind": "Module",
+      "File": "benchmarks/Throughput/BlazeBuilder.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/Throughput/BlazeBuilder"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/Throughput/BlazeBuilderDeclarative",
+      "Name": "BlazeBuilderDeclarative",
+      "Kind": "Module",
+      "File": "benchmarks/Throughput/BlazeBuilderDeclarative.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/Throughput/BlazeBuilderDeclarative"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/Throughput/BlazePut",
+      "Name": "BlazePut",
+      "Kind": "Module",
+      "File": "benchmarks/Throughput/BlazePut.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/Throughput/BlazePut"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/Throughput/BlazePutMonad",
+      "Name": "BlazePutMonad",
+      "Kind": "Module",
+      "File": "benchmarks/Throughput/BlazePutMonad.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/Throughput/BlazePutMonad"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/Throughput/Memory",
+      "Name": "Memory",
+      "Kind": "Module",
+      "File": "benchmarks/Throughput/Memory.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/Throughput/Memory"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/Throughput/Utils",
+      "Name": "Utils",
+      "Kind": "Module",
+      "File": "benchmarks/Throughput/Utils.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/Throughput/Utils"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/UnboxedAppend",
+      "Name": "UnboxedAppend",
+      "Kind": "Module",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/UnboxedAppend"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/benchmarks/Utf8IO",
+      "Name": "Utf8IO",
+      "Kind": "Module",
+      "File": "benchmarks/Utf8IO.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/benchmarks/Utf8IO"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/tests/LlvmSegfault",
+      "Name": "LlvmSegfault",
+      "Kind": "Module",
+      "File": "tests/LlvmSegfault.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/tests/LlvmSegfault"
+    },
+    {
+      "Repo": "github.com/meiersi/blaze-builder",
+      "UnitType": "HaskellPackage",
+      "Unit": "blaze-builder",
+      "Path": "blaze-builder/tests/Tests",
+      "Name": "Tests",
+      "Kind": "Module",
+      "File": "tests/Tests.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "blaze-builder/tests/Tests"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/BenchThroughput",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1112,
+      "End": 1127
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/BenchmarkServer",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 203,
+      "End": 218
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/ByteString",
+      "File": "Blaze/ByteString/Builder.hs",
+      "Start": 3175,
+      "End": 3210
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/ByteString",
+      "File": "Blaze/ByteString/Builder/ByteString.hs",
+      "Start": 752,
+      "End": 787
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/ByteString",
+      "File": "Blaze/ByteString/Builder/HTTP.hs",
+      "Start": 616,
+      "End": 651
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/ByteString",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 1042,
+      "End": 1077
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Char/Utf8",
+      "File": "Blaze/ByteString/Builder/Char/Utf8.hs",
+      "Start": 480,
+      "End": 514
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Char/Utf8",
+      "File": "Blaze/ByteString/Builder/Html/Utf8.hs",
+      "Start": 1357,
+      "End": 1391
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Char/Utf8",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 990,
+      "End": 1024
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Char/Utf8",
+      "File": "benchmarks/BlazeVsBinary.hs",
+      "Start": 1367,
+      "End": 1401
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Char/Utf8",
+      "File": "benchmarks/ChunkedWrite.hs",
+      "Start": 958,
+      "End": 992
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Char/Utf8",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 951,
+      "End": 985
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Char/Utf8",
+      "File": "tests/Tests.hs",
+      "Start": 489,
+      "End": 523
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Char8",
+      "File": "Blaze/ByteString/Builder/Char8.hs",
+      "Start": 833,
+      "End": 863
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Char8",
+      "File": "Blaze/ByteString/Builder/HTTP.hs",
+      "Start": 687,
+      "End": 717
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/HTTP",
+      "File": "Blaze/ByteString/Builder/HTTP.hs",
+      "Start": 213,
+      "End": 242
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Html/Utf8",
+      "File": "Blaze/ByteString/Builder/Html/Utf8.hs",
+      "Start": 705,
+      "End": 739
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Html/Utf8",
+      "File": "benchmarks/StringAndText.hs",
+      "Start": 866,
+      "End": 900
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Html/Utf8",
+      "File": "tests/Tests.hs",
+      "Start": 531,
+      "End": 565
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Int",
+      "File": "Blaze/ByteString/Builder.hs",
+      "Start": 3102,
+      "End": 3130
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Int",
+      "File": "Blaze/ByteString/Builder/Int.hs",
+      "Start": 516,
+      "End": 544
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal/Buffer",
+      "File": "Blaze/ByteString/Builder/Internal/Buffer.hs",
+      "Start": 473,
+      "End": 513
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal/Types",
+      "File": "Blaze/ByteString/Builder/HTTP.hs",
+      "Start": 512,
+      "End": 551
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal/Types",
+      "File": "Blaze/ByteString/Builder/Internal.hs",
+      "Start": 1773,
+      "End": 1812
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal/Types",
+      "File": "Blaze/ByteString/Builder/Internal/Buffer.hs",
+      "Start": 1465,
+      "End": 1504
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal/Types",
+      "File": "Blaze/ByteString/Builder/Internal/Types.hs",
+      "Start": 549,
+      "End": 588
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal/Types",
+      "File": "Blaze/ByteString/Builder/Internal/Write.hs",
+      "Start": 1138,
+      "End": 1177
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal/UncheckedShifts",
+      "File": "Blaze/ByteString/Builder/HTTP.hs",
+      "Start": 559,
+      "End": 608
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal/UncheckedShifts",
+      "File": "Blaze/ByteString/Builder/Internal/UncheckedShifts.hs",
+      "Start": 646,
+      "End": 695
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal/UncheckedShifts",
+      "File": "Blaze/ByteString/Builder/Word.hs",
+      "Start": 3557,
+      "End": 3606
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal/Write",
+      "File": "Blaze/ByteString/Builder/Internal.hs",
+      "Start": 1820,
+      "End": 1859
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal/Write",
+      "File": "Blaze/ByteString/Builder/Internal/Write.hs",
+      "Start": 594,
+      "End": 633
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "Blaze/ByteString/Builder.hs",
+      "Start": 3061,
+      "End": 3094
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "Blaze/ByteString/Builder/ByteString.hs",
+      "Start": 1098,
+      "End": 1131
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "Blaze/ByteString/Builder/ByteString.hs",
+      "Start": 1175,
+      "End": 1208
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "Blaze/ByteString/Builder/Char/Utf8.hs",
+      "Start": 1054,
+      "End": 1087
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "Blaze/ByteString/Builder/Char8.hs",
+      "Start": 1437,
+      "End": 1470
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "Blaze/ByteString/Builder/HTTP.hs",
+      "Start": 471,
+      "End": 504
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "Blaze/ByteString/Builder/Html/Utf8.hs",
+      "Start": 1316,
+      "End": 1349
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "Blaze/ByteString/Builder/Int.hs",
+      "Start": 2771,
+      "End": 2804
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "Blaze/ByteString/Builder/Internal.hs",
+      "Start": 454,
+      "End": 487
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "Blaze/ByteString/Builder/Word.hs",
+      "Start": 3516,
+      "End": 3549
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 787,
+      "End": 820
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 903,
+      "End": 936
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "benchmarks/BoundedWrite.hs",
+      "Start": 521,
+      "End": 554
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "benchmarks/BuilderBufferRange.hs",
+      "Start": 949,
+      "End": 982
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 964,
+      "End": 997
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 964,
+      "End": 997
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "benchmarks/StringAndText.hs",
+      "Start": 805,
+      "End": 838
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "Start": 967,
+      "End": 1000
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 880,
+      "End": 913
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Internal",
+      "File": "tests/LlvmSegfault.hs",
+      "Start": 316,
+      "End": 349
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Word",
+      "File": "Blaze/ByteString/Builder.hs",
+      "Start": 3138,
+      "End": 3167
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Word",
+      "File": "Blaze/ByteString/Builder/Char8.hs",
+      "Start": 1478,
+      "End": 1507
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Word",
+      "File": "Blaze/ByteString/Builder/Int.hs",
+      "Start": 2812,
+      "End": 2841
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Word",
+      "File": "Blaze/ByteString/Builder/Word.hs",
+      "Start": 1208,
+      "End": 1237
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Word",
+      "File": "benchmarks/BoundedWrite.hs",
+      "Start": 601,
+      "End": 630
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Word",
+      "File": "benchmarks/BuilderBufferRange.hs",
+      "Start": 1033,
+      "End": 1062
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Word",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 1126,
+      "End": 1155
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Word",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 1172,
+      "End": 1201
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Word",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 1005,
+      "End": 1034
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Word",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "Start": 1073,
+      "End": 1102
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Word",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "Start": 1119,
+      "End": 1148
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Write",
+      "File": "benchmarks/BoundedWrite.hs",
+      "Start": 562,
+      "End": 592
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Write",
+      "File": "benchmarks/BuilderBufferRange.hs",
+      "Start": 995,
+      "End": 1025
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Write",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 1020,
+      "End": 1050
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Write",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 1066,
+      "End": 1096
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder/Write",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "Start": 1013,
+      "End": 1043
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "Blaze/ByteString/Builder.hs",
+      "Start": 2437,
+      "End": 2461
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "Blaze/ByteString/Builder/Html/Utf8.hs",
+      "Start": 1284,
+      "End": 1308
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 755,
+      "End": 779
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 871,
+      "End": 895
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "benchmarks/BlazeVsBinary.hs",
+      "Start": 1306,
+      "End": 1330
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "benchmarks/ChunkedWrite.hs",
+      "Start": 900,
+      "End": 924
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "benchmarks/Compression.hs",
+      "Start": 797,
+      "End": 821
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "benchmarks/StringAndText.hs",
+      "Start": 744,
+      "End": 768
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "benchmarks/Throughput/BlazeBuilder.hs",
+      "Start": 154,
+      "End": 178
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "benchmarks/Throughput/BlazeBuilderDeclarative.hs",
+      "Start": 182,
+      "End": 206
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "benchmarks/Throughput/BlazePut.hs",
+      "Start": 126,
+      "End": 150
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "benchmarks/Throughput/BlazePutMonad.hs",
+      "Start": 1301,
+      "End": 1325
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "benchmarks/Throughput/BlazePutMonad.hs",
+      "Start": 1371,
+      "End": 1395
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 827,
+      "End": 851
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Blaze/ByteString/Builder",
+      "File": "tests/Tests.hs",
+      "Start": 457,
+      "End": 481
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/BlazeVsBinary",
+      "File": "benchmarks/BlazeVsBinary.hs",
+      "Start": 976,
+      "End": 989
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/BoundedWrite",
+      "File": "benchmarks/BoundedWrite.hs",
+      "Start": 323,
+      "End": 335
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/BuilderBufferRange",
+      "File": "benchmarks/BuilderBufferRange.hs",
+      "Start": 369,
+      "End": 387
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/ChunkedWrite",
+      "File": "benchmarks/ChunkedWrite.hs",
+      "Start": 659,
+      "End": 671
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Codec/Binary/UTF8/Light",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 447,
+      "End": 470
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Codec/Binary/UTF8/String",
+      "File": "tests/Tests.hs",
+      "Start": 415,
+      "End": 439
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Codec/Compression/GZip",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1712,
+      "End": 1734
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Codec/Compression/GZip",
+      "File": "benchmarks/Compression.hs",
+      "Start": 834,
+      "End": 856
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Compression",
+      "File": "benchmarks/Compression.hs",
+      "Start": 596,
+      "End": 607
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Applicative",
+      "File": "Blaze/ByteString/Builder/Internal/Types.hs",
+      "Start": 603,
+      "End": 622
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Applicative",
+      "File": "benchmarks/Throughput/BlazePutMonad.hs",
+      "Start": 1513,
+      "End": 1532
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Applicative",
+      "File": "tests/Tests.hs",
+      "Start": 98,
+      "End": 117
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Arrow",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1407,
+      "End": 1420
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Arrow",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 603,
+      "End": 616
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Concurrent",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 527,
+      "End": 545
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Exception",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1699,
+      "End": 1716
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Exception",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 595,
+      "End": 612
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Exception",
+      "File": "benchmarks/Throughput/Memory.hs",
+      "Start": 139,
+      "End": 156
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Exception",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 400,
+      "End": 417
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad/Trans/Reader",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1492,
+      "End": 1518
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad/Trans/Reader",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 888,
+      "End": 914
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad/Trans",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1465,
+      "End": 1484
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad/Trans",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 861,
+      "End": 880
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad",
+      "File": "Blaze/ByteString/Builder/Internal.hs",
+      "Start": 1401,
+      "End": 1414
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad",
+      "File": "Blaze/ByteString/Builder/Internal/Write.hs",
+      "Start": 1116,
+      "End": 1129
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1444,
+      "End": 1457
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1724,
+      "End": 1737
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 631,
+      "End": 644
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad",
+      "File": "benchmarks/BuilderBufferRange.hs",
+      "Start": 437,
+      "End": 450
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 452,
+      "End": 465
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 582,
+      "End": 595
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 840,
+      "End": 853
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad",
+      "File": "benchmarks/Throughput/BinaryBuilderDeclarative.hs",
+      "Start": 181,
+      "End": 194
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Control/Monad",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 369,
+      "End": 382
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Analysis",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1346,
+      "End": 1364
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Config",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1272,
+      "End": 1288
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Config",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 815,
+      "End": 831
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Environment",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1197,
+      "End": 1218
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Environment",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 740,
+      "End": 761
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Main",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 1033,
+      "End": 1047
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Main",
+      "File": "benchmarks/BlazeVsBinary.hs",
+      "Start": 1129,
+      "End": 1143
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Main",
+      "File": "benchmarks/BoundedWrite.hs",
+      "Start": 640,
+      "End": 654
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Main",
+      "File": "benchmarks/BuilderBufferRange.hs",
+      "Start": 1071,
+      "End": 1085
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Main",
+      "File": "benchmarks/ChunkedWrite.hs",
+      "Start": 786,
+      "End": 800
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Main",
+      "File": "benchmarks/Compression.hs",
+      "Start": 677,
+      "End": 691
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Main",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 1223,
+      "End": 1237
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Main",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 633,
+      "End": 647
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Main",
+      "File": "benchmarks/StringAndText.hs",
+      "Start": 411,
+      "End": 425
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Main",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "Start": 1170,
+      "End": 1184
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Measurement",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1310,
+      "End": 1331
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Monad",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1226,
+      "End": 1241
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Monad",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 769,
+      "End": 784
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/ScalingBenchmark",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 479,
+      "End": 505
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Types",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1249,
+      "End": 1264
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion/Types",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 792,
+      "End": 807
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1180,
+      "End": 1189
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Criterion",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 723,
+      "End": 732
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Accessor",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 890,
+      "End": 903
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Accessor",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1863,
+      "End": 1876
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Accessor",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 551,
+      "End": 564
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Binary/Builder",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 839,
+      "End": 858
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Binary/Builder",
+      "File": "benchmarks/BlazeVsBinary.hs",
+      "Start": 1092,
+      "End": 1111
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Binary/Builder",
+      "File": "benchmarks/Throughput/BinaryBuilder.hs",
+      "Start": 150,
+      "End": 169
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Binary/Builder",
+      "File": "benchmarks/Throughput/BinaryBuilderDeclarative.hs",
+      "Start": 153,
+      "End": 172
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Binary/Get",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1675,
+      "End": 1690
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Binary/Put",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1652,
+      "End": 1667
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Binary/Put",
+      "File": "benchmarks/Throughput/BinaryPut.hs",
+      "Start": 127,
+      "End": 142
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Binary",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1633,
+      "End": 1644
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Base64",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 933,
+      "End": 955
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Char8",
+      "File": "Blaze/ByteString/Builder/HTTP.hs",
+      "Start": 422,
+      "End": 443
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Char8",
+      "File": "Blaze/ByteString/Builder/Html/Utf8.hs",
+      "Start": 1128,
+      "End": 1149
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Char8",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 312,
+      "End": 333
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Char8",
+      "File": "benchmarks/Compression.hs",
+      "Start": 752,
+      "End": 773
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Internal",
+      "File": "Blaze/ByteString/Builder/ByteString.hs",
+      "Start": 1848,
+      "End": 1872
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Internal",
+      "File": "Blaze/ByteString/Builder/Internal.hs",
+      "Start": 1626,
+      "End": 1650
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Internal",
+      "File": "Blaze/ByteString/Builder/Internal/Buffer.hs",
+      "Start": 1420,
+      "End": 1444
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Internal",
+      "File": "benchmarks/BoundedWrite.hs",
+      "Start": 440,
+      "End": 464
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Internal",
+      "File": "benchmarks/BuilderBufferRange.hs",
+      "Start": 782,
+      "End": 806
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Internal",
+      "File": "benchmarks/BuilderBufferRange.hs",
+      "Start": 842,
+      "End": 866
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Internal",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 797,
+      "End": 821
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Internal",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 857,
+      "End": 881
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Internal",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 786,
+      "End": 810
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Internal",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "Start": 800,
+      "End": 824
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Internal",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "Start": 860,
+      "End": 884
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy/Internal",
+      "File": "Blaze/ByteString/Builder/ByteString.hs",
+      "Start": 1900,
+      "End": 1929
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy/Internal",
+      "File": "Blaze/ByteString/Builder/Internal.hs",
+      "Start": 1730,
+      "End": 1759
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy/Internal",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 484,
+      "End": 513
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy/Internal",
+      "File": "benchmarks/BuilderBufferRange.hs",
+      "Start": 889,
+      "End": 918
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy/Internal",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 904,
+      "End": 933
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy/Internal",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 890,
+      "End": 919
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy/Internal",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "Start": 907,
+      "End": 936
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy/UTF8",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 611,
+      "End": 636
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "Blaze/ByteString/Builder/ByteString.hs",
+      "Start": 1637,
+      "End": 1657
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "Blaze/ByteString/Builder/Internal.hs",
+      "Start": 1678,
+      "End": 1698
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1040,
+      "End": 1060
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1581,
+      "End": 1601
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 432,
+      "End": 452
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/BlazeVsBinary.hs",
+      "Start": 1161,
+      "End": 1181
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/BoundedWrite.hs",
+      "Start": 487,
+      "End": 507
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/BuilderBufferRange.hs",
+      "Start": 520,
+      "End": 540
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/ChunkedWrite.hs",
+      "Start": 818,
+      "End": 838
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/Compression.hs",
+      "Start": 709,
+      "End": 729
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 535,
+      "End": 555
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 838,
+      "End": 858
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/StringAndText.hs",
+      "Start": 512,
+      "End": 532
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/Throughput/BinaryBuilder.hs",
+      "Start": 117,
+      "End": 137
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/Throughput/BinaryBuilderDeclarative.hs",
+      "Start": 119,
+      "End": 139
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/Throughput/BinaryPut.hs",
+      "Start": 94,
+      "End": 114
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/Throughput/BlazeBuilder.hs",
+      "Start": 120,
+      "End": 140
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/Throughput/BlazeBuilderDeclarative.hs",
+      "Start": 148,
+      "End": 168
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/Throughput/BlazePut.hs",
+      "Start": 93,
+      "End": 113
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/Throughput/BlazePutMonad.hs",
+      "Start": 1479,
+      "End": 1499
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "Start": 538,
+      "End": 558
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 568,
+      "End": 588
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "tests/LlvmSegfault.hs",
+      "Start": 266,
+      "End": 286
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Lazy",
+      "File": "tests/Tests.hs",
+      "Start": 222,
+      "End": 242
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString/Unsafe",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 734,
+      "End": 756
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "Blaze/ByteString/Builder/ByteString.hs",
+      "Start": 1594,
+      "End": 1609
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "Blaze/ByteString/Builder/HTTP.hs",
+      "Start": 388,
+      "End": 403
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "Blaze/ByteString/Builder/Internal.hs",
+      "Start": 1574,
+      "End": 1589
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "Blaze/ByteString/Builder/Internal/Buffer.hs",
+      "Start": 1301,
+      "End": 1316
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "Blaze/ByteString/Builder/Internal/Types.hs",
+      "Start": 660,
+      "End": 675
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1002,
+      "End": 1017
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 380,
+      "End": 395
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "benchmarks/BlazeVsBinary.hs",
+      "Start": 1204,
+      "End": 1219
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "benchmarks/BuilderBufferRange.hs",
+      "Start": 477,
+      "End": 492
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "benchmarks/ChunkedWrite.hs",
+      "Start": 861,
+      "End": 876
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 492,
+      "End": 507
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 682,
+      "End": 697
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "benchmarks/StringAndText.hs",
+      "Start": 469,
+      "End": 484
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "benchmarks/Throughput/BlazePutMonad.hs",
+      "Start": 1436,
+      "End": 1451
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/ByteString",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "Start": 495,
+      "End": 510
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Char",
+      "File": "Blaze/ByteString/Builder/Char/Utf8.hs",
+      "Start": 769,
+      "End": 778
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Char",
+      "File": "Blaze/ByteString/Builder/Char8.hs",
+      "Start": 1152,
+      "End": 1161
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Char",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 955,
+      "End": 964
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Char",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 267,
+      "End": 276
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Char",
+      "File": "benchmarks/BlazeVsBinary.hs",
+      "Start": 1004,
+      "End": 1013
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Char",
+      "File": "benchmarks/BoundedWrite.hs",
+      "Start": 391,
+      "End": 400
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Char",
+      "File": "benchmarks/ChunkedWrite.hs",
+      "Start": 686,
+      "End": 695
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Char",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 509,
+      "End": 518
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Char",
+      "File": "benchmarks/StringAndText.hs",
+      "Start": 367,
+      "End": 376
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Char",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 502,
+      "End": 511
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Colour/Names",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 930,
+      "End": 947
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Colour/Names",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1903,
+      "End": 1920
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Colour/Names",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 591,
+      "End": 608
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Colour",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 911,
+      "End": 922
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Colour",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1884,
+      "End": 1895
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Colour",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 572,
+      "End": 583
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Function",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 551,
+      "End": 564
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Int",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 687,
+      "End": 695
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Int",
+      "File": "benchmarks/ChunkedWrite.hs",
+      "Start": 709,
+      "End": 717
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Int",
+      "File": "benchmarks/Compression.hs",
+      "Start": 622,
+      "End": 630
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/List",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 577,
+      "End": 586
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/List",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 563,
+      "End": 572
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/List",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 480,
+      "End": 489
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Maybe",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 872,
+      "End": 882
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Maybe",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1845,
+      "End": 1855
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Maybe",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 533,
+      "End": 543
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "Blaze/ByteString/Builder/ByteString.hs",
+      "Start": 1564,
+      "End": 1575
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "Blaze/ByteString/Builder/HTTP.hs",
+      "Start": 359,
+      "End": 370
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "Blaze/ByteString/Builder/Internal/Types.hs",
+      "Start": 631,
+      "End": 642
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "Blaze/ByteString/Builder/Internal/Write.hs",
+      "Start": 1096,
+      "End": 1107
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 668,
+      "End": 679
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 292,
+      "End": 303
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/BlazeVsBinary.hs",
+      "Start": 1027,
+      "End": 1038
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/BoundedWrite.hs",
+      "Start": 372,
+      "End": 383
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/BuilderBufferRange.hs",
+      "Start": 418,
+      "End": 429
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/ChunkedWrite.hs",
+      "Start": 766,
+      "End": 777
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/Compression.hs",
+      "Start": 638,
+      "End": 649
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 433,
+      "End": 444
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 543,
+      "End": 554
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/StringAndText.hs",
+      "Start": 390,
+      "End": 401
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/Throughput/BinaryBuilder.hs",
+      "Start": 88,
+      "End": 99
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/Throughput/BinaryBuilderDeclarative.hs",
+      "Start": 73,
+      "End": 84
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/Throughput/BlazeBuilder.hs",
+      "Start": 91,
+      "End": 102
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/Throughput/BlazeBuilderDeclarative.hs",
+      "Start": 102,
+      "End": 113
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/Throughput/BlazePut.hs",
+      "Start": 198,
+      "End": 209
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/Throughput/BlazePutMonad.hs",
+      "Start": 1282,
+      "End": 1293
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "Start": 466,
+      "End": 477
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "tests/LlvmSegfault.hs",
+      "Start": 237,
+      "End": 248
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Monoid",
+      "File": "tests/Tests.hs",
+      "Start": 133,
+      "End": 144
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text/Encoding",
+      "File": "Blaze/ByteString/Builder/Char/Utf8.hs",
+      "Start": 850,
+      "End": 868
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text/Encoding",
+      "File": "Blaze/ByteString/Builder/Char8.hs",
+      "Start": 1233,
+      "End": 1251
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text/Encoding",
+      "File": "benchmarks/BlazeVsBinary.hs",
+      "Start": 1256,
+      "End": 1274
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text/Encoding",
+      "File": "benchmarks/StringAndText.hs",
+      "Start": 602,
+      "End": 620
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text/Lazy/Encoding",
+      "File": "Blaze/ByteString/Builder/Char/Utf8.hs",
+      "Start": 980,
+      "End": 1003
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text/Lazy/Encoding",
+      "File": "Blaze/ByteString/Builder/Char8.hs",
+      "Start": 1363,
+      "End": 1386
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text/Lazy/Encoding",
+      "File": "benchmarks/StringAndText.hs",
+      "Start": 696,
+      "End": 719
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text/Lazy/Encoding",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 715,
+      "End": 738
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text/Lazy",
+      "File": "Blaze/ByteString/Builder/Char/Utf8.hs",
+      "Start": 933,
+      "End": 947
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text/Lazy",
+      "File": "Blaze/ByteString/Builder/Char8.hs",
+      "Start": 1316,
+      "End": 1330
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text/Lazy",
+      "File": "Blaze/ByteString/Builder/Html/Utf8.hs",
+      "Start": 1255,
+      "End": 1269
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text/Lazy",
+      "File": "benchmarks/StringAndText.hs",
+      "Start": 649,
+      "End": 663
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text/Lazy",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 668,
+      "End": 682
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text",
+      "File": "Blaze/ByteString/Builder/Char/Utf8.hs",
+      "Start": 803,
+      "End": 812
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text",
+      "File": "Blaze/ByteString/Builder/Char8.hs",
+      "Start": 1186,
+      "End": 1195
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text",
+      "File": "Blaze/ByteString/Builder/Html/Utf8.hs",
+      "Start": 1217,
+      "End": 1226
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text",
+      "File": "benchmarks/BlazeVsBinary.hs",
+      "Start": 1232,
+      "End": 1241
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text",
+      "File": "benchmarks/StringAndText.hs",
+      "Start": 555,
+      "End": 564
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Text",
+      "File": "tests/Tests.hs",
+      "Start": 190,
+      "End": 199
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Time/Clock",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 535,
+      "End": 550
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Vector/Generic",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 722,
+      "End": 741
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Word",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 643,
+      "End": 652
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Word",
+      "File": "benchmarks/BlazeVsBinary.hs",
+      "Start": 1056,
+      "End": 1065
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Word",
+      "File": "benchmarks/ChunkedWrite.hs",
+      "Start": 733,
+      "End": 742
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Word",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 526,
+      "End": 535
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Word",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 507,
+      "End": 516
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Word",
+      "File": "benchmarks/Throughput/BinaryBuilderDeclarative.hs",
+      "Start": 92,
+      "End": 101
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Word",
+      "File": "benchmarks/Throughput/BlazeBuilderDeclarative.hs",
+      "Start": 121,
+      "End": 130
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Word",
+      "File": "benchmarks/Throughput/BlazePutMonad.hs",
+      "Start": 1409,
+      "End": 1418
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Data/Word",
+      "File": "tests/LlvmSegfault.hs",
+      "Start": 220,
+      "End": 229
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Debug/Trace",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1614,
+      "End": 1625
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 7,
+      "End": 26
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/FastPut",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 396,
+      "End": 403
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign/C",
+      "File": "benchmarks/Throughput/Memory.hs",
+      "Start": 121,
+      "End": 130
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign/UPtr",
+      "File": "Foreign/UPtr.hs",
+      "Start": 56,
+      "End": 68
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign/UPtr",
+      "File": "benchmarks/BoundedWrite.hs",
+      "Start": 409,
+      "End": 421
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign/UPtr",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "Start": 446,
+      "End": 458
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "Blaze/ByteString/Builder/ByteString.hs",
+      "Start": 1436,
+      "End": 1443
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "Blaze/ByteString/Builder/Char/Utf8.hs",
+      "Start": 754,
+      "End": 761
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "Blaze/ByteString/Builder/Char8.hs",
+      "Start": 1137,
+      "End": 1144
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "Blaze/ByteString/Builder/HTTP.hs",
+      "Start": 455,
+      "End": 462
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "Blaze/ByteString/Builder/Int.hs",
+      "Start": 2850,
+      "End": 2857
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "Blaze/ByteString/Builder/Internal.hs",
+      "Start": 1282,
+      "End": 1289
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "Blaze/ByteString/Builder/Internal/Buffer.hs",
+      "Start": 1183,
+      "End": 1190
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "Blaze/ByteString/Builder/Internal/Types.hs",
+      "Start": 694,
+      "End": 701
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "Blaze/ByteString/Builder/Internal/Write.hs",
+      "Start": 1080,
+      "End": 1087
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "Blaze/ByteString/Builder/Word.hs",
+      "Start": 3615,
+      "End": 3622
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "Foreign/UPtr.hs",
+      "Start": 83,
+      "End": 90
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "benchmarks/BoundedWrite.hs",
+      "Start": 357,
+      "End": 364
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "benchmarks/BuilderBufferRange.hs",
+      "Start": 403,
+      "End": 410
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "benchmarks/FastPut.hs",
+      "Start": 418,
+      "End": 425
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 656,
+      "End": 663
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "benchmarks/StringAndText.hs",
+      "Start": 434,
+      "End": 441
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "benchmarks/Throughput/Memory.hs",
+      "Start": 106,
+      "End": 113
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "Start": 431,
+      "End": 438
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Foreign",
+      "File": "tests/LlvmSegfault.hs",
+      "Start": 300,
+      "End": 307
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/GHC/Base",
+      "File": "Blaze/ByteString/Builder/Internal/UncheckedShifts.hs",
+      "Start": 867,
+      "End": 875
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/GHC/Exts",
+      "File": "Foreign/UPtr.hs",
+      "Start": 99,
+      "End": 107
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/GHC/Word",
+      "File": "Blaze/ByteString/Builder/Internal/UncheckedShifts.hs",
+      "Start": 883,
+      "End": 891
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Graphics/Rendering/Chart/Grid",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1106,
+      "End": 1135
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Graphics/Rendering/Chart/Grid",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 649,
+      "End": 678
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Graphics/Rendering/Chart/Gtk",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1143,
+      "End": 1171
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Graphics/Rendering/Chart/Gtk",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1960,
+      "End": 1988
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Graphics/Rendering/Chart/Gtk",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 686,
+      "End": 714
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Graphics/Rendering/Chart",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1074,
+      "End": 1098
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Graphics/Rendering/Chart",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1928,
+      "End": 1952
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Graphics/Rendering/Chart",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 617,
+      "End": 641
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/LazyByteString",
+      "File": "benchmarks/LazyByteString.hs",
+      "Start": 463,
+      "End": 477
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/LlvmSegfault",
+      "File": "tests/LlvmSegfault.hs",
+      "Start": 193,
+      "End": 205
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Network/Socket/ByteString/Lazy",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 802,
+      "End": 832
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Network/Socket/ByteString",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 759,
+      "End": 784
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Network/Socket",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 654,
+      "End": 668
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Network",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 703,
+      "End": 710
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Numeric",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1767,
+      "End": 1774
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Numeric",
+      "File": "benchmarks/Throughput/Memory.hs",
+      "Start": 186,
+      "End": 193
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/PlotTest",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 426,
+      "End": 434
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Prelude",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 520,
+      "End": 527
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Prelude",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 233,
+      "End": 240
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Prelude",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 449,
+      "End": 456
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Statistics/Function",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1617,
+      "End": 1636
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Statistics/Quantile",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1576,
+      "End": 1595
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Statistics/Sample",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1551,
+      "End": 1568
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Statistics/Types",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1527,
+      "End": 1543
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Statistics/Types",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 923,
+      "End": 939
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/StrictIO",
+      "File": "benchmarks/StrictIO.hs",
+      "Start": 139,
+      "End": 147
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/StringAndText",
+      "File": "benchmarks/StringAndText.hs",
+      "Start": 331,
+      "End": 344
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/System/CPUTime",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1745,
+      "End": 1759
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/System/CPUTime",
+      "File": "benchmarks/Throughput/Memory.hs",
+      "Start": 164,
+      "End": 178
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/System/Environment",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1801,
+      "End": 1819
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/System/Environment",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 790,
+      "End": 808
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/System/FilePath",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1659,
+      "End": 1674
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/System/IO/Unsafe",
+      "File": "Blaze/ByteString/Builder/Internal.hs",
+      "Start": 1459,
+      "End": 1475
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/System/IO",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1827,
+      "End": 1836
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/System/IO",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 763,
+      "End": 772
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/System/Random",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1753,
+      "End": 1766
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/System/Random",
+      "File": "benchmarks/PlotTest.hs",
+      "Start": 958,
+      "End": 971
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/System",
+      "File": "benchmarks/BenchmarkServer.hs",
+      "Start": 846,
+      "End": 852
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Test/Framework/Providers/HUnit",
+      "File": "tests/Tests.hs",
+      "Start": 322,
+      "End": 352
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Test/Framework/Providers/QuickCheck2",
+      "File": "tests/Tests.hs",
+      "Start": 278,
+      "End": 314
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Test/Framework",
+      "File": "tests/Tests.hs",
+      "Start": 256,
+      "End": 270
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Test/HUnit",
+      "File": "tests/Tests.hs",
+      "Start": 383,
+      "End": 393
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Test/QuickCheck",
+      "File": "tests/Tests.hs",
+      "Start": 360,
+      "End": 375
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Tests",
+      "File": "tests/Tests.hs",
+      "Start": 78,
+      "End": 83
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Text/Printf",
+      "File": "Criterion/ScalingBenchmark.hs",
+      "Start": 1683,
+      "End": 1694
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Text/Printf",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1782,
+      "End": 1793
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/BinaryBuilderDeclarative",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1273,
+      "End": 1308
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/BinaryBuilderDeclarative",
+      "File": "benchmarks/Throughput/BinaryBuilderDeclarative.hs",
+      "Start": 7,
+      "End": 42
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/BinaryBuilder",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1159,
+      "End": 1183
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/BinaryBuilder",
+      "File": "benchmarks/Throughput/BinaryBuilder.hs",
+      "Start": 37,
+      "End": 61
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/BinaryPut",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1218,
+      "End": 1238
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/BinaryPut",
+      "File": "benchmarks/Throughput/BinaryPut.hs",
+      "Start": 37,
+      "End": 57
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/BlazeBuilderDeclarative",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1458,
+      "End": 1492
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/BlazeBuilderDeclarative",
+      "File": "benchmarks/Throughput/BlazeBuilderDeclarative.hs",
+      "Start": 37,
+      "End": 71
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/BlazeBuilder",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1348,
+      "End": 1371
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/BlazeBuilder",
+      "File": "benchmarks/Throughput/BlazeBuilder.hs",
+      "Start": 37,
+      "End": 60
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/BlazePut",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1405,
+      "End": 1424
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/BlazePut",
+      "File": "benchmarks/Throughput/BlazePut.hs",
+      "Start": 37,
+      "End": 56
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/BlazePutMonad",
+      "File": "benchmarks/Throughput/BlazePut.hs",
+      "Start": 159,
+      "End": 183
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/BlazePutMonad",
+      "File": "benchmarks/Throughput/BlazePutMonad.hs",
+      "Start": 572,
+      "End": 596
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/Memory",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1545,
+      "End": 1562
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/Memory",
+      "File": "benchmarks/Throughput/Memory.hs",
+      "Start": 63,
+      "End": 80
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/Utils",
+      "File": "benchmarks/BenchThroughput.hs",
+      "Start": 1521,
+      "End": 1537
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/Utils",
+      "File": "benchmarks/Throughput/BinaryBuilder.hs",
+      "Start": 178,
+      "End": 194
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/Utils",
+      "File": "benchmarks/Throughput/BinaryBuilderDeclarative.hs",
+      "Start": 203,
+      "End": 219
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/Utils",
+      "File": "benchmarks/Throughput/BinaryPut.hs",
+      "Start": 151,
+      "End": 167
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/Utils",
+      "File": "benchmarks/Throughput/BlazeBuilder.hs",
+      "Start": 187,
+      "End": 203
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/Utils",
+      "File": "benchmarks/Throughput/BlazeBuilderDeclarative.hs",
+      "Start": 215,
+      "End": 231
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/Utils",
+      "File": "benchmarks/Throughput/BlazePut.hs",
+      "Start": 218,
+      "End": 234
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Throughput/Utils",
+      "File": "benchmarks/Throughput/Utils.hs",
+      "Start": 7,
+      "End": 23
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/UnboxedAppend",
+      "File": "benchmarks/UnboxedAppend.hs",
+      "Start": 403,
+      "End": 416
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "blaze-builder",
+      "DefPath": "blaze-builder/Utf8IO",
+      "File": "benchmarks/Utf8IO.hs",
+      "Start": 330,
+      "End": 336
+    }
+  ]
+}

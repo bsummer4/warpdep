@@ -1,0 +1,43 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai-handler-webkit",
+      "Path": "wai-handler-webkit/Network/Wai/Handler/Webkit",
+      "Name": "Webkit",
+      "Kind": "Module",
+      "File": "wai-handler-webkit/Network/Wai/Handler/Webkit.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai-handler-webkit/Network/Wai/Handler/Webkit"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai-handler-webkit",
+      "Path": "wai-handler-webkit/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "wai-handler-webkit/Setup.lhs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai-handler-webkit/Setup"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai-handler-webkit",
+      "Path": "wai-handler-webkit/sample",
+      "Name": "sample",
+      "Kind": "Module",
+      "File": "wai-handler-webkit/sample.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai-handler-webkit/sample"
+    }
+  ]
+}

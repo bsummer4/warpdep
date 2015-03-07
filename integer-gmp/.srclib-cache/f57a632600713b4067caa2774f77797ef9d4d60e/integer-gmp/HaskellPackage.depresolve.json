@@ -1,0 +1,1 @@
+[{"Raw":["ghc-prim",">=0.3.1 && <0.4"],"Target":{"ToVersionString":"0.3.1.0","ToUnit":"ghc-prim","ToRepoCloneURL":"git.haskell.org/packages/ghc-prim.git","ToRevSpec":"ghc-7.8","ToUnitType":"HaskellPackage"}}]

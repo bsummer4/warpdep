@@ -1,0 +1,680 @@
+{
+  "Defs": [
+    {
+      "Repo": "git.haskell.org/packages/random",
+      "UnitType": "HaskellPackage",
+      "Unit": "random",
+      "Path": "random/Benchmark/BinSearch",
+      "Name": "BinSearch",
+      "Kind": "Module",
+      "File": "Benchmark/BinSearch.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "random/Benchmark/BinSearch"
+    },
+    {
+      "Repo": "git.haskell.org/packages/random",
+      "UnitType": "HaskellPackage",
+      "Unit": "random",
+      "Path": "random/Benchmark/SimpleRNGBench",
+      "Name": "SimpleRNGBench",
+      "Kind": "Module",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "random/Benchmark/SimpleRNGBench"
+    },
+    {
+      "Repo": "git.haskell.org/packages/random",
+      "UnitType": "HaskellPackage",
+      "Unit": "random",
+      "Path": "random/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "random/Setup"
+    },
+    {
+      "Repo": "git.haskell.org/packages/random",
+      "UnitType": "HaskellPackage",
+      "Unit": "random",
+      "Path": "random/System/Random",
+      "Name": "Random",
+      "Kind": "Module",
+      "File": "System/Random.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "random/System/Random"
+    },
+    {
+      "Repo": "git.haskell.org/packages/random",
+      "UnitType": "HaskellPackage",
+      "Unit": "random",
+      "Path": "random/tests/T7936",
+      "Name": "T7936",
+      "Kind": "Module",
+      "File": "tests/T7936.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "random/tests/T7936"
+    },
+    {
+      "Repo": "git.haskell.org/packages/random",
+      "UnitType": "HaskellPackage",
+      "Unit": "random",
+      "Path": "random/tests/TestRandomIOs",
+      "Name": "TestRandomIOs",
+      "Kind": "Module",
+      "File": "tests/TestRandomIOs.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "random/tests/TestRandomIOs"
+    },
+    {
+      "Repo": "git.haskell.org/packages/random",
+      "UnitType": "HaskellPackage",
+      "Unit": "random",
+      "Path": "random/tests/TestRandomRs",
+      "Name": "TestRandomRs",
+      "Kind": "Module",
+      "File": "tests/TestRandomRs.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "random/tests/TestRandomRs"
+    },
+    {
+      "Repo": "git.haskell.org/packages/random",
+      "UnitType": "HaskellPackage",
+      "Unit": "random",
+      "Path": "random/tests/random1283",
+      "Name": "random1283",
+      "Kind": "Module",
+      "File": "tests/random1283.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "random/tests/random1283"
+    },
+    {
+      "Repo": "git.haskell.org/packages/random",
+      "UnitType": "HaskellPackage",
+      "Unit": "random",
+      "Path": "random/tests/rangeTest",
+      "Name": "rangeTest",
+      "Kind": "Module",
+      "File": "tests/rangeTest.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "random/tests/rangeTest"
+    },
+    {
+      "Repo": "git.haskell.org/packages/random",
+      "UnitType": "HaskellPackage",
+      "Unit": "random",
+      "Path": "random/tests/slowness",
+      "Name": "slowness",
+      "Kind": "Module",
+      "File": "tests/slowness.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "random/tests/slowness"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/BinSearch",
+      "File": "Benchmark/BinSearch.hs",
+      "Start": 761,
+      "End": 770
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/BinSearch",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 771,
+      "End": 780
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Control/Concurrent",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 413,
+      "End": 431
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Control/Concurrent",
+      "File": "tests/random1283.hs",
+      "Start": 7,
+      "End": 25
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Control/Exception",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 461,
+      "End": 478
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Control/Monad",
+      "File": "Benchmark/BinSearch.hs",
+      "Start": 814,
+      "End": 827
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Control/Monad",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 439,
+      "End": 452
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Control/Monad",
+      "File": "tests/T7936.hs",
+      "Start": 242,
+      "End": 255
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Control/Monad",
+      "File": "tests/TestRandomIOs.hs",
+      "Start": 241,
+      "End": 254
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Control/Monad",
+      "File": "tests/TestRandomRs.hs",
+      "Start": 376,
+      "End": 389
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Control/Monad",
+      "File": "tests/random1283.hs",
+      "Start": 33,
+      "End": 46
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Control/Monad",
+      "File": "tests/rangeTest.hs",
+      "Start": 28,
+      "End": 41
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Control/Monad",
+      "File": "tests/slowness.hs",
+      "Start": 146,
+      "End": 159
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/Bits",
+      "File": "System/Random.hs",
+      "Start": 2223,
+      "End": 2232
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/Bits",
+      "File": "tests/rangeTest.hs",
+      "Start": 103,
+      "End": 112
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/Char",
+      "File": "System/Random.hs",
+      "Start": 2568,
+      "End": 2577
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/IORef",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 487,
+      "End": 497
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/IORef",
+      "File": "System/Random.hs",
+      "Start": 2651,
+      "End": 2661
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/IORef",
+      "File": "System/Random.hs",
+      "Start": 2747,
+      "End": 2757
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/Int",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 557,
+      "End": 565
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/Int",
+      "File": "System/Random.hs",
+      "Start": 2240,
+      "End": 2248
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/Int",
+      "File": "tests/rangeTest.hs",
+      "Start": 70,
+      "End": 78
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/List/Split",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 573,
+      "End": 588
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/List",
+      "File": "Benchmark/BinSearch.hs",
+      "Start": 873,
+      "End": 882
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/List",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 522,
+      "End": 531
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/Ratio",
+      "File": "System/Random.hs",
+      "Start": 2510,
+      "End": 2520
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/Sequence",
+      "File": "tests/random1283.hs",
+      "Start": 69,
+      "End": 82
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/Time/Clock",
+      "File": "Benchmark/BinSearch.hs",
+      "Start": 835,
+      "End": 850
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/Time",
+      "File": "System/Random.hs",
+      "Start": 2461,
+      "End": 2470
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/Word",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 505,
+      "End": 514
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/Word",
+      "File": "System/Random.hs",
+      "Start": 2256,
+      "End": 2265
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Data/Word",
+      "File": "tests/rangeTest.hs",
+      "Start": 86,
+      "End": 95
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 33,
+      "End": 52
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Foreign/C/Types",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 651,
+      "End": 666
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Foreign/C/Types",
+      "File": "System/Random.hs",
+      "Start": 2273,
+      "End": 2288
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Foreign/C/Types",
+      "File": "tests/rangeTest.hs",
+      "Start": 120,
+      "End": 135
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Foreign/ForeignPtr",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 674,
+      "End": 692
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Foreign/Ptr",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 632,
+      "End": 643
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Foreign/Storable",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 700,
+      "End": 716
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/GHC/Conc",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 397,
+      "End": 405
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/GHC/Exts",
+      "File": "System/Random.hs",
+      "Start": 2909,
+      "End": 2917
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Main",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 191,
+      "End": 195
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Main",
+      "File": "Setup.hs",
+      "Start": 7,
+      "End": 11
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Main",
+      "File": "tests/T7936.hs",
+      "Start": 190,
+      "End": 194
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Main",
+      "File": "tests/TestRandomIOs.hs",
+      "Start": 222,
+      "End": 226
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Main",
+      "File": "tests/TestRandomRs.hs",
+      "Start": 357,
+      "End": 361
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Main",
+      "File": "tests/slowness.hs",
+      "Start": 120,
+      "End": 124
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Numeric",
+      "File": "System/Random.hs",
+      "Start": 2853,
+      "End": 2860
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Prelude",
+      "File": "Benchmark/BinSearch.hs",
+      "Start": 907,
+      "End": 914
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Prelude",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 737,
+      "End": 744
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Prelude",
+      "File": "System/Random.hs",
+      "Start": 2207,
+      "End": 2214
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/CPUTime/Rdtsc",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 339,
+      "End": 359
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/CPUTime",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 303,
+      "End": 317
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/CPUTime",
+      "File": "System/Random.hs",
+      "Start": 2424,
+      "End": 2438
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/Console/GetOpt",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 367,
+      "End": 388
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/Environment",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 256,
+      "End": 274
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/Exit",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 210,
+      "End": 221
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/IO/Unsafe",
+      "File": "System/Random.hs",
+      "Start": 2607,
+      "End": 2623
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/IO",
+      "File": "Benchmark/BinSearch.hs",
+      "Start": 890,
+      "End": 899
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/Random",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 282,
+      "End": 295
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/Random",
+      "File": "System/Random.hs",
+      "Start": 1664,
+      "End": 1677
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/Random",
+      "File": "tests/T7936.hs",
+      "Start": 209,
+      "End": 222
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/Random",
+      "File": "tests/TestRandomIOs.hs",
+      "Start": 275,
+      "End": 288
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/Random",
+      "File": "tests/TestRandomRs.hs",
+      "Start": 417,
+      "End": 430
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/Random",
+      "File": "tests/random1283.hs",
+      "Start": 144,
+      "End": 157
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/Random",
+      "File": "tests/rangeTest.hs",
+      "Start": 49,
+      "End": 62
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/System/Random",
+      "File": "tests/slowness.hs",
+      "Start": 167,
+      "End": 180
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "random",
+      "DefPath": "random/Text/Printf",
+      "File": "Benchmark/SimpleRNGBench.hs",
+      "Start": 612,
+      "End": 623
+    }
+  ]
+}

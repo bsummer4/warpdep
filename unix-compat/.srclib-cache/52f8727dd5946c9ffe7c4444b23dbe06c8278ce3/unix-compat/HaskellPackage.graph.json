@@ -1,0 +1,236 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/jystic/unix-compat",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix-compat",
+      "Path": "unix-compat/System/PosixCompat",
+      "Name": "PosixCompat",
+      "Kind": "Module",
+      "File": "src/System/PosixCompat.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix-compat/System/PosixCompat"
+    },
+    {
+      "Repo": "github.com/jystic/unix-compat",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix-compat",
+      "Path": "unix-compat/System/PosixCompat/Internal/Time",
+      "Name": "Time",
+      "Kind": "Module",
+      "File": "src/System/PosixCompat/Internal/Time.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix-compat/System/PosixCompat/Internal/Time"
+    },
+    {
+      "Repo": "github.com/jystic/unix-compat",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix-compat",
+      "Path": "unix-compat/System/PosixCompat/Temp",
+      "Name": "Temp",
+      "Kind": "Module",
+      "File": "src/System/PosixCompat/Temp.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix-compat/System/PosixCompat/Temp"
+    },
+    {
+      "Repo": "github.com/jystic/unix-compat",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix-compat",
+      "Path": "unix-compat/System/PosixCompat/Time",
+      "Name": "Time",
+      "Kind": "Module",
+      "File": "src/System/PosixCompat/Time.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix-compat/System/PosixCompat/Time"
+    },
+    {
+      "Repo": "github.com/jystic/unix-compat",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix-compat",
+      "Path": "unix-compat/System/PosixCompat/Types",
+      "Name": "Types",
+      "Kind": "Module",
+      "File": "src/System/PosixCompat/Types.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix-compat/System/PosixCompat/Types"
+    },
+    {
+      "Repo": "github.com/jystic/unix-compat",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix-compat",
+      "Path": "unix-compat/System/PosixCompat/Unistd",
+      "Name": "Unistd",
+      "Kind": "Module",
+      "File": "src/System/PosixCompat/Unistd.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix-compat/System/PosixCompat/Unistd"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/Data/Time/Clock/POSIX",
+      "File": "src/System/PosixCompat/Internal/Time.hs",
+      "Start": 709,
+      "End": 730
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/Data/Time/Clock",
+      "File": "src/System/PosixCompat/Internal/Time.hs",
+      "Start": 676,
+      "End": 691
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/Posix/Temp",
+      "File": "src/System/PosixCompat/Temp.hs",
+      "Start": 416,
+      "End": 433
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/Posix/Time",
+      "File": "src/System/PosixCompat/Time.hs",
+      "Start": 350,
+      "End": 367
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/Posix/Types",
+      "File": "src/System/PosixCompat/Internal/Time.hs",
+      "Start": 319,
+      "End": 337
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/Posix/Types",
+      "File": "src/System/PosixCompat/Types.hs",
+      "Start": 1894,
+      "End": 1912
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/Posix/Unistd",
+      "File": "src/System/PosixCompat/Unistd.hs",
+      "Start": 506,
+      "End": 525
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/PosixCompat/Files",
+      "File": "src/System/PosixCompat.hs",
+      "Start": 551,
+      "End": 575
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/PosixCompat/Internal/Time",
+      "File": "src/System/PosixCompat/Internal/Time.hs",
+      "Start": 145,
+      "End": 177
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/PosixCompat/Temp",
+      "File": "src/System/PosixCompat.hs",
+      "Start": 583,
+      "End": 606
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/PosixCompat/Temp",
+      "File": "src/System/PosixCompat/Temp.hs",
+      "Start": 305,
+      "End": 328
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/PosixCompat/Time",
+      "File": "src/System/PosixCompat.hs",
+      "Start": 614,
+      "End": 637
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/PosixCompat/Time",
+      "File": "src/System/PosixCompat/Time.hs",
+      "Start": 263,
+      "End": 286
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/PosixCompat/Types",
+      "File": "src/System/PosixCompat.hs",
+      "Start": 645,
+      "End": 669
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/PosixCompat/Types",
+      "File": "src/System/PosixCompat/Types.hs",
+      "Start": 256,
+      "End": 280
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/PosixCompat/Unistd",
+      "File": "src/System/PosixCompat.hs",
+      "Start": 677,
+      "End": 702
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/PosixCompat/Unistd",
+      "File": "src/System/PosixCompat/Unistd.hs",
+      "Start": 309,
+      "End": 334
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/PosixCompat/User",
+      "File": "src/System/PosixCompat.hs",
+      "Start": 710,
+      "End": 733
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix-compat",
+      "DefPath": "unix-compat/System/PosixCompat",
+      "File": "src/System/PosixCompat.hs",
+      "Start": 260,
+      "End": 278
+    }
+  ]
+}

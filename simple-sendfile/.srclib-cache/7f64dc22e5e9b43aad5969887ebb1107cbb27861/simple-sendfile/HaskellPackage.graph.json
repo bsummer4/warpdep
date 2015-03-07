@@ -1,0 +1,364 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/kazu-yamamoto/simple-sendfile",
+      "UnitType": "HaskellPackage",
+      "Unit": "simple-sendfile",
+      "Path": "simple-sendfile/Network/Sendfile",
+      "Name": "Sendfile",
+      "Kind": "Module",
+      "File": "Network/Sendfile.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "simple-sendfile/Network/Sendfile"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/simple-sendfile",
+      "UnitType": "HaskellPackage",
+      "Unit": "simple-sendfile",
+      "Path": "simple-sendfile/Network/Sendfile/Fallback",
+      "Name": "Fallback",
+      "Kind": "Module",
+      "File": "Network/Sendfile/Fallback.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "simple-sendfile/Network/Sendfile/Fallback"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/simple-sendfile",
+      "UnitType": "HaskellPackage",
+      "Unit": "simple-sendfile",
+      "Path": "simple-sendfile/Network/Sendfile/Types",
+      "Name": "Types",
+      "Kind": "Module",
+      "File": "Network/Sendfile/Types.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "simple-sendfile/Network/Sendfile/Types"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/simple-sendfile",
+      "UnitType": "HaskellPackage",
+      "Unit": "simple-sendfile",
+      "Path": "simple-sendfile/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "simple-sendfile/Setup"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/simple-sendfile",
+      "UnitType": "HaskellPackage",
+      "Unit": "simple-sendfile",
+      "Path": "simple-sendfile/test/SendfileSpec",
+      "Name": "SendfileSpec",
+      "Kind": "Module",
+      "File": "test/SendfileSpec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "simple-sendfile/test/SendfileSpec"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/simple-sendfile",
+      "UnitType": "HaskellPackage",
+      "Unit": "simple-sendfile",
+      "Path": "simple-sendfile/test/Spec",
+      "Name": "Spec",
+      "Kind": "Module",
+      "File": "test/Spec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "simple-sendfile/test/Spec"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Control/Concurrent",
+      "File": "test/SendfileSpec.hs",
+      "Start": 70,
+      "End": 88
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Control/Exception",
+      "File": "test/SendfileSpec.hs",
+      "Start": 96,
+      "End": 113
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Control/Monad/IO/Class",
+      "File": "Network/Sendfile/Fallback.hs",
+      "Start": 110,
+      "End": 132
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Control/Monad/Trans/Resource",
+      "File": "Network/Sendfile/Fallback.hs",
+      "Start": 381,
+      "End": 409
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Control/Monad/Trans/Resource",
+      "File": "test/SendfileSpec.hs",
+      "Start": 142,
+      "End": 170
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Control/Monad",
+      "File": "test/SendfileSpec.hs",
+      "Start": 121,
+      "End": 134
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Data/ByteString/Char8",
+      "File": "test/SendfileSpec.hs",
+      "Start": 208,
+      "End": 229
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Data/ByteString",
+      "File": "Network/Sendfile/Fallback.hs",
+      "Start": 158,
+      "End": 173
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Data/Conduit/Binary",
+      "File": "Network/Sendfile/Fallback.hs",
+      "Start": 214,
+      "End": 233
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Data/Conduit/Binary",
+      "File": "test/SendfileSpec.hs",
+      "Start": 263,
+      "End": 282
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Data/Conduit/List",
+      "File": "test/SendfileSpec.hs",
+      "Start": 296,
+      "End": 313
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Data/Conduit/Network",
+      "File": "test/SendfileSpec.hs",
+      "Start": 327,
+      "End": 347
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Data/Conduit",
+      "File": "Network/Sendfile/Fallback.hs",
+      "Start": 194,
+      "End": 206
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Data/Conduit",
+      "File": "test/SendfileSpec.hs",
+      "Start": 243,
+      "End": 255
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Data/IORef",
+      "File": "test/SendfileSpec.hs",
+      "Start": 355,
+      "End": 365
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 7,
+      "End": 26
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Network/Sendfile/Fallback",
+      "File": "Network/Sendfile.hs",
+      "Start": 527,
+      "End": 552
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Network/Sendfile/Fallback",
+      "File": "Network/Sendfile/Fallback.hs",
+      "Start": 28,
+      "End": 53
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Network/Sendfile/Types",
+      "File": "Network/Sendfile.hs",
+      "Start": 358,
+      "End": 380
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Network/Sendfile/Types",
+      "File": "Network/Sendfile/Fallback.hs",
+      "Start": 247,
+      "End": 269
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Network/Sendfile/Types",
+      "File": "Network/Sendfile/Types.hs",
+      "Start": 7,
+      "End": 29
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Network/Sendfile",
+      "File": "Network/Sendfile.hs",
+      "Start": 185,
+      "End": 201
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Network/Sendfile",
+      "File": "test/SendfileSpec.hs",
+      "Start": 373,
+      "End": 389
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Network/Socket/ByteString",
+      "File": "Network/Sendfile/Fallback.hs",
+      "Start": 299,
+      "End": 324
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Network/Socket/ByteString",
+      "File": "Network/Sendfile/Fallback.hs",
+      "Start": 342,
+      "End": 367
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Network/Socket",
+      "File": "Network/Sendfile/Fallback.hs",
+      "Start": 277,
+      "End": 291
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Network/Socket",
+      "File": "test/SendfileSpec.hs",
+      "Start": 397,
+      "End": 411
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/SendfileSpec",
+      "File": "test/SendfileSpec.hs",
+      "Start": 43,
+      "End": 55
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/System/Directory",
+      "File": "test/SendfileSpec.hs",
+      "Start": 419,
+      "End": 435
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/System/Exit",
+      "File": "test/SendfileSpec.hs",
+      "Start": 443,
+      "End": 454
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/System/IO",
+      "File": "test/SendfileSpec.hs",
+      "Start": 462,
+      "End": 471
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/System/Posix/Files",
+      "File": "test/SendfileSpec.hs",
+      "Start": 479,
+      "End": 497
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/System/Process",
+      "File": "test/SendfileSpec.hs",
+      "Start": 505,
+      "End": 519
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/System/Timeout",
+      "File": "test/SendfileSpec.hs",
+      "Start": 527,
+      "End": 541
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "simple-sendfile",
+      "DefPath": "simple-sendfile/Test/Hspec",
+      "File": "test/SendfileSpec.hs",
+      "Start": 549,
+      "End": 559
+    }
+  ]
+}

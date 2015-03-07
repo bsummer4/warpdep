@@ -1,0 +1,220 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/kazu-yamamoto/appar",
+      "UnitType": "HaskellPackage",
+      "Unit": "appar",
+      "Path": "appar/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "appar/Setup"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/appar",
+      "UnitType": "HaskellPackage",
+      "Unit": "appar",
+      "Path": "appar/Text/Appar/ByteString",
+      "Name": "ByteString",
+      "Kind": "Module",
+      "File": "Text/Appar/ByteString.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "appar/Text/Appar/ByteString"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/appar",
+      "UnitType": "HaskellPackage",
+      "Unit": "appar",
+      "Path": "appar/Text/Appar/Input",
+      "Name": "Input",
+      "Kind": "Module",
+      "File": "Text/Appar/Input.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "appar/Text/Appar/Input"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/appar",
+      "UnitType": "HaskellPackage",
+      "Unit": "appar",
+      "Path": "appar/Text/Appar/LazyByteString",
+      "Name": "LazyByteString",
+      "Kind": "Module",
+      "File": "Text/Appar/LazyByteString.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "appar/Text/Appar/LazyByteString"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/appar",
+      "UnitType": "HaskellPackage",
+      "Unit": "appar",
+      "Path": "appar/Text/Appar/Parser",
+      "Name": "Parser",
+      "Kind": "Module",
+      "File": "Text/Appar/Parser.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "appar/Text/Appar/Parser"
+    },
+    {
+      "Repo": "github.com/kazu-yamamoto/appar",
+      "UnitType": "HaskellPackage",
+      "Unit": "appar",
+      "Path": "appar/Text/Appar/String",
+      "Name": "String",
+      "Kind": "Module",
+      "File": "Text/Appar/String.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "appar/Text/Appar/String"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Control/Applicative",
+      "File": "Text/Appar/Parser.hs",
+      "Start": 859,
+      "End": 878
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Control/Monad",
+      "File": "Text/Appar/Parser.hs",
+      "Start": 886,
+      "End": 899
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Data/ByteString/Char8",
+      "File": "Text/Appar/ByteString.hs",
+      "Start": 501,
+      "End": 522
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Data/ByteString/Char8",
+      "File": "Text/Appar/Input.hs",
+      "Start": 106,
+      "End": 127
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Data/ByteString/Lazy/Char8",
+      "File": "Text/Appar/Input.hs",
+      "Start": 150,
+      "End": 176
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Data/ByteString/Lazy/Char8",
+      "File": "Text/Appar/LazyByteString.hs",
+      "Start": 503,
+      "End": 529
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Data/Char",
+      "File": "Text/Appar/Parser.hs",
+      "Start": 907,
+      "End": 916
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 7,
+      "End": 26
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Text/Appar/ByteString",
+      "File": "Text/Appar/ByteString.hs",
+      "Start": 378,
+      "End": 399
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Text/Appar/Input",
+      "File": "Text/Appar/Input.hs",
+      "Start": 65,
+      "End": 81
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Text/Appar/Input",
+      "File": "Text/Appar/Parser.hs",
+      "Start": 924,
+      "End": 940
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Text/Appar/LazyByteString",
+      "File": "Text/Appar/LazyByteString.hs",
+      "Start": 376,
+      "End": 401
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Text/Appar/Parser",
+      "File": "Text/Appar/ByteString.hs",
+      "Start": 543,
+      "End": 560
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Text/Appar/Parser",
+      "File": "Text/Appar/LazyByteString.hs",
+      "Start": 550,
+      "End": 567
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Text/Appar/Parser",
+      "File": "Text/Appar/Parser.hs",
+      "Start": 338,
+      "End": 355
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Text/Appar/Parser",
+      "File": "Text/Appar/String.hs",
+      "Start": 486,
+      "End": 503
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "appar",
+      "DefPath": "appar/Text/Appar/String",
+      "File": "Text/Appar/String.hs",
+      "Start": 367,
+      "End": 384
+    }
+  ]
+}

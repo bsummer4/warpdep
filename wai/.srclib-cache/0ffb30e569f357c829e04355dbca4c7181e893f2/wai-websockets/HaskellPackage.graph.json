@@ -1,0 +1,43 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai-websockets",
+      "Path": "wai-websockets/Network/Wai/Handler/WebSockets",
+      "Name": "WebSockets",
+      "Kind": "Module",
+      "File": "wai-websockets/Network/Wai/Handler/WebSockets.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai-websockets/Network/Wai/Handler/WebSockets"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai-websockets",
+      "Path": "wai-websockets/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "wai-websockets/Setup.lhs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai-websockets/Setup"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai-websockets",
+      "Path": "wai-websockets/server",
+      "Name": "server",
+      "Kind": "Module",
+      "File": "wai-websockets/server.lhs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai-websockets/server"
+    }
+  ]
+}

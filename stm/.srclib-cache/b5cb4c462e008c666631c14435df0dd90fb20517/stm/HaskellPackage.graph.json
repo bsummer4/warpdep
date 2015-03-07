@@ -1,0 +1,1470 @@
+{
+  "Defs": [
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/Control/Concurrent/STM",
+      "Name": "STM",
+      "Kind": "Module",
+      "File": "Control/Concurrent/STM.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/Control/Concurrent/STM"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/Control/Concurrent/STM/TArray",
+      "Name": "TArray",
+      "Kind": "Module",
+      "File": "Control/Concurrent/STM/TArray.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/Control/Concurrent/STM/TArray"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/Control/Concurrent/STM/TBQueue",
+      "Name": "TBQueue",
+      "Kind": "Module",
+      "File": "Control/Concurrent/STM/TBQueue.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/Control/Concurrent/STM/TBQueue"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/Control/Concurrent/STM/TChan",
+      "Name": "TChan",
+      "Kind": "Module",
+      "File": "Control/Concurrent/STM/TChan.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/Control/Concurrent/STM/TChan"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/Control/Concurrent/STM/TMVar",
+      "Name": "TMVar",
+      "Kind": "Module",
+      "File": "Control/Concurrent/STM/TMVar.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/Control/Concurrent/STM/TMVar"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/Control/Concurrent/STM/TQueue",
+      "Name": "TQueue",
+      "Kind": "Module",
+      "File": "Control/Concurrent/STM/TQueue.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/Control/Concurrent/STM/TQueue"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/Control/Concurrent/STM/TSem",
+      "Name": "TSem",
+      "Kind": "Module",
+      "File": "Control/Concurrent/STM/TSem.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/Control/Concurrent/STM/TSem"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/Control/Concurrent/STM/TVar",
+      "Name": "TVar",
+      "Kind": "Module",
+      "File": "Control/Concurrent/STM/TVar.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/Control/Concurrent/STM/TVar"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/Control/Monad/STM",
+      "Name": "STM",
+      "Kind": "Module",
+      "File": "Control/Monad/STM.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/Control/Monad/STM"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/Control/Sequential/STM",
+      "Name": "STM",
+      "Kind": "Module",
+      "File": "Control/Sequential/STM.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/Control/Sequential/STM"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/Setup"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/bench/chanbench",
+      "Name": "chanbench",
+      "Kind": "Module",
+      "File": "bench/chanbench.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/bench/chanbench"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/T2411",
+      "Name": "T2411",
+      "Kind": "Module",
+      "File": "tests/T2411.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/T2411"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/T3049",
+      "Name": "T3049",
+      "Kind": "Module",
+      "File": "tests/T3049.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/T3049"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/T4057",
+      "Name": "T4057",
+      "Kind": "Module",
+      "File": "tests/T4057.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/T4057"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/cloneTChan001",
+      "Name": "cloneTChan001",
+      "Kind": "Module",
+      "File": "tests/cloneTChan001.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/cloneTChan001"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm046",
+      "Name": "stm046",
+      "Kind": "Module",
+      "File": "tests/stm046.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm046"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm047",
+      "Name": "stm047",
+      "Kind": "Module",
+      "File": "tests/stm047.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm047"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm048",
+      "Name": "stm048",
+      "Kind": "Module",
+      "File": "tests/stm048.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm048"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm049",
+      "Name": "stm049",
+      "Kind": "Module",
+      "File": "tests/stm049.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm049"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm050",
+      "Name": "stm050",
+      "Kind": "Module",
+      "File": "tests/stm050.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm050"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm052",
+      "Name": "stm052",
+      "Kind": "Module",
+      "File": "tests/stm052.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm052"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm053",
+      "Name": "stm053",
+      "Kind": "Module",
+      "File": "tests/stm053.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm053"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm054",
+      "Name": "stm054",
+      "Kind": "Module",
+      "File": "tests/stm054.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm054"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm055",
+      "Name": "stm055",
+      "Kind": "Module",
+      "File": "tests/stm055.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm055"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm056",
+      "Name": "stm056",
+      "Kind": "Module",
+      "File": "tests/stm056.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm056"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm060",
+      "Name": "stm060",
+      "Kind": "Module",
+      "File": "tests/stm060.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm060"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm061",
+      "Name": "stm061",
+      "Kind": "Module",
+      "File": "tests/stm061.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm061"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm062",
+      "Name": "stm062",
+      "Kind": "Module",
+      "File": "tests/stm062.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm062"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm063",
+      "Name": "stm063",
+      "Kind": "Module",
+      "File": "tests/stm063.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm063"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm064",
+      "Name": "stm064",
+      "Kind": "Module",
+      "File": "tests/stm064.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm064"
+    },
+    {
+      "Repo": "git.haskell.org/packages/stm",
+      "UnitType": "HaskellPackage",
+      "Unit": "stm",
+      "Path": "stm/tests/stm065",
+      "Name": "stm065",
+      "Kind": "Module",
+      "File": "tests/stm065.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "stm/tests/stm065"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Applicative",
+      "File": "Control/Sequential/STM.hs",
+      "Start": 557,
+      "End": 576
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/Async",
+      "File": "bench/chanbench.hs",
+      "Start": 40,
+      "End": 64
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/Chan",
+      "File": "bench/chanbench.hs",
+      "Start": 120,
+      "End": 143
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/MVar",
+      "File": "tests/stm063.hs",
+      "Start": 146,
+      "End": 169
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TArray",
+      "File": "Control/Concurrent/STM.hs",
+      "Start": 1512,
+      "End": 1541
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TArray",
+      "File": "Control/Concurrent/STM/TArray.hs",
+      "Start": 674,
+      "End": 703
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TBQueue",
+      "File": "Control/Concurrent/STM.hs",
+      "Start": 1586,
+      "End": 1616
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TBQueue",
+      "File": "Control/Concurrent/STM/TBQueue.hs",
+      "Start": 1056,
+      "End": 1086
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TBQueue",
+      "File": "bench/chanbench.hs",
+      "Start": 218,
+      "End": 248
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TChan",
+      "File": "Control/Concurrent/STM.hs",
+      "Start": 1469,
+      "End": 1497
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TChan",
+      "File": "Control/Concurrent/STM/TChan.hs",
+      "Start": 663,
+      "End": 691
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TMVar",
+      "File": "Control/Concurrent/STM.hs",
+      "Start": 1433,
+      "End": 1461
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TMVar",
+      "File": "Control/Concurrent/STM/TMVar.hs",
+      "Start": 667,
+      "End": 695
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TQueue",
+      "File": "Control/Concurrent/STM.hs",
+      "Start": 1549,
+      "End": 1578
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TQueue",
+      "File": "Control/Concurrent/STM/TQueue.hs",
+      "Start": 1133,
+      "End": 1162
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TQueue",
+      "File": "bench/chanbench.hs",
+      "Start": 181,
+      "End": 210
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TSem",
+      "File": "Control/Concurrent/STM/TSem.hs",
+      "Start": 550,
+      "End": 577
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TVar",
+      "File": "Control/Concurrent/STM.hs",
+      "Start": 1371,
+      "End": 1398
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TVar",
+      "File": "Control/Concurrent/STM/TArray.hs",
+      "Start": 942,
+      "End": 969
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM/TVar",
+      "File": "Control/Concurrent/STM/TVar.hs",
+      "Start": 609,
+      "End": 636
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM",
+      "File": "Control/Concurrent/STM.hs",
+      "Start": 963,
+      "End": 985
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM",
+      "File": "Control/Concurrent/STM/TSem.hs",
+      "Start": 640,
+      "End": 662
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM",
+      "File": "bench/chanbench.hs",
+      "Start": 151,
+      "End": 173
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM",
+      "File": "tests/T2411.hs",
+      "Start": 105,
+      "End": 127
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM",
+      "File": "tests/T3049.hs",
+      "Start": 7,
+      "End": 29
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM",
+      "File": "tests/cloneTChan001.hs",
+      "Start": 7,
+      "End": 29
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM",
+      "File": "tests/stm050.hs",
+      "Start": 212,
+      "End": 234
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM",
+      "File": "tests/stm053.hs",
+      "Start": 185,
+      "End": 207
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM",
+      "File": "tests/stm054.hs",
+      "Start": 59,
+      "End": 81
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM",
+      "File": "tests/stm055.hs",
+      "Start": 33,
+      "End": 55
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM",
+      "File": "tests/stm056.hs",
+      "Start": 105,
+      "End": 127
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM",
+      "File": "tests/stm064.hs",
+      "Start": 7,
+      "End": 29
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent/STM",
+      "File": "tests/stm065.hs",
+      "Start": 7,
+      "End": 29
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent",
+      "File": "tests/stm046.hs",
+      "Start": 79,
+      "End": 97
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent",
+      "File": "tests/stm048.hs",
+      "Start": 79,
+      "End": 97
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent",
+      "File": "tests/stm050.hs",
+      "Start": 186,
+      "End": 204
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent",
+      "File": "tests/stm052.hs",
+      "Start": 110,
+      "End": 128
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent",
+      "File": "tests/stm053.hs",
+      "Start": 134,
+      "End": 152
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent",
+      "File": "tests/stm054.hs",
+      "Start": 33,
+      "End": 51
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent",
+      "File": "tests/stm055.hs",
+      "Start": 7,
+      "End": 25
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent",
+      "File": "tests/stm056.hs",
+      "Start": 79,
+      "End": 97
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Concurrent",
+      "File": "tests/stm061.hs",
+      "Start": 79,
+      "End": 97
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Exception",
+      "File": "Control/Sequential/STM.hs",
+      "Start": 618,
+      "End": 635
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Exception",
+      "File": "tests/T2411.hs",
+      "Start": 151,
+      "End": 168
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Exception",
+      "File": "tests/stm046.hs",
+      "Start": 105,
+      "End": 122
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Exception",
+      "File": "tests/stm047.hs",
+      "Start": 79,
+      "End": 96
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Exception",
+      "File": "tests/stm048.hs",
+      "Start": 105,
+      "End": 122
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Exception",
+      "File": "tests/stm052.hs",
+      "Start": 136,
+      "End": 153
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Exception",
+      "File": "tests/stm053.hs",
+      "Start": 160,
+      "End": 177
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Exception",
+      "File": "tests/stm056.hs",
+      "Start": 156,
+      "End": 173
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Exception",
+      "File": "tests/stm060.hs",
+      "Start": 79,
+      "End": 96
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Exception",
+      "File": "tests/stm061.hs",
+      "Start": 105,
+      "End": 122
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Exception",
+      "File": "tests/stm062.hs",
+      "Start": 42,
+      "End": 59
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Exception",
+      "File": "tests/stm063.hs",
+      "Start": 79,
+      "End": 96
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Monad/Fix",
+      "File": "Control/Monad/STM.hs",
+      "Start": 1536,
+      "End": 1553
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Monad/STM",
+      "File": "Control/Concurrent/STM.hs",
+      "Start": 1346,
+      "End": 1363
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Monad/STM",
+      "File": "Control/Monad/STM.hs",
+      "Start": 1105,
+      "End": 1122
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Monad",
+      "File": "Control/Concurrent/STM/TSem.hs",
+      "Start": 670,
+      "End": 683
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Monad",
+      "File": "bench/chanbench.hs",
+      "Start": 72,
+      "End": 85
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Monad",
+      "File": "tests/T4057.hs",
+      "Start": 7,
+      "End": 20
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Monad",
+      "File": "tests/stm050.hs",
+      "Start": 268,
+      "End": 281
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Monad",
+      "File": "tests/stm052.hs",
+      "Start": 301,
+      "End": 314
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Monad",
+      "File": "tests/stm053.hs",
+      "Start": 215,
+      "End": 228
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Monad",
+      "File": "tests/stm056.hs",
+      "Start": 135,
+      "End": 148
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Control/Sequential/STM",
+      "File": "Control/Sequential/STM.hs",
+      "Start": 304,
+      "End": 326
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Data/Array/Base",
+      "File": "Control/Concurrent/STM/TArray.hs",
+      "Start": 767,
+      "End": 782
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Data/Array",
+      "File": "Control/Concurrent/STM/TArray.hs",
+      "Start": 733,
+      "End": 743
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Data/Array",
+      "File": "tests/stm052.hs",
+      "Start": 224,
+      "End": 234
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Data/IORef",
+      "File": "Control/Sequential/STM.hs",
+      "Start": 643,
+      "End": 653
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Data/Ix",
+      "File": "Control/Concurrent/STM/TArray.hs",
+      "Start": 883,
+      "End": 890
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Data/List",
+      "File": "tests/T2411.hs",
+      "Start": 176,
+      "End": 185
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Data/List",
+      "File": "tests/stm052.hs",
+      "Start": 242,
+      "End": 251
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Data/Typeable",
+      "File": "Control/Concurrent/STM/TArray.hs",
+      "Start": 910,
+      "End": 923
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Data/Typeable",
+      "File": "Control/Concurrent/STM/TBQueue.hs",
+      "Start": 1368,
+      "End": 1381
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Data/Typeable",
+      "File": "Control/Concurrent/STM/TChan.hs",
+      "Start": 1163,
+      "End": 1176
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Data/Typeable",
+      "File": "Control/Concurrent/STM/TMVar.hs",
+      "Start": 1129,
+      "End": 1142
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Data/Typeable",
+      "File": "Control/Concurrent/STM/TQueue.hs",
+      "Start": 1427,
+      "End": 1440
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Data/Typeable",
+      "File": "Control/Concurrent/STM/TSem.hs",
+      "Start": 691,
+      "End": 704
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 33,
+      "End": 52
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Foreign/C",
+      "File": "tests/stm052.hs",
+      "Start": 401,
+      "End": 410
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Foreign/StablePtr",
+      "File": "tests/stm047.hs",
+      "Start": 104,
+      "End": 121
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Foreign/StablePtr",
+      "File": "tests/stm048.hs",
+      "Start": 130,
+      "End": 147
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Foreign/StablePtr",
+      "File": "tests/stm063.hs",
+      "Start": 104,
+      "End": 121
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Foreign",
+      "File": "tests/stm052.hs",
+      "Start": 95,
+      "End": 102
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Base",
+      "File": "Control/Concurrent/STM/TMVar.hs",
+      "Start": 1080,
+      "End": 1088
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Base",
+      "File": "Control/Concurrent/STM/TVar.hs",
+      "Start": 945,
+      "End": 953
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "Control/Concurrent/STM/TArray.hs",
+      "Start": 1041,
+      "End": 1049
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "Control/Concurrent/STM/TBQueue.hs",
+      "Start": 1389,
+      "End": 1397
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "Control/Concurrent/STM/TChan.hs",
+      "Start": 1146,
+      "End": 1154
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "Control/Concurrent/STM/TMVar.hs",
+      "Start": 1096,
+      "End": 1104
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "Control/Concurrent/STM/TQueue.hs",
+      "Start": 1410,
+      "End": 1418
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "Control/Concurrent/STM/TVar.hs",
+      "Start": 961,
+      "End": 969
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "Control/Monad/STM.hs",
+      "Start": 1497,
+      "End": 1505
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "tests/T2411.hs",
+      "Start": 135,
+      "End": 143
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "tests/T4057.hs",
+      "Start": 28,
+      "End": 36
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "tests/stm046.hs",
+      "Start": 63,
+      "End": 71
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "tests/stm047.hs",
+      "Start": 63,
+      "End": 71
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "tests/stm048.hs",
+      "Start": 63,
+      "End": 71
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "tests/stm052.hs",
+      "Start": 161,
+      "End": 169
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "tests/stm052.hs",
+      "Start": 259,
+      "End": 267
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "tests/stm060.hs",
+      "Start": 63,
+      "End": 71
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "tests/stm061.hs",
+      "Start": 63,
+      "End": 71
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "tests/stm062.hs",
+      "Start": 26,
+      "End": 34
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Conc",
+      "File": "tests/stm063.hs",
+      "Start": 63,
+      "End": 71
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Exts",
+      "File": "Control/Monad/STM.hs",
+      "Start": 1520,
+      "End": 1528
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Weak",
+      "File": "Control/Concurrent/STM/TMVar.hs",
+      "Start": 1112,
+      "End": 1120
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/GHC/Weak",
+      "File": "Control/Concurrent/STM/TVar.hs",
+      "Start": 977,
+      "End": 985
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Main",
+      "File": "Setup.hs",
+      "Start": 7,
+      "End": 11
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Main",
+      "File": "tests/T2411.hs",
+      "Start": 87,
+      "End": 91
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Main",
+      "File": "tests/stm046.hs",
+      "Start": 44,
+      "End": 48
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Main",
+      "File": "tests/stm047.hs",
+      "Start": 44,
+      "End": 48
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Main",
+      "File": "tests/stm048.hs",
+      "Start": 44,
+      "End": 48
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Main",
+      "File": "tests/stm050.hs",
+      "Start": 168,
+      "End": 172
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Main",
+      "File": "tests/stm052.hs",
+      "Start": 69,
+      "End": 73
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Main",
+      "File": "tests/stm060.hs",
+      "Start": 44,
+      "End": 48
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Main",
+      "File": "tests/stm061.hs",
+      "Start": 44,
+      "End": 48
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Main",
+      "File": "tests/stm062.hs",
+      "Start": 7,
+      "End": 11
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/Main",
+      "File": "tests/stm063.hs",
+      "Start": 44,
+      "End": 48
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/System/Environment",
+      "File": "bench/chanbench.hs",
+      "Start": 93,
+      "End": 111
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/System/Environment",
+      "File": "tests/stm050.hs",
+      "Start": 242,
+      "End": 260
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/System/Environment",
+      "File": "tests/stm052.hs",
+      "Start": 375,
+      "End": 393
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/System/IO/Unsafe",
+      "File": "tests/stm052.hs",
+      "Start": 351,
+      "End": 367
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/System/IO/Unsafe",
+      "File": "tests/stm054.hs",
+      "Start": 89,
+      "End": 105
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/System/IO/Unsafe",
+      "File": "tests/stm055.hs",
+      "Start": 63,
+      "End": 79
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/System/IO",
+      "File": "tests/T4057.hs",
+      "Start": 44,
+      "End": 53
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/System/IO",
+      "File": "tests/stm047.hs",
+      "Start": 129,
+      "End": 138
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/System/IO",
+      "File": "tests/stm048.hs",
+      "Start": 155,
+      "End": 164
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/System/IO",
+      "File": "tests/stm052.hs",
+      "Start": 334,
+      "End": 343
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/System/IO",
+      "File": "tests/stm063.hs",
+      "Start": 129,
+      "End": 138
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/System/Random",
+      "File": "tests/stm052.hs",
+      "Start": 203,
+      "End": 216
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "stm",
+      "DefPath": "stm/System/Random",
+      "File": "tests/stm053.hs",
+      "Start": 113,
+      "End": 126
+    }
+  ]
+}

@@ -1,0 +1,629 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/aristidb/http-types",
+      "UnitType": "HaskellPackage",
+      "Unit": "http-types",
+      "Path": "http-types/Network/HTTP/Types",
+      "Name": "Types",
+      "Kind": "Module",
+      "File": "Network/HTTP/Types.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "http-types/Network/HTTP/Types"
+    },
+    {
+      "Repo": "github.com/aristidb/http-types",
+      "UnitType": "HaskellPackage",
+      "Unit": "http-types",
+      "Path": "http-types/Network/HTTP/Types/Header",
+      "Name": "Header",
+      "Kind": "Module",
+      "File": "Network/HTTP/Types/Header.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "http-types/Network/HTTP/Types/Header"
+    },
+    {
+      "Repo": "github.com/aristidb/http-types",
+      "UnitType": "HaskellPackage",
+      "Unit": "http-types",
+      "Path": "http-types/Network/HTTP/Types/Method",
+      "Name": "Method",
+      "Kind": "Module",
+      "File": "Network/HTTP/Types/Method.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "http-types/Network/HTTP/Types/Method"
+    },
+    {
+      "Repo": "github.com/aristidb/http-types",
+      "UnitType": "HaskellPackage",
+      "Unit": "http-types",
+      "Path": "http-types/Network/HTTP/Types/QueryLike",
+      "Name": "QueryLike",
+      "Kind": "Module",
+      "File": "Network/HTTP/Types/QueryLike.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "http-types/Network/HTTP/Types/QueryLike"
+    },
+    {
+      "Repo": "github.com/aristidb/http-types",
+      "UnitType": "HaskellPackage",
+      "Unit": "http-types",
+      "Path": "http-types/Network/HTTP/Types/Status",
+      "Name": "Status",
+      "Kind": "Module",
+      "File": "Network/HTTP/Types/Status.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "http-types/Network/HTTP/Types/Status"
+    },
+    {
+      "Repo": "github.com/aristidb/http-types",
+      "UnitType": "HaskellPackage",
+      "Unit": "http-types",
+      "Path": "http-types/Network/HTTP/Types/URI",
+      "Name": "URI",
+      "Kind": "Module",
+      "File": "Network/HTTP/Types/URI.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "http-types/Network/HTTP/Types/URI"
+    },
+    {
+      "Repo": "github.com/aristidb/http-types",
+      "UnitType": "HaskellPackage",
+      "Unit": "http-types",
+      "Path": "http-types/Network/HTTP/Types/Version",
+      "Name": "Version",
+      "Kind": "Module",
+      "File": "Network/HTTP/Types/Version.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "http-types/Network/HTTP/Types/Version"
+    },
+    {
+      "Repo": "github.com/aristidb/http-types",
+      "UnitType": "HaskellPackage",
+      "Unit": "http-types",
+      "Path": "http-types/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "http-types/Setup"
+    },
+    {
+      "Repo": "github.com/aristidb/http-types",
+      "UnitType": "HaskellPackage",
+      "Unit": "http-types",
+      "Path": "http-types/test/Network/HTTP/Types/URISpec",
+      "Name": "URISpec",
+      "Kind": "Module",
+      "File": "test/Network/HTTP/Types/URISpec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "http-types/test/Network/HTTP/Types/URISpec"
+    },
+    {
+      "Repo": "github.com/aristidb/http-types",
+      "UnitType": "HaskellPackage",
+      "Unit": "http-types",
+      "Path": "http-types/test/Spec",
+      "Name": "Spec",
+      "Kind": "Module",
+      "File": "test/Spec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "http-types/test/Spec"
+    },
+    {
+      "Repo": "github.com/aristidb/http-types",
+      "UnitType": "HaskellPackage",
+      "Unit": "http-types",
+      "Path": "http-types/test/doctests",
+      "Name": "doctests",
+      "Kind": "Module",
+      "File": "test/doctests.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "http-types/test/doctests"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Blaze/ByteString/Builder/Char8",
+      "File": "Network/HTTP/Types/Header.hs",
+      "Start": 785,
+      "End": 815
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Blaze/ByteString/Builder",
+      "File": "Network/HTTP/Types/Header.hs",
+      "Start": 728,
+      "End": 752
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Blaze/ByteString/Builder",
+      "File": "Network/HTTP/Types/URI.hs",
+      "Start": 1035,
+      "End": 1059
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Blaze/ByteString/Builder",
+      "File": "test/Network/HTTP/Types/URISpec.hs",
+      "Start": 360,
+      "End": 384
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Control/Arrow",
+      "File": "Network/HTTP/Types/Method.hs",
+      "Start": 258,
+      "End": 271
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Control/Arrow",
+      "File": "Network/HTTP/Types/QueryLike.hs",
+      "Start": 403,
+      "End": 416
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Control/Arrow",
+      "File": "Network/HTTP/Types/URI.hs",
+      "Start": 643,
+      "End": 656
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Array",
+      "File": "Network/HTTP/Types/Method.hs",
+      "Start": 305,
+      "End": 315
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Bits",
+      "File": "Network/HTTP/Types/URI.hs",
+      "Start": 674,
+      "End": 683
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/ByteString/Char8",
+      "File": "Network/HTTP/Types/Header.hs",
+      "Start": 949,
+      "End": 970
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/ByteString/Char8",
+      "File": "Network/HTTP/Types/Method.hs",
+      "Start": 377,
+      "End": 398
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/ByteString/Char8",
+      "File": "Network/HTTP/Types/URI.hs",
+      "Start": 1145,
+      "End": 1166
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/ByteString/Char8",
+      "File": "test/Network/HTTP/Types/URISpec.hs",
+      "Start": 315,
+      "End": 336
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/ByteString/Lazy",
+      "File": "Network/HTTP/Types/QueryLike.hs",
+      "Start": 268,
+      "End": 288
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/ByteString",
+      "File": "Network/HTTP/Types/Header.hs",
+      "Start": 842,
+      "End": 857
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/ByteString",
+      "File": "Network/HTTP/Types/Method.hs",
+      "Start": 333,
+      "End": 348
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/ByteString",
+      "File": "Network/HTTP/Types/QueryLike.hs",
+      "Start": 223,
+      "End": 238
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/ByteString",
+      "File": "Network/HTTP/Types/Status.hs",
+      "Start": 1684,
+      "End": 1699
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/ByteString",
+      "File": "Network/HTTP/Types/URI.hs",
+      "Start": 1092,
+      "End": 1107
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/ByteString",
+      "File": "test/Network/HTTP/Types/URISpec.hs",
+      "Start": 277,
+      "End": 292
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/CaseInsensitive",
+      "File": "Network/HTTP/Types/Header.hs",
+      "Start": 895,
+      "End": 915
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Char",
+      "File": "Network/HTTP/Types/URI.hs",
+      "Start": 701,
+      "End": 710
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Data",
+      "File": "Network/HTTP/Types/Header.hs",
+      "Start": 1072,
+      "End": 1081
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/List",
+      "File": "Network/HTTP/Types/Header.hs",
+      "Start": 672,
+      "End": 681
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/List",
+      "File": "Network/HTTP/Types/URI.hs",
+      "Start": 728,
+      "End": 737
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Maybe",
+      "File": "Network/HTTP/Types/QueryLike.hs",
+      "Start": 195,
+      "End": 205
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Maybe",
+      "File": "Network/HTTP/Types/URI.hs",
+      "Start": 755,
+      "End": 765
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Monoid",
+      "File": "Network/HTTP/Types/Header.hs",
+      "Start": 699,
+      "End": 710
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Monoid",
+      "File": "Network/HTTP/Types/URI.hs",
+      "Start": 783,
+      "End": 794
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Text/Encoding/Error",
+      "File": "Network/HTTP/Types/URI.hs",
+      "Start": 944,
+      "End": 968
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Text/Encoding",
+      "File": "Network/HTTP/Types/QueryLike.hs",
+      "Start": 358,
+      "End": 376
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Text/Encoding",
+      "File": "Network/HTTP/Types/URI.hs",
+      "Start": 867,
+      "End": 885
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Text",
+      "File": "Network/HTTP/Types/QueryLike.hs",
+      "Start": 313,
+      "End": 322
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Text",
+      "File": "Network/HTTP/Types/URI.hs",
+      "Start": 812,
+      "End": 821
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Text",
+      "File": "test/Network/HTTP/Types/URISpec.hs",
+      "Start": 243,
+      "End": 252
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Typeable",
+      "File": "Network/HTTP/Types/Header.hs",
+      "Start": 1013,
+      "End": 1026
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Data/Word",
+      "File": "Network/HTTP/Types/URI.hs",
+      "Start": 1008,
+      "End": 1017
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Debug/Trace",
+      "File": "test/Network/HTTP/Types/URISpec.hs",
+      "Start": 214,
+      "End": 225
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 7,
+      "End": 26
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Main",
+      "File": "test/doctests.hs",
+      "Start": 7,
+      "End": 11
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/Header",
+      "File": "Network/HTTP/Types.hs",
+      "Start": 2915,
+      "End": 2940
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/Header",
+      "File": "Network/HTTP/Types/Header.hs",
+      "Start": 128,
+      "End": 153
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/Method",
+      "File": "Network/HTTP/Types.hs",
+      "Start": 2948,
+      "End": 2973
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/Method",
+      "File": "Network/HTTP/Types/Method.hs",
+      "Start": 7,
+      "End": 32
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/QueryLike",
+      "File": "Network/HTTP/Types.hs",
+      "Start": 2981,
+      "End": 3009
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/QueryLike",
+      "File": "Network/HTTP/Types/QueryLike.hs",
+      "Start": 42,
+      "End": 70
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/Status",
+      "File": "Network/HTTP/Types.hs",
+      "Start": 3017,
+      "End": 3042
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/Status",
+      "File": "Network/HTTP/Types/Status.hs",
+      "Start": 42,
+      "End": 67
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/URI",
+      "File": "Network/HTTP/Types.hs",
+      "Start": 3050,
+      "End": 3072
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/URI",
+      "File": "Network/HTTP/Types/QueryLike.hs",
+      "Start": 155,
+      "End": 177
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/URI",
+      "File": "Network/HTTP/Types/URI.hs",
+      "Start": 42,
+      "End": 64
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/URI",
+      "File": "test/Network/HTTP/Types/URISpec.hs",
+      "Start": 412,
+      "End": 434
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/URISpec",
+      "File": "test/Network/HTTP/Types/URISpec.hs",
+      "Start": 42,
+      "End": 68
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/Version",
+      "File": "Network/HTTP/Types.hs",
+      "Start": 3080,
+      "End": 3106
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types/Version",
+      "File": "Network/HTTP/Types/Version.hs",
+      "Start": 7,
+      "End": 33
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Network/HTTP/Types",
+      "File": "Network/HTTP/Types.hs",
+      "Start": 42,
+      "End": 60
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Test/DocTest",
+      "File": "test/doctests.hs",
+      "Start": 26,
+      "End": 38
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Test/Hspec",
+      "File": "test/Network/HTTP/Types/URISpec.hs",
+      "Start": 106,
+      "End": 116
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Test/QuickCheck/Instances",
+      "File": "test/Network/HTTP/Types/URISpec.hs",
+      "Start": 167,
+      "End": 192
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "http-types",
+      "DefPath": "http-types/Test/QuickCheck",
+      "File": "test/Network/HTTP/Types/URISpec.hs",
+      "Start": 134,
+      "End": 149
+    }
+  ]
+}

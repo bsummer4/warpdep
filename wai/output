@@ -1,0 +1,112 @@
+Running: [/home/ben/.srclib/sourcegraph.com/sourcegraph/srclib-haskell/.bin/srclib-haskell scan --repo github.com/yesodweb/wai --subdir .]
+  --> with input {}
+SCANNERS (1)
+ - sourcegraph.com/sourcegraph/srclib-haskell scan
+
+SOURCE UNITS (13)
+ - HaskellPackage: auto-update
+ - HaskellPackage: mime-types
+ - HaskellPackage: wai-app-static
+ - HaskellPackage: wai-conduit
+ - HaskellPackage: wai-extra
+ - HaskellPackage: wai-frontend-monadcgi
+ - HaskellPackage: wai-handler-fastcgi
+ - HaskellPackage: wai-handler-launch
+ - HaskellPackage: wai-handler-webkit
+ - HaskellPackage: wai-websockets
+ - HaskellPackage: wai
+ - HaskellPackage: warp-tls
+ - HaskellPackage: warp
+
+CONFIG PROPERTIES (0)
+cabalInfo wai-frontend-monadcgi/wai-frontend-monadcgi.cabal
+mkDB
+Building PDB.
+Built PDB.
+moduleGraph
+almost done
+done
+cabalInfo wai-app-static/wai-app-static.cabal
+mkDB
+Building PDB.
+Built PDB.
+moduleGraph
+almost done
+done
+cabalInfo wai-handler-webkit/wai-handler-webkit.cabal
+mkDB
+Building PDB.
+Built PDB.
+moduleGraph
+almost done
+done
+cabalInfo wai-handler-fastcgi/wai-handler-fastcgi.cabal
+mkDB
+Building PDB.
+Built PDB.
+moduleGraph
+almost done
+done
+cabalInfo wai/wai.cabal
+mkDB
+Building PDB.
+Built PDB.
+moduleGraph
+almost done
+done
+cabalInfo mime-types/mime-types.cabal
+mkDB
+Building PDB.
+Built PDB.
+moduleGraph
+almost done
+done
+cabalInfo wai-conduit/wai-conduit.cabal
+mkDB
+Building PDB.
+Built PDB.
+moduleGraph
+almost done
+done
+cabalInfo warp-tls/warp-tls.cabal
+mkDB
+Building PDB.
+Built PDB.
+moduleGraph
+almost done
+done
+cabalInfo wai-handler-launch/wai-handler-launch.cabal
+mkDB
+Building PDB.
+Built PDB.
+moduleGraph
+almost done
+done
+cabalInfo warp/warp.cabal
+mkDB
+Building PDB.
+Built PDB.
+moduleGraph
+almost done
+done
+cabalInfo wai-extra/wai-extra.cabal
+mkDB
+Building PDB.
+Built PDB.
+moduleGraph
+almost done
+done
+cabalInfo wai-websockets/wai-websockets.cabal
+mkDB
+Building PDB.
+Built PDB.
+moduleGraph
+almost done
+done
+cabalInfo auto-update/auto-update.cabal
+mkDB
+Building PDB.
+Built PDB.
+moduleGraph
+almost done
+done

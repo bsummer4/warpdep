@@ -1,0 +1,4875 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString",
+      "Name": "ByteString",
+      "Kind": "Module",
+      "File": "Data/ByteString.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Builder",
+      "Name": "Builder",
+      "Kind": "Module",
+      "File": "Data/ByteString/Builder.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Builder"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Builder/ASCII",
+      "Name": "ASCII",
+      "Kind": "Module",
+      "File": "Data/ByteString/Builder/ASCII.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Builder/ASCII"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Builder/Extra",
+      "Name": "Extra",
+      "Kind": "Module",
+      "File": "Data/ByteString/Builder/Extra.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Builder/Extra"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Builder/Internal",
+      "Name": "Internal",
+      "Kind": "Module",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Builder/Internal"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Builder/Prim",
+      "Name": "Prim",
+      "Kind": "Module",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Builder/Prim"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Builder/Prim/ASCII",
+      "Name": "ASCII",
+      "Kind": "Module",
+      "File": "Data/ByteString/Builder/Prim/ASCII.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Builder/Prim/ASCII"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Builder/Prim/Binary",
+      "Name": "Binary",
+      "Kind": "Module",
+      "File": "Data/ByteString/Builder/Prim/Binary.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Builder/Prim/Binary"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Builder/Prim/Internal",
+      "Name": "Internal",
+      "Kind": "Module",
+      "File": "Data/ByteString/Builder/Prim/Internal.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Builder/Prim/Internal"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Builder/Prim/Internal/Base16",
+      "Name": "Base16",
+      "Kind": "Module",
+      "File": "Data/ByteString/Builder/Prim/Internal/Base16.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Builder/Prim/Internal/Base16"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Builder/Prim/Internal/Floating",
+      "Name": "Floating",
+      "Kind": "Module",
+      "File": "Data/ByteString/Builder/Prim/Internal/Floating.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Builder/Prim/Internal/Floating"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Builder/Prim/Internal/UncheckedShifts",
+      "Name": "UncheckedShifts",
+      "Kind": "Module",
+      "File": "Data/ByteString/Builder/Prim/Internal/UncheckedShifts.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Builder/Prim/Internal/UncheckedShifts"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Char8",
+      "Name": "Char8",
+      "Kind": "Module",
+      "File": "Data/ByteString/Char8.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Char8"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Internal",
+      "Name": "Internal",
+      "Kind": "Module",
+      "File": "Data/ByteString/Internal.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Internal"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Lazy",
+      "Name": "Lazy",
+      "Kind": "Module",
+      "File": "Data/ByteString/Lazy.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Lazy"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Lazy/Builder",
+      "Name": "Builder",
+      "Kind": "Module",
+      "File": "Data/ByteString/Lazy/Builder.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Lazy/Builder"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Lazy/Builder/ASCII",
+      "Name": "ASCII",
+      "Kind": "Module",
+      "File": "Data/ByteString/Lazy/Builder/ASCII.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Lazy/Builder/ASCII"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Lazy/Builder/Extras",
+      "Name": "Extras",
+      "Kind": "Module",
+      "File": "Data/ByteString/Lazy/Builder/Extras.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Lazy/Builder/Extras"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Lazy/Char8",
+      "Name": "Char8",
+      "Kind": "Module",
+      "File": "Data/ByteString/Lazy/Char8.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Lazy/Char8"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Lazy/Internal",
+      "Name": "Internal",
+      "Kind": "Module",
+      "File": "Data/ByteString/Lazy/Internal.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Lazy/Internal"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Short",
+      "Name": "Short",
+      "Kind": "Module",
+      "File": "Data/ByteString/Short.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Short"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Short/Internal",
+      "Name": "Internal",
+      "Kind": "Module",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Short/Internal"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Data/ByteString/Unsafe",
+      "Name": "Unsafe",
+      "Kind": "Module",
+      "File": "Data/ByteString/Unsafe.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Data/ByteString/Unsafe"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/Setup"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/bench/BenchAll",
+      "Name": "BenchAll",
+      "Kind": "Module",
+      "File": "bench/BenchAll.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/bench/BenchAll"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/bench/BoundsCheckFusion",
+      "Name": "BoundsCheckFusion",
+      "Kind": "Module",
+      "File": "bench/BoundsCheckFusion.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/bench/BoundsCheckFusion"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/bench/CSV",
+      "Name": "CSV",
+      "Kind": "Module",
+      "File": "bench/CSV.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/bench/CSV"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/Bench",
+      "Name": "Bench",
+      "Kind": "Module",
+      "File": "tests/Bench.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/Bench"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/BenchUtils",
+      "Name": "BenchUtils",
+      "Kind": "Module",
+      "File": "tests/BenchUtils.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/BenchUtils"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/FusionBench",
+      "Name": "FusionBench",
+      "Kind": "Module",
+      "File": "tests/FusionBench.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/FusionBench"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/FusionProperties",
+      "Name": "FusionProperties",
+      "Kind": "Module",
+      "File": "tests/FusionProperties.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/FusionProperties"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/Hash",
+      "Name": "Hash",
+      "Kind": "Module",
+      "File": "tests/Hash.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/Hash"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/Properties",
+      "Name": "Properties",
+      "Kind": "Module",
+      "File": "tests/Properties.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/Properties"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/QuickCheckUtils",
+      "Name": "QuickCheckUtils",
+      "Kind": "Module",
+      "File": "tests/QuickCheckUtils.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/QuickCheckUtils"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/Regressions",
+      "Name": "Regressions",
+      "Kind": "Module",
+      "File": "tests/Regressions.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/Regressions"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/Rules",
+      "Name": "Rules",
+      "Kind": "Module",
+      "File": "tests/Rules.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/Rules"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/TestFramework",
+      "Name": "TestFramework",
+      "Kind": "Module",
+      "File": "tests/TestFramework.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/TestFramework"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/Units",
+      "Name": "Units",
+      "Kind": "Module",
+      "File": "tests/Units.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/Units"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/Words",
+      "Name": "Words",
+      "Kind": "Module",
+      "File": "tests/Words.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/Words"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/builder/Data/ByteString/Builder/Prim/TestUtils",
+      "Name": "TestUtils",
+      "Kind": "Module",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/TestUtils.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/builder/Data/ByteString/Builder/Prim/TestUtils"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/builder/Data/ByteString/Builder/Prim/Tests",
+      "Name": "Tests",
+      "Kind": "Module",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/Tests.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/builder/Data/ByteString/Builder/Prim/Tests"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/builder/Data/ByteString/Builder/Tests",
+      "Name": "Tests",
+      "Kind": "Module",
+      "File": "tests/builder/Data/ByteString/Builder/Tests.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/builder/Data/ByteString/Builder/Tests"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/builder/TestSuite",
+      "Name": "TestSuite",
+      "Kind": "Module",
+      "File": "tests/builder/TestSuite.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/builder/TestSuite"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/down-fuse",
+      "Name": "down-fuse",
+      "Kind": "Module",
+      "File": "tests/down-fuse.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/down-fuse"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/edit",
+      "Name": "edit",
+      "Kind": "Module",
+      "File": "tests/edit.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/edit"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/fuse",
+      "Name": "fuse",
+      "Kind": "Module",
+      "File": "tests/fuse.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/fuse"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/groupby",
+      "Name": "groupby",
+      "Kind": "Module",
+      "File": "tests/groupby.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/groupby"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/iavor",
+      "Name": "iavor",
+      "Kind": "Module",
+      "File": "tests/iavor.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/iavor"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/inline",
+      "Name": "inline",
+      "Kind": "Module",
+      "File": "tests/inline.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/inline"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/lazy-hclose",
+      "Name": "lazy-hclose",
+      "Kind": "Module",
+      "File": "tests/lazy-hclose.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/lazy-hclose"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/lazybuild",
+      "Name": "lazybuild",
+      "Kind": "Module",
+      "File": "tests/lazybuild.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/lazybuild"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/lazybuildcons",
+      "Name": "lazybuildcons",
+      "Kind": "Module",
+      "File": "tests/lazybuildcons.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/lazybuildcons"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/lazyio",
+      "Name": "lazyio",
+      "Kind": "Module",
+      "File": "tests/lazyio.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/lazyio"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/lazylines",
+      "Name": "lazylines",
+      "Kind": "Module",
+      "File": "tests/lazylines.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/lazylines"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/lazyread",
+      "Name": "lazyread",
+      "Kind": "Module",
+      "File": "tests/lazyread.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/lazyread"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/letter_frequency",
+      "Name": "letter_frequency",
+      "Kind": "Module",
+      "File": "tests/letter_frequency.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/letter_frequency"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/linesort",
+      "Name": "linesort",
+      "Kind": "Module",
+      "File": "tests/linesort.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/linesort"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/pack",
+      "Name": "pack",
+      "Kind": "Module",
+      "File": "tests/pack.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/pack"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/revcomp",
+      "Name": "revcomp",
+      "Kind": "Module",
+      "File": "tests/revcomp.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/revcomp"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/spellcheck",
+      "Name": "spellcheck",
+      "Kind": "Module",
+      "File": "tests/spellcheck.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/spellcheck"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/sum",
+      "Name": "sum",
+      "Kind": "Module",
+      "File": "tests/sum.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/sum"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/test-compare",
+      "Name": "test-compare",
+      "Kind": "Module",
+      "File": "tests/test-compare.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/test-compare"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/unpack",
+      "Name": "unpack",
+      "Kind": "Module",
+      "File": "tests/unpack.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/unpack"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/wc",
+      "Name": "wc",
+      "Kind": "Module",
+      "File": "tests/wc.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/wc"
+    },
+    {
+      "Repo": "github.com/haskell/bytestring",
+      "UnitType": "HaskellPackage",
+      "Unit": "bytestring",
+      "Path": "bytestring/tests/zipwith",
+      "Name": "zipwith",
+      "Kind": "Module",
+      "File": "tests/zipwith.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "bytestring/tests/zipwith"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/BenchUtils",
+      "File": "tests/FusionBench.hs",
+      "Start": 142,
+      "End": 152
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Blaze/ByteString/Builder",
+      "File": "bench/BenchAll.hs",
+      "Start": 1349,
+      "End": 1373
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Blaze/Text",
+      "File": "bench/BenchAll.hs",
+      "Start": 1409,
+      "End": 1419
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Char",
+      "File": "tests/fuse.hs",
+      "Start": 35,
+      "End": 39
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Codec/Binary/UTF8/Light",
+      "File": "bench/CSV.hs",
+      "Start": 3173,
+      "End": 3196
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Applicative",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 3839,
+      "End": 3858
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Applicative",
+      "File": "tests/Hash.hs",
+      "Start": 101,
+      "End": 120
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Applicative",
+      "File": "tests/Words.hs",
+      "Start": 64,
+      "End": 83
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Arrow",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 3799,
+      "End": 3812
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Arrow",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/TestUtils.hs",
+      "Start": 1143,
+      "End": 1156
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Concurrent",
+      "File": "tests/Properties.hs",
+      "Start": 418,
+      "End": 436
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/DeepSeq",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 4024,
+      "End": 4039
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/DeepSeq",
+      "File": "Data/ByteString/Lazy/Internal.hs",
+      "Start": 1675,
+      "End": 1690
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/DeepSeq",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 1146,
+      "End": 1161
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/DeepSeq",
+      "File": "bench/CSV.hs",
+      "Start": 2843,
+      "End": 2858
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Exception",
+      "File": "Data/ByteString.hs",
+      "Start": 11358,
+      "End": 11375
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Exception",
+      "File": "Data/ByteString/Char8.hs",
+      "Start": 12757,
+      "End": 12774
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Exception",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 4165,
+      "End": 4182
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Exception",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11644,
+      "End": 11661
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Exception",
+      "File": "Data/ByteString/Lazy/Char8.hs",
+      "Start": 10878,
+      "End": 10895
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Exception",
+      "File": "Data/ByteString/Unsafe.hs",
+      "Start": 2360,
+      "End": 2377
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Exception",
+      "File": "tests/Properties.hs",
+      "Start": 444,
+      "End": 461
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Exception",
+      "File": "tests/Regressions.hs",
+      "Start": 45,
+      "End": 62
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Exception",
+      "File": "tests/TestFramework.hs",
+      "Start": 661,
+      "End": 678
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Monad/Instances",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 264,
+      "End": 287
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Monad",
+      "File": "Data/ByteString.hs",
+      "Start": 11483,
+      "End": 11496
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Monad",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 20987,
+      "End": 21000
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Monad",
+      "File": "tests/Properties.hs",
+      "Start": 397,
+      "End": 410
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Monad",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 225,
+      "End": 238
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Monad",
+      "File": "tests/TestFramework.hs",
+      "Start": 640,
+      "End": 653
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Monad",
+      "File": "tests/Units.hs",
+      "Start": 92,
+      "End": 105
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Monad",
+      "File": "tests/lazy-hclose.hs",
+      "Start": 197,
+      "End": 210
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Monad",
+      "File": "tests/spellcheck.hs",
+      "Start": 222,
+      "End": 235
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Control/Monad",
+      "File": "tests/test-compare.hs",
+      "Start": 159,
+      "End": 172
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Criterion/Main",
+      "File": "bench/BenchAll.hs",
+      "Start": 399,
+      "End": 413
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Criterion/Main",
+      "File": "bench/BoundsCheckFusion.hs",
+      "Start": 379,
+      "End": 393
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Criterion/Main",
+      "File": "bench/CSV.hs",
+      "Start": 2821,
+      "End": 2835
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Binary/Builder",
+      "File": "bench/CSV.hs",
+      "Start": 3638,
+      "End": 3657
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Base",
+      "File": "tests/sum.hs",
+      "Start": 67,
+      "End": 87
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Base",
+      "File": "tests/unpack.hs",
+      "Start": 65,
+      "End": 85
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/ASCII",
+      "File": "Data/ByteString/Builder.hs",
+      "Start": 9403,
+      "End": 9432
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/ASCII",
+      "File": "Data/ByteString/Builder/ASCII.hs",
+      "Start": 433,
+      "End": 462
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/ASCII",
+      "File": "bench/BenchAll.hs",
+      "Start": 758,
+      "End": 787
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Extra",
+      "File": "Data/ByteString/Builder/Extra.hs",
+      "Start": 654,
+      "End": 683
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Extra",
+      "File": "Data/ByteString/Lazy/Builder/Extras.hs",
+      "Start": 293,
+      "End": 322
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Extra",
+      "File": "bench/BenchAll.hs",
+      "Start": 805,
+      "End": 834
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Extra",
+      "File": "bench/BoundsCheckFusion.hs",
+      "Start": 614,
+      "End": 643
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Internal",
+      "File": "Data/ByteString/Builder.hs",
+      "Start": 9249,
+      "End": 9281
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Internal",
+      "File": "Data/ByteString/Builder/ASCII.hs",
+      "Start": 2117,
+      "End": 2149
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Internal",
+      "File": "Data/ByteString/Builder/Extra.hs",
+      "Start": 1371,
+      "End": 1403
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Internal",
+      "File": "Data/ByteString/Builder/Extra.hs",
+      "Start": 1721,
+      "End": 1753
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Internal",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 2540,
+      "End": 2572
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Internal",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 20587,
+      "End": 20619
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Internal",
+      "File": "bench/BenchAll.hs",
+      "Start": 1016,
+      "End": 1048
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Internal",
+      "File": "bench/BoundsCheckFusion.hs",
+      "Start": 827,
+      "End": 859
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/ASCII",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 21246,
+      "End": 21280
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/ASCII",
+      "File": "Data/ByteString/Builder/Prim/ASCII.hs",
+      "Start": 347,
+      "End": 381
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Binary",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 21193,
+      "End": 21228
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Binary",
+      "File": "Data/ByteString/Builder/Prim/ASCII.hs",
+      "Start": 1961,
+      "End": 1996
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Binary",
+      "File": "Data/ByteString/Builder/Prim/Binary.hs",
+      "Start": 212,
+      "End": 247
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal/Base16",
+      "File": "Data/ByteString/Builder/Prim/ASCII.hs",
+      "Start": 2103,
+      "End": 2147
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal/Base16",
+      "File": "Data/ByteString/Builder/Prim/Internal/Base16.hs",
+      "Start": 556,
+      "End": 600
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal/Floating",
+      "File": "Data/ByteString/Builder/Prim/ASCII.hs",
+      "Start": 2049,
+      "End": 2095
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal/Floating",
+      "File": "Data/ByteString/Builder/Prim/Binary.hs",
+      "Start": 851,
+      "End": 897
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal/Floating",
+      "File": "Data/ByteString/Builder/Prim/Internal/Floating.hs",
+      "Start": 310,
+      "End": 356
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal/UncheckedShifts",
+      "File": "Data/ByteString/Builder/ASCII.hs",
+      "Start": 2473,
+      "End": 2526
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal/UncheckedShifts",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 20637,
+      "End": 20690
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal/UncheckedShifts",
+      "File": "Data/ByteString/Builder/Prim/ASCII.hs",
+      "Start": 2155,
+      "End": 2208
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal/UncheckedShifts",
+      "File": "Data/ByteString/Builder/Prim/Binary.hs",
+      "Start": 790,
+      "End": 843
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal/UncheckedShifts",
+      "File": "Data/ByteString/Builder/Prim/Internal/UncheckedShifts.hs",
+      "Start": 594,
+      "End": 647
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal",
+      "File": "Data/ByteString/Builder/ASCII.hs",
+      "Start": 2404,
+      "End": 2441
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 21035,
+      "End": 21072
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 21115,
+      "End": 21152
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal",
+      "File": "Data/ByteString/Builder/Prim/ASCII.hs",
+      "Start": 2004,
+      "End": 2041
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal",
+      "File": "Data/ByteString/Builder/Prim/Binary.hs",
+      "Start": 745,
+      "End": 782
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal",
+      "File": "Data/ByteString/Builder/Prim/Internal.hs",
+      "Start": 1132,
+      "End": 1169
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal",
+      "File": "Data/ByteString/Builder/Prim/Internal/Floating.hs",
+      "Start": 508,
+      "End": 545
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal",
+      "File": "bench/BenchAll.hs",
+      "Start": 1287,
+      "End": 1324
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal",
+      "File": "bench/BoundsCheckFusion.hs",
+      "Start": 887,
+      "End": 924
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Internal",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/TestUtils.hs",
+      "Start": 1334,
+      "End": 1371
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/TestUtils",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/TestUtils.hs",
+      "Start": 355,
+      "End": 393
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/TestUtils",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/Tests.hs",
+      "Start": 572,
+      "End": 610
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Tests",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/Tests.hs",
+      "Start": 309,
+      "End": 343
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim/Tests",
+      "File": "tests/builder/TestSuite.hs",
+      "Start": 104,
+      "End": 138
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim",
+      "File": "Data/ByteString/Builder.hs",
+      "Start": 9299,
+      "End": 9327
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim",
+      "File": "Data/ByteString/Builder/ASCII.hs",
+      "Start": 2177,
+      "End": 2205
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim",
+      "File": "Data/ByteString/Builder/Extra.hs",
+      "Start": 1776,
+      "End": 1804
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 17243,
+      "End": 17271
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim",
+      "File": "bench/BenchAll.hs",
+      "Start": 1084,
+      "End": 1112
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim",
+      "File": "bench/BenchAll.hs",
+      "Start": 1227,
+      "End": 1255
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim",
+      "File": "bench/BoundsCheckFusion.hs",
+      "Start": 661,
+      "End": 689
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim",
+      "File": "bench/BoundsCheckFusion.hs",
+      "Start": 767,
+      "End": 795
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/TestUtils.hs",
+      "Start": 1183,
+      "End": 1211
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Prim",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/Tests.hs",
+      "Start": 511,
+      "End": 539
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder/Tests",
+      "File": "tests/builder/TestSuite.hs",
+      "Start": 57,
+      "End": 86
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder",
+      "File": "Data/ByteString/Builder.hs",
+      "Start": 6804,
+      "End": 6827
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder",
+      "File": "Data/ByteString/Lazy/Builder.hs",
+      "Start": 280,
+      "End": 303
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder",
+      "File": "Data/ByteString/Lazy/Builder/ASCII.hs",
+      "Start": 434,
+      "End": 457
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder",
+      "File": "bench/BenchAll.hs",
+      "Start": 717,
+      "End": 740
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder",
+      "File": "bench/BoundsCheckFusion.hs",
+      "Start": 573,
+      "End": 596
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Builder",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/Tests.hs",
+      "Start": 470,
+      "End": 493
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "Data/ByteString/Char8.hs",
+      "Start": 1475,
+      "End": 1496
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/Hash.hs",
+      "Start": 202,
+      "End": 223
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/Properties.hs",
+      "Start": 1029,
+      "End": 1050
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 607,
+      "End": 628
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/Rules.hs",
+      "Start": 102,
+      "End": 123
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/Words.hs",
+      "Start": 165,
+      "End": 186
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/edit.hs",
+      "Start": 43,
+      "End": 64
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/lazy-hclose.hs",
+      "Start": 61,
+      "End": 82
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/lazylines.hs",
+      "Start": 55,
+      "End": 76
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/lazyread.hs",
+      "Start": 126,
+      "End": 147
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/letter_frequency.hs",
+      "Start": 216,
+      "End": 237
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/linesort.hs",
+      "Start": 216,
+      "End": 237
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/pack.hs",
+      "Start": 7,
+      "End": 28
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/spellcheck.hs",
+      "Start": 75,
+      "End": 96
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/test-compare.hs",
+      "Start": 48,
+      "End": 69
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/wc.hs",
+      "Start": 43,
+      "End": 64
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Char8",
+      "File": "tests/zipwith.hs",
+      "Start": 55,
+      "End": 76
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Fusion",
+      "File": "tests/FusionProperties.hs",
+      "Start": 180,
+      "End": 202
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Fusion",
+      "File": "tests/down-fuse.hs",
+      "Start": 47,
+      "End": 69
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "Data/ByteString.hs",
+      "Start": 11092,
+      "End": 11116
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "Data/ByteString/Builder/Extra.hs",
+      "Start": 1828,
+      "End": 1852
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 4030,
+      "End": 4054
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 20761,
+      "End": 20785
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "Data/ByteString/Builder/Prim/Internal/Base16.hs",
+      "Start": 730,
+      "End": 754
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "Data/ByteString/Char8.hs",
+      "Start": 11779,
+      "End": 11803
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "Data/ByteString/Char8.hs",
+      "Start": 12547,
+      "End": 12571
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 1036,
+      "End": 1060
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11167,
+      "End": 11191
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "Data/ByteString/Lazy/Char8.hs",
+      "Start": 10242,
+      "End": 10266
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "Data/ByteString/Lazy/Internal.hs",
+      "Start": 1456,
+      "End": 1480
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 920,
+      "End": 944
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "Data/ByteString/Unsafe.hs",
+      "Start": 2072,
+      "End": 2096
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "tests/Hash.hs",
+      "Start": 247,
+      "End": 271
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "tests/Properties.hs",
+      "Start": 931,
+      "End": 955
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "tests/Words.hs",
+      "Start": 200,
+      "End": 224
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/TestUtils.hs",
+      "Start": 1282,
+      "End": 1306
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "tests/lazy-hclose.hs",
+      "Start": 278,
+      "End": 302
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "tests/letter_frequency.hs",
+      "Start": 306,
+      "End": 330
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "tests/spellcheck.hs",
+      "Start": 119,
+      "End": 143
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Internal",
+      "File": "tests/test-compare.hs",
+      "Start": 82,
+      "End": 106
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Builder/ASCII",
+      "File": "Data/ByteString/Lazy/Builder/ASCII.hs",
+      "Start": 302,
+      "End": 336
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Builder/ASCII",
+      "File": "bench/CSV.hs",
+      "Start": 2704,
+      "End": 2738
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Builder/BasicEncoding",
+      "File": "bench/CSV.hs",
+      "Start": 2916,
+      "End": 2958
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Builder/BasicEncoding",
+      "File": "bench/CSV.hs",
+      "Start": 2993,
+      "End": 3035
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Builder/Extras",
+      "File": "Data/ByteString/Lazy/Builder/Extras.hs",
+      "Start": 200,
+      "End": 235
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Builder",
+      "File": "Data/ByteString/Lazy/Builder.hs",
+      "Start": 200,
+      "End": 228
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Builder",
+      "File": "bench/CSV.hs",
+      "Start": 2629,
+      "End": 2657
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Char8",
+      "File": "Data/ByteString/Lazy/Char8.hs",
+      "Start": 1080,
+      "End": 1106
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Char8",
+      "File": "tests/Properties.hs",
+      "Start": 1132,
+      "End": 1158
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Char8",
+      "File": "tests/Properties.hs",
+      "Start": 1182,
+      "End": 1208
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Char8",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 657,
+      "End": 683
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Char8",
+      "File": "tests/Rules.hs",
+      "Start": 252,
+      "End": 278
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Char8",
+      "File": "tests/lazy-hclose.hs",
+      "Start": 156,
+      "End": 182
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Char8",
+      "File": "tests/lazyread.hs",
+      "Start": 162,
+      "End": 188
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Internal",
+      "File": "Data/ByteString/Builder.hs",
+      "Start": 9351,
+      "End": 9380
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Internal",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 4082,
+      "End": 4111
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Internal",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 20813,
+      "End": 20842
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Internal",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11249,
+      "End": 11278
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Internal",
+      "File": "Data/ByteString/Lazy/Char8.hs",
+      "Start": 10204,
+      "End": 10233
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Internal",
+      "File": "Data/ByteString/Lazy/Internal.hs",
+      "Start": 833,
+      "End": 862
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Internal",
+      "File": "tests/Properties.hs",
+      "Start": 1232,
+      "End": 1261
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Internal",
+      "File": "tests/Properties.hs",
+      "Start": 817,
+      "End": 846
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Internal",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 522,
+      "End": 551
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy/Internal",
+      "File": "tests/lazyread.hs",
+      "Start": 219,
+      "End": 248
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "Data/ByteString/Builder/ASCII.hs",
+      "Start": 2048,
+      "End": 2068
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 2064,
+      "End": 2084
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "Data/ByteString/Lazy/Builder/ASCII.hs",
+      "Start": 518,
+      "End": 538
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "Data/ByteString/Lazy/Char8.hs",
+      "Start": 10020,
+      "End": 10040
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "Data/ByteString/Lazy/Char8.hs",
+      "Start": 9625,
+      "End": 9645
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "bench/BenchAll.hs",
+      "Start": 1541,
+      "End": 1561
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "bench/BenchAll.hs",
+      "Start": 656,
+      "End": 676
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "bench/BoundsCheckFusion.hs",
+      "Start": 517,
+      "End": 537
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "bench/CSV.hs",
+      "Start": 2570,
+      "End": 2590
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "tests/FusionProperties.hs",
+      "Start": 263,
+      "End": 283
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "tests/Properties.hs",
+      "Start": 714,
+      "End": 734
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "tests/Properties.hs",
+      "Start": 784,
+      "End": 804
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 479,
+      "End": 499
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "tests/Rules.hs",
+      "Start": 202,
+      "End": 222
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "tests/Units.hs",
+      "Start": 161,
+      "End": 181
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/Tests.hs",
+      "Start": 410,
+      "End": 430
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "tests/groupby.hs",
+      "Start": 17,
+      "End": 37
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "tests/lazy-hclose.hs",
+      "Start": 107,
+      "End": 127
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Lazy",
+      "File": "tests/lazyio.hs",
+      "Start": 17,
+      "End": 37
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Short/Internal",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 4134,
+      "End": 4164
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Short/Internal",
+      "File": "Data/ByteString/Short.hs",
+      "Start": 2927,
+      "End": 2957
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Short/Internal",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 584,
+      "End": 614
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Short",
+      "File": "Data/ByteString/Short.hs",
+      "Start": 863,
+      "End": 884
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Short",
+      "File": "tests/Properties.hs",
+      "Start": 1078,
+      "End": 1099
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Unsafe",
+      "File": "Data/ByteString.hs",
+      "Start": 11124,
+      "End": 11146
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Unsafe",
+      "File": "Data/ByteString/Char8.hs",
+      "Start": 11826,
+      "End": 11848
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Unsafe",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11214,
+      "End": 11236
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Unsafe",
+      "File": "Data/ByteString/Lazy/Char8.hs",
+      "Start": 10169,
+      "End": 10191
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Unsafe",
+      "File": "Data/ByteString/Unsafe.hs",
+      "Start": 644,
+      "End": 666
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Unsafe",
+      "File": "tests/Hash.hs",
+      "Start": 294,
+      "End": 316
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Unsafe",
+      "File": "tests/Properties.hs",
+      "Start": 980,
+      "End": 1002
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Unsafe",
+      "File": "tests/Words.hs",
+      "Start": 232,
+      "End": 254
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Unsafe",
+      "File": "tests/letter_frequency.hs",
+      "Start": 260,
+      "End": 282
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Unsafe",
+      "File": "tests/spellcheck.hs",
+      "Start": 167,
+      "End": 189
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString/Unsafe",
+      "File": "tests/test-compare.hs",
+      "Start": 114,
+      "End": 136
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "Data/ByteString.hs",
+      "Start": 1595,
+      "End": 1610
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "Data/ByteString/Builder.hs",
+      "Start": 9581,
+      "End": 9596
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "Data/ByteString/Builder/ASCII.hs",
+      "Start": 1979,
+      "End": 1994
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 3978,
+      "End": 3993
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 20709,
+      "End": 20724
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "Data/ByteString/Builder/Prim/Internal/Base16.hs",
+      "Start": 683,
+      "End": 698
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "Data/ByteString/Char8.hs",
+      "Start": 11741,
+      "End": 11756
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "Data/ByteString/Char8.hs",
+      "Start": 11904,
+      "End": 11919
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11019,
+      "End": 11034
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11096,
+      "End": 11111
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "Data/ByteString/Lazy/Builder/ASCII.hs",
+      "Start": 475,
+      "End": 490
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "Data/ByteString/Lazy/Char8.hs",
+      "Start": 10063,
+      "End": 10078
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "Data/ByteString/Lazy/Char8.hs",
+      "Start": 10131,
+      "End": 10146
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "Data/ByteString/Lazy/Internal.hs",
+      "Start": 1503,
+      "End": 1518
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "bench/BenchAll.hs",
+      "Start": 1482,
+      "End": 1497
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "bench/BenchAll.hs",
+      "Start": 596,
+      "End": 611
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "bench/BoundsCheckFusion.hs",
+      "Start": 462,
+      "End": 477
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "bench/CSV.hs",
+      "Start": 2512,
+      "End": 2527
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/FusionBench.hs",
+      "Start": 189,
+      "End": 204
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/FusionProperties.hs",
+      "Start": 220,
+      "End": 235
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/Properties.hs",
+      "Start": 882,
+      "End": 897
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 436,
+      "End": 451
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/Regressions.hs",
+      "Start": 163,
+      "End": 178
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/Rules.hs",
+      "Start": 152,
+      "End": 167
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/TestUtils.hs",
+      "Start": 1230,
+      "End": 1245
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/down-fuse.hs",
+      "Start": 24,
+      "End": 39
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/fuse.hs",
+      "Start": 57,
+      "End": 72
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/groupby.hs",
+      "Start": 60,
+      "End": 75
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/iavor.hs",
+      "Start": 17,
+      "End": 32
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/iavor.hs",
+      "Start": 45,
+      "End": 60
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/inline.hs",
+      "Start": 52,
+      "End": 67
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/inline.hs",
+      "Start": 7,
+      "End": 22
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/lazy-hclose.hs",
+      "Start": 17,
+      "End": 32
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/lazylines.hs",
+      "Start": 17,
+      "End": 32
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/sum.hs",
+      "Start": 39,
+      "End": 54
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/unpack.hs",
+      "Start": 37,
+      "End": 52
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/ByteString",
+      "File": "tests/zipwith.hs",
+      "Start": 17,
+      "End": 32
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Char",
+      "File": "Data/ByteString.hs",
+      "Start": 13206,
+      "End": 13215
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Char",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 20949,
+      "End": 20958
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Char",
+      "File": "Data/ByteString/Builder/Prim/ASCII.hs",
+      "Start": 2217,
+      "End": 2226
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Char",
+      "File": "Data/ByteString/Char8.hs",
+      "Start": 12580,
+      "End": 12589
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Char",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 4214,
+      "End": 4223
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Char",
+      "File": "bench/CSV.hs",
+      "Start": 3605,
+      "End": 3614
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Char",
+      "File": "tests/Properties.hs",
+      "Start": 511,
+      "End": 520
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Char",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 295,
+      "End": 304
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Char",
+      "File": "tests/Rules.hs",
+      "Start": 309,
+      "End": 318
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Char",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/TestUtils.hs",
+      "Start": 1395,
+      "End": 1404
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Char",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/Tests.hs",
+      "Start": 376,
+      "End": 385
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Char",
+      "File": "tests/letter_frequency.hs",
+      "Start": 144,
+      "End": 153
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Char",
+      "File": "tests/spellcheck.hs",
+      "Start": 315,
+      "End": 324
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Char",
+      "File": "tests/sum.hs",
+      "Start": 131,
+      "End": 140
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/DList",
+      "File": "bench/CSV.hs",
+      "Start": 3103,
+      "End": 3113
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Data",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 1022,
+      "End": 1031
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Foldable",
+      "File": "Data/ByteString/Builder.hs",
+      "Start": 9671,
+      "End": 9684
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Foldable",
+      "File": "bench/BenchAll.hs",
+      "Start": 431,
+      "End": 444
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Foldable",
+      "File": "bench/BoundsCheckFusion.hs",
+      "Start": 420,
+      "End": 433
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Foldable",
+      "File": "bench/CSV.hs",
+      "Start": 2789,
+      "End": 2802
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Generics",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 4546,
+      "End": 4559
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Generics",
+      "File": "Data/ByteString/Lazy/Internal.hs",
+      "Start": 2042,
+      "End": 2055
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/HashTable",
+      "File": "tests/Hash.hs",
+      "Start": 48,
+      "End": 62
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/HashTable",
+      "File": "tests/spellcheck.hs",
+      "Start": 243,
+      "End": 257
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/IORef",
+      "File": "Data/ByteString.hs",
+      "Start": 12998,
+      "End": 13008
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/IORef",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 4493,
+      "End": 4503
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Int",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11373,
+      "End": 11381
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Int",
+      "File": "Data/ByteString/Lazy/Char8.hs",
+      "Start": 10300,
+      "End": 10308
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Int",
+      "File": "tests/Properties.hs",
+      "Start": 563,
+      "End": 571
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Int",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 346,
+      "End": 354
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Int",
+      "File": "tests/spellcheck.hs",
+      "Start": 291,
+      "End": 299
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "Data/ByteString.hs",
+      "Start": 11165,
+      "End": 11174
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "Data/ByteString/Builder.hs",
+      "Start": 9733,
+      "End": 9742
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 20895,
+      "End": 20904
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "Data/ByteString/Char8.hs",
+      "Start": 12622,
+      "End": 12631
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 3556,
+      "End": 3565
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 10954,
+      "End": 10963
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "Data/ByteString/Lazy/Char8.hs",
+      "Start": 10334,
+      "End": 10343
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 1193,
+      "End": 1202
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "tests/Hash.hs",
+      "Start": 128,
+      "End": 137
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "tests/Properties.hs",
+      "Start": 494,
+      "End": 503
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 312,
+      "End": 321
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "tests/Rules.hs",
+      "Start": 292,
+      "End": 301
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "tests/Words.hs",
+      "Start": 91,
+      "End": 100
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "tests/groupby.hs",
+      "Start": 103,
+      "End": 112
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/List",
+      "File": "tests/letter_frequency.hs",
+      "Start": 180,
+      "End": 189
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Map",
+      "File": "tests/Hash.hs",
+      "Start": 171,
+      "End": 179
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Map",
+      "File": "tests/Words.hs",
+      "Start": 134,
+      "End": 142
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Maybe",
+      "File": "Data/ByteString.hs",
+      "Start": 11231,
+      "End": 11241
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Maybe",
+      "File": "tests/Properties.hs",
+      "Start": 545,
+      "End": 555
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Maybe",
+      "File": "tests/spellcheck.hs",
+      "Start": 273,
+      "End": 283
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Monoid",
+      "File": "Data/ByteString.hs",
+      "Start": 12483,
+      "End": 12494
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Monoid",
+      "File": "Data/ByteString/Builder.hs",
+      "Start": 9642,
+      "End": 9653
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Monoid",
+      "File": "Data/ByteString/Builder/ASCII.hs",
+      "Start": 2331,
+      "End": 2342
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Monoid",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 3949,
+      "End": 3960
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Monoid",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 20866,
+      "End": 20877
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Monoid",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 3979,
+      "End": 3990
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Monoid",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11287,
+      "End": 11298
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Monoid",
+      "File": "Data/ByteString/Lazy/Internal.hs",
+      "Start": 1638,
+      "End": 1649
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Monoid",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 1070,
+      "End": 1081
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Monoid",
+      "File": "bench/BenchAll.hs",
+      "Start": 496,
+      "End": 507
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Monoid",
+      "File": "bench/BoundsCheckFusion.hs",
+      "Start": 401,
+      "End": 412
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Monoid",
+      "File": "bench/CSV.hs",
+      "Start": 2770,
+      "End": 2781
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Monoid",
+      "File": "tests/Properties.hs",
+      "Start": 587,
+      "End": 598
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Ord",
+      "File": "tests/Hash.hs",
+      "Start": 145,
+      "End": 153
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Ord",
+      "File": "tests/Words.hs",
+      "Start": 108,
+      "End": 116
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Set",
+      "File": "tests/spellcheck.hs",
+      "Start": 42,
+      "End": 50
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/String/UTF8",
+      "File": "bench/CSV.hs",
+      "Start": 3251,
+      "End": 3267
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/String",
+      "File": "Data/ByteString/Builder.hs",
+      "Start": 9451,
+      "End": 9462
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/String",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 1107,
+      "End": 1118
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/String",
+      "File": "tests/Properties.hs",
+      "Start": 626,
+      "End": 637
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Text/Lazy/Builder/Int",
+      "File": "bench/CSV.hs",
+      "Start": 3543,
+      "End": 3569
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Text/Lazy/Builder",
+      "File": "bench/CSV.hs",
+      "Start": 3472,
+      "End": 3494
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Text/Lazy/Encoding",
+      "File": "bench/CSV.hs",
+      "Start": 3401,
+      "End": 3424
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Text/Lazy",
+      "File": "bench/CSV.hs",
+      "Start": 3330,
+      "End": 3344
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Typeable",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 4293,
+      "End": 4306
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Typeable",
+      "File": "Data/ByteString/Lazy/Internal.hs",
+      "Start": 1789,
+      "End": 1802
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Typeable",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 987,
+      "End": 1000
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Word",
+      "File": "Data/ByteString.hs",
+      "Start": 11191,
+      "End": 11200
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Word",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 4252,
+      "End": 4261
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Word",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11333,
+      "End": 11342
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Word",
+      "File": "Data/ByteString/Lazy/Internal.hs",
+      "Start": 1562,
+      "End": 1571
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Word",
+      "File": "Data/ByteString/Unsafe.hs",
+      "Start": 2409,
+      "End": 2418
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Word",
+      "File": "tests/Properties.hs",
+      "Start": 528,
+      "End": 537
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Word",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 329,
+      "End": 338
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Word",
+      "File": "tests/down-fuse.hs",
+      "Start": 7,
+      "End": 16
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Word",
+      "File": "tests/groupby.hs",
+      "Start": 136,
+      "End": 145
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Data/Word",
+      "File": "tests/unpack.hs",
+      "Start": 117,
+      "End": 126
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 7,
+      "End": 26
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/C/String",
+      "File": "Data/ByteString.hs",
+      "Start": 11523,
+      "End": 11539
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/C/String",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 3936,
+      "End": 3952
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/C/String",
+      "File": "Data/ByteString/Unsafe.hs",
+      "Start": 2289,
+      "End": 2305
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/C/String",
+      "File": "tests/iavor.hs",
+      "Start": 82,
+      "End": 98
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/C/Types",
+      "File": "Data/ByteString.hs",
+      "Start": 11577,
+      "End": 11592
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/C/Types",
+      "File": "Data/ByteString/Builder/ASCII.hs",
+      "Start": 2370,
+      "End": 2385
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/C/Types",
+      "File": "Data/ByteString/Builder/Prim/ASCII.hs",
+      "Start": 2256,
+      "End": 2271
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/C/Types",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 3803,
+      "End": 3818
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/C/Types",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 1394,
+      "End": 1409
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/C",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 400,
+      "End": 409
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Concurrent",
+      "File": "Data/ByteString/Unsafe.hs",
+      "Start": 2556,
+      "End": 2574
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/ForeignPtr",
+      "File": "Data/ByteString.hs",
+      "Start": 11832,
+      "End": 11850
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/ForeignPtr",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 3582,
+      "End": 3600
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/ForeignPtr",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11729,
+      "End": 11747
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/ForeignPtr",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 1465,
+      "End": 1483
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/ForeignPtr",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 1600,
+      "End": 1618
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/ForeignPtr",
+      "File": "Data/ByteString/Unsafe.hs",
+      "Start": 2105,
+      "End": 2123
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/ForeignPtr",
+      "File": "Data/ByteString/Unsafe.hs",
+      "Start": 2493,
+      "End": 2511
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/ForeignPtr",
+      "File": "tests/Properties.hs",
+      "Start": 275,
+      "End": 293
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/ForeignPtr",
+      "File": "tests/lazy-hclose.hs",
+      "Start": 310,
+      "End": 328
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/ForeignPtr",
+      "File": "tests/test-compare.hs",
+      "Start": 247,
+      "End": 265
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Marshal/Alloc",
+      "File": "Data/ByteString.hs",
+      "Start": 11987,
+      "End": 12008
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Marshal/Alloc",
+      "File": "tests/Properties.hs",
+      "Start": 301,
+      "End": 322
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Marshal/Array",
+      "File": "Data/ByteString.hs",
+      "Start": 12075,
+      "End": 12096
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Marshal/Array",
+      "File": "tests/Properties.hs",
+      "Start": 330,
+      "End": 351
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Marshal/Utils",
+      "File": "Data/ByteString.hs",
+      "Start": 13244,
+      "End": 13265
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Ptr",
+      "File": "Data/ByteString.hs",
+      "Start": 12121,
+      "End": 12132
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Ptr",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 3643,
+      "End": 3654
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Ptr",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11778,
+      "End": 11789
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Ptr",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 1446,
+      "End": 1457
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Ptr",
+      "File": "Data/ByteString/Unsafe.hs",
+      "Start": 2185,
+      "End": 2196
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Storable",
+      "File": "Data/ByteString.hs",
+      "Start": 12140,
+      "End": 12156
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Storable",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 3698,
+      "End": 3714
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Storable",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11797,
+      "End": 11813
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Storable",
+      "File": "Data/ByteString/Lazy/Internal.hs",
+      "Start": 1594,
+      "End": 1610
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Storable",
+      "File": "Data/ByteString/Unsafe.hs",
+      "Start": 2242,
+      "End": 2258
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign/Storable",
+      "File": "tests/Properties.hs",
+      "Start": 251,
+      "End": 267
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "Data/ByteString/Builder.hs",
+      "Start": 9531,
+      "End": 9538
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "Data/ByteString/Builder/ASCII.hs",
+      "Start": 2247,
+      "End": 2254
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "Data/ByteString/Builder/Extra.hs",
+      "Start": 1871,
+      "End": 1878
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 4896,
+      "End": 4903
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "Data/ByteString/Builder/Prim.hs",
+      "Start": 21522,
+      "End": 21529
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "Data/ByteString/Builder/Prim/ASCII.hs",
+      "Start": 2241,
+      "End": 2248
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "Data/ByteString/Builder/Prim/Binary.hs",
+      "Start": 906,
+      "End": 913
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "Data/ByteString/Builder/Prim/Internal.hs",
+      "Start": 1635,
+      "End": 1642
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "Data/ByteString/Builder/Prim/Internal/Base16.hs",
+      "Start": 1070,
+      "End": 1077
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "Data/ByteString/Builder/Prim/Internal/Floating.hs",
+      "Start": 493,
+      "End": 500
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "Data/ByteString/Builder/Prim/Internal/UncheckedShifts.hs",
+      "Start": 1010,
+      "End": 1017
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "Data/ByteString/Char8.hs",
+      "Start": 12834,
+      "End": 12841
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "bench/BenchAll.hs",
+      "Start": 1588,
+      "End": 1595
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "bench/BoundsCheckFusion.hs",
+      "Start": 938,
+      "End": 945
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "tests/Hash.hs",
+      "Start": 331,
+      "End": 338
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "tests/Words.hs",
+      "Start": 262,
+      "End": 269
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/TestUtils.hs",
+      "Start": 1576,
+      "End": 1583
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "tests/iavor.hs",
+      "Start": 106,
+      "End": 113
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "tests/test-compare.hs",
+      "Start": 144,
+      "End": 151
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Foreign",
+      "File": "tests/unpack.hs",
+      "Start": 134,
+      "End": 141
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Base",
+      "File": "Data/ByteString.hs",
+      "Start": 13423,
+      "End": 13431
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Base",
+      "File": "Data/ByteString/Builder/Prim/Internal/UncheckedShifts.hs",
+      "Start": 809,
+      "End": 817
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Base",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 4637,
+      "End": 4645
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Base",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 4775,
+      "End": 4783
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Base",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 5576,
+      "End": 5584
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Base",
+      "File": "tests/unpack.hs",
+      "Start": 149,
+      "End": 157
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Exts",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 1719,
+      "End": 1727
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/ForeignPtr",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 5294,
+      "End": 5308
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/ForeignPtr",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 5519,
+      "End": 5533
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/ForeignPtr",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 2378,
+      "End": 2392
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/IO/Buffer",
+      "File": "Data/ByteString.hs",
+      "Start": 13074,
+      "End": 13087
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/IO/Buffer",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 4220,
+      "End": 4233
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/IO/BufferedIO",
+      "File": "Data/ByteString.hs",
+      "Start": 13095,
+      "End": 13112
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/IO/Handle/Internals",
+      "File": "Data/ByteString.hs",
+      "Start": 13016,
+      "End": 13039
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/IO/Handle/Internals",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 4285,
+      "End": 4308
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/IO/Handle/Types",
+      "File": "Data/ByteString.hs",
+      "Start": 13047,
+      "End": 13066
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/IO/Handle/Types",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 4365,
+      "End": 4384
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/IO",
+      "File": "Data/ByteString.hs",
+      "Start": 13132,
+      "End": 13138
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/IO",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 4921,
+      "End": 4927
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/IO",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 4902,
+      "End": 4908
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/IO",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 5038,
+      "End": 5044
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/IO",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 2253,
+      "End": 2259
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Integer/GMP/Internals",
+      "File": "Data/ByteString/Builder/ASCII.hs",
+      "Start": 2731,
+      "End": 2756
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Num",
+      "File": "Data/ByteString/Builder/ASCII.hs",
+      "Start": 2587,
+      "End": 2594
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Prim",
+      "File": "Data/ByteString.hs",
+      "Start": 13383,
+      "End": 13391
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Prim",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 4831,
+      "End": 4839
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Prim",
+      "File": "Data/ByteString/Unsafe.hs",
+      "Start": 2665,
+      "End": 2673
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Ptr",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 5371,
+      "End": 5378
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Ptr",
+      "File": "Data/ByteString/Unsafe.hs",
+      "Start": 2705,
+      "End": 2712
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Ptr",
+      "File": "tests/Properties.hs",
+      "Start": 359,
+      "End": 366
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/ST",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 2436,
+      "End": 2442
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Types",
+      "File": "Data/ByteString/Builder/ASCII.hs",
+      "Start": 2633,
+      "End": 2642
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Word",
+      "File": "Data/ByteString.hs",
+      "Start": 13463,
+      "End": 13471
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Word",
+      "File": "Data/ByteString/Builder/Prim/Internal/UncheckedShifts.hs",
+      "Start": 825,
+      "End": 833
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/GHC/Word",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 2474,
+      "End": 2482
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Main",
+      "File": "bench/BenchAll.hs",
+      "Start": 363,
+      "End": 367
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Main",
+      "File": "bench/BoundsCheckFusion.hs",
+      "Start": 323,
+      "End": 327
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Main",
+      "File": "bench/CSV.hs",
+      "Start": 342,
+      "End": 346
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Main",
+      "File": "tests/builder/TestSuite.hs",
+      "Start": 28,
+      "End": 32
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Main",
+      "File": "tests/lazyread.hs",
+      "Start": 100,
+      "End": 104
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Maybe",
+      "File": "tests/lazylines.hs",
+      "Start": 106,
+      "End": 111
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Numeric",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/TestUtils.hs",
+      "Start": 1434,
+      "End": 1441
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Prelude",
+      "File": "Data/ByteString.hs",
+      "Start": 10450,
+      "End": 10457
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Prelude",
+      "File": "Data/ByteString.hs",
+      "Start": 10470,
+      "End": 10477
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Prelude",
+      "File": "Data/ByteString/Builder/Prim/Internal.hs",
+      "Start": 1650,
+      "End": 1657
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Prelude",
+      "File": "Data/ByteString/Char8.hs",
+      "Start": 11042,
+      "End": 11049
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Prelude",
+      "File": "Data/ByteString/Char8.hs",
+      "Start": 11062,
+      "End": 11069
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Prelude",
+      "File": "Data/ByteString/Internal.hs",
+      "Start": 3515,
+      "End": 3522
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Prelude",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 10544,
+      "End": 10551
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Prelude",
+      "File": "Data/ByteString/Lazy/Char8.hs",
+      "Start": 10360,
+      "End": 10367
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Prelude",
+      "File": "Data/ByteString/Lazy/Internal.hs",
+      "Start": 1414,
+      "End": 1421
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Prelude",
+      "File": "Data/ByteString/Short.hs",
+      "Start": 2965,
+      "End": 2972
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Prelude",
+      "File": "Data/ByteString/Short/Internal.hs",
+      "Start": 2491,
+      "End": 2498
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Prelude",
+      "File": "bench/BenchAll.hs",
+      "Start": 525,
+      "End": 532
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Prelude",
+      "File": "bench/BoundsCheckFusion.hs",
+      "Start": 349,
+      "End": 356
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Prelude",
+      "File": "tests/Properties.hs",
+      "Start": 1274,
+      "End": 1281
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/QuickCheckUtils",
+      "File": "tests/FusionProperties.hs",
+      "Start": 111,
+      "End": 126
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/QuickCheckUtils",
+      "File": "tests/Properties.hs",
+      "Start": 1316,
+      "End": 1331
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/QuickCheckUtils",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 144,
+      "End": 159
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/QuickCheckUtils",
+      "File": "tests/Rules.hs",
+      "Start": 327,
+      "End": 342
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Rules",
+      "File": "tests/Properties.hs",
+      "Start": 1303,
+      "End": 1308
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Rules",
+      "File": "tests/Rules.hs",
+      "Start": 29,
+      "End": 34
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/ByteOrder",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/TestUtils.hs",
+      "Start": 1609,
+      "End": 1625
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/CPUTime",
+      "File": "tests/test-compare.hs",
+      "Start": 206,
+      "End": 220
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/Directory",
+      "File": "tests/Properties.hs",
+      "Start": 469,
+      "End": 485
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/Directory",
+      "File": "tests/lazy-hclose.hs",
+      "Start": 218,
+      "End": 234
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/Environment",
+      "File": "tests/FusionProperties.hs",
+      "Start": 134,
+      "End": 152
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/Environment",
+      "File": "tests/Hash.hs",
+      "Start": 75,
+      "End": 93
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/Environment",
+      "File": "tests/Properties.hs",
+      "Start": 646,
+      "End": 664
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/Environment",
+      "File": "tests/TestFramework.hs",
+      "Start": 614,
+      "End": 632
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/Environment",
+      "File": "tests/Words.hs",
+      "Start": 38,
+      "End": 56
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/Environment",
+      "File": "tests/edit.hs",
+      "Start": 7,
+      "End": 25
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/Environment",
+      "File": "tests/lazyio.hs",
+      "Start": 67,
+      "End": 85
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/Environment",
+      "File": "tests/test-compare.hs",
+      "Start": 180,
+      "End": 198
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/Environment",
+      "File": "tests/wc.hs",
+      "Start": 7,
+      "End": 25
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/Exit",
+      "File": "tests/Units.hs",
+      "Start": 113,
+      "End": 124
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO/Error",
+      "File": "Data/ByteString.hs",
+      "Start": 12411,
+      "End": 12426
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO/Error",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11533,
+      "End": 11548
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO/Unsafe",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11604,
+      "End": 11620
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO/Unsafe",
+      "File": "tests/Properties.hs",
+      "Start": 689,
+      "End": 705
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO/Unsafe",
+      "File": "tests/unpack.hs",
+      "Start": 93,
+      "End": 109
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "Data/ByteString.hs",
+      "Start": 12239,
+      "End": 12248
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "Data/ByteString.hs",
+      "Start": 12749,
+      "End": 12758
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "Data/ByteString.hs",
+      "Start": 12903,
+      "End": 12912
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "Data/ByteString/Builder.hs",
+      "Start": 9495,
+      "End": 9504
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 4441,
+      "End": 4450
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "Data/ByteString/Builder/Internal.hs",
+      "Start": 4577,
+      "End": 4586
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "Data/ByteString/Char8.hs",
+      "Start": 12662,
+      "End": 12671
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "Data/ByteString/Lazy.hs",
+      "Start": 11413,
+      "End": 11422
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "Data/ByteString/Lazy/Char8.hs",
+      "Start": 10785,
+      "End": 10794
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "tests/Properties.hs",
+      "Start": 672,
+      "End": 681
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 383,
+      "End": 392
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "tests/lazy-hclose.hs",
+      "Start": 260,
+      "End": 269
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "tests/lazyio.hs",
+      "Start": 50,
+      "End": 59
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "tests/lazylines.hs",
+      "Start": 89,
+      "End": 98
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/IO",
+      "File": "tests/spellcheck.hs",
+      "Start": 205,
+      "End": 214
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/Mem",
+      "File": "tests/lazy-hclose.hs",
+      "Start": 242,
+      "End": 252
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/System/Random",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 362,
+      "End": 375
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Test/Framework/Providers/HUnit",
+      "File": "tests/Regressions.hs",
+      "Start": 238,
+      "End": 268
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Test/Framework",
+      "File": "tests/Regressions.hs",
+      "Start": 201,
+      "End": 215
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Test/HUnit",
+      "File": "tests/Regressions.hs",
+      "Start": 94,
+      "End": 104
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Test/HUnit",
+      "File": "tests/Units.hs",
+      "Start": 132,
+      "End": 142
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Test/QuickCheck/Test",
+      "File": "tests/TestFramework.hs",
+      "Start": 566,
+      "End": 586
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Test/QuickCheck",
+      "File": "tests/FusionProperties.hs",
+      "Start": 88,
+      "End": 103
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Test/QuickCheck",
+      "File": "tests/Properties.hs",
+      "Start": 374,
+      "End": 389
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Test/QuickCheck",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 174,
+      "End": 189
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Test/QuickCheck",
+      "File": "tests/TestFramework.hs",
+      "Start": 528,
+      "End": 543
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Test/QuickCheck",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/TestUtils.hs",
+      "Start": 1896,
+      "End": 1911
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/TestFramework",
+      "File": "tests/Properties.hs",
+      "Start": 1444,
+      "End": 1457
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/TestFramework",
+      "File": "tests/Rules.hs",
+      "Start": 434,
+      "End": 447
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/TestFramework",
+      "File": "tests/TestFramework.hs",
+      "Start": 500,
+      "End": 513
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/TestFramework",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/TestUtils.hs",
+      "Start": 1858,
+      "End": 1871
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/TestFramework",
+      "File": "tests/builder/Data/ByteString/Builder/Prim/Tests.hs",
+      "Start": 700,
+      "End": 713
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/TestFramework",
+      "File": "tests/builder/TestSuite.hs",
+      "Start": 258,
+      "End": 271
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Text/Printf",
+      "File": "tests/FusionBench.hs",
+      "Start": 160,
+      "End": 171
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Text/Printf",
+      "File": "tests/FusionProperties.hs",
+      "Start": 160,
+      "End": 171
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Text/Printf",
+      "File": "tests/Properties.hs",
+      "Start": 607,
+      "End": 618
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Text/Printf",
+      "File": "tests/TestFramework.hs",
+      "Start": 595,
+      "End": 606
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Text/Printf",
+      "File": "tests/test-compare.hs",
+      "Start": 228,
+      "End": 239
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "bytestring",
+      "DefPath": "bytestring/Text/Show/Functions",
+      "File": "tests/QuickCheckUtils.hs",
+      "Start": 197,
+      "End": 216
+    }
+  ]
+}

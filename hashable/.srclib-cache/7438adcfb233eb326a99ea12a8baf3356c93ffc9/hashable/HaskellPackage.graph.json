@@ -1,0 +1,880 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/tibbe/hashable",
+      "UnitType": "HaskellPackage",
+      "Unit": "hashable",
+      "Path": "hashable/Data/Hashable",
+      "Name": "Hashable",
+      "Kind": "Module",
+      "File": "Data/Hashable.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "hashable/Data/Hashable"
+    },
+    {
+      "Repo": "github.com/tibbe/hashable",
+      "UnitType": "HaskellPackage",
+      "Unit": "hashable",
+      "Path": "hashable/Data/Hashable/Class",
+      "Name": "Class",
+      "Kind": "Module",
+      "File": "Data/Hashable/Class.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "hashable/Data/Hashable/Class"
+    },
+    {
+      "Repo": "github.com/tibbe/hashable",
+      "UnitType": "HaskellPackage",
+      "Unit": "hashable",
+      "Path": "hashable/Data/Hashable/Generic",
+      "Name": "Generic",
+      "Kind": "Module",
+      "File": "Data/Hashable/Generic.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "hashable/Data/Hashable/Generic"
+    },
+    {
+      "Repo": "github.com/tibbe/hashable",
+      "UnitType": "HaskellPackage",
+      "Unit": "hashable",
+      "Path": "hashable/Data/Hashable/RandomSource",
+      "Name": "RandomSource",
+      "Kind": "Module",
+      "File": "Data/Hashable/RandomSource.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "hashable/Data/Hashable/RandomSource"
+    },
+    {
+      "Repo": "github.com/tibbe/hashable",
+      "UnitType": "HaskellPackage",
+      "Unit": "hashable",
+      "Path": "hashable/Data/Hashable/SipHash",
+      "Name": "SipHash",
+      "Kind": "Module",
+      "File": "Data/Hashable/SipHash.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "hashable/Data/Hashable/SipHash"
+    },
+    {
+      "Repo": "github.com/tibbe/hashable",
+      "UnitType": "HaskellPackage",
+      "Unit": "hashable",
+      "Path": "hashable/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "hashable/Setup"
+    },
+    {
+      "Repo": "github.com/tibbe/hashable",
+      "UnitType": "HaskellPackage",
+      "Unit": "hashable",
+      "Path": "hashable/benchmarks/Benchmarks",
+      "Name": "Benchmarks",
+      "Kind": "Module",
+      "File": "benchmarks/Benchmarks.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "hashable/benchmarks/Benchmarks"
+    },
+    {
+      "Repo": "github.com/tibbe/hashable",
+      "UnitType": "HaskellPackage",
+      "Unit": "hashable",
+      "Path": "hashable/tests/Main",
+      "Name": "Main",
+      "Kind": "Module",
+      "File": "tests/Main.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "hashable/tests/Main"
+    },
+    {
+      "Repo": "github.com/tibbe/hashable",
+      "UnitType": "HaskellPackage",
+      "Unit": "hashable",
+      "Path": "hashable/tests/Properties",
+      "Name": "Properties",
+      "Kind": "Module",
+      "File": "tests/Properties.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "hashable/tests/Properties"
+    },
+    {
+      "Repo": "github.com/tibbe/hashable",
+      "UnitType": "HaskellPackage",
+      "Unit": "hashable",
+      "Path": "hashable/tests/Regress",
+      "Name": "Regress",
+      "Kind": "Module",
+      "File": "tests/Regress.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "hashable/tests/Regress"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Control/Exception",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1120,
+      "End": 1137
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Control/Monad/ST",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 125,
+      "End": 141
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Control/Monad",
+      "File": "tests/Properties.hs",
+      "Start": 588,
+      "End": 601
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Criterion/Main",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 149,
+      "End": 163
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Crypto/MAC/SipHash",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 550,
+      "End": 568
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Bits",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1154,
+      "End": 1163
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Bits",
+      "File": "Data/Hashable/Generic.hs",
+      "Start": 536,
+      "End": 545
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Bits",
+      "File": "Data/Hashable/SipHash.hs",
+      "Start": 310,
+      "End": 319
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/ByteString/Char8",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 592,
+      "End": 613
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/ByteString/Internal",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1250,
+      "End": 1274
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/ByteString/Internal",
+      "File": "Data/Hashable/RandomSource.hs",
+      "Start": 278,
+      "End": 302
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/ByteString/Internal",
+      "File": "Data/Hashable/SipHash.hs",
+      "Start": 550,
+      "End": 574
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/ByteString/Internal",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 394,
+      "End": 418
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/ByteString/Lazy/Internal",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 2409,
+      "End": 2438
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/ByteString/Lazy",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1297,
+      "End": 1317
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/ByteString/Lazy",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 436,
+      "End": 456
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/ByteString/Lazy",
+      "File": "tests/Properties.hs",
+      "Start": 461,
+      "End": 481
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/ByteString/Unsafe",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1341,
+      "End": 1363
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/ByteString",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1212,
+      "End": 1227
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/ByteString",
+      "File": "Data/Hashable/RandomSource.hs",
+      "Start": 250,
+      "End": 265
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/ByteString",
+      "File": "tests/Properties.hs",
+      "Start": 423,
+      "End": 438
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Hashable/Class",
+      "File": "Data/Hashable.hs",
+      "Start": 1884,
+      "End": 1903
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Hashable/Class",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 811,
+      "End": 830
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Hashable/Class",
+      "File": "Data/Hashable/Generic.hs",
+      "Start": 568,
+      "End": 587
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Hashable/Generic",
+      "File": "Data/Hashable/Generic.hs",
+      "Start": 488,
+      "End": 509
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Hashable/RandomSource",
+      "File": "Data/Hashable/RandomSource.hs",
+      "Start": 154,
+      "End": 180
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Hashable/SipHash",
+      "File": "Data/Hashable/SipHash.hs",
+      "Start": 133,
+      "End": 154
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Hashable/SipHash",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 192,
+      "End": 213
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Hashable",
+      "File": "Data/Hashable.hs",
+      "Start": 1047,
+      "End": 1060
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Hashable",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 171,
+      "End": 184
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Hashable",
+      "File": "tests/Properties.hs",
+      "Start": 351,
+      "End": 364
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Int",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1376,
+      "End": 1384
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Int",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 221,
+      "End": 229
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/List",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1420,
+      "End": 1429
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/List",
+      "File": "tests/Properties.hs",
+      "Start": 565,
+      "End": 574
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Ratio",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1446,
+      "End": 1456
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Text/Array",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1538,
+      "End": 1553
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Text/Internal",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1577,
+      "End": 1595
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Text/Lazy",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1618,
+      "End": 1632
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Text/Lazy",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 512,
+      "End": 526
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Text/Lazy",
+      "File": "tests/Properties.hs",
+      "Start": 537,
+      "End": 551
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Text",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1506,
+      "End": 1515
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Text",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 480,
+      "End": 489
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Text",
+      "File": "tests/Properties.hs",
+      "Start": 505,
+      "End": 514
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Typeable/Internal",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 2104,
+      "End": 2126
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Typeable",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1646,
+      "End": 1659
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Word",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1667,
+      "End": 1676
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Word",
+      "File": "Data/Hashable/SipHash.hs",
+      "Start": 431,
+      "End": 440
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Data/Word",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 302,
+      "End": 311
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 33,
+      "End": 52
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/C/Error",
+      "File": "Data/Hashable/RandomSource.hs",
+      "Start": 319,
+      "End": 334
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/C/Types",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 2260,
+      "End": 2275
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/C/Types",
+      "File": "Data/Hashable/RandomSource.hs",
+      "Start": 434,
+      "End": 449
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/C/Types",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 319,
+      "End": 334
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/C",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1722,
+      "End": 1731
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/C",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 2231,
+      "End": 2240
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/ForeignPtr",
+      "File": "Data/Hashable/SipHash.hs",
+      "Start": 464,
+      "End": 482
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/ForeignPtr",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 237,
+      "End": 255
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/Marshal/Array",
+      "File": "tests/Properties.hs",
+      "Start": 663,
+      "End": 684
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/Marshal/Utils",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1749,
+      "End": 1770
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/Ptr",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1785,
+      "End": 1796
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/Ptr",
+      "File": "Data/Hashable/RandomSource.hs",
+      "Start": 471,
+      "End": 482
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/Ptr",
+      "File": "Data/Hashable/SipHash.hs",
+      "Start": 507,
+      "End": 518
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/Ptr",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 375,
+      "End": 386
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/Storable",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1819,
+      "End": 1835
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Foreign/Storable",
+      "File": "Data/Hashable/SipHash.hs",
+      "Start": 616,
+      "End": 632
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/GHC/Base",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1869,
+      "End": 1877
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/GHC/Base",
+      "File": "tests/Properties.hs",
+      "Start": 704,
+      "End": 712
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/GHC/Conc",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1898,
+      "End": 1906
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/GHC/Exts",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 2601,
+      "End": 2609
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/GHC/Exts",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 263,
+      "End": 271
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/GHC/Fingerprint/Type",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 2147,
+      "End": 2167
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/GHC/Generics",
+      "File": "Data/Hashable/Generic.hs",
+      "Start": 595,
+      "End": 607
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/GHC/Integer/GMP/Internals",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 2627,
+      "End": 2652
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/GHC/Prim",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1929,
+      "End": 1937
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/GHC/ST",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 279,
+      "End": 285
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/GHC/ST",
+      "File": "tests/Properties.hs",
+      "Start": 807,
+      "End": 813
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/GHC/Word",
+      "File": "tests/Properties.hs",
+      "Start": 837,
+      "End": 845
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Main",
+      "File": "benchmarks/Benchmarks.hs",
+      "Start": 99,
+      "End": 103
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Main",
+      "File": "tests/Main.hs",
+      "Start": 121,
+      "End": 125
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Numeric",
+      "File": "Data/Hashable/SipHash.hs",
+      "Start": 647,
+      "End": 654
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Properties",
+      "File": "tests/Main.hs",
+      "Start": 147,
+      "End": 157
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Properties",
+      "File": "tests/Properties.hs",
+      "Start": 313,
+      "End": 323
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Regress",
+      "File": "tests/Main.hs",
+      "Start": 178,
+      "End": 185
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Regress",
+      "File": "tests/Regress.hs",
+      "Start": 29,
+      "End": 36
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/System/IO/Unsafe",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1957,
+      "End": 1973
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/System/IO/Unsafe",
+      "File": "tests/Properties.hs",
+      "Start": 621,
+      "End": 637
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/System/Mem/StableName",
+      "File": "Data/Hashable/Class.hs",
+      "Start": 1999,
+      "End": 2020
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Test/Framework/Providers/QuickCheck2",
+      "File": "tests/Properties.hs",
+      "Start": 943,
+      "End": 979
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Test/Framework",
+      "File": "tests/Main.hs",
+      "Start": 207,
+      "End": 221
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Test/Framework",
+      "File": "tests/Properties.hs",
+      "Start": 903,
+      "End": 917
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Test/Framework",
+      "File": "tests/Regress.hs",
+      "Start": 75,
+      "End": 89
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "hashable",
+      "DefPath": "hashable/Test/QuickCheck",
+      "File": "tests/Properties.hs",
+      "Start": 865,
+      "End": 880
+    }
+  ]
+}

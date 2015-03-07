@@ -1,0 +1,2557 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Streaming/Blaze",
+      "Name": "Blaze",
+      "Kind": "Module",
+      "File": "Data/Streaming/Blaze.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Streaming/Blaze"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Streaming/ByteString/Builder",
+      "Name": "Builder",
+      "Kind": "Module",
+      "File": "Data/Streaming/ByteString/Builder.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Streaming/ByteString/Builder"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Streaming/FileRead",
+      "Name": "FileRead",
+      "Kind": "Module",
+      "File": "Data/Streaming/FileRead.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Streaming/FileRead"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Streaming/Filesystem",
+      "Name": "Filesystem",
+      "Kind": "Module",
+      "File": "Data/Streaming/Filesystem.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Streaming/Filesystem"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Streaming/Network",
+      "Name": "Network",
+      "Kind": "Module",
+      "File": "Data/Streaming/Network.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Streaming/Network"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Streaming/Network/Internal",
+      "Name": "Internal",
+      "Kind": "Module",
+      "File": "Data/Streaming/Network/Internal.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Streaming/Network/Internal"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Streaming/Process",
+      "Name": "Process",
+      "Kind": "Module",
+      "File": "Data/Streaming/Process.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Streaming/Process"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Streaming/Process/Internal",
+      "Name": "Internal",
+      "Kind": "Module",
+      "File": "Data/Streaming/Process/Internal.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Streaming/Process/Internal"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Streaming/Text",
+      "Name": "Text",
+      "Kind": "Module",
+      "File": "Data/Streaming/Text.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Streaming/Text"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Streaming/Zlib",
+      "Name": "Zlib",
+      "Kind": "Module",
+      "File": "Data/Streaming/Zlib.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Streaming/Zlib"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Streaming/Zlib/Lowlevel",
+      "Name": "Lowlevel",
+      "Kind": "Module",
+      "File": "Data/Streaming/Zlib/Lowlevel.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Streaming/Zlib/Lowlevel"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Text/Internal/Encoding/Utf16",
+      "Name": "Utf16",
+      "Kind": "Module",
+      "File": "Data/Text/Internal/Encoding/Utf16.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Text/Internal/Encoding/Utf16"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Text/Internal/Encoding/Utf32",
+      "Name": "Utf32",
+      "Kind": "Module",
+      "File": "Data/Text/Internal/Encoding/Utf32.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Text/Internal/Encoding/Utf32"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Text/Internal/Encoding/Utf8",
+      "Name": "Utf8",
+      "Kind": "Module",
+      "File": "Data/Text/Internal/Encoding/Utf8.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Text/Internal/Encoding/Utf8"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Text/Internal/Fusion",
+      "Name": "Fusion",
+      "Kind": "Module",
+      "File": "Data/Text/Internal/Fusion.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Text/Internal/Fusion"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Text/Internal/Fusion/CaseMapping",
+      "Name": "CaseMapping",
+      "Kind": "Module",
+      "File": "Data/Text/Internal/Fusion/CaseMapping.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Text/Internal/Fusion/CaseMapping"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Text/Internal/Fusion/Common",
+      "Name": "Common",
+      "Kind": "Module",
+      "File": "Data/Text/Internal/Fusion/Common.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Text/Internal/Fusion/Common"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Text/Internal/Fusion/Size",
+      "Name": "Size",
+      "Kind": "Module",
+      "File": "Data/Text/Internal/Fusion/Size.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Text/Internal/Fusion/Size"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Text/Internal/Fusion/Types",
+      "Name": "Types",
+      "Kind": "Module",
+      "File": "Data/Text/Internal/Fusion/Types.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Text/Internal/Fusion/Types"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Text/Internal/Private",
+      "Name": "Private",
+      "Kind": "Module",
+      "File": "Data/Text/Internal/Private.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Text/Internal/Private"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Text/Internal/Unsafe/Char",
+      "Name": "Char",
+      "Kind": "Module",
+      "File": "Data/Text/Internal/Unsafe/Char.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Text/Internal/Unsafe/Char"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Data/Text/Internal/Unsafe/Shift",
+      "Name": "Shift",
+      "Kind": "Module",
+      "File": "Data/Text/Internal/Unsafe/Shift.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Data/Text/Internal/Unsafe/Shift"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/Setup"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/bench/builder-to-bytestring-io",
+      "Name": "builder-to-bytestring-io",
+      "Kind": "Module",
+      "File": "bench/builder-to-bytestring-io.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/bench/builder-to-bytestring-io"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/bench/count-chars",
+      "Name": "count-chars",
+      "Kind": "Module",
+      "File": "bench/count-chars.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/bench/count-chars"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/bench/decode-memory-usage",
+      "Name": "decode-memory-usage",
+      "Kind": "Module",
+      "File": "bench/decode-memory-usage.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/bench/decode-memory-usage"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/test/Data/Streaming/BlazeSpec",
+      "Name": "BlazeSpec",
+      "Kind": "Module",
+      "File": "test/Data/Streaming/BlazeSpec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/test/Data/Streaming/BlazeSpec"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/test/Data/Streaming/ByteString/BuilderSpec",
+      "Name": "BuilderSpec",
+      "Kind": "Module",
+      "File": "test/Data/Streaming/ByteString/BuilderSpec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/test/Data/Streaming/ByteString/BuilderSpec"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/test/Data/Streaming/FileReadSpec",
+      "Name": "FileReadSpec",
+      "Kind": "Module",
+      "File": "test/Data/Streaming/FileReadSpec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/test/Data/Streaming/FileReadSpec"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/test/Data/Streaming/FilesystemSpec",
+      "Name": "FilesystemSpec",
+      "Kind": "Module",
+      "File": "test/Data/Streaming/FilesystemSpec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/test/Data/Streaming/FilesystemSpec"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/test/Data/Streaming/NetworkSpec",
+      "Name": "NetworkSpec",
+      "Kind": "Module",
+      "File": "test/Data/Streaming/NetworkSpec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/test/Data/Streaming/NetworkSpec"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/test/Data/Streaming/ProcessSpec",
+      "Name": "ProcessSpec",
+      "Kind": "Module",
+      "File": "test/Data/Streaming/ProcessSpec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/test/Data/Streaming/ProcessSpec"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/test/Data/Streaming/TextSpec",
+      "Name": "TextSpec",
+      "Kind": "Module",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/test/Data/Streaming/TextSpec"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/test/Data/Streaming/ZlibSpec",
+      "Name": "ZlibSpec",
+      "Kind": "Module",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/test/Data/Streaming/ZlibSpec"
+    },
+    {
+      "Repo": "github.com/fpco/streaming-commons",
+      "UnitType": "HaskellPackage",
+      "Unit": "streaming-commons",
+      "Path": "streaming-commons/test/Spec",
+      "Name": "Spec",
+      "Kind": "Module",
+      "File": "test/Spec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "streaming-commons/test/Spec"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Blaze/ByteString/Builder/Internal/Buffer",
+      "File": "Data/Streaming/Blaze.hs",
+      "Start": 1024,
+      "End": 1064
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Blaze/ByteString/Builder/Internal/Types",
+      "File": "Data/Streaming/Blaze.hs",
+      "Start": 977,
+      "End": 1016
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Blaze/ByteString/Builder/Internal",
+      "File": "Data/Streaming/Blaze.hs",
+      "Start": 936,
+      "End": 969
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Blaze/ByteString/Builder",
+      "File": "bench/builder-to-bytestring-io.hs",
+      "Start": 55,
+      "End": 79
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Blaze/ByteString/Builder",
+      "File": "test/Data/Streaming/BlazeSpec.hs",
+      "Start": 260,
+      "End": 284
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Codec/Compression/GZip",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "Start": 287,
+      "End": 309
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Codec/Compression/Zlib/Raw",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "Start": 598,
+      "End": 624
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Codec/Compression/Zlib",
+      "File": "Data/Streaming/Zlib.hs",
+      "Start": 1409,
+      "End": 1431
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Codec/Compression/Zlib",
+      "File": "Data/Streaming/Zlib/Lowlevel.hs",
+      "Start": 658,
+      "End": 680
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Codec/Compression/Zlib",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "Start": 247,
+      "End": 269
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Applicative",
+      "File": "Data/Streaming/Process.hs",
+      "Start": 1059,
+      "End": 1078
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Concurrent/Async",
+      "File": "test/Data/Streaming/NetworkSpec.hs",
+      "Start": 93,
+      "End": 117
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Concurrent/Async",
+      "File": "test/Data/Streaming/ProcessSpec.hs",
+      "Start": 136,
+      "End": 160
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Concurrent/STM",
+      "File": "Data/Streaming/Process.hs",
+      "Start": 1181,
+      "End": 1203
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Concurrent/STM",
+      "File": "Data/Streaming/Process.hs",
+      "Start": 2054,
+      "End": 2076
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Concurrent/STM",
+      "File": "Data/Streaming/Process/Internal.hs",
+      "Start": 148,
+      "End": 170
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Concurrent",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 1750,
+      "End": 1768
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Concurrent",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 2307,
+      "End": 2325
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Concurrent",
+      "File": "Data/Streaming/Process.hs",
+      "Start": 1123,
+      "End": 1141
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Concurrent",
+      "File": "test/Data/Streaming/ProcessSpec.hs",
+      "Start": 283,
+      "End": 301
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/DeepSeq",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "Start": 362,
+      "End": 377
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Exception",
+      "File": "Data/Streaming/Filesystem.hs",
+      "Start": 1885,
+      "End": 1902
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Exception",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 1790,
+      "End": 1807
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Exception",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 2076,
+      "End": 2093
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Exception",
+      "File": "Data/Streaming/Process.hs",
+      "Start": 1391,
+      "End": 1408
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Exception",
+      "File": "Data/Streaming/Zlib.hs",
+      "Start": 1609,
+      "End": 1626
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Exception",
+      "File": "test/Data/Streaming/FileReadSpec.hs",
+      "Start": 158,
+      "End": 175
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Exception",
+      "File": "test/Data/Streaming/FilesystemSpec.hs",
+      "Start": 130,
+      "End": 147
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Exception",
+      "File": "test/Data/Streaming/FilesystemSpec.hs",
+      "Start": 278,
+      "End": 295
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Exception",
+      "File": "test/Data/Streaming/NetworkSpec.hs",
+      "Start": 147,
+      "End": 164
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Exception",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "Start": 306,
+      "End": 323
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Monad/IO/Class",
+      "File": "Data/Streaming/Process.hs",
+      "Start": 1461,
+      "End": 1483
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Monad/ST/Unsafe",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 1798,
+      "End": 1821
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Monad/ST",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 1735,
+      "End": 1751
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Monad/ST",
+      "File": "Data/Text/Internal/Private.hs",
+      "Start": 354,
+      "End": 370
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Monad/ST",
+      "File": "Data/Text/Internal/Unsafe/Char.hs",
+      "Start": 810,
+      "End": 826
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Monad",
+      "File": "Data/Streaming/ByteString/Builder.hs",
+      "Start": 253,
+      "End": 266
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Monad",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 2342,
+      "End": 2355
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Monad",
+      "File": "test/Data/Streaming/NetworkSpec.hs",
+      "Start": 199,
+      "End": 212
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Monad",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "Start": 515,
+      "End": 528
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Control/Monad",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "Start": 504,
+      "End": 517
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Criterion/Main",
+      "File": "bench/builder-to-bytestring-io.hs",
+      "Start": 93,
+      "End": 107
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Criterion/Main",
+      "File": "bench/count-chars.hs",
+      "Start": 7,
+      "End": 21
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Array/Unboxed",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 2428,
+      "End": 2446
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Array/Unboxed",
+      "File": "test/Data/Streaming/NetworkSpec.hs",
+      "Start": 264,
+      "End": 282
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Bits",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 1878,
+      "End": 1887
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Bits",
+      "File": "Data/Text/Internal/Encoding/Utf8.hs",
+      "Start": 982,
+      "End": 991
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Bits",
+      "File": "Data/Text/Internal/Fusion.hs",
+      "Start": 1234,
+      "End": 1243
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Bits",
+      "File": "Data/Text/Internal/Fusion/Common.hs",
+      "Start": 2066,
+      "End": 2075
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Bits",
+      "File": "Data/Text/Internal/Unsafe/Char.hs",
+      "Start": 839,
+      "End": 848
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Builder/Extra",
+      "File": "Data/Streaming/ByteString/Builder.hs",
+      "Start": 322,
+      "End": 351
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Builder",
+      "File": "Data/Streaming/ByteString/Builder.hs",
+      "Start": 281,
+      "End": 304
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Builder",
+      "File": "bench/builder-to-bytestring-io.hs",
+      "Start": 169,
+      "End": 192
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Builder",
+      "File": "test/Data/Streaming/ByteString/BuilderSpec.hs",
+      "Start": 200,
+      "End": 223
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Char8",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 2031,
+      "End": 2052
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Char8",
+      "File": "bench/builder-to-bytestring-io.hs",
+      "Start": 125,
+      "End": 146
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Char8",
+      "File": "test/Data/Streaming/BlazeSpec.hs",
+      "Start": 143,
+      "End": 164
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Char8",
+      "File": "test/Data/Streaming/ByteString/BuilderSpec.hs",
+      "Start": 111,
+      "End": 132
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Char8",
+      "File": "test/Data/Streaming/NetworkSpec.hs",
+      "Start": 314,
+      "End": 335
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Char8",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "Start": 544,
+      "End": 565
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Char8",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "Start": 373,
+      "End": 394
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Internal",
+      "File": "Data/Streaming/ByteString/Builder.hs",
+      "Start": 411,
+      "End": 435
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Internal",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 1993,
+      "End": 2017
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Lazy/Char8",
+      "File": "test/Data/Streaming/BlazeSpec.hs",
+      "Start": 442,
+      "End": 468
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Lazy/Char8",
+      "File": "test/Data/Streaming/ByteString/BuilderSpec.hs",
+      "Start": 246,
+      "End": 272
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Lazy/Internal",
+      "File": "Data/Streaming/ByteString/Builder.hs",
+      "Start": 478,
+      "End": 507
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Lazy/Internal",
+      "File": "Data/Streaming/FileRead.hs",
+      "Start": 567,
+      "End": 596
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Lazy/Internal",
+      "File": "Data/Streaming/Zlib.hs",
+      "Start": 1521,
+      "End": 1550
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Lazy/Internal",
+      "File": "bench/count-chars.hs",
+      "Start": 228,
+      "End": 257
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Lazy/Internal",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "Start": 461,
+      "End": 490
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Lazy",
+      "File": "bench/count-chars.hs",
+      "Start": 195,
+      "End": 215
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Lazy",
+      "File": "test/Data/Streaming/BlazeSpec.hs",
+      "Start": 409,
+      "End": 429
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Lazy",
+      "File": "test/Data/Streaming/ProcessSpec.hs",
+      "Start": 193,
+      "End": 213
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Lazy",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "Start": 273,
+      "End": 293
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Lazy",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "Start": 418,
+      "End": 438
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Unsafe",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2062,
+      "End": 2084
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Unsafe",
+      "File": "Data/Streaming/Zlib.hs",
+      "Start": 1379,
+      "End": 1401
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString/Unsafe",
+      "File": "test/Data/Streaming/ByteString/BuilderSpec.hs",
+      "Start": 155,
+      "End": 177
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString",
+      "File": "Data/Streaming/Blaze.hs",
+      "Start": 889,
+      "End": 904
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString",
+      "File": "Data/Streaming/FileRead.hs",
+      "Start": 539,
+      "End": 554
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 2106,
+      "End": 2121
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString",
+      "File": "Data/Streaming/Network/Internal.hs",
+      "Start": 334,
+      "End": 349
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 1937,
+      "End": 1952
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString",
+      "File": "Data/Streaming/Zlib.hs",
+      "Start": 1493,
+      "End": 1508
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString",
+      "File": "bench/count-chars.hs",
+      "Start": 157,
+      "End": 172
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString",
+      "File": "bench/decode-memory-usage.hs",
+      "Start": 42,
+      "End": 57
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString",
+      "File": "test/Data/Streaming/BlazeSpec.hs",
+      "Start": 232,
+      "End": 247
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString",
+      "File": "test/Data/Streaming/FileReadSpec.hs",
+      "Start": 84,
+      "End": 99
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString",
+      "File": "test/Data/Streaming/ProcessSpec.hs",
+      "Start": 236,
+      "End": 251
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "Start": 235,
+      "End": 250
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/ByteString",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "Start": 335,
+      "End": 350
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Char",
+      "File": "Data/Text/Internal/Fusion/CaseMapping.hs",
+      "Start": 299,
+      "End": 308
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Char",
+      "File": "Data/Text/Internal/Fusion/Common.hs",
+      "Start": 2092,
+      "End": 2101
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Char",
+      "File": "test/Data/Streaming/NetworkSpec.hs",
+      "Start": 362,
+      "End": 371
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Functor/Constant",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 2179,
+      "End": 2200
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Functor/Identity",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 2243,
+      "End": 2264
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/IORef",
+      "File": "Data/Streaming/Blaze.hs",
+      "Start": 860,
+      "End": 870
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/IORef",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 2373,
+      "End": 2383
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/IORef",
+      "File": "test/Data/Streaming/ByteString/BuilderSpec.hs",
+      "Start": 285,
+      "End": 295
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Int",
+      "File": "Data/Text/Internal/Fusion/Common.hs",
+      "Start": 2120,
+      "End": 2128
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/List",
+      "File": "Data/Text/Internal/Fusion/Common.hs",
+      "Start": 2014,
+      "End": 2023
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/List",
+      "File": "test/Data/Streaming/FilesystemSpec.hs",
+      "Start": 165,
+      "End": 174
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Maybe",
+      "File": "Data/Streaming/Process.hs",
+      "Start": 1528,
+      "End": 1538
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Maybe",
+      "File": "test/Data/Streaming/BlazeSpec.hs",
+      "Start": 479,
+      "End": 489
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Monoid",
+      "File": "bench/builder-to-bytestring-io.hs",
+      "Start": 206,
+      "End": 217
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Monoid",
+      "File": "test/Data/Streaming/BlazeSpec.hs",
+      "Start": 203,
+      "End": 214
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Monoid",
+      "File": "test/Data/Streaming/ByteString/BuilderSpec.hs",
+      "Start": 303,
+      "End": 314
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Blaze",
+      "File": "Data/Streaming/Blaze.hs",
+      "Start": 351,
+      "End": 371
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Blaze",
+      "File": "test/Data/Streaming/BlazeSpec.hs",
+      "Start": 175,
+      "End": 195
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/BlazeSpec",
+      "File": "test/Data/Streaming/BlazeSpec.hs",
+      "Start": 42,
+      "End": 66
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/ByteString/Builder",
+      "File": "Data/Streaming/ByteString/Builder.hs",
+      "Start": 122,
+      "End": 155
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/ByteString/Builder",
+      "File": "bench/builder-to-bytestring-io.hs",
+      "Start": 253,
+      "End": 286
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/ByteString/Builder",
+      "File": "test/Data/Streaming/ByteString/BuilderSpec.hs",
+      "Start": 377,
+      "End": 410
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/ByteString/BuilderSpec",
+      "File": "test/Data/Streaming/ByteString/BuilderSpec.hs",
+      "Start": 42,
+      "End": 79
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/FileRead",
+      "File": "Data/Streaming/FileRead.hs",
+      "Start": 343,
+      "End": 366
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/FileRead",
+      "File": "test/Data/Streaming/FileReadSpec.hs",
+      "Start": 122,
+      "End": 145
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/FileReadSpec",
+      "File": "test/Data/Streaming/FileReadSpec.hs",
+      "Start": 7,
+      "End": 34
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Filesystem",
+      "File": "Data/Streaming/Filesystem.hs",
+      "Start": 163,
+      "End": 188
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Filesystem",
+      "File": "test/Data/Streaming/FilesystemSpec.hs",
+      "Start": 97,
+      "End": 122
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/FilesystemSpec",
+      "File": "test/Data/Streaming/FilesystemSpec.hs",
+      "Start": 28,
+      "End": 57
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Network/Internal",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 1711,
+      "End": 1742
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Network/Internal",
+      "File": "Data/Streaming/Network/Internal.hs",
+      "Start": 28,
+      "End": 59
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Network",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 95,
+      "End": 117
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Network",
+      "File": "test/Data/Streaming/NetworkSpec.hs",
+      "Start": 414,
+      "End": 436
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/NetworkSpec",
+      "File": "test/Data/Streaming/NetworkSpec.hs",
+      "Start": 42,
+      "End": 68
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Process/Internal",
+      "File": "Data/Streaming/Process.hs",
+      "Start": 1589,
+      "End": 1620
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Process/Internal",
+      "File": "Data/Streaming/Process/Internal.hs",
+      "Start": 7,
+      "End": 38
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Process",
+      "File": "Data/Streaming/Process.hs",
+      "Start": 394,
+      "End": 416
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Process",
+      "File": "test/Data/Streaming/ProcessSpec.hs",
+      "Start": 323,
+      "End": 345
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/ProcessSpec",
+      "File": "test/Data/Streaming/ProcessSpec.hs",
+      "Start": 28,
+      "End": 54
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Text",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 1503,
+      "End": 1522
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Text",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "Start": 144,
+      "End": 163
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/TextSpec",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "Start": 42,
+      "End": 65
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Zlib/Lowlevel",
+      "File": "Data/Streaming/Zlib.hs",
+      "Start": 1294,
+      "End": 1322
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Zlib/Lowlevel",
+      "File": "Data/Streaming/Zlib/Lowlevel.hs",
+      "Start": 81,
+      "End": 109
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Zlib",
+      "File": "Data/Streaming/Zlib.hs",
+      "Start": 824,
+      "End": 843
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/Zlib",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "Start": 220,
+      "End": 239
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Streaming/ZlibSpec",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "Start": 80,
+      "End": 103
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/String",
+      "File": "Data/Streaming/Network/Internal.hs",
+      "Start": 299,
+      "End": 310
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Array",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2232,
+      "End": 2247
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Array",
+      "File": "Data/Text/Internal/Fusion.hs",
+      "Start": 1474,
+      "End": 1489
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Array",
+      "File": "Data/Text/Internal/Private.hs",
+      "Start": 485,
+      "End": 500
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Array",
+      "File": "Data/Text/Internal/Unsafe/Char.hs",
+      "Start": 1033,
+      "End": 1048
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Encoding",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "Start": 445,
+      "End": 463
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Encoding/Utf16",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2346,
+      "End": 2379
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Encoding/Utf16",
+      "File": "Data/Text/Internal/Encoding/Utf16.hs",
+      "Start": 613,
+      "End": 646
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Encoding/Utf16",
+      "File": "Data/Text/Internal/Fusion.hs",
+      "Start": 1685,
+      "End": 1718
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Encoding/Utf32",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2404,
+      "End": 2437
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Encoding/Utf32",
+      "File": "Data/Text/Internal/Encoding/Utf32.hs",
+      "Start": 555,
+      "End": 588
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Encoding/Utf8",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2462,
+      "End": 2494
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Encoding/Utf8",
+      "File": "Data/Text/Internal/Encoding/Utf8.hs",
+      "Start": 622,
+      "End": 654
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Fusion/CaseMapping",
+      "File": "Data/Text/Internal/Fusion/CaseMapping.hs",
+      "Start": 248,
+      "End": 285
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Fusion/CaseMapping",
+      "File": "Data/Text/Internal/Fusion/Common.hs",
+      "Start": 2183,
+      "End": 2220
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Fusion/Common",
+      "File": "Data/Text/Internal/Fusion.hs",
+      "Start": 1512,
+      "End": 1544
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Fusion/Common",
+      "File": "Data/Text/Internal/Fusion/Common.hs",
+      "Start": 538,
+      "End": 570
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Fusion/Size",
+      "File": "Data/Text/Internal/Fusion.hs",
+      "Start": 1596,
+      "End": 1626
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Fusion/Size",
+      "File": "Data/Text/Internal/Fusion/Common.hs",
+      "Start": 2321,
+      "End": 2351
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Fusion/Size",
+      "File": "Data/Text/Internal/Fusion/Size.hs",
+      "Start": 566,
+      "End": 596
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Fusion/Size",
+      "File": "Data/Text/Internal/Fusion/Types.hs",
+      "Start": 847,
+      "End": 877
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Fusion/Types",
+      "File": "Data/Text/Internal/Fusion.hs",
+      "Start": 1557,
+      "End": 1588
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Fusion/Types",
+      "File": "Data/Text/Internal/Fusion/CaseMapping.hs",
+      "Start": 316,
+      "End": 347
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Fusion/Types",
+      "File": "Data/Text/Internal/Fusion/Common.hs",
+      "Start": 2144,
+      "End": 2175
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Fusion/Types",
+      "File": "Data/Text/Internal/Fusion/Types.hs",
+      "Start": 665,
+      "End": 696
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Fusion",
+      "File": "Data/Text/Internal/Fusion.hs",
+      "Start": 636,
+      "End": 661
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Private",
+      "File": "Data/Text/Internal/Fusion.hs",
+      "Start": 1296,
+      "End": 1322
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Private",
+      "File": "Data/Text/Internal/Private.hs",
+      "Start": 275,
+      "End": 301
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Unsafe/Char",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2519,
+      "End": 2549
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Unsafe/Char",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2659,
+      "End": 2689
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Unsafe/Char",
+      "File": "Data/Text/Internal/Encoding/Utf8.hs",
+      "Start": 1007,
+      "End": 1037
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Unsafe/Char",
+      "File": "Data/Text/Internal/Fusion.hs",
+      "Start": 1340,
+      "End": 1370
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Unsafe/Char",
+      "File": "Data/Text/Internal/Unsafe/Char.hs",
+      "Start": 594,
+      "End": 624
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Unsafe/Shift",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2724,
+      "End": 2755
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Unsafe/Shift",
+      "File": "Data/Text/Internal/Encoding/Utf8.hs",
+      "Start": 1051,
+      "End": 1082
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Unsafe/Shift",
+      "File": "Data/Text/Internal/Fusion.hs",
+      "Start": 1408,
+      "End": 1439
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Unsafe/Shift",
+      "File": "Data/Text/Internal/Unsafe/Char.hs",
+      "Start": 864,
+      "End": 895
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal/Unsafe/Shift",
+      "File": "Data/Text/Internal/Unsafe/Shift.hs",
+      "Start": 501,
+      "End": 532
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2288,
+      "End": 2306
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal",
+      "File": "Data/Text/Internal/Fusion.hs",
+      "Start": 1259,
+      "End": 1277
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal",
+      "File": "Data/Text/Internal/Fusion.hs",
+      "Start": 1644,
+      "End": 1662
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Internal",
+      "File": "Data/Text/Internal/Private.hs",
+      "Start": 390,
+      "End": 408
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Lazy/Encoding",
+      "File": "bench/count-chars.hs",
+      "Start": 109,
+      "End": 132
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Lazy/Encoding",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "Start": 187,
+      "End": 210
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Lazy",
+      "File": "bench/count-chars.hs",
+      "Start": 71,
+      "End": 85
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Lazy",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "Start": 487,
+      "End": 501
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/StreamDecoding",
+      "File": "bench/count-chars.hs",
+      "Start": 283,
+      "End": 307
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/StreamDecoding",
+      "File": "bench/decode-memory-usage.hs",
+      "Start": 78,
+      "End": 102
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text/Unsafe",
+      "File": "Data/Text/Internal/Private.hs",
+      "Start": 434,
+      "End": 450
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2118,
+      "End": 2127
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2176,
+      "End": 2185
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text",
+      "File": "bench/count-chars.hs",
+      "Start": 39,
+      "End": 48
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Text",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "Start": 413,
+      "End": 422
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Typeable",
+      "File": "Data/Streaming/Filesystem.hs",
+      "Start": 324,
+      "End": 337
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Typeable",
+      "File": "Data/Streaming/Process.hs",
+      "Start": 1638,
+      "End": 1651
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Typeable",
+      "File": "Data/Streaming/Zlib.hs",
+      "Start": 1577,
+      "End": 1590
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Word",
+      "File": "Data/Streaming/ByteString/Builder.hs",
+      "Start": 534,
+      "End": 543
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Word",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2784,
+      "End": 2793
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Word",
+      "File": "Data/Text/Internal/Encoding/Utf32.hs",
+      "Start": 630,
+      "End": 639
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Data/Word",
+      "File": "Data/Text/Internal/Fusion/Types.hs",
+      "Start": 885,
+      "End": 894
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 7,
+      "End": 26
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Foreign/C/Types",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2851,
+      "End": 2866
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Foreign/C/Types",
+      "File": "Data/Streaming/Zlib.hs",
+      "Start": 1356,
+      "End": 1371
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Foreign/C",
+      "File": "Data/Streaming/Zlib/Lowlevel.hs",
+      "Start": 622,
+      "End": 631
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Foreign/ForeignPtr",
+      "File": "Data/Streaming/ByteString/Builder.hs",
+      "Start": 559,
+      "End": 577
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Foreign/ForeignPtr",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2915,
+      "End": 2933
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Foreign/ForeignPtr",
+      "File": "Data/Streaming/Zlib.hs",
+      "Start": 1330,
+      "End": 1348
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Foreign/Marshal/Utils",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 2983,
+      "End": 3004
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Foreign/Ptr",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 3041,
+      "End": 3052
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Foreign/Ptr",
+      "File": "Data/Streaming/Zlib/Lowlevel.hs",
+      "Start": 639,
+      "End": 650
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Foreign/Storable",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 3178,
+      "End": 3194
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/GHC/Base",
+      "File": "Data/Streaming/Text.hs",
+      "Start": 3252,
+      "End": 3260
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/GHC/Base",
+      "File": "Data/Text/Internal/Unsafe/Shift.hs",
+      "Start": 619,
+      "End": 627
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/GHC/Exts",
+      "File": "Data/Text/Internal/Encoding/Utf16.hs",
+      "Start": 716,
+      "End": 724
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/GHC/Exts",
+      "File": "Data/Text/Internal/Encoding/Utf8.hs",
+      "Start": 1099,
+      "End": 1107
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/GHC/Exts",
+      "File": "Data/Text/Internal/Unsafe/Char.hs",
+      "Start": 912,
+      "End": 920
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/GHC/Prim",
+      "File": "Data/Text/Internal/Fusion/Common.hs",
+      "Start": 2359,
+      "End": 2367
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/GHC/Types",
+      "File": "Data/Text/Internal/Fusion/Common.hs",
+      "Start": 2414,
+      "End": 2423
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/GHC/Word",
+      "File": "Data/Text/Internal/Encoding/Utf16.hs",
+      "Start": 732,
+      "End": 740
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/GHC/Word",
+      "File": "Data/Text/Internal/Encoding/Utf8.hs",
+      "Start": 1115,
+      "End": 1123
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/GHC/Word",
+      "File": "Data/Text/Internal/Unsafe/Char.hs",
+      "Start": 971,
+      "End": 979
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/GHC/Word",
+      "File": "Data/Text/Internal/Unsafe/Shift.hs",
+      "Start": 635,
+      "End": 643
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Network/Socket/ByteString",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 1927,
+      "End": 1952
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Network/Socket",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 1683,
+      "End": 1697
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Network/Socket",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 1874,
+      "End": 1888
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Network/Socket",
+      "File": "Data/Streaming/Network/Internal.hs",
+      "Start": 370,
+      "End": 384
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Network/Socket",
+      "File": "test/Data/Streaming/NetworkSpec.hs",
+      "Start": 454,
+      "End": 468
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Prelude",
+      "File": "Data/Text/Internal/Fusion.hs",
+      "Start": 1089,
+      "End": 1096
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Prelude",
+      "File": "Data/Text/Internal/Fusion/Common.hs",
+      "Start": 1808,
+      "End": 1815
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Prelude",
+      "File": "Data/Text/Internal/Fusion/Common.hs",
+      "Start": 2046,
+      "End": 2053
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/Directory",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 2142,
+      "End": 2158
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/Environment",
+      "File": "bench/decode-memory-usage.hs",
+      "Start": 110,
+      "End": 128
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/Exit",
+      "File": "Data/Streaming/Process.hs",
+      "Start": 1698,
+      "End": 1709
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/Exit",
+      "File": "Data/Streaming/Process/Internal.hs",
+      "Start": 196,
+      "End": 207
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/Exit",
+      "File": "test/Data/Streaming/ProcessSpec.hs",
+      "Start": 264,
+      "End": 275
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/IO/Error",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 1976,
+      "End": 1991
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/IO/Unsafe",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 2479,
+      "End": 2495
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/IO/Unsafe",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "Start": 546,
+      "End": 562
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/IO",
+      "File": "Data/Streaming/FileRead.hs",
+      "Start": 506,
+      "End": 515
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/IO",
+      "File": "Data/Streaming/Process.hs",
+      "Start": 1772,
+      "End": 1781
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/IO",
+      "File": "Data/Streaming/Process/Internal.hs",
+      "Start": 247,
+      "End": 256
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/IO",
+      "File": "test/Data/Streaming/ProcessSpec.hs",
+      "Start": 353,
+      "End": 362
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/Posix/Directory",
+      "File": "Data/Streaming/Filesystem.hs",
+      "Start": 1717,
+      "End": 1739
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/Posix/Directory",
+      "File": "Data/Streaming/Filesystem.hs",
+      "Start": 1800,
+      "End": 1822
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/Posix/Files",
+      "File": "Data/Streaming/Filesystem.hs",
+      "Start": 1849,
+      "End": 1867
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/Posix/Files",
+      "File": "test/Data/Streaming/FilesystemSpec.hs",
+      "Start": 202,
+      "End": 220
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/Process",
+      "File": "Data/Streaming/Process.hs",
+      "Start": 1830,
+      "End": 1844
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/Process",
+      "File": "Data/Streaming/Process/Internal.hs",
+      "Start": 296,
+      "End": 310
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/System/Random",
+      "File": "Data/Streaming/Network.hs",
+      "Start": 2521,
+      "End": 2534
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/Hspec/QuickCheck",
+      "File": "test/Data/Streaming/BlazeSpec.hs",
+      "Start": 106,
+      "End": 127
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/Hspec/QuickCheck",
+      "File": "test/Data/Streaming/ByteString/BuilderSpec.hs",
+      "Start": 340,
+      "End": 361
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/Hspec/QuickCheck",
+      "File": "test/Data/Streaming/NetworkSpec.hs",
+      "Start": 533,
+      "End": 554
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/Hspec/QuickCheck",
+      "File": "test/Data/Streaming/ProcessSpec.hs",
+      "Start": 100,
+      "End": 121
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/Hspec/QuickCheck",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "Start": 105,
+      "End": 126
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/Hspec/QuickCheck",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "Start": 143,
+      "End": 164
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/Hspec",
+      "File": "test/Data/Streaming/BlazeSpec.hs",
+      "Start": 88,
+      "End": 98
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/Hspec",
+      "File": "test/Data/Streaming/ByteString/BuilderSpec.hs",
+      "Start": 322,
+      "End": 332
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/Hspec",
+      "File": "test/Data/Streaming/FileReadSpec.hs",
+      "Start": 56,
+      "End": 66
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/Hspec",
+      "File": "test/Data/Streaming/FilesystemSpec.hs",
+      "Start": 79,
+      "End": 89
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/Hspec",
+      "File": "test/Data/Streaming/NetworkSpec.hs",
+      "Start": 505,
+      "End": 515
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/Hspec",
+      "File": "test/Data/Streaming/ProcessSpec.hs",
+      "Start": 82,
+      "End": 92
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/Hspec",
+      "File": "test/Data/Streaming/TextSpec.hs",
+      "Start": 87,
+      "End": 97
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/Hspec",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "Start": 125,
+      "End": 135
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "streaming-commons",
+      "DefPath": "streaming-commons/Test/QuickCheck",
+      "File": "test/Data/Streaming/ZlibSpec.hs",
+      "Start": 179,
+      "End": 194
+    }
+  ]
+}

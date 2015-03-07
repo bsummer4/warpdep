@@ -1,0 +1,752 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/haskell/network",
+      "UnitType": "HaskellPackage",
+      "Unit": "network",
+      "Path": "network/Network",
+      "Name": "Network",
+      "Kind": "Module",
+      "File": "Network.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "network/Network"
+    },
+    {
+      "Repo": "github.com/haskell/network",
+      "UnitType": "HaskellPackage",
+      "Unit": "network",
+      "Path": "network/Network/Socket/ByteString/Internal",
+      "Name": "Internal",
+      "Kind": "Module",
+      "File": "Network/Socket/ByteString/Internal.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "network/Network/Socket/ByteString/Internal"
+    },
+    {
+      "Repo": "github.com/haskell/network",
+      "UnitType": "HaskellPackage",
+      "Unit": "network",
+      "Path": "network/Network/Socket/ByteString/Lazy",
+      "Name": "Lazy",
+      "Kind": "Module",
+      "File": "Network/Socket/ByteString/Lazy.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "network/Network/Socket/ByteString/Lazy"
+    },
+    {
+      "Repo": "github.com/haskell/network",
+      "UnitType": "HaskellPackage",
+      "Unit": "network",
+      "Path": "network/Network/Socket/ByteString/Lazy/Posix",
+      "Name": "Posix",
+      "Kind": "Module",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "network/Network/Socket/ByteString/Lazy/Posix"
+    },
+    {
+      "Repo": "github.com/haskell/network",
+      "UnitType": "HaskellPackage",
+      "Unit": "network",
+      "Path": "network/Network/Socket/ByteString/Lazy/Windows",
+      "Name": "Windows",
+      "Kind": "Module",
+      "File": "Network/Socket/ByteString/Lazy/Windows.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "network/Network/Socket/ByteString/Lazy/Windows"
+    },
+    {
+      "Repo": "github.com/haskell/network",
+      "UnitType": "HaskellPackage",
+      "Unit": "network",
+      "Path": "network/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "network/Setup"
+    },
+    {
+      "Repo": "github.com/haskell/network",
+      "UnitType": "HaskellPackage",
+      "Unit": "network",
+      "Path": "network/examples/EchoClient",
+      "Name": "EchoClient",
+      "Kind": "Module",
+      "File": "examples/EchoClient.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "network/examples/EchoClient"
+    },
+    {
+      "Repo": "github.com/haskell/network",
+      "UnitType": "HaskellPackage",
+      "Unit": "network",
+      "Path": "network/examples/EchoServer",
+      "Name": "EchoServer",
+      "Kind": "Module",
+      "File": "examples/EchoServer.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "network/examples/EchoServer"
+    },
+    {
+      "Repo": "github.com/haskell/network",
+      "UnitType": "HaskellPackage",
+      "Unit": "network",
+      "Path": "network/tests/Regression",
+      "Name": "Regression",
+      "Kind": "Module",
+      "File": "tests/Regression.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "network/tests/Regression"
+    },
+    {
+      "Repo": "github.com/haskell/network",
+      "UnitType": "HaskellPackage",
+      "Unit": "network",
+      "Path": "network/tests/Simple",
+      "Name": "Simple",
+      "Kind": "Module",
+      "File": "tests/Simple.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "network/tests/Simple"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Control/Applicative",
+      "File": "Network/Socket/ByteString/Lazy/Windows.hs",
+      "Start": 158,
+      "End": 177
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Control/Concurrent/MVar",
+      "File": "tests/Simple.hs",
+      "Start": 126,
+      "End": 149
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Control/Concurrent",
+      "File": "tests/Simple.hs",
+      "Start": 69,
+      "End": 87
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Control/Exception",
+      "File": "Network.hs",
+      "Start": 1709,
+      "End": 1726
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Control/Exception",
+      "File": "tests/Simple.hs",
+      "Start": 211,
+      "End": 228
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Control/Monad",
+      "File": "Network.hs",
+      "Start": 1421,
+      "End": 1434
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Control/Monad",
+      "File": "Network/Socket/ByteString/Lazy.hs",
+      "Start": 1007,
+      "End": 1020
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Control/Monad",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "Start": 156,
+      "End": 169
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Control/Monad",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "Start": 185,
+      "End": 198
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Control/Monad",
+      "File": "Network/Socket/ByteString/Lazy/Windows.hs",
+      "Start": 193,
+      "End": 206
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Control/Monad",
+      "File": "examples/EchoServer.hs",
+      "Start": 49,
+      "End": 62
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Control/Monad",
+      "File": "tests/Simple.hs",
+      "Start": 241,
+      "End": 254
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/ByteString/Char8",
+      "File": "examples/EchoClient.hs",
+      "Start": 144,
+      "End": 165
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/ByteString/Char8",
+      "File": "tests/Simple.hs",
+      "Start": 318,
+      "End": 339
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/ByteString/Lazy/Internal",
+      "File": "Network/Socket/ByteString/Lazy.hs",
+      "Start": 1036,
+      "End": 1065
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/ByteString/Lazy/Internal",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "Start": 258,
+      "End": 287
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/ByteString/Lazy",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "Start": 225,
+      "End": 245
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/ByteString/Lazy",
+      "File": "Network/Socket/ByteString/Lazy/Windows.hs",
+      "Start": 271,
+      "End": 291
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/ByteString/Unsafe",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "Start": 312,
+      "End": 334
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/ByteString",
+      "File": "Network/Socket/ByteString/Lazy.hs",
+      "Start": 1286,
+      "End": 1301
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/ByteString",
+      "File": "Network/Socket/ByteString/Lazy/Windows.hs",
+      "Start": 233,
+      "End": 248
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/ByteString",
+      "File": "examples/EchoServer.hs",
+      "Start": 125,
+      "End": 140
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/ByteString",
+      "File": "tests/Simple.hs",
+      "Start": 280,
+      "End": 295
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/Int",
+      "File": "Network/Socket/ByteString/Lazy.hs",
+      "Start": 1108,
+      "End": 1116
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/Int",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "Start": 366,
+      "End": 374
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/Int",
+      "File": "Network/Socket/ByteString/Lazy/Windows.hs",
+      "Start": 304,
+      "End": 312
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/Maybe",
+      "File": "Network.hs",
+      "Start": 1450,
+      "End": 1460
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Data/Maybe",
+      "File": "tests/Simple.hs",
+      "Start": 352,
+      "End": 362
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 33,
+      "End": 52
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Foreign/C/Types",
+      "File": "Network/Socket/ByteString/Internal.hs",
+      "Start": 521,
+      "End": 536
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Foreign/Marshal/Array",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "Start": 390,
+      "End": 411
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Foreign/Ptr",
+      "File": "Network/Socket/ByteString/Internal.hs",
+      "Start": 594,
+      "End": 605
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Foreign/Ptr",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "Start": 433,
+      "End": 444
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Foreign/Storable",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "Start": 462,
+      "End": 478
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/GHC/IO/Exception",
+      "File": "Network/Socket/ByteString/Internal.hs",
+      "Start": 724,
+      "End": 740
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Main",
+      "File": "Setup.hs",
+      "Start": 7,
+      "End": 11
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Main",
+      "File": "examples/EchoClient.hs",
+      "Start": 30,
+      "End": 34
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Main",
+      "File": "examples/EchoServer.hs",
+      "Start": 30,
+      "End": 34
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Main",
+      "File": "tests/Regression.hs",
+      "Start": 59,
+      "End": 63
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Main",
+      "File": "tests/Simple.hs",
+      "Start": 50,
+      "End": 54
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/BSD",
+      "File": "Network.hs",
+      "Start": 1479,
+      "End": 1490
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/ByteString/IOVec",
+      "File": "Network/Socket/ByteString/Internal.hs",
+      "Start": 620,
+      "End": 651
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/ByteString/IOVec",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "Start": 537,
+      "End": 568
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/ByteString/Internal",
+      "File": "Network/Socket/ByteString/Internal.hs",
+      "Start": 279,
+      "End": 313
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/ByteString/Internal",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "Start": 591,
+      "End": 625
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/ByteString/Lazy/Posix",
+      "File": "Network/Socket/ByteString/Lazy.hs",
+      "Start": 1460,
+      "End": 1496
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/ByteString/Lazy/Posix",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "Start": 37,
+      "End": 73
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/ByteString/Lazy/Windows",
+      "File": "Network/Socket/ByteString/Lazy/Windows.hs",
+      "Start": 37,
+      "End": 75
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/ByteString/Lazy",
+      "File": "Network/Socket/ByteString/Lazy.hs",
+      "Start": 822,
+      "End": 852
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/ByteString/MsgHdr",
+      "File": "Network/Socket/ByteString/Internal.hs",
+      "Start": 667,
+      "End": 699
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/ByteString",
+      "File": "Network/Socket/ByteString/Lazy.hs",
+      "Start": 1324,
+      "End": 1349
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/ByteString",
+      "File": "Network/Socket/ByteString/Lazy/Windows.hs",
+      "Start": 374,
+      "End": 399
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/ByteString",
+      "File": "examples/EchoClient.hs",
+      "Start": 85,
+      "End": 110
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/ByteString",
+      "File": "examples/EchoServer.hs",
+      "Start": 153,
+      "End": 178
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/ByteString",
+      "File": "tests/Simple.hs",
+      "Start": 441,
+      "End": 466
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket/Internal",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "Start": 644,
+      "End": 667
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket",
+      "File": "Network.hs",
+      "Start": 1498,
+      "End": 1512
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket",
+      "File": "Network.hs",
+      "Start": 1626,
+      "End": 1640
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket",
+      "File": "Network/Socket/ByteString/Lazy.hs",
+      "Start": 1132,
+      "End": 1146
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket",
+      "File": "Network/Socket/ByteString/Lazy/Posix.hs",
+      "Start": 502,
+      "End": 516
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket",
+      "File": "Network/Socket/ByteString/Lazy/Windows.hs",
+      "Start": 329,
+      "End": 343
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket",
+      "File": "examples/EchoClient.hs",
+      "Start": 49,
+      "End": 63
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket",
+      "File": "examples/EchoServer.hs",
+      "Start": 79,
+      "End": 93
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket",
+      "File": "tests/Regression.hs",
+      "Start": 78,
+      "End": 92
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network/Socket",
+      "File": "tests/Simple.hs",
+      "Start": 381,
+      "End": 395
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Network",
+      "File": "Network.hs",
+      "Start": 826,
+      "End": 833
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Prelude",
+      "File": "Network.hs",
+      "Start": 1684,
+      "End": 1691
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Prelude",
+      "File": "Network/Socket/ByteString/Lazy.hs",
+      "Start": 1194,
+      "End": 1201
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/System/IO/Error",
+      "File": "Network/Socket/ByteString/Internal.hs",
+      "Start": 436,
+      "End": 451
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/System/IO/Unsafe",
+      "File": "Network/Socket/ByteString/Lazy.hs",
+      "Start": 1230,
+      "End": 1246
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/System/IO",
+      "File": "Network.hs",
+      "Start": 1667,
+      "End": 1676
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/System/Posix/Types",
+      "File": "Network/Socket/ByteString/Internal.hs",
+      "Start": 555,
+      "End": 573
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Test/Framework/Providers/HUnit",
+      "File": "tests/Regression.hs",
+      "Start": 142,
+      "End": 172
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Test/Framework/Providers/HUnit",
+      "File": "tests/Simple.hs",
+      "Start": 1039,
+      "End": 1069
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Test/Framework",
+      "File": "tests/Regression.hs",
+      "Start": 100,
+      "End": 114
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Test/Framework",
+      "File": "tests/Simple.hs",
+      "Start": 986,
+      "End": 1000
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "network",
+      "DefPath": "network/Test/HUnit",
+      "File": "tests/Simple.hs",
+      "Start": 1088,
+      "End": 1098
+    }
+  ]
+}

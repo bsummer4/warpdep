@@ -1,0 +1,82 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai",
+      "Path": "wai/Network/Wai",
+      "Name": "Wai",
+      "Kind": "Module",
+      "File": "wai/Network/Wai.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai/Network/Wai"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai",
+      "Path": "wai/Network/Wai/Internal",
+      "Name": "Internal",
+      "Kind": "Module",
+      "File": "wai/Network/Wai/Internal.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai/Network/Wai/Internal"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai",
+      "Path": "wai/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "wai/Setup.lhs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai/Setup"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai",
+      "Path": "wai/test/Network/WaiSpec",
+      "Name": "WaiSpec",
+      "Kind": "Module",
+      "File": "wai/test/Network/WaiSpec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai/test/Network/WaiSpec"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai",
+      "Path": "wai/test/Spec",
+      "Name": "Spec",
+      "Kind": "Module",
+      "File": "wai/test/Spec.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai/test/Spec"
+    },
+    {
+      "Repo": "github.com/yesodweb/wai",
+      "UnitType": "HaskellPackage",
+      "Unit": "wai",
+      "Path": "wai/webkit-sample/webkit-sample",
+      "Name": "webkit-sample",
+      "Kind": "Module",
+      "File": "wai/webkit-sample/webkit-sample.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "wai/webkit-sample/webkit-sample"
+    }
+  ]
+}

@@ -1,0 +1,2600 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/Graph",
+      "Name": "Graph",
+      "Kind": "Module",
+      "File": "Data/Graph.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/Graph"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/IntMap",
+      "Name": "IntMap",
+      "Kind": "Module",
+      "File": "Data/IntMap.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/IntMap"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/IntMap/Base",
+      "Name": "Base",
+      "Kind": "Module",
+      "File": "Data/IntMap/Base.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/IntMap/Base"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/IntMap/Lazy",
+      "Name": "Lazy",
+      "Kind": "Module",
+      "File": "Data/IntMap/Lazy.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/IntMap/Lazy"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/IntMap/Strict",
+      "Name": "Strict",
+      "Kind": "Module",
+      "File": "Data/IntMap/Strict.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/IntMap/Strict"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/IntSet",
+      "Name": "IntSet",
+      "Kind": "Module",
+      "File": "Data/IntSet.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/IntSet"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/IntSet/Base",
+      "Name": "Base",
+      "Kind": "Module",
+      "File": "Data/IntSet/Base.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/IntSet/Base"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/Map",
+      "Name": "Map",
+      "Kind": "Module",
+      "File": "Data/Map.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/Map"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/Map/Base",
+      "Name": "Base",
+      "Kind": "Module",
+      "File": "Data/Map/Base.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/Map/Base"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/Map/Lazy",
+      "Name": "Lazy",
+      "Kind": "Module",
+      "File": "Data/Map/Lazy.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/Map/Lazy"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/Map/Strict",
+      "Name": "Strict",
+      "Kind": "Module",
+      "File": "Data/Map/Strict.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/Map/Strict"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/Sequence",
+      "Name": "Sequence",
+      "Kind": "Module",
+      "File": "Data/Sequence.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/Sequence"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/Set",
+      "Name": "Set",
+      "Kind": "Module",
+      "File": "Data/Set.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/Set"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/Set/Base",
+      "Name": "Base",
+      "Kind": "Module",
+      "File": "Data/Set/Base.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/Set/Base"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/Tree",
+      "Name": "Tree",
+      "Kind": "Module",
+      "File": "Data/Tree.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/Tree"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/Utils/BitUtil",
+      "Name": "BitUtil",
+      "Kind": "Module",
+      "File": "Data/Utils/BitUtil.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/Utils/BitUtil"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/Utils/StrictFold",
+      "Name": "StrictFold",
+      "Kind": "Module",
+      "File": "Data/Utils/StrictFold.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/Utils/StrictFold"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Data/Utils/StrictPair",
+      "Name": "StrictPair",
+      "Kind": "Module",
+      "File": "Data/Utils/StrictPair.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Data/Utils/StrictPair"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/Setup"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/benchmarks/IntMap",
+      "Name": "IntMap",
+      "Kind": "Module",
+      "File": "benchmarks/IntMap.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/benchmarks/IntMap"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/benchmarks/IntSet",
+      "Name": "IntSet",
+      "Kind": "Module",
+      "File": "benchmarks/IntSet.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/benchmarks/IntSet"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/benchmarks/LookupGE/IntMap",
+      "Name": "IntMap",
+      "Kind": "Module",
+      "File": "benchmarks/LookupGE/IntMap.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/benchmarks/LookupGE/IntMap"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/benchmarks/LookupGE/LookupGE_IntMap",
+      "Name": "LookupGE_IntMap",
+      "Kind": "Module",
+      "File": "benchmarks/LookupGE/LookupGE_IntMap.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/benchmarks/LookupGE/LookupGE_IntMap"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/benchmarks/LookupGE/LookupGE_Map",
+      "Name": "LookupGE_Map",
+      "Kind": "Module",
+      "File": "benchmarks/LookupGE/LookupGE_Map.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/benchmarks/LookupGE/LookupGE_Map"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/benchmarks/LookupGE/Map",
+      "Name": "Map",
+      "Kind": "Module",
+      "File": "benchmarks/LookupGE/Map.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/benchmarks/LookupGE/Map"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/benchmarks/Map",
+      "Name": "Map",
+      "Kind": "Module",
+      "File": "benchmarks/Map.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/benchmarks/Map"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/benchmarks/Sequence",
+      "Name": "Sequence",
+      "Kind": "Module",
+      "File": "benchmarks/Sequence.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/benchmarks/Sequence"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/benchmarks/Set",
+      "Name": "Set",
+      "Kind": "Module",
+      "File": "benchmarks/Set.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/benchmarks/Set"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/benchmarks/SetOperations/SetOperations",
+      "Name": "SetOperations",
+      "Kind": "Module",
+      "File": "benchmarks/SetOperations/SetOperations.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/benchmarks/SetOperations/SetOperations"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/benchmarks/SetOperations/SetOperations-IntMap",
+      "Name": "SetOperations-IntMap",
+      "Kind": "Module",
+      "File": "benchmarks/SetOperations/SetOperations-IntMap.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/benchmarks/SetOperations/SetOperations-IntMap"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/benchmarks/SetOperations/SetOperations-IntSet",
+      "Name": "SetOperations-IntSet",
+      "Kind": "Module",
+      "File": "benchmarks/SetOperations/SetOperations-IntSet.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/benchmarks/SetOperations/SetOperations-IntSet"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/benchmarks/SetOperations/SetOperations-Map",
+      "Name": "SetOperations-Map",
+      "Kind": "Module",
+      "File": "benchmarks/SetOperations/SetOperations-Map.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/benchmarks/SetOperations/SetOperations-Map"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/benchmarks/SetOperations/SetOperations-Set",
+      "Name": "SetOperations-Set",
+      "Kind": "Module",
+      "File": "benchmarks/SetOperations/SetOperations-Set.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/benchmarks/SetOperations/SetOperations-Set"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests-ghc/dataintset001",
+      "Name": "dataintset001",
+      "Kind": "Module",
+      "File": "tests-ghc/dataintset001.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests-ghc/dataintset001"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests-ghc/datamap001",
+      "Name": "datamap001",
+      "Kind": "Module",
+      "File": "tests-ghc/datamap001.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests-ghc/datamap001"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests-ghc/datamap002",
+      "Name": "datamap002",
+      "Kind": "Module",
+      "File": "tests-ghc/datamap002.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests-ghc/datamap002"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests-ghc/sequence001",
+      "Name": "sequence001",
+      "Kind": "Module",
+      "File": "tests-ghc/sequence001.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests-ghc/sequence001"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests-ghc/unreliable/mapcoerceintmap",
+      "Name": "mapcoerceintmap",
+      "Kind": "Module",
+      "File": "tests-ghc/unreliable/mapcoerceintmap.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests-ghc/unreliable/mapcoerceintmap"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests-ghc/unreliable/mapcoerceintmapstrict",
+      "Name": "mapcoerceintmapstrict",
+      "Kind": "Module",
+      "File": "tests-ghc/unreliable/mapcoerceintmapstrict.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests-ghc/unreliable/mapcoerceintmapstrict"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests-ghc/unreliable/mapcoercemap",
+      "Name": "mapcoercemap",
+      "Kind": "Module",
+      "File": "tests-ghc/unreliable/mapcoercemap.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests-ghc/unreliable/mapcoercemap"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests-ghc/unreliable/mapcoerceseq",
+      "Name": "mapcoerceseq",
+      "Kind": "Module",
+      "File": "tests-ghc/unreliable/mapcoerceseq.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests-ghc/unreliable/mapcoerceseq"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests-ghc/unreliable/mapcoercesmap",
+      "Name": "mapcoercesmap",
+      "Kind": "Module",
+      "File": "tests-ghc/unreliable/mapcoercesmap.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests-ghc/unreliable/mapcoercesmap"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests/deprecated-properties",
+      "Name": "deprecated-properties",
+      "Kind": "Module",
+      "File": "tests/deprecated-properties.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests/deprecated-properties"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests/intmap-properties",
+      "Name": "intmap-properties",
+      "Kind": "Module",
+      "File": "tests/intmap-properties.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests/intmap-properties"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests/intmap-strictness",
+      "Name": "intmap-strictness",
+      "Kind": "Module",
+      "File": "tests/intmap-strictness.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests/intmap-strictness"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests/intset-properties",
+      "Name": "intset-properties",
+      "Kind": "Module",
+      "File": "tests/intset-properties.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests/intset-properties"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests/map-properties",
+      "Name": "map-properties",
+      "Kind": "Module",
+      "File": "tests/map-properties.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests/map-properties"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests/map-strictness",
+      "Name": "map-strictness",
+      "Kind": "Module",
+      "File": "tests/map-strictness.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests/map-strictness"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests/seq-properties",
+      "Name": "seq-properties",
+      "Kind": "Module",
+      "File": "tests/seq-properties.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests/seq-properties"
+    },
+    {
+      "Repo": "github.com/haskell/containers",
+      "UnitType": "HaskellPackage",
+      "Unit": "containers",
+      "Path": "containers/tests/set-properties",
+      "Name": "set-properties",
+      "Kind": "Module",
+      "File": "tests/set-properties.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "containers/tests/set-properties"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Applicative",
+      "File": "benchmarks/Sequence.hs",
+      "Start": 88,
+      "End": 107
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Applicative",
+      "File": "tests/seq-properties.hs",
+      "Start": 84,
+      "End": 103
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Arrow",
+      "File": "tests/seq-properties.hs",
+      "Start": 129,
+      "End": 142
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/DeepSeq",
+      "File": "Data/Graph.hs",
+      "Start": 1802,
+      "End": 1817
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/DeepSeq",
+      "File": "benchmarks/IntMap.hs",
+      "Start": 56,
+      "End": 71
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/DeepSeq",
+      "File": "benchmarks/IntSet.hs",
+      "Start": 57,
+      "End": 72
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/DeepSeq",
+      "File": "benchmarks/LookupGE/IntMap.hs",
+      "Start": 56,
+      "End": 71
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/DeepSeq",
+      "File": "benchmarks/LookupGE/Map.hs",
+      "Start": 56,
+      "End": 71
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/DeepSeq",
+      "File": "benchmarks/Map.hs",
+      "Start": 56,
+      "End": 71
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/DeepSeq",
+      "File": "benchmarks/Sequence.hs",
+      "Start": 115,
+      "End": 130
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/DeepSeq",
+      "File": "benchmarks/Set.hs",
+      "Start": 114,
+      "End": 129
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Exception",
+      "File": "benchmarks/IntMap.hs",
+      "Start": 79,
+      "End": 96
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Exception",
+      "File": "benchmarks/IntSet.hs",
+      "Start": 80,
+      "End": 97
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Exception",
+      "File": "benchmarks/LookupGE/IntMap.hs",
+      "Start": 79,
+      "End": 96
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Exception",
+      "File": "benchmarks/LookupGE/Map.hs",
+      "Start": 79,
+      "End": 96
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Exception",
+      "File": "benchmarks/Map.hs",
+      "Start": 79,
+      "End": 96
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Exception",
+      "File": "benchmarks/Sequence.hs",
+      "Start": 138,
+      "End": 155
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Exception",
+      "File": "benchmarks/Set.hs",
+      "Start": 137,
+      "End": 154
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Monad/ST",
+      "File": "Data/Graph.hs",
+      "Start": 1517,
+      "End": 1533
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Monad/Trans",
+      "File": "benchmarks/IntMap.hs",
+      "Start": 115,
+      "End": 134
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Monad/Trans",
+      "File": "benchmarks/IntSet.hs",
+      "Start": 116,
+      "End": 135
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Monad/Trans",
+      "File": "benchmarks/LookupGE/IntMap.hs",
+      "Start": 115,
+      "End": 134
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Monad/Trans",
+      "File": "benchmarks/LookupGE/Map.hs",
+      "Start": 115,
+      "End": 134
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Monad/Trans",
+      "File": "benchmarks/Map.hs",
+      "Start": 115,
+      "End": 134
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Control/Monad/Trans",
+      "File": "benchmarks/Set.hs",
+      "Start": 173,
+      "End": 192
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Criterion/Config",
+      "File": "benchmarks/LookupGE/IntMap.hs",
+      "Start": 151,
+      "End": 167
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Criterion/Config",
+      "File": "benchmarks/LookupGE/Map.hs",
+      "Start": 151,
+      "End": 167
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Criterion/Main",
+      "File": "benchmarks/IntMap.hs",
+      "Start": 151,
+      "End": 165
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Criterion/Main",
+      "File": "benchmarks/IntSet.hs",
+      "Start": 152,
+      "End": 166
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Criterion/Main",
+      "File": "benchmarks/LookupGE/IntMap.hs",
+      "Start": 175,
+      "End": 189
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Criterion/Main",
+      "File": "benchmarks/LookupGE/Map.hs",
+      "Start": 175,
+      "End": 189
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Criterion/Main",
+      "File": "benchmarks/Map.hs",
+      "Start": 151,
+      "End": 165
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Criterion/Main",
+      "File": "benchmarks/Sequence.hs",
+      "Start": 174,
+      "End": 188
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Criterion/Main",
+      "File": "benchmarks/Set.hs",
+      "Start": 209,
+      "End": 223
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Criterion/Main",
+      "File": "benchmarks/SetOperations/SetOperations.hs",
+      "Start": 78,
+      "End": 92
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Array/ST",
+      "File": "Data/Graph.hs",
+      "Start": 1541,
+      "End": 1554
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Array",
+      "File": "Data/Graph.hs",
+      "Start": 1857,
+      "End": 1867
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Array",
+      "File": "tests/seq-properties.hs",
+      "Start": 158,
+      "End": 168
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Bits",
+      "File": "Data/IntMap/Strict.hs",
+      "Start": 4959,
+      "End": 4968
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Bits",
+      "File": "Data/Utils/BitUtil.hs",
+      "Start": 691,
+      "End": 700
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Bits",
+      "File": "tests/intset-properties.hs",
+      "Start": 56,
+      "End": 65
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Foldable",
+      "File": "benchmarks/Sequence.hs",
+      "Start": 268,
+      "End": 281
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Foldable",
+      "File": "tests/seq-properties.hs",
+      "Start": 188,
+      "End": 201
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Function",
+      "File": "tests/intmap-properties.hs",
+      "Start": 256,
+      "End": 269
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Function",
+      "File": "tests/map-properties.hs",
+      "Start": 244,
+      "End": 257
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Functor",
+      "File": "tests/seq-properties.hs",
+      "Start": 277,
+      "End": 289
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Graph",
+      "File": "Data/Graph.hs",
+      "Start": 752,
+      "End": 762
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap/Base",
+      "File": "Data/IntMap/Lazy.hs",
+      "Start": 4658,
+      "End": 4674
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap/Base",
+      "File": "Data/IntMap/Strict.hs",
+      "Start": 4976,
+      "End": 4992
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap/Base",
+      "File": "benchmarks/LookupGE/LookupGE_IntMap.hs",
+      "Start": 87,
+      "End": 103
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap/Lazy",
+      "File": "Data/IntMap.hs",
+      "Start": 2503,
+      "End": 2519
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap/Lazy",
+      "File": "Data/IntMap/Lazy.hs",
+      "Start": 2235,
+      "End": 2251
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap/Lazy",
+      "File": "tests-ghc/unreliable/mapcoerceintmap.hs",
+      "Start": 90,
+      "End": 106
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap/Lazy",
+      "File": "tests/intmap-properties.hs",
+      "Start": 90,
+      "End": 106
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap/Strict",
+      "File": "Data/IntMap.hs",
+      "Start": 2467,
+      "End": 2485
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap/Strict",
+      "File": "Data/IntMap/Strict.hs",
+      "Start": 2492,
+      "End": 2510
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap/Strict",
+      "File": "tests-ghc/unreliable/mapcoerceintmapstrict.hs",
+      "Start": 90,
+      "End": 108
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap/Strict",
+      "File": "tests/deprecated-properties.hs",
+      "Start": 382,
+      "End": 400
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap/Strict",
+      "File": "tests/intmap-strictness.hs",
+      "Start": 330,
+      "End": 348
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap/Strict",
+      "File": "tests/intmap-strictness.hs",
+      "Start": 375,
+      "End": 393
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap",
+      "File": "Data/IntMap.hs",
+      "Start": 2294,
+      "End": 2305
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap",
+      "File": "benchmarks/IntMap.hs",
+      "Start": 209,
+      "End": 220
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap",
+      "File": "benchmarks/LookupGE/IntMap.hs",
+      "Start": 233,
+      "End": 244
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap",
+      "File": "benchmarks/SetOperations/SetOperations-IntMap.hs",
+      "Start": 26,
+      "End": 37
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntMap",
+      "File": "tests/deprecated-properties.hs",
+      "Start": 347,
+      "End": 358
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntSet/Base",
+      "File": "Data/IntMap/Strict.hs",
+      "Start": 5827,
+      "End": 5843
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntSet/Base",
+      "File": "Data/IntSet.hs",
+      "Start": 3909,
+      "End": 3925
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntSet",
+      "File": "Data/IntSet.hs",
+      "Start": 2070,
+      "End": 2081
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntSet",
+      "File": "benchmarks/IntSet.hs",
+      "Start": 210,
+      "End": 221
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntSet",
+      "File": "benchmarks/SetOperations/SetOperations-IntSet.hs",
+      "Start": 26,
+      "End": 37
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntSet",
+      "File": "tests-ghc/dataintset001.hs",
+      "Start": 91,
+      "End": 102
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntSet",
+      "File": "tests/intmap-properties.hs",
+      "Start": 446,
+      "End": 457
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntSet",
+      "File": "tests/intset-properties.hs",
+      "Start": 153,
+      "End": 164
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/IntSet",
+      "File": "tests/set-properties.hs",
+      "Start": 17,
+      "End": 28
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "Data/Graph.hs",
+      "Start": 1875,
+      "End": 1884
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "benchmarks/IntMap.hs",
+      "Start": 173,
+      "End": 182
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "benchmarks/IntSet.hs",
+      "Start": 174,
+      "End": 183
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "benchmarks/LookupGE/IntMap.hs",
+      "Start": 197,
+      "End": 206
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "benchmarks/LookupGE/Map.hs",
+      "Start": 197,
+      "End": 206
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "benchmarks/Map.hs",
+      "Start": 173,
+      "End": 182
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "benchmarks/Sequence.hs",
+      "Start": 196,
+      "End": 205
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "benchmarks/Set.hs",
+      "Start": 231,
+      "End": 240
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "benchmarks/SetOperations/SetOperations.hs",
+      "Start": 100,
+      "End": 109
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "tests/intmap-properties.hs",
+      "Start": 373,
+      "End": 382
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "tests/intmap-properties.hs",
+      "Start": 411,
+      "End": 420
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "tests/intset-properties.hs",
+      "Start": 172,
+      "End": 181
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "tests/intset-properties.hs",
+      "Start": 210,
+      "End": 219
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "tests/map-properties.hs",
+      "Start": 361,
+      "End": 370
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "tests/map-properties.hs",
+      "Start": 399,
+      "End": 408
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "tests/seq-properties.hs",
+      "Start": 650,
+      "End": 659
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "tests/set-properties.hs",
+      "Start": 46,
+      "End": 55
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/List",
+      "File": "tests/set-properties.hs",
+      "Start": 84,
+      "End": 93
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map/Base",
+      "File": "Data/Map/Lazy.hs",
+      "Start": 4676,
+      "End": 4689
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map/Base",
+      "File": "benchmarks/LookupGE/LookupGE_Map.hs",
+      "Start": 69,
+      "End": 82
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map/Lazy",
+      "File": "Data/Map.hs",
+      "Start": 2133,
+      "End": 2146
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map/Lazy",
+      "File": "Data/Map/Lazy.hs",
+      "Start": 2060,
+      "End": 2073
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map/Lazy",
+      "File": "tests/map-properties.hs",
+      "Start": 84,
+      "End": 97
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map/Strict",
+      "File": "Data/Map.hs",
+      "Start": 2164,
+      "End": 2179
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map/Strict",
+      "File": "tests-ghc/unreliable/mapcoercesmap.hs",
+      "Start": 90,
+      "End": 105
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map/Strict",
+      "File": "tests/deprecated-properties.hs",
+      "Start": 308,
+      "End": 323
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map/Strict",
+      "File": "tests/map-strictness.hs",
+      "Start": 330,
+      "End": 345
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map/Strict",
+      "File": "tests/map-strictness.hs",
+      "Start": 369,
+      "End": 384
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map",
+      "File": "Data/Map.hs",
+      "Start": 1952,
+      "End": 1960
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map",
+      "File": "benchmarks/LookupGE/Map.hs",
+      "Start": 233,
+      "End": 241
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map",
+      "File": "benchmarks/Map.hs",
+      "Start": 209,
+      "End": 217
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map",
+      "File": "benchmarks/SetOperations/SetOperations-Map.hs",
+      "Start": 26,
+      "End": 34
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map",
+      "File": "tests-ghc/datamap001.hs",
+      "Start": 108,
+      "End": 116
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map",
+      "File": "tests-ghc/datamap002.hs",
+      "Start": 58,
+      "End": 66
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map",
+      "File": "tests-ghc/unreliable/mapcoercemap.hs",
+      "Start": 90,
+      "End": 98
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Map",
+      "File": "tests/deprecated-properties.hs",
+      "Start": 277,
+      "End": 285
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Maybe",
+      "File": "Data/Graph.hs",
+      "Start": 1839,
+      "End": 1849
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Maybe",
+      "File": "benchmarks/IntMap.hs",
+      "Start": 233,
+      "End": 243
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Maybe",
+      "File": "benchmarks/LookupGE/IntMap.hs",
+      "Start": 295,
+      "End": 305
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Maybe",
+      "File": "benchmarks/LookupGE/Map.hs",
+      "Start": 289,
+      "End": 299
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Maybe",
+      "File": "benchmarks/Map.hs",
+      "Start": 230,
+      "End": 240
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Maybe",
+      "File": "tests/intmap-properties.hs",
+      "Start": 156,
+      "End": 166
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Maybe",
+      "File": "tests/intmap-properties.hs",
+      "Start": 202,
+      "End": 212
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Maybe",
+      "File": "tests/map-properties.hs",
+      "Start": 144,
+      "End": 154
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Maybe",
+      "File": "tests/map-properties.hs",
+      "Start": 190,
+      "End": 200
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Maybe",
+      "File": "tests/seq-properties.hs",
+      "Start": 311,
+      "End": 321
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Maybe",
+      "File": "tests/set-properties.hs",
+      "Start": 137,
+      "End": 147
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Monoid",
+      "File": "tests/intmap-properties.hs",
+      "Start": 137,
+      "End": 148
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Monoid",
+      "File": "tests/intset-properties.hs",
+      "Start": 235,
+      "End": 246
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Monoid",
+      "File": "tests/map-properties.hs",
+      "Start": 125,
+      "End": 136
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Monoid",
+      "File": "tests/seq-properties.hs",
+      "Start": 329,
+      "End": 340
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Monoid",
+      "File": "tests/set-properties.hs",
+      "Start": 109,
+      "End": 120
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Ord",
+      "File": "tests/intmap-properties.hs",
+      "Start": 240,
+      "End": 248
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Ord",
+      "File": "tests/map-properties.hs",
+      "Start": 228,
+      "End": 236
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Sequence",
+      "File": "benchmarks/Sequence.hs",
+      "Start": 232,
+      "End": 245
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Sequence",
+      "File": "tests-ghc/sequence001.hs",
+      "Start": 27,
+      "End": 40
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Sequence",
+      "File": "tests-ghc/unreliable/mapcoerceseq.hs",
+      "Start": 90,
+      "End": 103
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Sequence",
+      "File": "tests/seq-properties.hs",
+      "Start": 7,
+      "End": 20
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Set/Base",
+      "File": "Data/Set.hs",
+      "Start": 3694,
+      "End": 3707
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Set",
+      "File": "Data/Set.hs",
+      "Start": 1650,
+      "End": 1658
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Set",
+      "File": "benchmarks/Set.hs",
+      "Start": 267,
+      "End": 275
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Set",
+      "File": "benchmarks/SetOperations/SetOperations-Set.hs",
+      "Start": 26,
+      "End": 34
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Set",
+      "File": "tests/intset-properties.hs",
+      "Start": 273,
+      "End": 281
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Set",
+      "File": "tests/map-properties.hs",
+      "Start": 434,
+      "End": 442
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Set",
+      "File": "tests/set-properties.hs",
+      "Start": 155,
+      "End": 163
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Traversable",
+      "File": "tests/seq-properties.hs",
+      "Start": 361,
+      "End": 377
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Tree",
+      "File": "Data/Graph.hs",
+      "Start": 1682,
+      "End": 1691
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Utils/BitUtil",
+      "File": "Data/IntMap/Strict.hs",
+      "Start": 5861,
+      "End": 5879
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Utils/BitUtil",
+      "File": "Data/Utils/BitUtil.hs",
+      "Start": 603,
+      "End": 621
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Utils/StrictFold",
+      "File": "Data/IntMap/Strict.hs",
+      "Start": 5887,
+      "End": 5908
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Utils/StrictFold",
+      "File": "Data/Utils/StrictFold.hs",
+      "Start": 135,
+      "End": 156
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Utils/StrictPair",
+      "File": "Data/IntMap/Strict.hs",
+      "Start": 5916,
+      "End": 5937
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Utils/StrictPair",
+      "File": "Data/Utils/StrictPair.hs",
+      "Start": 135,
+      "End": 156
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Data/Word",
+      "File": "tests/intset-properties.hs",
+      "Start": 91,
+      "End": 100
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 33,
+      "End": 52
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/GHC/Exts",
+      "File": "Data/Utils/BitUtil.hs",
+      "Start": 746,
+      "End": 754
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/GHC/Exts",
+      "File": "tests-ghc/unreliable/mapcoerceintmap.hs",
+      "Start": 35,
+      "End": 43
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/GHC/Exts",
+      "File": "tests-ghc/unreliable/mapcoerceintmapstrict.hs",
+      "Start": 35,
+      "End": 43
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/GHC/Exts",
+      "File": "tests-ghc/unreliable/mapcoercemap.hs",
+      "Start": 35,
+      "End": 43
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/GHC/Exts",
+      "File": "tests-ghc/unreliable/mapcoerceseq.hs",
+      "Start": 35,
+      "End": 43
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/GHC/Exts",
+      "File": "tests-ghc/unreliable/mapcoercesmap.hs",
+      "Start": 35,
+      "End": 43
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/GHC/Prim",
+      "File": "Data/Utils/BitUtil.hs",
+      "Start": 782,
+      "End": 790
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/LookupGE_IntMap",
+      "File": "benchmarks/LookupGE/IntMap.hs",
+      "Start": 267,
+      "End": 282
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/LookupGE_IntMap",
+      "File": "benchmarks/LookupGE/LookupGE_IntMap.hs",
+      "Start": 28,
+      "End": 43
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/LookupGE_Map",
+      "File": "benchmarks/LookupGE/LookupGE_Map.hs",
+      "Start": 42,
+      "End": 54
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/LookupGE_Map",
+      "File": "benchmarks/LookupGE/Map.hs",
+      "Start": 264,
+      "End": 276
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "Setup.hs",
+      "Start": 7,
+      "End": 11
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "benchmarks/IntMap.hs",
+      "Start": 37,
+      "End": 41
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "benchmarks/IntSet.hs",
+      "Start": 38,
+      "End": 42
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "benchmarks/LookupGE/IntMap.hs",
+      "Start": 37,
+      "End": 41
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "benchmarks/LookupGE/Map.hs",
+      "Start": 37,
+      "End": 41
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "benchmarks/Map.hs",
+      "Start": 37,
+      "End": 41
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "benchmarks/Sequence.hs",
+      "Start": 69,
+      "End": 73
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "benchmarks/Set.hs",
+      "Start": 95,
+      "End": 99
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "benchmarks/SetOperations/SetOperations-IntMap.hs",
+      "Start": 7,
+      "End": 11
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "benchmarks/SetOperations/SetOperations-IntSet.hs",
+      "Start": 7,
+      "End": 11
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "benchmarks/SetOperations/SetOperations-Map.hs",
+      "Start": 7,
+      "End": 11
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "benchmarks/SetOperations/SetOperations-Set.hs",
+      "Start": 7,
+      "End": 11
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "tests-ghc/dataintset001.hs",
+      "Start": 65,
+      "End": 69
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "tests-ghc/datamap001.hs",
+      "Start": 82,
+      "End": 86
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "tests-ghc/datamap002.hs",
+      "Start": 32,
+      "End": 36
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "tests-ghc/sequence001.hs",
+      "Start": 8,
+      "End": 12
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "tests/intmap-strictness.hs",
+      "Start": 109,
+      "End": 113
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Main",
+      "File": "tests/map-strictness.hs",
+      "Start": 109,
+      "End": 113
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "Data/IntMap.hs",
+      "Start": 2424,
+      "End": 2431
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "Data/IntMap/Strict.hs",
+      "Start": 4899,
+      "End": 4906
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "Data/Map.hs",
+      "Start": 2103,
+      "End": 2110
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "benchmarks/IntMap.hs",
+      "Start": 263,
+      "End": 270
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "benchmarks/LookupGE/IntMap.hs",
+      "Start": 325,
+      "End": 332
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "benchmarks/LookupGE/LookupGE_IntMap.hs",
+      "Start": 58,
+      "End": 65
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "benchmarks/LookupGE/Map.hs",
+      "Start": 319,
+      "End": 326
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "benchmarks/Map.hs",
+      "Start": 260,
+      "End": 267
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "tests/intmap-properties.hs",
+      "Start": 277,
+      "End": 284
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "tests/intmap-properties.hs",
+      "Start": 351,
+      "End": 358
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "tests/intset-properties.hs",
+      "Start": 296,
+      "End": 303
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "tests/map-properties.hs",
+      "Start": 265,
+      "End": 272
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "tests/map-properties.hs",
+      "Start": 339,
+      "End": 346
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "tests/seq-properties.hs",
+      "Start": 420,
+      "End": 427
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "tests/seq-properties.hs",
+      "Start": 625,
+      "End": 632
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Prelude",
+      "File": "tests/set-properties.hs",
+      "Start": 171,
+      "End": 178
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/SetOperations",
+      "File": "benchmarks/SetOperations/SetOperations-IntMap.hs",
+      "Start": 50,
+      "End": 63
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/SetOperations",
+      "File": "benchmarks/SetOperations/SetOperations-IntSet.hs",
+      "Start": 50,
+      "End": 63
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/SetOperations",
+      "File": "benchmarks/SetOperations/SetOperations-Map.hs",
+      "Start": 47,
+      "End": 60
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/SetOperations",
+      "File": "benchmarks/SetOperations/SetOperations-Set.hs",
+      "Start": 47,
+      "End": 60
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/SetOperations",
+      "File": "benchmarks/SetOperations/SetOperations.hs",
+      "Start": 38,
+      "End": 51
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/System/Random",
+      "File": "benchmarks/Sequence.hs",
+      "Start": 289,
+      "End": 302
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/ChasingBottoms/IsBottom",
+      "File": "tests/intmap-strictness.hs",
+      "Start": 135,
+      "End": 163
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/ChasingBottoms/IsBottom",
+      "File": "tests/map-strictness.hs",
+      "Start": 135,
+      "End": 163
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework/Providers/HUnit",
+      "File": "tests/intmap-properties.hs",
+      "Start": 487,
+      "End": 517
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework/Providers/HUnit",
+      "File": "tests/intset-properties.hs",
+      "Start": 382,
+      "End": 412
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework/Providers/HUnit",
+      "File": "tests/map-properties.hs",
+      "Start": 472,
+      "End": 502
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework/Providers/HUnit",
+      "File": "tests/set-properties.hs",
+      "Start": 257,
+      "End": 287
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework/Providers/QuickCheck2",
+      "File": "tests/deprecated-properties.hs",
+      "Start": 438,
+      "End": 474
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework/Providers/QuickCheck2",
+      "File": "tests/intmap-properties.hs",
+      "Start": 525,
+      "End": 561
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework/Providers/QuickCheck2",
+      "File": "tests/intmap-strictness.hs",
+      "Start": 224,
+      "End": 260
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework/Providers/QuickCheck2",
+      "File": "tests/intset-properties.hs",
+      "Start": 420,
+      "End": 456
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework/Providers/QuickCheck2",
+      "File": "tests/map-properties.hs",
+      "Start": 510,
+      "End": 546
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework/Providers/QuickCheck2",
+      "File": "tests/map-strictness.hs",
+      "Start": 224,
+      "End": 260
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework/Providers/QuickCheck2",
+      "File": "tests/seq-properties.hs",
+      "Start": 786,
+      "End": 822
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework/Providers/QuickCheck2",
+      "File": "tests/set-properties.hs",
+      "Start": 295,
+      "End": 331
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework",
+      "File": "tests/deprecated-properties.hs",
+      "Start": 416,
+      "End": 430
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework",
+      "File": "tests/intmap-properties.hs",
+      "Start": 465,
+      "End": 479
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework",
+      "File": "tests/intmap-strictness.hs",
+      "Start": 171,
+      "End": 185
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework",
+      "File": "tests/intset-properties.hs",
+      "Start": 360,
+      "End": 374
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework",
+      "File": "tests/map-properties.hs",
+      "Start": 450,
+      "End": 464
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework",
+      "File": "tests/map-strictness.hs",
+      "Start": 171,
+      "End": 185
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework",
+      "File": "tests/seq-properties.hs",
+      "Start": 764,
+      "End": 778
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/Framework",
+      "File": "tests/set-properties.hs",
+      "Start": 235,
+      "End": 249
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/HUnit",
+      "File": "tests/intmap-properties.hs",
+      "Start": 569,
+      "End": 579
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/HUnit",
+      "File": "tests/intset-properties.hs",
+      "Start": 464,
+      "End": 474
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/HUnit",
+      "File": "tests/map-properties.hs",
+      "Start": 554,
+      "End": 564
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/HUnit",
+      "File": "tests/set-properties.hs",
+      "Start": 339,
+      "End": 349
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/QuickCheck/Function",
+      "File": "tests/seq-properties.hs",
+      "Start": 732,
+      "End": 756
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/QuickCheck/Poly",
+      "File": "tests/seq-properties.hs",
+      "Start": 704,
+      "End": 724
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/QuickCheck",
+      "File": "tests/intmap-properties.hs",
+      "Start": 611,
+      "End": 626
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/QuickCheck",
+      "File": "tests/intmap-strictness.hs",
+      "Start": 283,
+      "End": 298
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/QuickCheck",
+      "File": "tests/intset-properties.hs",
+      "Start": 506,
+      "End": 521
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/QuickCheck",
+      "File": "tests/map-properties.hs",
+      "Start": 596,
+      "End": 611
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/QuickCheck",
+      "File": "tests/map-strictness.hs",
+      "Start": 283,
+      "End": 298
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/QuickCheck",
+      "File": "tests/seq-properties.hs",
+      "Start": 667,
+      "End": 682
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Test/QuickCheck",
+      "File": "tests/set-properties.hs",
+      "Start": 381,
+      "End": 396
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Text/Show/Functions",
+      "File": "tests/deprecated-properties.hs",
+      "Start": 482,
+      "End": 501
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Text/Show/Functions",
+      "File": "tests/intmap-properties.hs",
+      "Start": 634,
+      "End": 653
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Text/Show/Functions",
+      "File": "tests/map-properties.hs",
+      "Start": 619,
+      "End": 638
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Unsafe/Coerce",
+      "File": "tests-ghc/unreliable/mapcoerceintmap.hs",
+      "Start": 69,
+      "End": 82
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Unsafe/Coerce",
+      "File": "tests-ghc/unreliable/mapcoerceintmapstrict.hs",
+      "Start": 69,
+      "End": 82
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Unsafe/Coerce",
+      "File": "tests-ghc/unreliable/mapcoercemap.hs",
+      "Start": 69,
+      "End": 82
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Unsafe/Coerce",
+      "File": "tests-ghc/unreliable/mapcoerceseq.hs",
+      "Start": 69,
+      "End": 82
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "containers",
+      "DefPath": "containers/Unsafe/Coerce",
+      "File": "tests-ghc/unreliable/mapcoercesmap.hs",
+      "Start": 69,
+      "End": 82
+    }
+  ]
+}

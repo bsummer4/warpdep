@@ -1,0 +1,416 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/ekmett/semigroups",
+      "UnitType": "HaskellPackage",
+      "Unit": "semigroups",
+      "Path": "semigroups/Data/List/NonEmpty",
+      "Name": "NonEmpty",
+      "Kind": "Module",
+      "File": "src/Data/List/NonEmpty.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "semigroups/Data/List/NonEmpty"
+    },
+    {
+      "Repo": "github.com/ekmett/semigroups",
+      "UnitType": "HaskellPackage",
+      "Unit": "semigroups",
+      "Path": "semigroups/Data/Semigroup",
+      "Name": "Semigroup",
+      "Kind": "Module",
+      "File": "src/Data/Semigroup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "semigroups/Data/Semigroup"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Control/Applicative",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 4993,
+      "End": 5012
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Control/Applicative",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2447,
+      "End": 2466
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Control/DeepSeq",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 5048,
+      "End": 5063
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Control/DeepSeq",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2681,
+      "End": 2696
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Control/Monad/Fix",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 5113,
+      "End": 5130
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Control/Monad/Fix",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2495,
+      "End": 2512
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Control/Monad/Zip",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 5167,
+      "End": 5184
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Control/Monad",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 5092,
+      "End": 5105
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Control/Monad",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2474,
+      "End": 2487
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/ByteString/Builder",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 3042,
+      "End": 3065
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/ByteString/Lazy",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2959,
+      "End": 2979
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/ByteString/Short",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 3230,
+      "End": 3251
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/ByteString",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2926,
+      "End": 2941
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Coerce",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 3726,
+      "End": 3737
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Data",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 5250,
+      "End": 5259
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Data",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 3625,
+      "End": 3634
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Foldable",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 5303,
+      "End": 5316
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Foldable",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 5408,
+      "End": 5421
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Foldable",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2559,
+      "End": 2572
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/HashMap/Lazy",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 3529,
+      "End": 3546
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/HashSet",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 3562,
+      "End": 3574
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Hashable",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 5470,
+      "End": 5483
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Hashable",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 3460,
+      "End": 3473
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/IntMap",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2860,
+      "End": 2871
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/IntSet",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2810,
+      "End": 2821
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/List/NonEmpty",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 1143,
+      "End": 1161
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/List/NonEmpty",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2604,
+      "End": 2622
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/List",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 5509,
+      "End": 5518
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Map",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2838,
+      "End": 2846
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Monoid",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 5534,
+      "End": 5545
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Monoid",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2361,
+      "End": 2372
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Monoid",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2530,
+      "End": 2541
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Ord",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 5563,
+      "End": 5571
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Semigroup",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 1812,
+      "End": 1826
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Sequence",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2755,
+      "End": 2768
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Set",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2788,
+      "End": 2796
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Text/Lazy/Builder",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 3386,
+      "End": 3408
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Text/Lazy",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 3346,
+      "End": 3360
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Text",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 3309,
+      "End": 3318
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Traversable",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 5591,
+      "End": 5607
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Data/Traversable",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2580,
+      "End": 2596
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/GHC/Exts",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 5689,
+      "End": 5697
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/GHC/Generics",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 5861,
+      "End": 5873
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/GHC/Generics",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 3680,
+      "End": 3692
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Numeric/Natural",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2630,
+      "End": 2645
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Prelude",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 4690,
+      "End": 4697
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Prelude",
+      "File": "src/Data/List/NonEmpty.hs",
+      "Start": 4705,
+      "End": 4712
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "semigroups",
+      "DefPath": "semigroups/Prelude",
+      "File": "src/Data/Semigroup.hs",
+      "Start": 2330,
+      "End": 2337
+    }
+  ]
+}

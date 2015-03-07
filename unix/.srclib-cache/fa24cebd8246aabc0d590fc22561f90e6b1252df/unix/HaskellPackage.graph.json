@@ -1,0 +1,1328 @@
+{
+  "Defs": [
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/Setup",
+      "Name": "Setup",
+      "Kind": "Module",
+      "File": "Setup.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/Setup"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/System/Posix",
+      "Name": "Posix",
+      "Kind": "Module",
+      "File": "System/Posix.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/System/Posix"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/System/Posix/ByteString",
+      "Name": "ByteString",
+      "Kind": "Module",
+      "File": "System/Posix/ByteString.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/System/Posix/ByteString"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/System/Posix/Error",
+      "Name": "Error",
+      "Kind": "Module",
+      "File": "System/Posix/Error.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/System/Posix/Error"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/System/Posix/Process/Internals",
+      "Name": "Internals",
+      "Kind": "Module",
+      "File": "System/Posix/Process/Internals.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/System/Posix/Process/Internals"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/T1185",
+      "Name": "T1185",
+      "Kind": "Module",
+      "File": "tests/T1185.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/T1185"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/T3816",
+      "Name": "T3816",
+      "Kind": "Module",
+      "File": "tests/T3816.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/T3816"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/T8108",
+      "Name": "T8108",
+      "Kind": "Module",
+      "File": "tests/T8108.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/T8108"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/executeFile001",
+      "Name": "executeFile001",
+      "Kind": "Module",
+      "File": "tests/executeFile001.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/executeFile001"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/fdReadBuf001",
+      "Name": "fdReadBuf001",
+      "Kind": "Module",
+      "File": "tests/fdReadBuf001.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/fdReadBuf001"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/fileStatus",
+      "Name": "fileStatus",
+      "Kind": "Module",
+      "File": "tests/fileStatus.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/fileStatus"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/fileStatusByteString",
+      "Name": "fileStatusByteString",
+      "Kind": "Module",
+      "File": "tests/fileStatusByteString.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/fileStatusByteString"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/fileexist01",
+      "Name": "fileexist01",
+      "Kind": "Module",
+      "File": "tests/fileexist01.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/fileexist01"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/forkprocess01",
+      "Name": "forkprocess01",
+      "Kind": "Module",
+      "File": "tests/forkprocess01.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/forkprocess01"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/getEnvironment01",
+      "Name": "getEnvironment01",
+      "Kind": "Module",
+      "File": "tests/getEnvironment01.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/getEnvironment01"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/getEnvironment02",
+      "Name": "getEnvironment02",
+      "Kind": "Module",
+      "File": "tests/getEnvironment02.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/getEnvironment02"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/getGroupEntryForName",
+      "Name": "getGroupEntryForName",
+      "Kind": "Module",
+      "File": "tests/getGroupEntryForName.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/getGroupEntryForName"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/getUserEntryForName",
+      "Name": "getUserEntryForName",
+      "Kind": "Module",
+      "File": "tests/getUserEntryForName.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/getUserEntryForName"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/libposix/posix002",
+      "Name": "posix002",
+      "Kind": "Module",
+      "File": "tests/libposix/posix002.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/libposix/posix002"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/libposix/posix003",
+      "Name": "posix003",
+      "Kind": "Module",
+      "File": "tests/libposix/posix003.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/libposix/posix003"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/libposix/posix004",
+      "Name": "posix004",
+      "Kind": "Module",
+      "File": "tests/libposix/posix004.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/libposix/posix004"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/libposix/posix005",
+      "Name": "posix005",
+      "Kind": "Module",
+      "File": "tests/libposix/posix005.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/libposix/posix005"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/libposix/posix006",
+      "Name": "posix006",
+      "Kind": "Module",
+      "File": "tests/libposix/posix006.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/libposix/posix006"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/libposix/posix009",
+      "Name": "posix009",
+      "Kind": "Module",
+      "File": "tests/libposix/posix009.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/libposix/posix009"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/libposix/posix010",
+      "Name": "posix010",
+      "Kind": "Module",
+      "File": "tests/libposix/posix010.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/libposix/posix010"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/libposix/posix014",
+      "Name": "posix014",
+      "Kind": "Module",
+      "File": "tests/libposix/posix014.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/libposix/posix014"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/processGroup001",
+      "Name": "processGroup001",
+      "Kind": "Module",
+      "File": "tests/processGroup001.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/processGroup001"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/processGroup002",
+      "Name": "processGroup002",
+      "Kind": "Module",
+      "File": "tests/processGroup002.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/processGroup002"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/queryfdoption01",
+      "Name": "queryfdoption01",
+      "Kind": "Module",
+      "File": "tests/queryfdoption01.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/queryfdoption01"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/resourceLimit",
+      "Name": "resourceLimit",
+      "Kind": "Module",
+      "File": "tests/resourceLimit.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/resourceLimit"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/signals001",
+      "Name": "signals001",
+      "Kind": "Module",
+      "File": "tests/signals001.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/signals001"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/signals002",
+      "Name": "signals002",
+      "Kind": "Module",
+      "File": "tests/signals002.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/signals002"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/signals004",
+      "Name": "signals004",
+      "Kind": "Module",
+      "File": "tests/signals004.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/signals004"
+    },
+    {
+      "Repo": "github.com/haskell/unix",
+      "UnitType": "HaskellPackage",
+      "Unit": "unix",
+      "Path": "unix/tests/user001",
+      "Name": "user001",
+      "Kind": "Module",
+      "File": "tests/user001.hs",
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true,
+      "TreePath": "unix/tests/user001"
+    }
+  ],
+  "Refs": [
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Concurrent",
+      "File": "tests/T1185.hs",
+      "Start": 26,
+      "End": 44
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Concurrent",
+      "File": "tests/T8108.hs",
+      "Start": 28,
+      "End": 46
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Concurrent",
+      "File": "tests/fdReadBuf001.hs",
+      "Start": 106,
+      "End": 124
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Concurrent",
+      "File": "tests/signals002.hs",
+      "Start": 27,
+      "End": 45
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Concurrent",
+      "File": "tests/signals004.hs",
+      "Start": 7,
+      "End": 25
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Exception",
+      "File": "tests/fileStatus.hs",
+      "Start": 106,
+      "End": 123
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Exception",
+      "File": "tests/fileStatusByteString.hs",
+      "Start": 93,
+      "End": 110
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Exception",
+      "File": "tests/user001.hs",
+      "Start": 56,
+      "End": 73
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Monad",
+      "File": "System/Posix/Error.hs",
+      "Start": 1015,
+      "End": 1028
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Monad",
+      "File": "tests/T8108.hs",
+      "Start": 7,
+      "End": 20
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Monad",
+      "File": "tests/fdReadBuf001.hs",
+      "Start": 70,
+      "End": 83
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Monad",
+      "File": "tests/fileStatus.hs",
+      "Start": 136,
+      "End": 149
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Monad",
+      "File": "tests/fileStatusByteString.hs",
+      "Start": 123,
+      "End": 136
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Monad",
+      "File": "tests/libposix/posix003.hs",
+      "Start": 8,
+      "End": 21
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Control/Monad",
+      "File": "tests/signals004.hs",
+      "Start": 53,
+      "End": 66
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Data/Char",
+      "File": "tests/fdReadBuf001.hs",
+      "Start": 132,
+      "End": 141
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Data/Char",
+      "File": "tests/libposix/posix003.hs",
+      "Start": 29,
+      "End": 38
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Distribution/Simple",
+      "File": "Setup.hs",
+      "Start": 33,
+      "End": 52
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Foreign/C",
+      "File": "System/Posix/Error.hs",
+      "Start": 998,
+      "End": 1007
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Foreign/C",
+      "File": "System/Posix/Process/Internals.hs",
+      "Start": 241,
+      "End": 250
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Foreign",
+      "File": "System/Posix/Error.hs",
+      "Start": 969,
+      "End": 976
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Foreign",
+      "File": "System/Posix/Process/Internals.hs",
+      "Start": 226,
+      "End": 233
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Foreign",
+      "File": "tests/fdReadBuf001.hs",
+      "Start": 91,
+      "End": 98
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/GHC/Conc",
+      "File": "System/Posix/Process/Internals.hs",
+      "Start": 300,
+      "End": 308
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Main",
+      "File": "Setup.hs",
+      "Start": 7,
+      "End": 11
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Main",
+      "File": "tests/T1185.hs",
+      "Start": 7,
+      "End": 11
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/Main",
+      "File": "tests/libposix/posix014.hs",
+      "Start": 30,
+      "End": 34
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Exit",
+      "File": "System/Posix/Process/Internals.hs",
+      "Start": 258,
+      "End": 269
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Exit",
+      "File": "tests/T1185.hs",
+      "Start": 89,
+      "End": 100
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Exit",
+      "File": "tests/fdReadBuf001.hs",
+      "Start": 149,
+      "End": 160
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Exit",
+      "File": "tests/forkprocess01.hs",
+      "Start": 117,
+      "End": 128
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Exit",
+      "File": "tests/libposix/posix003.hs",
+      "Start": 46,
+      "End": 57
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Exit",
+      "File": "tests/libposix/posix004.hs",
+      "Start": 8,
+      "End": 19
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/IO/Error",
+      "File": "System/Posix/Process/Internals.hs",
+      "Start": 277,
+      "End": 292
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/IO",
+      "File": "tests/T1185.hs",
+      "Start": 72,
+      "End": 81
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/IO",
+      "File": "tests/libposix/posix003.hs",
+      "Start": 65,
+      "End": 74
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/IO",
+      "File": "tests/libposix/posix005.hs",
+      "Start": 8,
+      "End": 17
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/IO",
+      "File": "tests/queryfdoption01.hs",
+      "Start": 30,
+      "End": 39
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/ByteString/FilePath",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 1921,
+      "End": 1953
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/ByteString",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 1161,
+      "End": 1184
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/ByteString",
+      "File": "tests/fileStatusByteString.hs",
+      "Start": 62,
+      "End": 85
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Directory/ByteString",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 2015,
+      "End": 2048
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Directory",
+      "File": "System/Posix.hs",
+      "Start": 1197,
+      "End": 1219
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Directory",
+      "File": "tests/fileStatus.hs",
+      "Start": 53,
+      "End": 75
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/DynamicLinker/ByteString",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 2507,
+      "End": 2544
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/DynamicLinker",
+      "File": "System/Posix.hs",
+      "Start": 1612,
+      "End": 1638
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Env/ByteString",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 2193,
+      "End": 2220
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Env/ByteString",
+      "File": "tests/getEnvironment02.hs",
+      "Start": 94,
+      "End": 121
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Env",
+      "File": "System/Posix.hs",
+      "Start": 1331,
+      "End": 1347
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Env",
+      "File": "tests/getEnvironment01.hs",
+      "Start": 94,
+      "End": 110
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Env",
+      "File": "tests/libposix/posix005.hs",
+      "Start": 25,
+      "End": 41
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Error",
+      "File": "System/Posix/Error.hs",
+      "Start": 618,
+      "End": 636
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Files/ByteString",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 2056,
+      "End": 2085
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Files",
+      "File": "System/Posix.hs",
+      "Start": 1227,
+      "End": 1245
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Files",
+      "File": "tests/fileStatus.hs",
+      "Start": 27,
+      "End": 45
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/IO/ByteString",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 2159,
+      "End": 2185
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/IO",
+      "File": "System/Posix.hs",
+      "Start": 1308,
+      "End": 1323
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/IO",
+      "File": "tests/fileStatus.hs",
+      "Start": 83,
+      "End": 98
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/IO",
+      "File": "tests/queryfdoption01.hs",
+      "Start": 7,
+      "End": 22
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Process/ByteString",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 2120,
+      "End": 2151
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Process/Internals",
+      "File": "System/Posix/Process/Internals.hs",
+      "Start": 92,
+      "End": 122
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Process",
+      "File": "System/Posix.hs",
+      "Start": 1280,
+      "End": 1300
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Process",
+      "File": "tests/executeFile001.hs",
+      "Start": 8,
+      "End": 28
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Process",
+      "File": "tests/forkprocess01.hs",
+      "Start": 136,
+      "End": 156
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Process",
+      "File": "tests/libposix/posix002.hs",
+      "Start": 7,
+      "End": 27
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Process",
+      "File": "tests/libposix/posix004.hs",
+      "Start": 52,
+      "End": 72
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Process",
+      "File": "tests/processGroup001.hs",
+      "Start": 7,
+      "End": 27
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Process",
+      "File": "tests/processGroup002.hs",
+      "Start": 7,
+      "End": 27
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Resource",
+      "File": "System/Posix.hs",
+      "Start": 1459,
+      "End": 1480
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Resource",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 2354,
+      "End": 2375
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Resource",
+      "File": "tests/resourceLimit.hs",
+      "Start": 18,
+      "End": 39
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Semaphore",
+      "File": "System/Posix.hs",
+      "Start": 1488,
+      "End": 1510
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Semaphore",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 2383,
+      "End": 2405
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/SharedMem",
+      "File": "System/Posix.hs",
+      "Start": 1518,
+      "End": 1540
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/SharedMem",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 2413,
+      "End": 2435
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Signals",
+      "File": "System/Posix.hs",
+      "Start": 1169,
+      "End": 1189
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Signals",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 1987,
+      "End": 2007
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Signals",
+      "File": "tests/libposix/posix004.hs",
+      "Start": 80,
+      "End": 100
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Signals",
+      "File": "tests/libposix/posix006.hs",
+      "Start": 60,
+      "End": 80
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Signals",
+      "File": "tests/libposix/posix009.hs",
+      "Start": 7,
+      "End": 27
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Signals",
+      "File": "tests/signals001.hs",
+      "Start": 29,
+      "End": 49
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Temp/ByteString",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 2228,
+      "End": 2256
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Temp",
+      "File": "System/Posix.hs",
+      "Start": 1355,
+      "End": 1372
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Terminal/ByteString",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 2264,
+      "End": 2296
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Terminal",
+      "File": "System/Posix.hs",
+      "Start": 1380,
+      "End": 1401
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Time",
+      "File": "System/Posix.hs",
+      "Start": 1409,
+      "End": 1426
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Time",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 2304,
+      "End": 2321
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Time",
+      "File": "tests/libposix/posix006.hs",
+      "Start": 8,
+      "End": 25
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Types",
+      "File": "System/Posix.hs",
+      "Start": 1143,
+      "End": 1161
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Types",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 1961,
+      "End": 1979
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Unistd",
+      "File": "System/Posix.hs",
+      "Start": 1253,
+      "End": 1272
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Unistd",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 2093,
+      "End": 2112
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Unistd",
+      "File": "tests/libposix/posix006.hs",
+      "Start": 33,
+      "End": 52
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/Unistd",
+      "File": "tests/libposix/posix009.hs",
+      "Start": 35,
+      "End": 54
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/User",
+      "File": "System/Posix.hs",
+      "Start": 1434,
+      "End": 1451
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/User",
+      "File": "System/Posix/ByteString.hs",
+      "Start": 2329,
+      "End": 2346
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/User",
+      "File": "tests/T8108.hs",
+      "Start": 54,
+      "End": 71
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/User",
+      "File": "tests/getGroupEntryForName.hs",
+      "Start": 8,
+      "End": 25
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/User",
+      "File": "tests/getUserEntryForName.hs",
+      "Start": 8,
+      "End": 25
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix/User",
+      "File": "tests/user001.hs",
+      "Start": 94,
+      "End": 111
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix",
+      "File": "System/Posix.hs",
+      "Start": 541,
+      "End": 553
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix",
+      "File": "tests/T1185.hs",
+      "Start": 52,
+      "End": 64
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix",
+      "File": "tests/T3816.hs",
+      "Start": 7,
+      "End": 19
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix",
+      "File": "tests/fdReadBuf001.hs",
+      "Start": 50,
+      "End": 62
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix",
+      "File": "tests/fileexist01.hs",
+      "Start": 38,
+      "End": 50
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix",
+      "File": "tests/libposix/posix010.hs",
+      "Start": 7,
+      "End": 19
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix",
+      "File": "tests/libposix/posix014.hs",
+      "Start": 56,
+      "End": 68
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix",
+      "File": "tests/signals002.hs",
+      "Start": 7,
+      "End": 19
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Posix",
+      "File": "tests/signals004.hs",
+      "Start": 33,
+      "End": 45
+    },
+    {
+      "DefUnitType": "HaskellPackage",
+      "DefUnit": "unix",
+      "DefPath": "unix/System/Process",
+      "File": "tests/libposix/posix003.hs",
+      "Start": 82,
+      "End": 96
+    }
+  ]
+}
