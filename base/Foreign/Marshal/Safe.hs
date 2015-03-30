@@ -1,5 +1,5 @@
 {-# LANGUAGE Safe #-}
-{-# LANGUAGE NoImplicitPrelude #-}
+{-# LANGUAGE CPP, NoImplicitPrelude #-}
 
 -----------------------------------------------------------------------------
 -- |

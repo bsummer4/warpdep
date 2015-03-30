@@ -1,4 +1,5 @@
 {-# LANGUAGE Trustworthy #-}
+{-# LANGUAGE CPP #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -69,7 +70,14 @@ module System.Mem.Weak (
 	-- $precise
    ) where
 
+#ifdef __HUGS__
+import Hugs.Weak
+import Prelude
+#endif
+
+#ifdef __GLASGOW_HASKELL__
 import GHC.Weak
+#endif
 
 -- | A specialised version of 'mkWeak', where the key and the value are
 -- the same object:

@@ -1,4 +1,4 @@
-{-# LANGUAGE MagicHash, NoImplicitPrelude, UnboxedTuples, UnliftedFFITypes, Trustworthy #-}
+{-# LANGUAGE Trustworthy #-}
 
 module GHC.Debug ( debugLn, debugErrLn ) where
 

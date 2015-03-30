@@ -7,4 +7,3 @@ main :: IO ()
 main = do hSetBuffering stdin NoBuffering
           hLookAhead stdin >>= print
           hSetBuffering stdin LineBuffering
-          getContents >>= print

@@ -21,16 +21,11 @@
 -- 
 -----------------------------------------------------------------------------
 
-module GHC.Exception
-       ( Exception(..)    -- Class
-       , throw
-       , SomeException(..), ErrorCall(..), ArithException(..)
-       , divZeroException, overflowException, ratioZeroDenomException
-       , errorCallException
-       ) where
+-- #hide
+module GHC.Exception where
 
 import Data.Maybe
-import Data.Typeable (Typeable, cast)
+import {-# SOURCE #-} Data.Typeable (Typeable, cast)
    -- loop: Data.Typeable -> GHC.Err -> GHC.Exception
 import GHC.Base
 import GHC.Show
@@ -178,9 +173,6 @@ instance Exception ErrorCall
 instance Show ErrorCall where
     showsPrec _ (ErrorCall err) = showString err
 
-errorCallException :: String -> SomeException
-errorCallException s = toException (ErrorCall s)
-
 -----
 
 -- |Arithmetic exceptions.
@@ -190,13 +182,8 @@ data ArithException
   | LossOfPrecision
   | DivideByZero
   | Denormal
-  | RatioZeroDenominator -- ^ /Since: 4.6.0.0/
+  | RatioZeroDenominator
   deriving (Eq, Ord, Typeable)
-
-divZeroException, overflowException, ratioZeroDenomException  :: SomeException
-divZeroException  	= toException DivideByZero
-overflowException 	= toException Overflow
-ratioZeroDenomException = toException RatioZeroDenominator
 
 instance Exception ArithException
 
@@ -207,4 +194,5 @@ instance Show ArithException where
   showsPrec _ DivideByZero    = showString "divide by zero"
   showsPrec _ Denormal        = showString "denormal"
   showsPrec _ RatioZeroDenominator = showString "Ratio has zero denominator"
+
 \end{code}

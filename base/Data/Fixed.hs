@@ -1,7 +1,7 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE ScopedTypeVariables #-}
-{-# LANGUAGE DeriveDataTypeable #-}
+{-# LANGUAGE CPP, ScopedTypeVariables, PatternGuards #-}
 {-# OPTIONS -Wall -fno-warn-unused-binds #-}
+{-# LANGUAGE DeriveDataTypeable #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -61,7 +61,7 @@ mod' n d = n - (fromInteger f) * d where
     f = div' n d
 
 -- | The type parameter should be an instance of 'HasResolution'.
-newtype Fixed a = MkFixed Integer -- ^ /Since: 4.7.0.0/
+newtype Fixed a = MkFixed Integer
         deriving (Eq,Ord,Typeable)
 
 -- We do this because the automatically derived Data instance requires (Data a) context.

@@ -7,7 +7,7 @@
 -- Module      :  GHC.Word
 -- Copyright   :  (c) The University of Glasgow, 1997-2002
 -- License     :  see libraries/base/LICENSE
---
+-- 
 -- Maintainer  :  cvs-ghc@haskell.org
 -- Stability   :  internal
 -- Portability :  non-portable (GHC Extensions)
@@ -19,13 +19,11 @@
 
 #include "MachDeps.h"
 
+-- #hide
 module GHC.Word (
     Word(..), Word8(..), Word16(..), Word32(..), Word64(..),
     uncheckedShiftL64#,
-    uncheckedShiftRL64#,
-    byteSwap16,
-    byteSwap32,
-    byteSwap64
+    uncheckedShiftRL64#
     ) where
 
 import Data.Bits
@@ -35,7 +33,6 @@ import Data.Maybe
 import GHC.IntWord64
 #endif
 
--- import {-# SOURCE #-} GHC.Exception
 import GHC.Base
 import GHC.Enum
 import GHC.Num
@@ -43,6 +40,7 @@ import GHC.Real
 import GHC.Read
 import GHC.Arr
 import GHC.Show
+import GHC.Err
 import GHC.Float ()     -- for RealFrac methods
 
 ------------------------------------------------------------------------
@@ -132,15 +130,15 @@ instance Bits Word8 where
     complement (W8# x#)       = W8# (x# `xor#` mb#)
         where !(W8# mb#) = maxBound
     (W8# x#) `shift` (I# i#)
-        | isTrue# (i# >=# 0#) = W8# (narrow8Word# (x# `shiftL#` i#))
+        | i# >=# 0#           = W8# (narrow8Word# (x# `shiftL#` i#))
         | otherwise           = W8# (x# `shiftRL#` negateInt# i#)
-    (W8# x#) `shiftL`       (I# i#) = W8# (narrow8Word# (x# `shiftL#` i#))
+    (W8# x#) `shiftL` (I# i#) = W8# (narrow8Word# (x# `shiftL#` i#))
     (W8# x#) `unsafeShiftL` (I# i#) =
         W8# (narrow8Word# (x# `uncheckedShiftL#` i#))
-    (W8# x#) `shiftR`       (I# i#) = W8# (x# `shiftRL#` i#)
+    (W8# x#) `shiftR` (I# i#) = W8# (x# `shiftRL#` i#)
     (W8# x#) `unsafeShiftR` (I# i#) = W8# (x# `uncheckedShiftRL#` i#)
-    (W8# x#) `rotate`       (I# i#)
-        | isTrue# (i'# ==# 0#) = W8# x#
+    (W8# x#) `rotate` (I# i#)
+        | i'# ==# 0# = W8# x#
         | otherwise  = W8# (narrow8Word# ((x# `uncheckedShiftL#` i'#) `or#`
                                           (x# `uncheckedShiftRL#` (8# -# i'#))))
         where
@@ -164,32 +162,32 @@ instance FiniteBits Word8 where
 
 {-# RULES
 "properFraction/Float->(Word8,Float)"
-    properFraction = \x ->
+    forall x. properFraction (x :: Float) =
                       case properFraction x of {
-                        (n, y) -> ((fromIntegral :: Int -> Word8) n, y :: Float) }
+                        (n, y) -> ((fromIntegral :: Int -> Word8) n, y) }
 "truncate/Float->Word8"
-    truncate = (fromIntegral :: Int -> Word8) . (truncate :: Float -> Int)
+    forall x. truncate (x :: Float) = (fromIntegral :: Int -> Word8) (truncate x)
 "floor/Float->Word8"
-    floor    = (fromIntegral :: Int -> Word8) . (floor :: Float -> Int)
+    forall x. floor    (x :: Float) = (fromIntegral :: Int -> Word8) (floor x)
 "ceiling/Float->Word8"
-    ceiling  = (fromIntegral :: Int -> Word8) . (ceiling :: Float -> Int)
+    forall x. ceiling  (x :: Float) = (fromIntegral :: Int -> Word8) (ceiling x)
 "round/Float->Word8"
-    round    = (fromIntegral :: Int -> Word8) . (round  :: Float -> Int)
+    forall x. round    (x :: Float) = (fromIntegral :: Int -> Word8) (round x)
   #-}
 
 {-# RULES
 "properFraction/Double->(Word8,Double)"
-    properFraction = \x ->
+    forall x. properFraction (x :: Double) =
                       case properFraction x of {
-                        (n, y) -> ((fromIntegral :: Int -> Word8) n, y :: Double) }
+                        (n, y) -> ((fromIntegral :: Int -> Word8) n, y) }
 "truncate/Double->Word8"
-    truncate = (fromIntegral :: Int -> Word8) . (truncate :: Double -> Int)
+    forall x. truncate (x :: Double) = (fromIntegral :: Int -> Word8) (truncate x)
 "floor/Double->Word8"
-    floor    = (fromIntegral :: Int -> Word8) . (floor :: Double -> Int)
+    forall x. floor    (x :: Double) = (fromIntegral :: Int -> Word8) (floor x)
 "ceiling/Double->Word8"
-    ceiling  = (fromIntegral :: Int -> Word8) . (ceiling :: Double -> Int)
+    forall x. ceiling  (x :: Double) = (fromIntegral :: Int -> Word8) (ceiling x)
 "round/Double->Word8"
-    round    = (fromIntegral :: Int -> Word8) . (round  :: Double -> Int)
+    forall x. round    (x :: Double) = (fromIntegral :: Int -> Word8) (round x)
   #-}
 
 ------------------------------------------------------------------------
@@ -279,15 +277,15 @@ instance Bits Word16 where
     complement (W16# x#)       = W16# (x# `xor#` mb#)
         where !(W16# mb#) = maxBound
     (W16# x#) `shift` (I# i#)
-        | isTrue# (i# >=# 0#)  = W16# (narrow16Word# (x# `shiftL#` i#))
+        | i# >=# 0#            = W16# (narrow16Word# (x# `shiftL#` i#))
         | otherwise            = W16# (x# `shiftRL#` negateInt# i#)
-    (W16# x#) `shiftL` (I# i#)       = W16# (narrow16Word# (x# `shiftL#` i#))
+    (W16# x#) `shiftL` (I# i#) = W16# (narrow16Word# (x# `shiftL#` i#))
     (W16# x#) `unsafeShiftL` (I# i#) =
         W16# (narrow16Word# (x# `uncheckedShiftL#` i#))
-    (W16# x#) `shiftR`       (I# i#) = W16# (x# `shiftRL#` i#)
+    (W16# x#) `shiftR` (I# i#) = W16# (x# `shiftRL#` i#)
     (W16# x#) `unsafeShiftR` (I# i#) = W16# (x# `uncheckedShiftRL#` i#)
-    (W16# x#) `rotate`       (I# i#)
-        | isTrue# (i'# ==# 0#) = W16# x#
+    (W16# x#) `rotate` (I# i#)
+        | i'# ==# 0# = W16# x#
         | otherwise  = W16# (narrow16Word# ((x# `uncheckedShiftL#` i'#) `or#`
                                             (x# `uncheckedShiftRL#` (16# -# i'#))))
         where
@@ -302,12 +300,6 @@ instance Bits Word16 where
 instance FiniteBits Word16 where
     finiteBitSize _ = 16
 
--- | Swap bytes in 'Word16'.
---
--- /Since: 4.7.0.0/
-byteSwap16 :: Word16 -> Word16
-byteSwap16 (W16# w#) = W16# (narrow16Word# (byteSwap16# w#))
-
 {-# RULES
 "fromIntegral/Word8->Word16"   fromIntegral = \(W8# x#) -> W16# x#
 "fromIntegral/Word16->Word16"  fromIntegral = id :: Word16 -> Word16
@@ -318,32 +310,32 @@ byteSwap16 (W16# w#) = W16# (narrow16Word# (byteSwap16# w#))
 
 {-# RULES
 "properFraction/Float->(Word16,Float)"
-    properFraction = \x ->
+    forall x. properFraction (x :: Float) =
                       case properFraction x of {
-                        (n, y) -> ((fromIntegral :: Int -> Word16) n, y :: Float) }
+                        (n, y) -> ((fromIntegral :: Int -> Word16) n, y) }
 "truncate/Float->Word16"
-    truncate = (fromIntegral :: Int -> Word16) . (truncate :: Float -> Int)
+    forall x. truncate (x :: Float) = (fromIntegral :: Int -> Word16) (truncate x)
 "floor/Float->Word16"
-    floor    = (fromIntegral :: Int -> Word16) . (floor :: Float -> Int)
+    forall x. floor    (x :: Float) = (fromIntegral :: Int -> Word16) (floor x)
 "ceiling/Float->Word16"
-    ceiling  = (fromIntegral :: Int -> Word16) . (ceiling :: Float -> Int)
+    forall x. ceiling  (x :: Float) = (fromIntegral :: Int -> Word16) (ceiling x)
 "round/Float->Word16"
-    round    = (fromIntegral :: Int -> Word16) . (round  :: Float -> Int)
+    forall x. round    (x :: Float) = (fromIntegral :: Int -> Word16) (round x)
   #-}
 
 {-# RULES
 "properFraction/Double->(Word16,Double)"
-    properFraction = \x ->
+    forall x. properFraction (x :: Double) =
                       case properFraction x of {
-                        (n, y) -> ((fromIntegral :: Int -> Word16) n, y :: Double) }
+                        (n, y) -> ((fromIntegral :: Int -> Word16) n, y) }
 "truncate/Double->Word16"
-    truncate = (fromIntegral :: Int -> Word16) . (truncate :: Double -> Int)
+    forall x. truncate (x :: Double) = (fromIntegral :: Int -> Word16) (truncate x)
 "floor/Double->Word16"
-    floor    = (fromIntegral :: Int -> Word16) . (floor :: Double -> Int)
+    forall x. floor    (x :: Double) = (fromIntegral :: Int -> Word16) (floor x)
 "ceiling/Double->Word16"
-    ceiling  = (fromIntegral :: Int -> Word16) . (ceiling :: Double -> Int)
+    forall x. ceiling  (x :: Double) = (fromIntegral :: Int -> Word16) (ceiling x)
 "round/Double->Word16"
-    round    = (fromIntegral :: Int -> Word16) . (round  :: Double -> Int)
+    forall x. round    (x :: Double) = (fromIntegral :: Int -> Word16) (round x)
   #-}
 
 ------------------------------------------------------------------------
@@ -359,32 +351,32 @@ byteSwap16 (W16# w#) = W16# (narrow16Word# (byteSwap16# w#))
 
 {-# RULES
 "properFraction/Float->(Word32,Float)"
-    properFraction = \x ->
+    forall x. properFraction (x :: Float) =
                       case properFraction x of {
-                        (n, y) -> ((fromIntegral :: Int -> Word32) n, y :: Float) }
+                        (n, y) -> ((fromIntegral :: Int -> Word32) n, y) }
 "truncate/Float->Word32"
-    truncate = (fromIntegral :: Int -> Word32) . (truncate :: Float -> Int)
+    forall x. truncate (x :: Float) = (fromIntegral :: Int -> Word32) (truncate x)
 "floor/Float->Word32"
-    floor    = (fromIntegral :: Int -> Word32) . (floor :: Float -> Int)
+    forall x. floor    (x :: Float) = (fromIntegral :: Int -> Word32) (floor x)
 "ceiling/Float->Word32"
-    ceiling  = (fromIntegral :: Int -> Word32) . (ceiling :: Float -> Int)
+    forall x. ceiling  (x :: Float) = (fromIntegral :: Int -> Word32) (ceiling x)
 "round/Float->Word32"
-    round    = (fromIntegral :: Int -> Word32) . (round  :: Float -> Int)
+    forall x. round    (x :: Float) = (fromIntegral :: Int -> Word32) (round x)
   #-}
 
 {-# RULES
 "properFraction/Double->(Word32,Double)"
-    properFraction = \x ->
+    forall x. properFraction (x :: Double) =
                       case properFraction x of {
-                        (n, y) -> ((fromIntegral :: Int -> Word32) n, y :: Double) }
+                        (n, y) -> ((fromIntegral :: Int -> Word32) n, y) }
 "truncate/Double->Word32"
-    truncate = (fromIntegral :: Int -> Word32) . (truncate :: Double -> Int)
+    forall x. truncate (x :: Double) = (fromIntegral :: Int -> Word32) (truncate x)
 "floor/Double->Word32"
-    floor    = (fromIntegral :: Int -> Word32) . (floor :: Double -> Int)
+    forall x. floor    (x :: Double) = (fromIntegral :: Int -> Word32) (floor x)
 "ceiling/Double->Word32"
-    ceiling  = (fromIntegral :: Int -> Word32) . (ceiling :: Double -> Int)
+    forall x. ceiling  (x :: Double) = (fromIntegral :: Int -> Word32) (ceiling x)
 "round/Double->Word32"
-    round    = (fromIntegral :: Int -> Word32) . (round  :: Double -> Int)
+    forall x. round    (x :: Double) = (fromIntegral :: Int -> Word32) (round x)
   #-}
 
 #endif
@@ -454,7 +446,7 @@ instance Integral Word32 where
         | otherwise                 = divZeroError
     toInteger (W32# x#)
 #if WORD_SIZE_IN_BITS == 32
-        | isTrue# (i# >=# 0#)       = smallInteger i#
+        | i# >=# 0#                 = smallInteger i#
         | otherwise                 = wordToInteger x#
         where
         !i# = word2Int# x#
@@ -473,16 +465,16 @@ instance Bits Word32 where
     complement (W32# x#)       = W32# (x# `xor#` mb#)
         where !(W32# mb#) = maxBound
     (W32# x#) `shift` (I# i#)
-        | isTrue# (i# >=# 0#)  = W32# (narrow32Word# (x# `shiftL#` i#))
+        | i# >=# 0#            = W32# (narrow32Word# (x# `shiftL#` i#))
         | otherwise            = W32# (x# `shiftRL#` negateInt# i#)
-    (W32# x#) `shiftL`       (I# i#) = W32# (narrow32Word# (x# `shiftL#` i#))
+    (W32# x#) `shiftL` (I# i#) = W32# (narrow32Word# (x# `shiftL#` i#))
     (W32# x#) `unsafeShiftL` (I# i#) =
         W32# (narrow32Word# (x# `uncheckedShiftL#` i#))
-    (W32# x#) `shiftR`       (I# i#) = W32# (x# `shiftRL#` i#)
+    (W32# x#) `shiftR` (I# i#) = W32# (x# `shiftRL#` i#)
     (W32# x#) `unsafeShiftR` (I# i#) = W32# (x# `uncheckedShiftRL#` i#)
-    (W32# x#) `rotate`       (I# i#)
-        | isTrue# (i'# ==# 0#) = W32# x#
-        | otherwise   = W32# (narrow32Word# ((x# `uncheckedShiftL#` i'#) `or#`
+    (W32# x#) `rotate` (I# i#)
+        | i'# ==# 0# = W32# x#
+        | otherwise  = W32# (narrow32Word# ((x# `uncheckedShiftL#` i'#) `or#`
                                             (x# `uncheckedShiftRL#` (32# -# i'#))))
         where
         !i'# = word2Int# (int2Word# i# `and#` 31##)
@@ -525,18 +517,12 @@ instance Ix Word32 where
     unsafeIndex (m,_) i = fromIntegral (i - m)
     inRange (m,n) i     = m <= i && i <= n
 
-instance Read Word32 where
+instance Read Word32 where  
 #if WORD_SIZE_IN_BITS < 33
     readsPrec p s = [(fromInteger x, r) | (x, r) <- readsPrec p s]
 #else
     readsPrec p s = [(fromIntegral (x::Int), r) | (x, r) <- readsPrec p s]
 #endif
-
--- | Reverse order of bytes in 'Word32'.
---
--- /Since: 4.7.0.0/
-byteSwap32 :: Word32 -> Word32
-byteSwap32 (W32# w#) = W32# (narrow32Word# (byteSwap32# w#))
 
 ------------------------------------------------------------------------
 -- type Word64
@@ -548,14 +534,14 @@ data {-# CTYPE "HsWord64" #-} Word64 = W64# Word64#
 -- ^ 64-bit unsigned integer type
 
 instance Eq Word64 where
-    (W64# x#) == (W64# y#) = isTrue# (x# `eqWord64#` y#)
-    (W64# x#) /= (W64# y#) = isTrue# (x# `neWord64#` y#)
+    (W64# x#) == (W64# y#) = x# `eqWord64#` y#
+    (W64# x#) /= (W64# y#) = x# `neWord64#` y#
 
 instance Ord Word64 where
-    (W64# x#) <  (W64# y#) = isTrue# (x# `ltWord64#` y#)
-    (W64# x#) <= (W64# y#) = isTrue# (x# `leWord64#` y#)
-    (W64# x#) >  (W64# y#) = isTrue# (x# `gtWord64#` y#)
-    (W64# x#) >= (W64# y#) = isTrue# (x# `geWord64#` y#)
+    (W64# x#) <  (W64# y#) = x# `ltWord64#` y#
+    (W64# x#) <= (W64# y#) = x# `leWord64#` y#
+    (W64# x#) >  (W64# y#) = x# `gtWord64#` y#
+    (W64# x#) >= (W64# y#) = x# `geWord64#` y#
 
 instance Num Word64 where
     (W64# x#) + (W64# y#)  = W64# (int64ToWord64# (word64ToInt64# x# `plusInt64#` word64ToInt64# y#))
@@ -617,16 +603,16 @@ instance Bits Word64 where
     (W64# x#) `xor` (W64# y#)  = W64# (x# `xor64#` y#)
     complement (W64# x#)       = W64# (not64# x#)
     (W64# x#) `shift` (I# i#)
-        | isTrue# (i# >=# 0#)  = W64# (x# `shiftL64#` i#)
+        | i# >=# 0#            = W64# (x# `shiftL64#` i#)
         | otherwise            = W64# (x# `shiftRL64#` negateInt# i#)
-    (W64# x#) `shiftL`       (I# i#) = W64# (x# `shiftL64#` i#)
+    (W64# x#) `shiftL` (I# i#) = W64# (x# `shiftL64#` i#)
     (W64# x#) `unsafeShiftL` (I# i#) = W64# (x# `uncheckedShiftL64#` i#)
-    (W64# x#) `shiftR`       (I# i#) = W64# (x# `shiftRL64#` i#)
+    (W64# x#) `shiftR` (I# i#) = W64# (x# `shiftRL64#` i#)
     (W64# x#) `unsafeShiftR` (I# i#) = W64# (x# `uncheckedShiftRL64#` i#)
     (W64# x#) `rotate` (I# i#)
-        | isTrue# (i'# ==# 0#) = W64# x#
-        | otherwise            = W64# ((x# `uncheckedShiftL64#` i'#) `or64#`
-                                       (x# `uncheckedShiftRL64#` (64# -# i'#)))
+        | i'# ==# 0# = W64# x#
+        | otherwise  = W64# ((x# `uncheckedShiftL64#` i'#) `or64#`
+                             (x# `uncheckedShiftRL64#` (64# -# i'#)))
         where
         !i'# = word2Int# (int2Word# i# `and#` 63##)
     bitSizeMaybe i            = Just (finiteBitSize i)
@@ -643,11 +629,11 @@ instance Bits Word64 where
 
 shiftL64#, shiftRL64# :: Word64# -> Int# -> Word64#
 
-a `shiftL64#` b  | isTrue# (b >=# 64#) = wordToWord64# 0##
-                 | otherwise           = a `uncheckedShiftL64#` b
+a `shiftL64#` b  | b >=# 64#  = wordToWord64# 0##
+                 | otherwise  = a `uncheckedShiftL64#` b
 
-a `shiftRL64#` b | isTrue# (b >=# 64#) = wordToWord64# 0##
-                 | otherwise           = a `uncheckedShiftRL64#` b
+a `shiftRL64#` b | b >=# 64#  = wordToWord64# 0##
+                 | otherwise  = a `uncheckedShiftRL64#` b
 
 {-# RULES
 "fromIntegral/Int->Word64"    fromIntegral = \(I#   x#) -> W64# (int64ToWord64# (intToInt64# x#))
@@ -717,7 +703,7 @@ instance Integral Word64 where
         | y /= 0                    = (W64# (x# `quotWord#` y#), W64# (x# `remWord#` y#))
         | otherwise                 = divZeroError
     toInteger (W64# x#)
-        | isTrue# (i# >=# 0#)       = smallInteger i#
+        | i# >=# 0#                 = smallInteger i#
         | otherwise                 = wordToInteger x#
         where
         !i# = word2Int# x#
@@ -733,16 +719,16 @@ instance Bits Word64 where
     complement (W64# x#)       = W64# (x# `xor#` mb#)
         where !(W64# mb#) = maxBound
     (W64# x#) `shift` (I# i#)
-        | isTrue# (i# >=# 0#)  = W64# (x# `shiftL#` i#)
+        | i# >=# 0#            = W64# (x# `shiftL#` i#)
         | otherwise            = W64# (x# `shiftRL#` negateInt# i#)
-    (W64# x#) `shiftL`       (I# i#) = W64# (x# `shiftL#` i#)
+    (W64# x#) `shiftL` (I# i#) = W64# (x# `shiftL#` i#)
     (W64# x#) `unsafeShiftL` (I# i#) = W64# (x# `uncheckedShiftL#` i#)
-    (W64# x#) `shiftR`       (I# i#) = W64# (x# `shiftRL#` i#)
+    (W64# x#) `shiftR` (I# i#) = W64# (x# `shiftRL#` i#)
     (W64# x#) `unsafeShiftR` (I# i#) = W64# (x# `uncheckedShiftRL#` i#)
     (W64# x#) `rotate` (I# i#)
-        | isTrue# (i'# ==# 0#) = W64# x#
-        | otherwise            = W64# ((x# `uncheckedShiftL#` i'#) `or#`
-                                       (x# `uncheckedShiftRL#` (64# -# i'#)))
+        | i'# ==# 0# = W64# x#
+        | otherwise  = W64# ((x# `uncheckedShiftL#` i'#) `or#`
+                             (x# `uncheckedShiftRL#` (64# -# i'#)))
         where
         !i'# = word2Int# (int2Word# i# `and#` 63##)
     bitSizeMaybe i            = Just (finiteBitSize i)
@@ -786,13 +772,3 @@ instance Ix Word64 where
 instance Read Word64 where
     readsPrec p s = [(fromInteger x, r) | (x, r) <- readsPrec p s]
 
--- | Reverse order of bytes in 'Word64'.
---
--- /Since: 4.7.0.0/
-#if WORD_SIZE_IN_BITS < 64
-byteSwap64 :: Word64 -> Word64
-byteSwap64 (W64# w#) = W64# (byteSwap64# w#)
-#else
-byteSwap64 :: Word64 -> Word64
-byteSwap64 (W64# w#) = W64# (byteSwap# w#)
-#endif

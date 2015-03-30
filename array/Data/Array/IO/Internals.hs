@@ -1,4 +1,3 @@
-{-# LANGUAGE DeriveDataTypeable, FlexibleInstances, MultiParamTypeClasses #-}
 {-# OPTIONS_HADDOCK hide #-}
 -----------------------------------------------------------------------------
 -- |
@@ -14,11 +13,14 @@
 --
 -----------------------------------------------------------------------------
 
+-- #hide
 module Data.Array.IO.Internals (
     IOArray(..),         -- instance of: Eq, Typeable
     IOUArray(..),        -- instance of: Eq, Typeable
     castIOUArray,        -- :: IOUArray ix a -> IO (IOUArray ix b)
+#ifdef __GLASGOW_HASKELL__
     unsafeThawIOUArray,
+#endif
   ) where
 
 import Data.Int
@@ -32,7 +34,15 @@ import Foreign.StablePtr        ( StablePtr )
 import Data.Ix
 import Data.Array.Base
 
+#ifdef __HUGS__
+import Hugs.IOArray
+#endif
+
+#ifdef __GLASGOW_HASKELL__
 import GHC.IOArray (IOArray(..))
+#endif /* __GLASGOW_HASKELL__ */
+
+#include "Typeable.h"
 
 -----------------------------------------------------------------------------
 -- Flat unboxed mutable arrays (IO monad)
@@ -46,7 +56,8 @@ import GHC.IOArray (IOArray(..))
 --    are supported: see "Data.Array.MArray" for a list of instances.
 --
 newtype IOUArray i e = IOUArray (STUArray RealWorld i e)
-                       deriving Typeable
+
+INSTANCE_TYPEABLE2(IOUArray,iOUArrayTc,"IOUArray")
 
 instance Eq (IOUArray i e) where
     IOUArray s1 == IOUArray s2  =  s1 == s2
@@ -365,6 +376,7 @@ castIOUArray (IOUArray marr) = stToIO $ do
     marr' <- castSTUArray marr
     return (IOUArray marr')
 
+#ifdef __GLASGOW_HASKELL__
 {-# INLINE unsafeThawIOUArray #-}
 unsafeThawIOUArray :: Ix ix => UArray ix e -> IO (IOUArray ix e)
 unsafeThawIOUArray arr = stToIO $ do
@@ -398,3 +410,5 @@ freezeIOUArray (IOUArray marr) = stToIO (freezeSTUArray marr)
 {-# RULES
 "freeze/IOUArray" freeze = freezeIOUArray
     #-}
+#endif /* __GLASGOW_HASKELL__ */
+

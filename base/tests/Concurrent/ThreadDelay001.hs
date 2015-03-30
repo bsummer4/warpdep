@@ -6,19 +6,22 @@ module Main (main) where
 
 import Control.Concurrent
 import Control.Monad
-import Data.Time
+import System.Time
 
 main :: IO ()
 main = mapM_ delay (0 : take 7 (iterate (*5) 100))
 
 delay :: Int -> IO ()
 delay n = do
-  tS <- getCurrentTime
+  tS <- getClockTime
   threadDelay n
-  tE <- getCurrentTime
+  tE <- getClockTime
 
   let req = fromIntegral n * 10 ^ (6 :: Int)
-      obs = floor (diffUTCTime tE tS * 10 ^ (12 :: Int))
+      obs = case normalizeTimeDiff (diffClockTimes tE tS) of
+                TimeDiff 0 0 0 0 0 s ps -> 10 ^ (12 :: Int) * fromIntegral s + ps
+                td ->
+                    error ("Bad TimeDiff: " ++ show td)
       diff = obs - req
       diff' :: Double
       diff' = fromIntegral diff /  10 ^ (12 :: Int)

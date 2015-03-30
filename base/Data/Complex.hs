@@ -1,6 +1,8 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE DeriveDataTypeable #-}
+{-# LANGUAGE CPP, DeriveDataTypeable #-}
+#ifdef __GLASGOW_HASKELL__
 {-# LANGUAGE StandaloneDeriving #-}
+#endif
 
 -----------------------------------------------------------------------------
 -- |
@@ -37,7 +39,13 @@ module Data.Complex
 import Prelude
 
 import Data.Typeable
+#ifdef __GLASGOW_HASKELL__
 import Data.Data (Data)
+#endif
+
+#ifdef __HUGS__
+import Hugs.Prelude(Num(fromInt), Fractional(fromDouble))
+#endif
 
 infix  6  :+
 
@@ -52,7 +60,11 @@ infix  6  :+
 data Complex a
   = !a :+ !a    -- ^ forms a complex number from its real and imaginary
                 -- rectangular components.
-        deriving (Eq, Show, Read, Data, Typeable)
+# if __GLASGOW_HASKELL__
+        deriving (Eq, Show, Read, Data)
+# else
+        deriving (Eq, Show, Read)
+# endif
 
 -- -----------------------------------------------------------------------------
 -- Functions over Complex
@@ -109,6 +121,9 @@ phase (x:+y)     = atan2 y x
 -- -----------------------------------------------------------------------------
 -- Instances of Complex
 
+#include "Typeable.h"
+INSTANCE_TYPEABLE1(Complex,complexTc,"Complex")
+
 instance  (RealFloat a) => Num (Complex a)  where
     {-# SPECIALISE instance Num (Complex Float) #-}
     {-# SPECIALISE instance Num (Complex Double) #-}
@@ -120,6 +135,9 @@ instance  (RealFloat a) => Num (Complex a)  where
     signum (0:+0)       =  0
     signum z@(x:+y)     =  x/r :+ y/r  where r = magnitude z
     fromInteger n       =  fromInteger n :+ 0
+#ifdef __HUGS__
+    fromInt n           =  fromInt n :+ 0
+#endif
 
 instance  (RealFloat a) => Fractional (Complex a)  where
     {-# SPECIALISE instance Fractional (Complex Float) #-}
@@ -131,6 +149,9 @@ instance  (RealFloat a) => Fractional (Complex a)  where
                                  d   = x'*x'' + y'*y''
 
     fromRational a      =  fromRational a :+ 0
+#ifdef __HUGS__
+    fromDouble a        =  fromDouble a :+ 0
+#endif
 
 instance  (RealFloat a) => Floating (Complex a) where
     {-# SPECIALISE instance Floating (Complex Float) #-}

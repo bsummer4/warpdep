@@ -1,5 +1,5 @@
 {-# LANGUAGE Unsafe #-}
-{-# LANGUAGE NoImplicitPrelude #-}
+{-# LANGUAGE CPP, NoImplicitPrelude #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -23,24 +23,30 @@ module System.IO.Unsafe (
    unsafeFixIO,
   ) where
 
+#ifdef __GLASGOW_HASKELL__
 import GHC.Base
 import GHC.IO
 import GHC.IORef
 import GHC.Exception
 import Control.Exception
+#endif
+
+#ifdef __HUGS__
+import Hugs.IOExts (unsafePerformIO, unsafeInterleaveIO)
+unsafeDupablePerformIO = unsafePerformIO
+#endif
 
 -- | A slightly faster version of `System.IO.fixIO` that may not be
 -- safe to use with multiple threads.  The unsafety arises when used
 -- like this:
 --
--- >  unsafeFixIO $ \r -> do
+-- >  unsafeFixIO $ \r ->
 -- >     forkIO (print r)
 -- >     return (...)
 --
 -- In this case, the child thread will receive a @NonTermination@
 -- exception instead of waiting for the value of @r@ to be computed.
 --
--- /Since: 4.5.0.0/
 unsafeFixIO :: (a -> IO a) -> IO a
 unsafeFixIO k = do
   ref <- newIORef (throw NonTermination)

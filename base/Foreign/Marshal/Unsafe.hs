@@ -1,5 +1,5 @@
 {-# LANGUAGE Unsafe #-}
-{-# LANGUAGE NoImplicitPrelude #-}
+{-# LANGUAGE CPP, NoImplicitPrelude #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -20,7 +20,11 @@ module Foreign.Marshal.Unsafe (
         unsafeLocalState
     ) where
 
+#ifdef __GLASGOW_HASKELL__
 import GHC.IO
+#else
+import System.IO.Unsafe
+#endif
 
 {- |
 Sometimes an external entity is a pure function, except that it passes

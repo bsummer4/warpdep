@@ -1,5 +1,6 @@
 {-# LANGUAGE Trustworthy #-}
-
+{-# OPTIONS_GHC -#include "HsBase.h" #-}
+{-# OPTIONS_GHC -w #-} --tmp
 -----------------------------------------------------------------------------
 -- |
 -- Module      :  Data.Array.IO.Safe
@@ -14,7 +15,6 @@
 -- .
 -- Safe API only of "Data.Array.IO".
 --
--- /Since: 0.4.0.0/
 -----------------------------------------------------------------------------
 
 module Data.Array.IO.Safe (

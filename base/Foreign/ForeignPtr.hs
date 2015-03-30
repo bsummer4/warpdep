@@ -1,5 +1,5 @@
 {-# LANGUAGE Unsafe #-}
-{-# LANGUAGE NoImplicitPrelude #-}
+{-# LANGUAGE CPP, NoImplicitPrelude #-}
 {-# OPTIONS_HADDOCK hide #-}
 
 -----------------------------------------------------------------------------
@@ -22,16 +22,22 @@ module Foreign.ForeignPtr (
         -- * Finalised data pointers
           ForeignPtr
         , FinalizerPtr
+#if defined(__HUGS__) || defined(__GLASGOW_HASKELL__)
         , FinalizerEnvPtr
-
+#endif
         -- ** Basic operations
         , newForeignPtr
         , newForeignPtr_
         , addForeignPtrFinalizer
+#if defined(__HUGS__) || defined(__GLASGOW_HASKELL__)
         , newForeignPtrEnv
         , addForeignPtrFinalizerEnv
+#endif
         , withForeignPtr
+
+#ifdef __GLASGOW_HASKELL__
         , finalizeForeignPtr
+#endif
 
         -- ** Low-level operations
         , touchForeignPtr

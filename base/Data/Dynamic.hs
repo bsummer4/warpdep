@@ -1,6 +1,8 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE NoImplicitPrelude #-}
+{-# LANGUAGE CPP, NoImplicitPrelude #-}
+#ifdef __GLASGOW_HASKELL__
 {-# LANGUAGE DeriveDataTypeable, StandaloneDeriving #-}
+#endif
 
 -----------------------------------------------------------------------------
 -- |
@@ -47,9 +49,20 @@ import Data.Typeable
 import Data.Maybe
 import Unsafe.Coerce
 
+#ifdef __GLASGOW_HASKELL__
 import GHC.Base
 import GHC.Show
 import GHC.Exception
+#endif
+
+#ifdef __HUGS__
+import Hugs.Prelude
+import Hugs.IO
+import Hugs.IORef
+import Hugs.IOExts
+#endif
+
+#include "Typeable.h"
 
 -------------------------------------------------------------
 --
@@ -67,8 +80,11 @@ import GHC.Exception
   'Show'ing a value of type 'Dynamic' returns a pretty-printed representation
   of the object\'s type; useful for debugging.
 -}
+#ifndef __HUGS__
 data Dynamic = Dynamic TypeRep Obj
-               deriving Typeable
+#endif
+
+INSTANCE_TYPEABLE0(Dynamic,dynamicTc,"Dynamic")
 
 instance Show Dynamic where
    -- the instance just prints the type representation.
@@ -77,9 +93,12 @@ instance Show Dynamic where
           showsPrec 0 t   . 
           showString ">>"
 
+#ifdef __GLASGOW_HASKELL__
 -- here so that it isn't an orphan:
 instance Exception Dynamic
+#endif
 
+#ifdef __GLASGOW_HASKELL__
 type Obj = Any
  -- Use GHC's primitive 'Any' type to hold the dynamically typed value.
  --
@@ -88,6 +107,9 @@ type Obj = Any
  -- when evaluating it, and this will go wrong if the object is really a 
  -- function.  Using Any forces GHC to use
  -- a fallback convention for evaluating it that works for all types.
+#elif !defined(__HUGS__)
+data Obj = Obj
+#endif
 
 -- | Converts an arbitrary value into an object of type 'Dynamic'.  
 --

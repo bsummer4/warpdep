@@ -1,3 +1,4 @@
+{-# LANGUAGE CPP #-}
 import Control.Concurrent
 import Control.Exception
 import Control.Monad

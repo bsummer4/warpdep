@@ -1,5 +1,5 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE CPP, NoImplicitPrelude #-}
+{-# LANGUAGE CPP, NoImplicitPrelude, ForeignFunctionInterface #-}
 {-# OPTIONS_GHC -funbox-strict-fields #-}
 
 -----------------------------------------------------------------------------
@@ -88,7 +88,7 @@ import Foreign.Storable
 -- the Iconv codec, but there are some pieces that are known to be
 -- broken.  In particular, the built-in codecs
 -- e.g. GHC.IO.Encoding.UTF{8,16,32} need to use isFullCharBuffer or
--- similar in place of the ow >= os comparisons.
+-- similar in place of the ow >= os comparisions.
 
 -- ---------------------------------------------------------------------------
 -- Raw blocks of data

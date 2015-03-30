@@ -1,5 +1,7 @@
 -- trac #2059
 
+{-# LANGUAGE ForeignFunctionInterface #-}
+
 module Main(main) where
 
 import Control.Monad

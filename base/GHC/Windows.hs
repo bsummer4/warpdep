@@ -1,5 +1,6 @@
 {-# LANGUAGE Trustworthy #-}
 {-# LANGUAGE CPP #-}
+{-# LANGUAGE ForeignFunctionInterface #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 -----------------------------------------------------------------------------
 -- |
@@ -22,10 +23,7 @@
 module GHC.Windows (
         -- * Types
         BOOL,
-        LPBOOL,
-        BYTE,
         DWORD,
-        UINT,
         ErrCode,
         HANDLE,
         LPWSTR,
@@ -72,19 +70,18 @@ import System.IO.Error
 
 import qualified Numeric
 
-#if defined(i386_HOST_ARCH)
-# define WINDOWS_CCONV stdcall
-#elif defined(x86_64_HOST_ARCH)
-# define WINDOWS_CCONV ccall
-#else
-# error Unknown mingw32 arch
+#ifdef mingw32_HOST_OS
+# if defined(i386_HOST_ARCH)
+#  define WINDOWS_CCONV stdcall
+# elif defined(x86_64_HOST_ARCH)
+#  define WINDOWS_CCONV ccall
+# else
+#  error Unknown mingw32 arch
+# endif
 #endif
 
 type BOOL    = Bool
-type LPBOOL  = Ptr BOOL
-type BYTE    = Word8
 type DWORD   = Word32
-type UINT    = Word32
 type ErrCode = DWORD
 type HANDLE  = Ptr ()
 type LPWSTR  = Ptr CWchar

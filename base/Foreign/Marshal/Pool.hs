@@ -1,5 +1,5 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE NoImplicitPrelude #-}
+{-# LANGUAGE CPP, NoImplicitPrelude #-}
 
 --------------------------------------------------------------------------------
 -- |
@@ -46,6 +46,7 @@ module Foreign.Marshal.Pool (
    pooledNewArray0
 ) where
 
+#ifdef __GLASGOW_HASKELL__
 import GHC.Base              ( Int, Monad(..), (.), not )
 import GHC.Err               ( undefined )
 import GHC.Exception         ( throw )
@@ -53,6 +54,10 @@ import GHC.IO                ( IO, mask, catchAny )
 import GHC.IORef             ( IORef, newIORef, readIORef, writeIORef )
 import GHC.List              ( elem, length )
 import GHC.Num               ( Num(..) )
+#else
+import Data.IORef            ( IORef, newIORef, readIORef, writeIORef )
+import Control.Exception.Base ( bracket )
+#endif
 
 import Control.Monad         ( liftM )
 import Data.List             ( delete )
@@ -88,6 +93,7 @@ freePool (Pool pool) = readIORef pool >>= freeAll
 -- deallocated (including its contents) after the action has finished.
 
 withPool :: (Pool -> IO b) -> IO b
+#ifdef __GLASGOW_HASKELL__
 withPool act =   -- ATTENTION: cut-n-paste from Control.Exception below!
    mask (\restore -> do
       pool <- newPool
@@ -96,6 +102,9 @@ withPool act =   -- ATTENTION: cut-n-paste from Control.Exception below!
                 (\e -> do freePool pool; throw e)
       freePool pool
       return val)
+#else
+withPool = bracket newPool freePool
+#endif
 
 --------------------------------------------------------------------------------
 

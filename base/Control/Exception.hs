@@ -1,5 +1,5 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE NoImplicitPrelude, ExistentialQuantification #-}
+{-# LANGUAGE CPP, NoImplicitPrelude, ExistentialQuantification #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -34,7 +34,11 @@
 module Control.Exception (
 
         -- * The Exception type
+#ifdef __HUGS__
+        SomeException,
+#else
         SomeException(..),
+#endif
         Exception(..),          -- class
         IOException,            -- instance Eq, Ord, Show, Typeable, Exception
         ArithException(..),     -- instance Eq, Ord, Show, Typeable, Exception
@@ -44,8 +48,11 @@ module Control.Exception (
         AsyncException(..),     -- instance Eq, Ord, Show, Typeable, Exception
         asyncExceptionToException, asyncExceptionFromException,
 
+#if __GLASGOW_HASKELL__ || __HUGS__
         NonTermination(..),
         NestedAtomically(..),
+#endif
+
         BlockedIndefinitelyOnMVar(..),
         BlockedIndefinitelyOnSTM(..),
         Deadlock(..),
@@ -60,7 +67,9 @@ module Control.Exception (
         throw,
         throwIO,
         ioError,
+#ifdef __GLASGOW_HASKELL__
         throwTo,
+#endif
 
         -- * Catching Exceptions
 
@@ -106,6 +115,12 @@ module Control.Exception (
         getMaskingState,
         allowInterrupt,
 
+        -- ** (deprecated) Asynchronous exception control
+
+        block,
+        unblock,
+        blocked,
+
         -- *** Applying @mask@ to an exception handler
 
         -- $block_handler
@@ -131,9 +146,13 @@ module Control.Exception (
 
 import Control.Exception.Base
 
+#ifdef __GLASGOW_HASKELL__
 import GHC.Base
 import GHC.IO (unsafeUnmask)
 import Data.Maybe
+#else
+import Prelude hiding (catch)
+#endif
 
 -- | You need this when using 'catches'.
 data Handler a = forall e . Exception e => Handler (e -> IO a)
@@ -218,8 +237,6 @@ A typical use of 'tryJust' for recovery looks like this:
 --
 -- When called outside 'mask', or inside 'uninterruptibleMask', this
 -- function has no effect.
---
--- /Since: 4.4.0.0/
 allowInterrupt :: IO ()
 allowInterrupt = unsafeUnmask $ return ()
 
@@ -334,7 +351,7 @@ The following operations are guaranteed not to be interruptible:
 
  * everything from the @Foreign@ modules
 
- * everything from @Control.Exception@ except for 'throwTo'
+ * everything from @Control.Exception@
 
  * @tryTakeMVar@, @tryPutMVar@, @isEmptyMVar@
 

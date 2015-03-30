@@ -3,6 +3,7 @@
            , NoImplicitPrelude
            , MagicHash
            , UnboxedTuples
+           , ForeignFunctionInterface
   #-}
 {-# OPTIONS_GHC -fno-warn-missing-signatures #-}
 {-# OPTIONS_HADDOCK not-home #-}
@@ -24,8 +25,11 @@
 -- No: #hide, because bits of this module are exposed by the stm package.
 -- However, we don't want this module to be the home location for the
 -- bits it exports, we'd rather have Control.Concurrent and the other
--- higher level modules be the home.  Hence: #not-home
+-- higher level modules be the home.  Hence:
 
+#include "Typeable.h"
+
+-- #not-home
 module GHC.Conc.IO
         ( ensureIOManagerIsRunning
         , ioManagerCapabilitiesChanged

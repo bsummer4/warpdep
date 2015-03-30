@@ -1,5 +1,5 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE BangPatterns, NoImplicitPrelude #-}
+{-# LANGUAGE BangPatterns, ForeignFunctionInterface, NoImplicitPrelude #-}
 module GHC.Event.Thread
     ( getSystemEventManager
     , getSystemTimerManager
@@ -15,9 +15,8 @@ module GHC.Event.Thread
     ) where
 
 import Control.Exception (finally)
-import Control.Monad (forM, forM_, sequence_, zipWithM, when)
+import Control.Monad (forM, forM_, zipWithM, zipWithM_, when)
 import Data.IORef (IORef, newIORef, readIORef, writeIORef)
-import Data.List (zipWith3)
 import Data.Maybe (Maybe(..))
 import Data.Tuple (snd)
 import Foreign.C.Error (eBADF, errnoToIOError)
@@ -100,10 +99,16 @@ closeFdWith close fd = do
     return mgr
   mask_ $ do
     tables <- forM mgrs $ \mgr -> takeMVar $ M.callbackTableVar mgr fd
-    cbApps <- zipWithM (\mgr table -> M.closeFd_ mgr table fd) mgrs tables
-    close fd `finally` sequence_ (zipWith3 finish mgrs tables cbApps)
+    tableAndCbApps <- zipWithM
+                      (\mgr table -> M.closeFd_ mgr table fd)
+                      mgrs
+                      tables
+    close fd
+    zipWithM_ finish mgrs tableAndCbApps
   where
-    finish mgr table cbApp = putMVar (M.callbackTableVar mgr fd) table >> cbApp
+    finish mgr (table', cbApp) = do
+      putMVar (M.callbackTableVar mgr fd) table'
+      cbApp
 
 threadWait :: Event -> Fd -> IO ()
 threadWait evt fd = mask_ $ do
@@ -328,14 +333,14 @@ ioManagerCapabilitiesChanged = do
               -- copy the existing values into the new array:
               forM_ [0..high] $ \i -> do
                 Just (tid,mgr) <- readIOArray eventManagerArray i
-                if i < numEnabled
+                if i < numEnabled - 1
                   then writeIOArray new_eventManagerArray i (Just (tid,mgr))
                   else do tid' <- restartPollLoop mgr i
                           writeIOArray new_eventManagerArray i (Just (tid',mgr))
 
               -- create new IO managers for the new caps:
               forM_ [old_n_caps..new_n_caps-1] $
-                startIOManagerThread new_eventManagerArray
+                startIOManagerThread eventManagerArray
 
               -- update the event manager array reference:
               writeIORef eventManager new_eventManagerArray

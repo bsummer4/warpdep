@@ -31,9 +31,14 @@ module Foreign.C.String (   -- representation of strings in C
 
   -- ** Using a locale-dependent encoding
 
+#ifndef __GLASGOW_HASKELL__
+  -- | Currently these functions are identical to their @CAString@ counterparts;
+  -- eventually they will use an encoding determined by the current locale.
+#else
   -- | These functions are different from their @CAString@ counterparts
   -- in that they will use an encoding determined by the current locale,
   -- rather than always assuming ASCII.
+#endif
 
   -- conversion of C strings into Haskell strings
   --
@@ -102,6 +107,7 @@ import Foreign.Storable
 
 import Data.Word
 
+#ifdef __GLASGOW_HASKELL__
 import Control.Monad
 
 import GHC.Char
@@ -112,6 +118,10 @@ import GHC.Base
 
 import {-# SOURCE #-} GHC.IO.Encoding
 import qualified GHC.Foreign as GHC
+#else
+import Data.Char ( chr, ord )
+#define unsafeChr chr
+#endif
 
 -----------------------------------------------------------------------------
 -- Strings
@@ -135,12 +145,20 @@ type CStringLen = (Ptr CChar, Int)
 -- | Marshal a NUL terminated C string into a Haskell string.
 --
 peekCString    :: CString -> IO String
+#ifndef __GLASGOW_HASKELL__
+peekCString = peekCAString
+#else
 peekCString s = getForeignEncoding >>= flip GHC.peekCString s
+#endif
 
 -- | Marshal a C string with explicit length into a Haskell string.
 --
 peekCStringLen           :: CStringLen -> IO String
+#ifndef __GLASGOW_HASKELL__
+peekCStringLen = peekCAStringLen
+#else
 peekCStringLen s = getForeignEncoding >>= flip GHC.peekCStringLen s
+#endif
 
 -- | Marshal a Haskell string into a NUL terminated C string.
 --
@@ -151,7 +169,11 @@ peekCStringLen s = getForeignEncoding >>= flip GHC.peekCStringLen s
 --   'Foreign.Marshal.Alloc.finalizerFree'.
 --
 newCString :: String -> IO CString
+#ifndef __GLASGOW_HASKELL__
+newCString = newCAString
+#else
 newCString s = getForeignEncoding >>= flip GHC.newCString s
+#endif
 
 -- | Marshal a Haskell string into a C string (ie, character array) with
 -- explicit length information.
@@ -161,7 +183,11 @@ newCString s = getForeignEncoding >>= flip GHC.newCString s
 --   'Foreign.Marshal.Alloc.finalizerFree'.
 --
 newCStringLen     :: String -> IO CStringLen
+#ifndef __GLASGOW_HASKELL__
+newCStringLen = newCAStringLen
+#else
 newCStringLen s = getForeignEncoding >>= flip GHC.newCStringLen s
+#endif
 
 -- | Marshal a Haskell string into a NUL terminated C string using temporary
 -- storage.
@@ -173,7 +199,11 @@ newCStringLen s = getForeignEncoding >>= flip GHC.newCStringLen s
 --   storage must /not/ be used after this.
 --
 withCString :: String -> (CString -> IO a) -> IO a
+#ifndef __GLASGOW_HASKELL__
+withCString = withCAString
+#else
 withCString s f = getForeignEncoding >>= \enc -> GHC.withCString enc s f
+#endif
 
 -- | Marshal a Haskell string into a C string (ie, character array)
 -- in temporary storage, with explicit length information.
@@ -183,12 +213,26 @@ withCString s f = getForeignEncoding >>= \enc -> GHC.withCString enc s f
 --   storage must /not/ be used after this.
 --
 withCStringLen         :: String -> (CStringLen -> IO a) -> IO a
+#ifndef __GLASGOW_HASKELL__
+withCStringLen = withCAStringLen
+#else
 withCStringLen s f = getForeignEncoding >>= \enc -> GHC.withCStringLen enc s f
+#endif
 
+
+#ifndef __GLASGOW_HASKELL__
+-- | Determines whether a character can be accurately encoded in a 'CString'.
+-- Unrepresentable characters are converted to @\'?\'@.
+--
+-- Currently only Latin-1 characters are representable.
+charIsRepresentable :: Char -> IO Bool
+charIsRepresentable c = return (ord c < 256)
+#else
 -- -- | Determines whether a character can be accurately encoded in a 'CString'.
 -- -- Unrepresentable characters are converted to '?' or their nearest visual equivalent.
 charIsRepresentable :: Char -> IO Bool
 charIsRepresentable c = getForeignEncoding >>= flip GHC.charIsRepresentable c
+#endif
 
 -- single byte characters
 -- ----------------------
@@ -228,6 +272,11 @@ castCharToCSChar ch = fromIntegral (ord ch)
 -- | Marshal a NUL terminated C string into a Haskell string.
 --
 peekCAString    :: CString -> IO String
+#ifndef __GLASGOW_HASKELL__
+peekCAString cp  = do
+  cs <- peekArray0 nUL cp
+  return (cCharsToChars cs)
+#else
 peekCAString cp = do
   l <- lengthArray0 nUL cp
   if l <= 0 then return "" else loop "" (l-1)
@@ -236,10 +285,16 @@ peekCAString cp = do
         xval <- peekElemOff cp i
         let val = castCCharToChar xval
         val `seq` if i <= 0 then return (val:s) else loop (val:s) (i-1)
+#endif
 
 -- | Marshal a C string with explicit length into a Haskell string.
 --
 peekCAStringLen           :: CStringLen -> IO String
+#ifndef __GLASGOW_HASKELL__
+peekCAStringLen (cp, len)  = do
+  cs <- peekArray len cp
+  return (cCharsToChars cs)
+#else
 peekCAStringLen (cp, len) 
   | len <= 0  = return "" -- being (too?) nice.
   | otherwise = loop [] (len-1)
@@ -251,6 +306,7 @@ peekCAStringLen (cp, len)
          if (val `seq` (i == 0))
           then return (val:acc)
           else loop (val:acc) (i-1)
+#endif
 
 -- | Marshal a Haskell string into a NUL terminated C string.
 --
@@ -261,6 +317,9 @@ peekCAStringLen (cp, len)
 --   'Foreign.Marshal.Alloc.finalizerFree'.
 --
 newCAString :: String -> IO CString
+#ifndef __GLASGOW_HASKELL__
+newCAString  = newArray0 nUL . charsToCChars
+#else
 newCAString str = do
   ptr <- mallocArray0 (length str)
   let
@@ -268,6 +327,7 @@ newCAString str = do
         go (c:cs) n = do pokeElemOff ptr n (castCharToCChar c); go cs (n+1)
   go str 0
   return ptr
+#endif
 
 -- | Marshal a Haskell string into a C string (ie, character array) with
 -- explicit length information.
@@ -277,6 +337,9 @@ newCAString str = do
 --   'Foreign.Marshal.Alloc.finalizerFree'.
 --
 newCAStringLen     :: String -> IO CStringLen
+#ifndef __GLASGOW_HASKELL__
+newCAStringLen str  = newArrayLen (charsToCChars str)
+#else
 newCAStringLen str = do
   ptr <- mallocArray0 len
   let
@@ -286,6 +349,7 @@ newCAStringLen str = do
   return (ptr, len)
   where
     len = length str
+#endif
 
 -- | Marshal a Haskell string into a NUL terminated C string using temporary
 -- storage.
@@ -297,6 +361,9 @@ newCAStringLen str = do
 --   storage must /not/ be used after this.
 --
 withCAString :: String -> (CString -> IO a) -> IO a
+#ifndef __GLASGOW_HASKELL__
+withCAString  = withArray0 nUL . charsToCChars
+#else
 withCAString str f =
   allocaArray0 (length str) $ \ptr ->
       let
@@ -305,6 +372,7 @@ withCAString str f =
       in do
       go str 0
       f ptr
+#endif
 
 -- | Marshal a Haskell string into a C string (ie, character array)
 -- in temporary storage, with explicit length information.
@@ -315,6 +383,9 @@ withCAString str f =
 --
 withCAStringLen         :: String -> (CStringLen -> IO a) -> IO a
 withCAStringLen str f    =
+#ifndef __GLASGOW_HASKELL__
+  withArrayLen (charsToCChars str) $ \ len ptr -> f (ptr, len)
+#else
   allocaArray len $ \ptr ->
       let
         go [] n     = n `seq` return () -- make it strict in n
@@ -324,6 +395,7 @@ withCAStringLen str f    =
       f (ptr,len)
   where
     len = length str
+#endif
 
 -- auxiliary definitions
 -- ----------------------
@@ -338,6 +410,18 @@ newArrayLen        :: Storable a => [a] -> IO (Ptr a, Int)
 newArrayLen xs      = do
   a <- newArray xs
   return (a, length xs)
+
+#ifndef __GLASGOW_HASKELL__
+-- cast [CChar] to [Char]
+--
+cCharsToChars :: [CChar] -> [Char]
+cCharsToChars xs  = map castCCharToChar xs
+
+-- cast [Char] to [CChar]
+--
+charsToCChars :: [Char] -> [CChar]
+charsToCChars xs  = map castCharToCChar xs
+#endif
 
 -----------------------------------------------------------------------------
 -- Wide strings

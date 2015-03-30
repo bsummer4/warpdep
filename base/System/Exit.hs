@@ -1,4 +1,5 @@
 {-# LANGUAGE Trustworthy #-}
+{-# LANGUAGE CPP #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -24,8 +25,15 @@ module System.Exit
 
 import Prelude
 
+#ifdef __GLASGOW_HASKELL__
 import GHC.IO
 import GHC.IO.Exception
+#endif
+
+#ifdef __HUGS__
+import Hugs.Prelude (ExitCode(..))
+import Control.Exception.Base
+#endif
 
 -- ---------------------------------------------------------------------------
 -- exitWith
@@ -60,7 +68,9 @@ exitWith :: ExitCode -> IO a
 exitWith ExitSuccess = throwIO ExitSuccess
 exitWith code@(ExitFailure n)
   | n /= 0 = throwIO code
+#ifdef __GLASGOW_HASKELL__
   | otherwise = ioError (IOError Nothing InvalidArgument "exitWith" "ExitFailure 0" Nothing Nothing)
+#endif
 
 -- | The computation 'exitFailure' is equivalent to
 -- 'exitWith' @(@'ExitFailure' /exitfail/@)@,

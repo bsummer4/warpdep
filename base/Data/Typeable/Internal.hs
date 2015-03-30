@@ -1,4 +1,5 @@
-{-# LANGUAGE Unsafe             #-}
+{-# OPTIONS_GHC -fno-warn-typeable-instances #-}
+{-# LANGUAGE Unsafe    #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -19,19 +20,17 @@
            , FlexibleInstances
            , MagicHash
            , KindSignatures
-           , PolyKinds
-           , ConstraintKinds
-           , DeriveDataTypeable
-           , StandaloneDeriving #-}
+           , PolyKinds #-}
+#ifdef __GLASGOW_HASKELL__
+{-# LANGUAGE DeriveDataTypeable, StandaloneDeriving #-}
+#endif
 
 module Data.Typeable.Internal (
     Proxy (..),
     TypeRep(..),
     Fingerprint(..),
     typeOf, typeOf1, typeOf2, typeOf3, typeOf4, typeOf5, typeOf6, typeOf7,
-    Typeable1, Typeable2, Typeable3, Typeable4, Typeable5, Typeable6, Typeable7,
     TyCon(..),
-    typeRep,
     mkTyCon,
     mkTyCon3,
     mkTyConApp,
@@ -51,20 +50,18 @@ import GHC.Base
 import GHC.Word
 import GHC.Show
 import Data.Maybe
-import Data.Proxy
+import Data.List
 import GHC.Num
 import GHC.Real
--- import GHC.IORef
--- import GHC.IOArray
--- import GHC.MVar
+import GHC.IORef
+import GHC.IOArray
+import GHC.MVar
 import GHC.ST           ( ST )
 import GHC.STRef        ( STRef )
 import GHC.Ptr          ( Ptr, FunPtr )
--- import GHC.Stable
+import GHC.Stable
 import GHC.Arr          ( Array, STArray )
-import Data.Type.Coercion
-import Data.Type.Equality
--- import Data.Int
+import Data.Int
 
 import GHC.Fingerprint.Type
 import {-# SOURCE #-} GHC.Fingerprint
@@ -88,9 +85,9 @@ instance Ord TypeRep where
 -- be built using 'mkTyCon'.
 data TyCon = TyCon {
    tyConHash    :: {-# UNPACK #-} !Fingerprint,
-   tyConPackage :: String, -- ^ /Since: 4.5.0.0/
-   tyConModule  :: String, -- ^ /Since: 4.5.0.0/
-   tyConName    :: String  -- ^ /Since: 4.5.0.0/
+   tyConPackage :: String,
+   tyConModule  :: String,
+   tyConName    :: String
  }
 
 instance Eq TyCon where
@@ -168,7 +165,7 @@ mkTyCon3 :: String       -- ^ package name
          -> String       -- ^ the name of the type constructor
          -> TyCon        -- ^ A unique 'TyCon' object
 mkTyCon3 pkg modl name =
-  TyCon (fingerprintString (pkg ++ (' ':modl) ++ (' ':name))) pkg modl name
+  TyCon (fingerprintString (unwords [pkg, modl, name])) pkg modl name
 
 ----------------- Observation ---------------------
 
@@ -181,7 +178,7 @@ typeRepArgs :: TypeRep -> [TypeRep]
 typeRepArgs (TypeRep _ _ args) = args
 
 -- | Observe string encoding of a type representation
-{-# DEPRECATED tyConString "renamed to 'tyConName'; 'tyConModule' and 'tyConPackage' are also available." #-} -- deprecated in 7.4
+{-# DEPRECATED tyConString "renamed to tyConName; tyConModule and tyConPackage are also available." #-} -- deprecated in 7.4
 tyConString :: TyCon   -> String
 tyConString = tyConName
 
@@ -194,15 +191,12 @@ tyConString = tyConName
 -- | The class 'Typeable' allows a concrete representation of a type to
 -- be calculated.
 class Typeable a where
-  typeRep# :: Proxy# a -> TypeRep
+  typeRep :: proxy a -> TypeRep
+  -- ^ Takes a value of type @a@ and returns a concrete representation
+  -- of that type.
 
--- | Takes a value of type @a@ and returns a concrete representation
--- of that type.
---
--- /Since: 4.7.0.0/
-typeRep :: forall proxy a. Typeable a => proxy a -> TypeRep
-typeRep _ = typeRep# (proxy# :: Proxy# a)
-{-# INLINE typeRep #-}
+-- | A concrete, poly-kinded proxy type
+data Proxy t = Proxy
 
 -- Keeping backwards-compatibility
 typeOf :: forall a. Typeable a => a -> TypeRep
@@ -234,25 +228,10 @@ typeOf7 :: forall t (a :: *) (b :: *) (c :: *) (d :: *) (e :: *) (f :: *)
                 (g :: *). Typeable t => t a b c d e f g -> TypeRep
 typeOf7 _ = typeRep (Proxy :: Proxy t)
 
-type Typeable1 (a :: * -> *)                               = Typeable a
-type Typeable2 (a :: * -> * -> *)                          = Typeable a
-type Typeable3 (a :: * -> * -> * -> *)                     = Typeable a
-type Typeable4 (a :: * -> * -> * -> * -> *)                = Typeable a
-type Typeable5 (a :: * -> * -> * -> * -> * -> *)           = Typeable a
-type Typeable6 (a :: * -> * -> * -> * -> * -> * -> *)      = Typeable a
-type Typeable7 (a :: * -> * -> * -> * -> * -> * -> * -> *) = Typeable a
-
-{-# DEPRECATED Typeable1 "renamed to 'Typeable'" #-} -- deprecated in 7.8
-{-# DEPRECATED Typeable2 "renamed to 'Typeable'" #-} -- deprecated in 7.8
-{-# DEPRECATED Typeable3 "renamed to 'Typeable'" #-} -- deprecated in 7.8
-{-# DEPRECATED Typeable4 "renamed to 'Typeable'" #-} -- deprecated in 7.8
-{-# DEPRECATED Typeable5 "renamed to 'Typeable'" #-} -- deprecated in 7.8
-{-# DEPRECATED Typeable6 "renamed to 'Typeable'" #-} -- deprecated in 7.8
-{-# DEPRECATED Typeable7 "renamed to 'Typeable'" #-} -- deprecated in 7.8
-
 -- | Kind-polymorphic Typeable instance for type application
 instance (Typeable s, Typeable a) => Typeable (s a) where
-  typeRep# _ = typeRep# (proxy# :: Proxy# s) `mkAppTy` typeRep# (proxy# :: Proxy# a)
+  typeRep _ = typeRep (Proxy :: Proxy s) `mkAppTy` typeRep (Proxy :: Proxy a)
+
 
 ----------------- Showing TypeReps --------------------
 
@@ -270,7 +249,7 @@ instance Show TypeRep where
             showParen (p > 9) $
             showsPrec p tycon . 
             showChar ' '      . 
-            showArgs (showChar ' ') tys
+            showArgs tys
 
 showsTypeRep :: TypeRep -> ShowS
 showsTypeRep = shows
@@ -284,21 +263,22 @@ isTupleTyCon _                         = False
 
 -- Some (Show.TypeRep) helpers:
 
-showArgs :: Show a => ShowS -> [a] -> ShowS
-showArgs _   []     = id
-showArgs _   [a]    = showsPrec 10 a
-showArgs sep (a:as) = showsPrec 10 a . sep . showArgs sep as 
+showArgs :: Show a => [a] -> ShowS
+showArgs [] = id
+showArgs [a] = showsPrec 10 a
+showArgs (a:as) = showsPrec 10 a . showString " " . showArgs as 
 
 showTuple :: [TypeRep] -> ShowS
 showTuple args = showChar '('
-               . showArgs (showChar ',') args
+               . (foldr (.) id $ intersperse (showChar ',') 
+                               $ map (showsPrec 10) args)
                . showChar ')'
 
 listTc :: TyCon
 listTc = typeRepTyCon (typeOf [()])
 
 funTc :: TyCon
-funTc = typeRepTyCon (typeRep (Proxy :: Proxy (->)))
+funTc = mkTyCon3 "ghc-prim" "GHC.Types" "->"
 
 -------------------------------------------------------------
 --
@@ -306,28 +286,58 @@ funTc = typeRepTyCon (typeRep (Proxy :: Proxy (->)))
 --
 -------------------------------------------------------------
 
-deriving instance Typeable ()
-deriving instance Typeable []
-deriving instance Typeable Maybe
-deriving instance Typeable Ratio
-deriving instance Typeable (->)
-deriving instance Typeable IO
+#include "Typeable.h"
 
-deriving instance Typeable Array
+INSTANCE_TYPEABLE0((),unitTc,"()")
+INSTANCE_TYPEABLE1([],listTc,"[]")
+INSTANCE_TYPEABLE1(Maybe,maybeTc,"Maybe")
+INSTANCE_TYPEABLE1(Ratio,ratioTc,"Ratio")
+#if defined(__GLASGOW_HASKELL__)
+{-
+TODO: Deriving this instance fails with:
+libraries/base/Data/Typeable.hs:589:1:
+    Can't make a derived instance of `Typeable2 (->)':
+      The last argument of the instance must be a data or newtype application
+    In the stand-alone deriving instance for `Typeable2 (->)'
+-}
+instance Typeable (->) where { typeRep _ = mkTyConApp funTc [] }
+#else
+INSTANCE_TYPEABLE2((->),funTc,"->")
+#endif
+INSTANCE_TYPEABLE1(IO,ioTc,"IO")
 
-deriving instance Typeable ST
-deriving instance Typeable STRef
-deriving instance Typeable STArray
+#if defined(__GLASGOW_HASKELL__) || defined(__HUGS__)
+-- Types defined in GHC.MVar
+INSTANCE_TYPEABLE1(MVar,mvarTc,"MVar" )
+#endif
 
-deriving instance Typeable (,)
-deriving instance Typeable (,,)
-deriving instance Typeable (,,,)
-deriving instance Typeable (,,,,)
-deriving instance Typeable (,,,,,)
-deriving instance Typeable (,,,,,,)
+INSTANCE_TYPEABLE2(Array,arrayTc,"Array")
+INSTANCE_TYPEABLE2(IOArray,iOArrayTc,"IOArray")
 
-deriving instance Typeable Ptr
-deriving instance Typeable FunPtr
+#ifdef __GLASGOW_HASKELL__
+-- Hugs has these too, but their Typeable<n> instances are defined
+-- elsewhere to keep this module within Haskell 98.
+-- This is important because every invocation of runhugs or ffihugs
+-- uses this module via Data.Dynamic.
+INSTANCE_TYPEABLE2(ST,stTc,"ST")
+INSTANCE_TYPEABLE2(STRef,stRefTc,"STRef")
+INSTANCE_TYPEABLE3(STArray,sTArrayTc,"STArray")
+#endif
+
+INSTANCE_TYPEABLE2((,),pairTc,"(,)")
+INSTANCE_TYPEABLE3((,,),tup3Tc,"(,,)")
+INSTANCE_TYPEABLE4((,,,),tup4Tc,"(,,,)")
+INSTANCE_TYPEABLE5((,,,,),tup5Tc,"(,,,,)")
+INSTANCE_TYPEABLE6((,,,,,),tup6Tc,"(,,,,,)")
+INSTANCE_TYPEABLE7((,,,,,,),tup7Tc,"(,,,,,,)")
+
+INSTANCE_TYPEABLE1(Ptr,ptrTc,"Ptr")
+INSTANCE_TYPEABLE1(FunPtr,funPtrTc,"FunPtr")
+#ifndef __GLASGOW_HASKELL__
+INSTANCE_TYPEABLE1(ForeignPtr,foreignPtrTc,"ForeignPtr")
+#endif
+INSTANCE_TYPEABLE1(StablePtr,stablePtrTc,"StablePtr")
+INSTANCE_TYPEABLE1(IORef,iORefTc,"IORef")
 
 -------------------------------------------------------
 --
@@ -335,24 +345,41 @@ deriving instance Typeable FunPtr
 --
 -------------------------------------------------------
 
-deriving instance Typeable Bool
-deriving instance Typeable Char
-deriving instance Typeable Float
-deriving instance Typeable Double
-deriving instance Typeable Int
-deriving instance Typeable Word
-deriving instance Typeable Integer
-deriving instance Typeable Ordering
+INSTANCE_TYPEABLE0(Bool,boolTc,"Bool")
+INSTANCE_TYPEABLE0(Char,charTc,"Char")
+INSTANCE_TYPEABLE0(Float,floatTc,"Float")
+INSTANCE_TYPEABLE0(Double,doubleTc,"Double")
+INSTANCE_TYPEABLE0(Int,intTc,"Int")
+INSTANCE_TYPEABLE0(Word,wordTc,"Word" )
+INSTANCE_TYPEABLE0(Integer,integerTc,"Integer")
+INSTANCE_TYPEABLE0(Ordering,orderingTc,"Ordering")
+#ifndef __GLASGOW_HASKELL__
+INSTANCE_TYPEABLE0(Handle,handleTc,"Handle")
+#endif
 
-deriving instance Typeable Word8
-deriving instance Typeable Word16
-deriving instance Typeable Word32
-deriving instance Typeable Word64
+INSTANCE_TYPEABLE0(Int8,int8Tc,"Int8")
+INSTANCE_TYPEABLE0(Int16,int16Tc,"Int16")
+INSTANCE_TYPEABLE0(Int32,int32Tc,"Int32")
+INSTANCE_TYPEABLE0(Int64,int64Tc,"Int64")
 
-deriving instance Typeable TyCon
-deriving instance Typeable TypeRep
+INSTANCE_TYPEABLE0(Word8,word8Tc,"Word8" )
+INSTANCE_TYPEABLE0(Word16,word16Tc,"Word16")
+INSTANCE_TYPEABLE0(Word32,word32Tc,"Word32")
+INSTANCE_TYPEABLE0(Word64,word64Tc,"Word64")
 
-deriving instance Typeable RealWorld
-deriving instance Typeable Proxy
-deriving instance Typeable (:~:)
-deriving instance Typeable Coercion
+INSTANCE_TYPEABLE0(TyCon,tyconTc,"TyCon")
+INSTANCE_TYPEABLE0(TypeRep,typeRepTc,"TypeRep")
+
+#ifdef __GLASGOW_HASKELL__
+{-
+TODO: This can't be derived currently:
+libraries/base/Data/Typeable.hs:674:1:
+    Can't make a derived instance of `Typeable RealWorld':
+      The last argument of the instance must be a data or newtype application
+    In the stand-alone deriving instance for `Typeable RealWorld'
+-}
+realWorldTc :: TyCon
+realWorldTc = mkTyCon3 "ghc-prim" "GHC.Types" "RealWorld"
+instance Typeable RealWorld where { typeRep _ = mkTyConApp realWorldTc [] }
+
+#endif

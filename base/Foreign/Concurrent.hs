@@ -1,5 +1,5 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE NoImplicitPrelude #-}
+{-# LANGUAGE CPP, NoImplicitPrelude #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -29,6 +29,7 @@ module Foreign.Concurrent
         addForeignPtrFinalizer,
   ) where
 
+#ifdef __GLASGOW_HASKELL__
 import GHC.IO         ( IO )
 import GHC.Ptr        ( Ptr )
 import GHC.ForeignPtr ( ForeignPtr )
@@ -49,3 +50,5 @@ addForeignPtrFinalizer :: ForeignPtr a -> IO () -> IO ()
 -- is dropped, but /before/ all previously registered finalizers for the
 -- same object.
 addForeignPtrFinalizer = GHC.ForeignPtr.addForeignPtrConcFinalizer
+#endif
+

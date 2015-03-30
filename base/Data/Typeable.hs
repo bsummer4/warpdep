@@ -1,12 +1,13 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE NoImplicitPrelude
+{-# LANGUAGE CPP
+           , NoImplicitPrelude
            , OverlappingInstances
            , ScopedTypeVariables
+           , ForeignFunctionInterface
            , FlexibleInstances
-           , TypeOperators
+           , FlexibleContexts
+           , KindSignatures
            , PolyKinds
-           , GADTs
-           , MagicHash
   #-}
 {-# OPTIONS_GHC -funbox-strict-fields #-}
 
@@ -35,41 +36,27 @@
 -- and type-safe cast (but not dynamics) to support the \"Scrap your
 -- boilerplate\" style of generic programming.
 --
--- == Compatibility Notes
---
--- Since GHC 7.8, 'Typeable' is poly-kinded. The changes required for this might
--- break some old programs involving 'Typeable'. More details on this, including
--- how to fix your code, can be found on the
--- <https://ghc.haskell.org/trac/ghc/wiki/GhcKinds/PolyTypeable PolyTypeable wiki page>
---
 -----------------------------------------------------------------------------
 
 module Data.Typeable
   (
-        -- * The Typeable class
-        Typeable,
-        typeRep,
+        -- * A proxy type
+        Proxy (..),
 
-        -- * Propositional equality
-        (:~:)(Refl),
+        -- * The Typeable class
+        Typeable( typeRep ),
 
         -- * For backwards compatibility
         typeOf, typeOf1, typeOf2, typeOf3, typeOf4, typeOf5, typeOf6, typeOf7,
-        Typeable1, Typeable2, Typeable3, Typeable4, Typeable5, Typeable6,
-        Typeable7,
 
         -- * Type-safe cast
         cast,
-        eqT,
         gcast,                  -- a generalisation of cast
 
         -- * Generalized casts for higher-order kinds
         gcast1,                 -- :: ... => c (t a) -> Maybe (c (t' a))
         gcast2,                 -- :: ... => c (t a b) -> Maybe (c (t' a b))
 
-        -- * A canonical proxy type
-        Proxy (..),
-        
         -- * Type representations
         TypeRep,        -- abstract, instance of: Eq, Show, Typeable
         showsTypeRep,
@@ -95,11 +82,12 @@ module Data.Typeable
   ) where
 
 import Data.Typeable.Internal hiding (mkTyCon)
-import Data.Type.Equality
 
 import Unsafe.Coerce
 import Data.Maybe
+
 import GHC.Base
+import GHC.Err          (undefined)
 
 -------------------------------------------------------------
 --
@@ -113,25 +101,26 @@ cast x = if typeRep (Proxy :: Proxy a) == typeRep (Proxy :: Proxy b)
            then Just $ unsafeCoerce x
            else Nothing
 
--- | Extract a witness of equality of two types
---
--- /Since: 4.7.0.0/
-eqT :: forall a b. (Typeable a, Typeable b) => Maybe (a :~: b)
-eqT = if typeRep (Proxy :: Proxy a) == typeRep (Proxy :: Proxy b)
-      then Just $ unsafeCoerce Refl
-      else Nothing
-
 -- | A flexible variation parameterised in a type constructor
-gcast :: forall a b c. (Typeable a, Typeable b) => c a -> Maybe (c b)
-gcast x = fmap (\Refl -> x) (eqT :: Maybe (a :~: b))
+gcast :: (Typeable (a :: *), Typeable b) => c a -> Maybe (c b)
+gcast x = r
+ where
+  r = if typeRep (getArg x) == typeRep (getArg (fromJust r))
+        then Just $ unsafeCoerce x
+        else Nothing
+  getArg :: c x -> Proxy x 
+  getArg = undefined
 
--- | Cast over @k1 -> k2@
-gcast1 :: forall c t t' a. (Typeable t, Typeable t')
+-- | Cast for * -> *
+gcast1 :: forall c t t' a. (Typeable (t :: * -> *), Typeable t')
        => c (t a) -> Maybe (c (t' a)) 
-gcast1 x = fmap (\Refl -> x) (eqT :: Maybe (t :~: t'))
+gcast1 x = if typeRep (Proxy :: Proxy t) == typeRep (Proxy :: Proxy t')
+             then Just $ unsafeCoerce x
+             else Nothing
 
--- | Cast over @k1 -> k2 -> k3@
-gcast2 :: forall c t t' a b. (Typeable t, Typeable t')
+-- | Cast for * -> * -> *
+gcast2 :: forall c t t' a b. (Typeable (t :: * -> * -> *), Typeable t')
        => c (t a b) -> Maybe (c (t' a b)) 
-gcast2 x = fmap (\Refl -> x) (eqT :: Maybe (t :~: t'))
-
+gcast2 x = if typeRep (Proxy :: Proxy t) == typeRep (Proxy :: Proxy t')
+             then Just $ unsafeCoerce x
+             else Nothing

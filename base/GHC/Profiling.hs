@@ -1,4 +1,5 @@
--- | /Since: 4.7.0.0/
+{-# LANGUAGE ForeignFunctionInterface #-}
+
 module GHC.Profiling where
 
 foreign import ccall startProfTimer :: IO ()

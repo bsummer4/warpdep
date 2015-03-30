@@ -1,5 +1,5 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE NoImplicitPrelude #-}
+{-# LANGUAGE CPP, NoImplicitPrelude #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -32,26 +32,52 @@ module Text.Read (
    readParen,
    lex,
 
+#if defined(__GLASGOW_HASKELL__) || defined(__HUGS__)
    -- * New parsing functions
    module Text.ParserCombinators.ReadPrec,
    L.Lexeme(..),
    lexP,
    parens,
+#endif
+#ifdef __GLASGOW_HASKELL__
    readListDefault,
    readListPrecDefault,
    readEither,
    readMaybe
+#endif
 
  ) where
 
+#ifdef __GLASGOW_HASKELL__
 import GHC.Base
 import GHC.Read
 import Data.Either
 import Data.Maybe
 import Text.ParserCombinators.ReadP as P
+#endif
+#if defined(__GLASGOW_HASKELL__) || defined(__HUGS__)
 import Text.ParserCombinators.ReadPrec
 import qualified Text.Read.Lex as L
+#endif
 
+#ifdef __HUGS__
+-- copied from GHC.Read
+
+lexP :: ReadPrec L.Lexeme
+lexP = lift L.lex
+
+parens :: ReadPrec a -> ReadPrec a
+parens p = optional
+ where
+  optional  = p +++ mandatory
+  mandatory = do
+    L.Punc "(" <- lexP
+    x          <- reset optional
+    L.Punc ")" <- lexP
+    return x
+#endif
+
+#ifdef __GLASGOW_HASKELL__
 ------------------------------------------------------------------------
 -- utility functions
 
@@ -62,8 +88,6 @@ reads = readsPrec minPrec
 -- | Parse a string using the 'Read' instance.
 -- Succeeds if there is exactly one valid result.
 -- A 'Left' value indicates a parse error.
---
--- /Since: 4.6.0.0/
 readEither :: Read a => String -> Either String a
 readEither s =
   case [ x | (x,"") <- readPrec_to_S read' minPrec s ] of
@@ -78,8 +102,6 @@ readEither s =
 
 -- | Parse a string using the 'Read' instance.
 -- Succeeds if there is exactly one valid result.
---
--- /Since: 4.6.0.0/
 readMaybe :: Read a => String -> Maybe a
 readMaybe s = case readEither s of
                 Left _  -> Nothing
@@ -89,3 +111,5 @@ readMaybe s = case readEither s of
 -- completely consumed by the input process.
 read :: Read a => String -> a
 read s = either error id (readEither s)
+#endif
+

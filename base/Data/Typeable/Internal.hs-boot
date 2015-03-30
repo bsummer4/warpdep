@@ -11,7 +11,6 @@ module Data.Typeable.Internal (
   ) where
 
 import GHC.Base
-import {-# SOURCE #-} Data.Proxy
 
 data TypeRep
 data TyCon
@@ -25,6 +24,8 @@ mkTyCon :: Word#   -> Word#   -> String -> String -> String -> TyCon
 #endif
 
 mkTyConApp   :: TyCon -> [TypeRep] -> TypeRep
+
+data Proxy t = Proxy
 
 class Typeable a where
   typeRep :: proxy a -> TypeRep

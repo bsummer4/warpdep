@@ -1,6 +1,7 @@
 \begin{code}
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE NoImplicitPrelude, StandaloneDeriving, ScopedTypeVariables #-}
+{-# LANGUAGE CPP, NoImplicitPrelude, StandaloneDeriving, PatternGuards,
+             ScopedTypeVariables #-}
 {-# OPTIONS_HADDOCK hide #-}
 
 -----------------------------------------------------------------------------
@@ -17,6 +18,7 @@
 --
 -----------------------------------------------------------------------------
 
+-- #hide
 module GHC.Read
   ( Read(..)   -- class
 
@@ -66,6 +68,7 @@ import GHC.Real
 import GHC.Float
 import GHC.Show
 import GHC.Base
+import GHC.Err
 import GHC.Arr
 \end{code}
 
@@ -204,7 +207,6 @@ class Read a where
   readList     = readPrec_to_S (list readPrec) 0
   readPrec     = readS_to_Prec readsPrec
   readListPrec = readS_to_Prec (\_ -> readList)
-  {-# MINIMAL readsPrec | readPrec #-}
 
 readListDefault :: Read a => ReadS [a]
 -- ^ A possible replacement definition for the 'readList' method (GHC only).
@@ -315,7 +317,7 @@ choose :: [(String, ReadPrec a)] -> ReadPrec a
 -- Esp useful for nullary constructors; e.g.
 --    @choose [(\"A\", return A), (\"B\", return B)]@
 -- We match both Ident and Symbol because the constructor
--- might be an operator eg @(:~:)@
+-- might be an operator eg (:=:)
 choose sps = foldr ((+++) . try_one) pfail sps
            where
              try_one (s,p) = do { token <- lexP ;

@@ -1,4 +1,3 @@
-{-# LANGUAGE FlexibleInstances, MultiParamTypeClasses #-}
 {-# OPTIONS_HADDOCK hide #-}
 -----------------------------------------------------------------------------
 -- |
@@ -12,9 +11,9 @@
 --
 -- Actual implementation of "Data.Array.Storable".
 --
--- /Since: 0.4.0.0/
 -----------------------------------------------------------------------------
 
+-- #hide
 module Data.Array.Storable.Internals (
     StorableArray(..),
     withStorableArray,

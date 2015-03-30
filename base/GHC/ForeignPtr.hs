@@ -1,5 +1,6 @@
 {-# LANGUAGE Unsafe #-}
-{-# LANGUAGE NoImplicitPrelude
+{-# LANGUAGE CPP
+           , NoImplicitPrelude
            , BangPatterns
            , MagicHash
            , UnboxedTuples
@@ -21,6 +22,7 @@
 -- 
 -----------------------------------------------------------------------------
 
+-- #hide
 module GHC.ForeignPtr
   (
         ForeignPtr(..),
@@ -49,10 +51,14 @@ import Foreign.Storable
 import Data.Typeable
 
 import GHC.Show
+import GHC.List         ( null )
 import GHC.Base
 import GHC.IORef
 import GHC.STRef        ( STRef(..) )
 import GHC.Ptr          ( Ptr(..), FunPtr(..) )
+import GHC.Err
+
+#include "Typeable.h"
 
 -- |The type 'ForeignPtr' represents references to objects that are
 -- maintained in a foreign language, i.e., that are not part of the
@@ -71,7 +77,6 @@ import GHC.Ptr          ( Ptr(..), FunPtr(..) )
 -- class 'Storable'.
 --
 data ForeignPtr a = ForeignPtr Addr# ForeignPtrContents
-                    deriving Typeable
         -- we cache the Addr# in the ForeignPtr object, but attach
         -- the finalizer to the IORef (or the MutableByteArray# in
         -- the case of a MallocPtr).  The aim of the representation
@@ -82,14 +87,17 @@ data ForeignPtr a = ForeignPtr Addr# ForeignPtrContents
         -- object, because that ensures that whatever the finalizer is
         -- attached to is kept alive.
 
+INSTANCE_TYPEABLE1(ForeignPtr,foreignPtrTc,"ForeignPtr")
+
 data Finalizers
   = NoFinalizers
-  | CFinalizers (Weak# ())
-  | HaskellFinalizers [IO ()]
+  | CFinalizers
+  | HaskellFinalizers
+    deriving Eq
 
 data ForeignPtrContents
-  = PlainForeignPtr !(IORef Finalizers)
-  | MallocPtr      (MutableByteArray# RealWorld) !(IORef Finalizers)
+  = PlainForeignPtr !(IORef (Finalizers, [IO ()]))
+  | MallocPtr      (MutableByteArray# RealWorld) !(IORef (Finalizers, [IO ()]))
   | PlainPtr       (MutableByteArray# RealWorld)
 
 instance Eq (ForeignPtr a) where
@@ -157,7 +165,7 @@ mallocForeignPtr = doMalloc undefined
         doMalloc a
           | I# size < 0 = error "mallocForeignPtr: size must be >= 0"
           | otherwise = do
-          r <- newIORef NoFinalizers
+          r <- newIORef (NoFinalizers, [])
           IO $ \s ->
             case newAlignedPinnedByteArray# size align s of { (# s', mbarr# #) ->
              (# s', ForeignPtr (byteArrayContents# (unsafeCoerce# mbarr#))
@@ -172,7 +180,7 @@ mallocForeignPtrBytes :: Int -> IO (ForeignPtr a)
 mallocForeignPtrBytes size | size < 0 =
   error "mallocForeignPtrBytes: size must be >= 0"
 mallocForeignPtrBytes (I# size) = do 
-  r <- newIORef NoFinalizers
+  r <- newIORef (NoFinalizers, [])
   IO $ \s ->
      case newPinnedByteArray# size s      of { (# s', mbarr# #) ->
        (# s', ForeignPtr (byteArrayContents# (unsafeCoerce# mbarr#))
@@ -186,7 +194,7 @@ mallocForeignPtrAlignedBytes :: Int -> Int -> IO (ForeignPtr a)
 mallocForeignPtrAlignedBytes size _align | size < 0 =
   error "mallocForeignPtrAlignedBytes: size must be >= 0"
 mallocForeignPtrAlignedBytes (I# size) (I# align) = do
-  r <- newIORef NoFinalizers
+  r <- newIORef (NoFinalizers, [])
   IO $ \s ->
      case newAlignedPinnedByteArray# size align s of { (# s', mbarr# #) ->
        (# s', ForeignPtr (byteArrayContents# (unsafeCoerce# mbarr#))
@@ -254,7 +262,12 @@ addForeignPtrFinalizer (FunPtr fp) (ForeignPtr p c) = case c of
   MallocPtr     _ r -> f r >> return ()
   _ -> error "GHC.ForeignPtr: attempt to add a finalizer to a plain pointer"
  where
-    f r = insertCFinalizer r fp 0# nullAddr# p
+    f r =
+      noMixing CFinalizers r $
+        IO $ \s ->
+          case r of { IORef (STRef r#) ->
+          case mkWeakForeignEnv# r# () fp p 0# nullAddr# s of { (# s1, w #) ->
+          (# s1, finalizeForeign w #) }}
 
 addForeignPtrFinalizerEnv ::
   FinalizerEnvPtr env a -> Ptr env -> ForeignPtr a -> IO ()
@@ -267,7 +280,18 @@ addForeignPtrFinalizerEnv (FunPtr fp) (Ptr ep) (ForeignPtr p c) = case c of
   MallocPtr     _ r -> f r >> return ()
   _ -> error "GHC.ForeignPtr: attempt to add a finalizer to a plain pointer"
  where
-    f r = insertCFinalizer r fp 1# ep p
+    f r =
+      noMixing CFinalizers r $
+        IO $ \s ->
+          case r of { IORef (STRef r#) ->
+          case mkWeakForeignEnv# r# () fp p 1# ep s of { (# s1, w #) ->
+          (# s1, finalizeForeign w #) }}
+
+finalizeForeign :: Weak# () -> IO ()
+finalizeForeign w = IO $ \s ->
+  case finalizeWeak# w s of
+    (# s1, 0#, _ #) -> (# s1, () #)
+    (# s1, _ , f #) -> f s1
 
 addForeignPtrConcFinalizer :: ForeignPtr a -> IO () -> IO ()
 -- ^This function adds a finalizer to the given @ForeignPtr@.  The
@@ -289,7 +313,7 @@ addForeignPtrConcFinalizer (ForeignPtr _ c) finalizer =
 
 addForeignPtrConcFinalizer_ :: ForeignPtrContents -> IO () -> IO ()
 addForeignPtrConcFinalizer_ (PlainForeignPtr r) finalizer = do
-  noFinalizers <- insertHaskellFinalizer r finalizer
+  noFinalizers <- noMixing HaskellFinalizers r (return finalizer)
   if noFinalizers
      then IO $ \s ->
               case r of { IORef (STRef r#) ->
@@ -297,7 +321,7 @@ addForeignPtrConcFinalizer_ (PlainForeignPtr r) finalizer = do
               (# s1, () #) }}
      else return ()
 addForeignPtrConcFinalizer_ f@(MallocPtr fo r) finalizer = do
-  noFinalizers <- insertHaskellFinalizer r finalizer
+  noFinalizers <- noMixing HaskellFinalizers r (return finalizer)
   if noFinalizers
      then  IO $ \s -> 
                case mkWeak# fo () (do foreignPtrFinalizer r; touch f) s of
@@ -307,69 +331,28 @@ addForeignPtrConcFinalizer_ f@(MallocPtr fo r) finalizer = do
 addForeignPtrConcFinalizer_ _ _ =
   error "GHC.ForeignPtr: attempt to add a finalizer to plain pointer"
 
-insertHaskellFinalizer :: IORef Finalizers -> IO () -> IO Bool
-insertHaskellFinalizer r f = do
-  !wasEmpty <- atomicModifyIORef r $ \finalizers -> case finalizers of
-      NoFinalizers -> (HaskellFinalizers [f], True)
-      HaskellFinalizers fs -> (HaskellFinalizers (f:fs), False)
-      _ -> noMixingError
-  return wasEmpty
+noMixing ::
+  Finalizers -> IORef (Finalizers, [IO ()]) -> IO (IO ()) -> IO Bool
+noMixing ftype0 r mkF = do
+  (ftype, fs) <- readIORef r
+  if ftype /= NoFinalizers && ftype /= ftype0
+     then error ("GHC.ForeignPtr: attempt to mix Haskell and C finalizers " ++
+                 "in the same ForeignPtr")
+     else do
+       f <- mkF
+       writeIORef r (ftype0, f : fs)
+       return (null fs)
 
--- | A box around Weak#, private to this module.
-data MyWeak = MyWeak (Weak# ())
-
-insertCFinalizer ::
-  IORef Finalizers -> Addr# -> Int# -> Addr# -> Addr# -> IO ()
-insertCFinalizer r fp flag ep p = do
-  MyWeak w <- ensureCFinalizerWeak r
-  IO $ \s -> case addCFinalizerToWeak# fp p flag ep w s of
-      (# s1, 1# #) -> (# s1, () #)
-
-      -- Failed to add the finalizer because some other thread
-      -- has finalized w by calling foreignPtrFinalizer. We retry now.
-      -- This won't be an infinite loop because that thread must have
-      -- replaced the content of r before calling finalizeWeak#.
-      (# s1, _ #) -> unIO (insertCFinalizer r fp flag ep p) s1
-
-ensureCFinalizerWeak :: IORef Finalizers -> IO MyWeak
-ensureCFinalizerWeak ref@(IORef (STRef r#)) = do
-  fin <- readIORef ref
-  case fin of
-      CFinalizers weak -> return (MyWeak weak)
-      HaskellFinalizers{} -> noMixingError
-      NoFinalizers -> IO $ \s ->
-          case mkWeakNoFinalizer# r# () s of { (# s1, w #) ->
-          case atomicModifyMutVar# r# (update w) s1 of
-              { (# s2, (weak, needKill ) #) ->
-          if needKill
-            then case finalizeWeak# w s2 of { (# s3, _, _ #) ->
-              (# s3, weak #) }
-            else (# s2, weak #) }}
-  where
-      update _ fin@(CFinalizers w) = (fin, (MyWeak w, True))
-      update w NoFinalizers = (CFinalizers w, (MyWeak w, False))
-      update _ _ = noMixingError
-
-noMixingError :: a
-noMixingError = error $
-   "GHC.ForeignPtr: attempt to mix Haskell and C finalizers " ++
-   "in the same ForeignPtr"
-
-foreignPtrFinalizer :: IORef Finalizers -> IO ()
+foreignPtrFinalizer :: IORef (Finalizers, [IO ()]) -> IO ()
 foreignPtrFinalizer r = do
-  fs <- atomicModifyIORef r $ \fs -> (NoFinalizers, fs) -- atomic, see #7170
-  case fs of
-    NoFinalizers -> return ()
-    CFinalizers w -> IO $ \s -> case finalizeWeak# w s of
-        (# s1, 1#, f #) -> f s1
-        (# s1, _, _ #) -> (# s1, () #)
-    HaskellFinalizers actions -> sequence_ actions
+  fs <- atomicModifyIORef r $ \(f,fs) -> ((f,[]), fs) -- atomic, see #7170
+  sequence_ fs
 
 newForeignPtr_ :: Ptr a -> IO (ForeignPtr a)
 -- ^Turns a plain memory reference into a foreign pointer that may be
 -- associated with finalizers by using 'addForeignPtrFinalizer'.
 newForeignPtr_ (Ptr obj) =  do
-  r <- newIORef NoFinalizers
+  r <- newIORef (NoFinalizers, [])
   return (ForeignPtr obj (PlainForeignPtr r))
 
 touchForeignPtr :: ForeignPtr a -> IO ()

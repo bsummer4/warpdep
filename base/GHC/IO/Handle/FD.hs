@@ -1,5 +1,5 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE CPP, NoImplicitPrelude #-}
+{-# LANGUAGE CPP, NoImplicitPrelude, PatternGuards, ForeignFunctionInterface #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -156,8 +156,6 @@ openFile fp im =
 -- This can be useful for opening a FIFO for reading: if we open in
 -- non-blocking mode then the open will fail if there are no writers,
 -- whereas a blocking open will block until a writer appears.
---
--- /Since: 4.4.0.0/
 openFileBlocking :: FilePath -> IOMode -> IO Handle
 openFileBlocking fp im =
   catchException

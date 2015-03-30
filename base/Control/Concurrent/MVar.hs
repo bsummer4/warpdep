@@ -1,5 +1,5 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE NoImplicitPrelude, UnboxedTuples, MagicHash #-}
+{-# LANGUAGE CPP, NoImplicitPrelude, UnboxedTuples, MagicHash #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -17,21 +17,17 @@
 -- 'takeMVar' which empties an 'MVar' if it is full and blocks
 -- otherwise.  They can be used in multiple different ways:
 --
---   1. As synchronized mutable variables,
+--  1. As synchronized mutable variables,
+--  2. As channels, with 'takeMVar' and 'putMVar' as receive and send, and
+--  3. As a binary semaphore @'MVar' ()@, with 'takeMVar' and 'putMVar' as
+--     wait and signal.
 --
---   2. As channels, with 'takeMVar' and 'putMVar' as receive and send, and
+-- They were introduced in the paper "Concurrent Haskell" by Simon
+-- Peyton Jones, Andrew Gordon and Sigbjorn Finne, though some details
+-- of their implementation have since then changed (in particular, a
+-- put on a full MVar used to error, but now merely blocks.)
 --
---   3. As a binary semaphore @'MVar' ()@, with 'takeMVar' and 'putMVar' as
---      wait and signal.
---
--- They were introduced in the paper
--- <http://research.microsoft.com/~simonpj/papers/concurrent-haskell.ps.gz "Concurrent Haskell">
--- by Simon Peyton Jones, Andrew Gordon and Sigbjorn Finne, though
--- some details of their implementation have since then changed (in
--- particular, a put on a full 'MVar' used to error, but now merely
--- blocks.)
---
--- === Applicability
+-- * Applicability
 --
 -- 'MVar's offer more flexibility than 'IORef's, but less flexibility
 -- than 'STM'.  They are appropriate for building synchronization
@@ -49,7 +45,7 @@
 -- perform a 'takeMVar' before a 'putMVar' as well;  otherwise, they may
 -- block.
 --
--- === Fairness
+-- * Fairness
 --
 -- No thread can be blocked indefinitely on an 'MVar' unless another
 -- thread holds that 'MVar' indefinitely.  One usual implementation of
@@ -57,7 +53,7 @@
 -- served in a first-in-first-out fashion, but this is not guaranteed
 -- in the semantics.
 --
--- === Gotchas
+-- * Gotchas
 --
 -- Like many other Haskell data structures, 'MVar's are lazy.  This
 -- means that if you place an expensive unevaluated thunk inside an
@@ -66,14 +62,14 @@
 -- in an 'MVar' to the appropriate normal form, or utilize a strict
 -- MVar provided by the strict-concurrency package.
 --
--- === Ordering
+-- * Ordering
 --
 -- 'MVar' operations are always observed to take place in the order
 -- they are written in the program, regardless of the memory model of
 -- the underlying machine.  This is in contrast to 'IORef' operations
 -- which may appear out-of-order to another thread in some cases.
 --
--- === Example
+-- * Example
 --
 -- Consider the following concurrent data structure, a skip channel.
 -- This is a channel for an intermittent source of high bandwidth
@@ -139,25 +135,50 @@ module Control.Concurrent.MVar
         , tryPutMVar
         , isEmptyMVar
         , withMVar
-        , withMVarMasked
         , modifyMVar_
         , modifyMVar
         , modifyMVarMasked_
         , modifyMVarMasked
-        , tryReadMVar
+#ifndef __HUGS__
         , mkWeakMVar
         , addMVarFinalizer
+#endif
     ) where
 
+#ifdef __HUGS__
+import Hugs.ConcBase ( MVar, newEmptyMVar, newMVar, takeMVar, putMVar,
+                  tryTakeMVar, tryPutMVar, isEmptyMVar,
+                )
+#endif
+
+#ifdef __GLASGOW_HASKELL__
 import GHC.MVar ( MVar(..), newEmptyMVar, newMVar, takeMVar, putMVar,
-                  tryTakeMVar, tryPutMVar, isEmptyMVar, readMVar,
-                  tryReadMVar
+                  tryTakeMVar, tryPutMVar, isEmptyMVar
                 )
 import qualified GHC.MVar
 import GHC.Weak
+#endif
+
+#ifdef __GLASGOW_HASKELL__
 import GHC.Base
+#else
+import Prelude
+#endif
 
 import Control.Exception.Base
+
+{-|
+  This is a combination of 'takeMVar' and 'putMVar'; ie. it takes the value
+  from the 'MVar', puts it back, and also returns it.  This function
+  is atomic only if there are no other producers (i.e. threads calling
+  'putMVar') for this 'MVar'.
+-}
+readMVar :: MVar a -> IO a
+readMVar m =
+  mask_ $ do
+    a <- takeMVar m
+    putMVar m a
+    return a
 
 {-|
   Take a value from an 'MVar', put a new value into the 'MVar' and
@@ -190,21 +211,6 @@ withMVar m io =
     return b
 
 {-|
-  Like 'withMVar', but the @IO@ action in the second argument is executed
-  with asynchronous exceptions masked.
-
-  /Since: 4.7.0.0/
--}
-{-# INLINE withMVarMasked #-}
-withMVarMasked :: MVar a -> (a -> IO b) -> IO b
-withMVarMasked m io =
-  mask_ $ do
-    a <- takeMVar m
-    b <- io a `onException` putMVar m a
-    putMVar m a
-    return b
-
-{-|
   An exception-safe wrapper for modifying the contents of an 'MVar'.
   Like 'withMVar', 'modifyMVar' will replace the original contents of
   the 'MVar' if an exception is raised during the operation.  This
@@ -228,15 +234,13 @@ modifyMVar :: MVar a -> (a -> IO (a,b)) -> IO b
 modifyMVar m io =
   mask $ \restore -> do
     a      <- takeMVar m
-    (a',b) <- restore (io a >>= evaluate) `onException` putMVar m a
+    (a',b) <- restore (io a) `onException` putMVar m a
     putMVar m a'
     return b
 
 {-|
   Like 'modifyMVar_', but the @IO@ action in the second argument is executed with
   asynchronous exceptions masked.
-
-  /Since: 4.6.0.0/
 -}
 {-# INLINE modifyMVarMasked_ #-}
 modifyMVarMasked_ :: MVar a -> (a -> IO a) -> IO ()
@@ -249,26 +253,22 @@ modifyMVarMasked_ m io =
 {-|
   Like 'modifyMVar', but the @IO@ action in the second argument is executed with
   asynchronous exceptions masked.
-
-  /Since: 4.6.0.0/
 -}
 {-# INLINE modifyMVarMasked #-}
 modifyMVarMasked :: MVar a -> (a -> IO (a,b)) -> IO b
 modifyMVarMasked m io =
   mask_ $ do
     a      <- takeMVar m
-    (a',b) <- (io a >>= evaluate) `onException` putMVar m a
+    (a',b) <- io a `onException` putMVar m a
     putMVar m a'
     return b
 
-{-# DEPRECATED addMVarFinalizer "use 'mkWeakMVar' instead" #-} -- deprecated in 7.6
+{-# DEPRECATED addMVarFinalizer "use mkWeakMVar instead" #-} -- deprecated in 7.6
 addMVarFinalizer :: MVar a -> IO () -> IO ()
 addMVarFinalizer = GHC.MVar.addMVarFinalizer
 
 -- | Make a 'Weak' pointer to an 'MVar', using the second argument as
 -- a finalizer to run when 'MVar' is garbage-collected
---
--- /Since: 4.6.0.0/
 mkWeakMVar :: MVar a -> IO () -> IO (Weak (MVar a))
 mkWeakMVar m@(MVar m#) f = IO $ \s ->
   case mkWeak# m# m f s of (# s1, w #) -> (# s1, Weak w #)

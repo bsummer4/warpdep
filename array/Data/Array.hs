@@ -56,7 +56,13 @@ module Data.Array (
 import Data.Ix
 import Data.Typeable ()
 
+#ifdef __GLASGOW_HASKELL__
 import GHC.Arr  -- Most of the hard work is done here
+#endif
+
+#ifdef __HUGS__
+import Hugs.Array
+#endif
 
 {- $intro
 Haskell provides indexable /arrays/, which may be thought of as functions

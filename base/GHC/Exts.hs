@@ -6,7 +6,7 @@
 -- Module      :  GHC.Exts
 -- Copyright   :  (c) The University of Glasgow 2002
 -- License     :  see libraries/base/LICENSE
---
+-- 
 -- Maintainer  :  cvs-ghc@haskell.org
 -- Stability   :  internal
 -- Portability :  non-portable (GHC Extensions)
@@ -31,7 +31,6 @@ module GHC.Exts
         shiftL#, shiftRL#, iShiftL#, iShiftRA#, iShiftRL#,
         uncheckedShiftL64#, uncheckedShiftRL64#,
         uncheckedIShiftL64#, uncheckedIShiftRA64#,
-        isTrue#,
 
         -- * Fusion
         build, augment,
@@ -44,13 +43,6 @@ module GHC.Exts
 
         -- * Ids with special behaviour
         lazy, inline,
-
-        -- * Safe coercions
-        --
-        -- | These are available from the /Trustworthy/ module "Data.Coerce" as well
-        --
-        -- /Since: 4.7.0.0/
-        Data.Coerce.coerce, Data.Coerce.Coercible,
 
         -- * Transform comprehensions
         Down(..), groupWith, sortWith, the,
@@ -65,21 +57,20 @@ module GHC.Exts
         currentCallStack,
 
         -- * The Constraint kind
-        Constraint,
-
+        -- Constraint,
+        
         -- * Overloaded lists
         IsList(..)
        ) where
 
 import Prelude
 
-import GHC.Prim hiding (coerce)
-import GHC.Base hiding (coerce) -- implicitly comes from GHC.Prim
+import GHC.Prim
+import GHC.Base
 import GHC.Word
 import GHC.Int
 import GHC.Ptr
 import GHC.Stack
-import qualified Data.Coerce
 import Data.String
 import Data.List
 import Data.Data
@@ -122,7 +113,7 @@ groupByFB c n eq xs0 = groupByFBCore xs0
 
 traceEvent :: String -> IO ()
 traceEvent = Debug.Trace.traceEventIO
-{-# DEPRECATED traceEvent "Use 'Debug.Trace.traceEvent' or 'Debug.Trace.traceEventIO'" #-} -- deprecated in 7.4
+{-# DEPRECATED traceEvent "Use Debug.Trace.traceEvent or Debug.Trace.traceEventIO" #-} -- deprecated in 7.4
 
 
 {- **********************************************************************
@@ -131,7 +122,7 @@ traceEvent = Debug.Trace.traceEventIO
 *									*
 ********************************************************************** -}
 
--- Annotating a type with NoSpecConstr will make SpecConstr
+-- Annotating a type with NoSpecConstr will make SpecConstr 
 -- not specialise for arguments of that type.
 
 -- This data type is defined here, rather than in the SpecConstr module
@@ -150,17 +141,15 @@ data SpecConstrAnnotation = NoSpecConstr | ForceSpecConstr
 
 -- | The 'IsList' class and its methods are intended to be used in
 --   conjunction with the OverloadedLists extension.
---
--- /Since: 4.7.0.0/
 class IsList l where
   -- | The 'Item' type function returns the type of items of the structure
   --   @l@.
   type Item l
-
+  
   -- | The 'fromList' function constructs the structure @l@ from the given
   --   list of @Item l@
   fromList  :: [Item l] -> l
-
+  
   -- | The 'fromListN' function takes the input list's length as a hint. Its
   --   behaviour should be equivalent to 'fromList'. The hint can be used to
   --   construct the structure @l@ more efficiently compared to 'fromList'. If
@@ -168,9 +157,9 @@ class IsList l where
   --   'fromListN' is not specified.
   fromListN :: Int -> [Item l] -> l
   fromListN _ = fromList
-
+  
   -- | The 'toList' function extracts a list of @Item l@ from the structure @l@.
-  --   It should satisfy fromList . toList = id.
+  --   It should satisfy fromList . toList = id. 
   toList :: l -> [Item l]
 
 instance IsList [a] where

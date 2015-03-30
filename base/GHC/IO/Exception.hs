@@ -9,7 +9,7 @@
 -- Module      :  GHC.IO.Exception
 -- Copyright   :  (c) The University of Glasgow, 2009
 -- License     :  see libraries/base/LICENSE
---
+-- 
 -- Maintainer  :  libraries@haskell.org
 -- Stability   :  internal
 -- Portability :  non-portable
@@ -110,9 +110,6 @@ instance Show AssertionFailed where
 
 -----
 
--- |Superclass for asynchronous exceptions.
---
--- /Since: 4.7.0.0/
 data SomeAsyncException = forall e . Exception e => SomeAsyncException e
   deriving Typeable
 
@@ -121,11 +118,9 @@ instance Show SomeAsyncException where
 
 instance Exception SomeAsyncException
 
--- |/Since: 4.7.0.0/
 asyncExceptionToException :: Exception e => e -> SomeException
 asyncExceptionToException = toException . SomeAsyncException
 
--- |/Since: 4.7.0.0/
 asyncExceptionFromException :: Exception e => SomeException -> Maybe e
 asyncExceptionFromException x = do
     SomeAsyncException a <- fromException x
@@ -145,9 +140,9 @@ data AsyncException
         -- the program should take action to reduce the amount of
         -- live data it has. Notes:
         --
-        --   * It is undefined which thread receives this exception.
+        --      * It is undefined which thread receives this exception.
         --
-        --   * GHC currently does not throw 'HeapOverflow' exceptions.
+        --      * GHC currently does not throw 'HeapOverflow' exceptions.
   | ThreadKilled
         -- ^This exception is raised by another thread
         -- calling 'Control.Concurrent.killThread', or by the system
@@ -217,7 +212,7 @@ ioException     :: IOException -> IO a
 ioException err = throwIO err
 
 -- | Raise an 'IOError' in the 'IO' monad.
-ioError         :: IOError -> IO a
+ioError         :: IOError -> IO a 
 ioError         =  ioException
 
 -- ---------------------------------------------------------------------------
@@ -237,7 +232,7 @@ type IOError = IOException
 -- flagged.
 data IOException
  = IOError {
-     ioe_handle   :: Maybe Handle,   -- the handle used by the action flagging
+     ioe_handle   :: Maybe Handle,   -- the handle used by the action flagging 
                                      -- the error.
      ioe_type     :: IOErrorType,    -- what it was.
      ioe_location :: String,         -- location.
@@ -250,7 +245,7 @@ data IOException
 instance Exception IOException
 
 instance Eq IOException where
-  (IOError h1 e1 loc1 str1 en1 fn1) == (IOError h2 e2 loc2 str2 en2 fn2) =
+  (IOError h1 e1 loc1 str1 en1 fn1) == (IOError h2 e2 loc2 str2 en2 fn2) = 
     e1==e2 && str1==str2 && h1==h2 && loc1==loc2 && en1==en2 && fn1==fn2
 
 -- | An abstract type that contains a value for each variant of 'IOError'.
@@ -278,8 +273,8 @@ data IOErrorType
   | Interrupted
 
 instance Eq IOErrorType where
-   x == y = isTrue# (getTag x ==# getTag y)
-
+   x == y = getTag x ==# getTag y
+ 
 instance Show IOErrorType where
   showsPrec _ e =
     showString $
@@ -308,7 +303,7 @@ instance Show IOErrorType where
 -- The 'fail' method of the 'IO' instance of the 'Monad' class raises a
 -- 'userError', thus:
 --
--- > instance Monad IO where
+-- > instance Monad IO where 
 -- >   ...
 -- >   fail s = ioError (userError s)
 --
@@ -328,7 +323,7 @@ instance Show IOException where
       (case loc of
          "" -> id
          _  -> showString loc . showString ": ") .
-      showsPrec p iot .
+      showsPrec p iot . 
       (case s of
          "" -> id
          _  -> showString " (" . showString s . showString ")")
@@ -342,7 +337,7 @@ assertError str predicate v
   | otherwise = throw (AssertionFailed (untangle str "Assertion failed"))
 
 unsupportedOperation :: IOError
-unsupportedOperation =
+unsupportedOperation = 
    (IOError Nothing UnsupportedOperation ""
         "Operation is not supported" Nothing Nothing)
 

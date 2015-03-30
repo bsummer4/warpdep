@@ -1,5 +1,7 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE GeneralizedNewtypeDeriving
+{-# LANGUAGE CPP
+           , ForeignFunctionInterface
+           , GeneralizedNewtypeDeriving
            , NoImplicitPrelude
            , BangPatterns
   #-}
@@ -38,8 +40,8 @@ available = False
 
 #include <sys/epoll.h>
 
-import Control.Monad (when)
-import Data.Bits (Bits, FiniteBits, (.|.), (.&.))
+import Control.Monad (unless, when)
+import Data.Bits (Bits, (.|.), (.&.))
 import Data.Maybe (Maybe(..))
 import Data.Monoid (Monoid(..))
 import Data.Word (Word32)
@@ -50,6 +52,7 @@ import Foreign.Marshal.Utils (with)
 import Foreign.Ptr (Ptr)
 import Foreign.Storable (Storable(..))
 import GHC.Base
+import GHC.Err (undefined)
 import GHC.Num (Num(..))
 import GHC.Real (ceiling, fromIntegral)
 import GHC.Show (Show)
@@ -84,28 +87,24 @@ delete be = do
 
 -- | Change the set of events we are interested in for a given file
 -- descriptor.
-modifyFd :: EPoll -> Fd -> E.Event -> E.Event -> IO Bool
-modifyFd ep fd oevt nevt =
-  with (Event (fromEvent nevt) fd) $ \evptr -> do
-    epollControl (epollFd ep) op fd evptr
-    return True
+modifyFd :: EPoll -> Fd -> E.Event -> E.Event -> IO ()
+modifyFd ep fd oevt nevt = with (Event (fromEvent nevt) fd) $
+                             epollControl (epollFd ep) op fd
   where op | oevt == mempty = controlOpAdd
            | nevt == mempty = controlOpDelete
            | otherwise      = controlOpModify
 
-modifyFdOnce :: EPoll -> Fd -> E.Event -> IO Bool
+modifyFdOnce :: EPoll -> Fd -> E.Event -> IO ()
 modifyFdOnce ep fd evt =
   do let !ev = fromEvent evt .|. epollOneShot
      res <- with (Event ev fd) $
             epollControl_ (epollFd ep) controlOpModify fd
-     if res == 0
-       then return True
-       else do err <- getErrno
-               if err == eNOENT
-                 then with (Event ev fd) $ \evptr -> do
-                        epollControl (epollFd ep) controlOpAdd fd evptr
-                        return True
-                 else throwErrno "modifyFdOnce"
+     unless (res == 0) $ do
+         err <- getErrno
+         if err == eNOENT then
+             with (Event ev fd) $ epollControl (epollFd ep) controlOpAdd fd
+           else
+             throwErrno "modifyFdOnce"
 
 -- | Select a set of file descriptors which are ready for I/O
 -- operations and call @f@ for all ready file descriptors, passing the
@@ -163,7 +162,7 @@ newtype ControlOp = ControlOp CInt
 
 newtype EventType = EventType {
       unEventType :: Word32
-    } deriving (Show, Eq, Num, Bits, FiniteBits)
+    } deriving (Show, Eq, Num, Bits)
 
 #{enum EventType, EventType
  , epollIn  = EPOLLIN

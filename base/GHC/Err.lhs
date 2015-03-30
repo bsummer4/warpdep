@@ -1,6 +1,6 @@
 \begin{code}
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE NoImplicitPrelude, MagicHash #-}
+{-# LANGUAGE CPP, NoImplicitPrelude #-}
 {-# OPTIONS_HADDOCK hide #-}
 
 -----------------------------------------------------------------------------
@@ -22,14 +22,21 @@
 -- 
 -----------------------------------------------------------------------------
 
-module GHC.Err( absentErr, error, undefined ) where
-import GHC.CString ()
+-- #hide
+module GHC.Err
+       (
+         absentErr
+       , divZeroError
+       , ratioZeroDenominatorError
+       , overflowError
+
+       , error
+
+       , undefined
+       ) where
+
 import GHC.Types
-import GHC.Prim
-import GHC.Integer ()   -- Make sure Integer is compiled first
-                        -- because GHC depends on it in a wired-in way
-                        -- so the build system doesn't see the dependency
-import {-# SOURCE #-} GHC.Exception( errorCallException )
+import GHC.Exception
 \end{code}
 
 %*********************************************************
@@ -41,7 +48,7 @@ import {-# SOURCE #-} GHC.Exception( errorCallException )
 \begin{code}
 -- | 'error' stops execution and displays an error message.
 error :: [Char] -> a
-error s = raise# (errorCallException s)
+error s = throw (ErrorCall s)
 
 -- | A special case of 'error'.
 -- It is expected that compilers will recognize this and insert error
@@ -63,6 +70,25 @@ encoding saves bytes of string junk.
 
 \begin{code}
 absentErr :: a
+
 absentErr = error "Oops! The program has entered an `absent' argument!\n"
+\end{code}
+
+Divide by zero and arithmetic overflow.
+We put them here because they are needed relatively early
+in the libraries before the Exception type has been defined yet.
+
+\begin{code}
+{-# NOINLINE divZeroError #-}
+divZeroError :: a
+divZeroError = throw DivideByZero
+
+{-# NOINLINE ratioZeroDenominatorError #-}
+ratioZeroDenominatorError :: a
+ratioZeroDenominatorError = throw RatioZeroDenominator
+
+{-# NOINLINE overflowError #-}
+overflowError :: a
+overflowError = throw Overflow
 \end{code}
 

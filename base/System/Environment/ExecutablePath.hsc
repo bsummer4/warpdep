@@ -1,5 +1,5 @@
 {-# LANGUAGE Safe #-}
-{-# LANGUAGE CPP #-}
+{-# LANGUAGE CPP, ForeignFunctionInterface #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -13,7 +13,6 @@
 --
 -- Function to retrieve the absolute filepath of the current executable.
 --
--- /Since: 4.6.0.0/
 -----------------------------------------------------------------------------
 
 module System.Environment.ExecutablePath ( getExecutablePath ) where
@@ -53,8 +52,6 @@ import System.Posix.Internals
 --
 -- Note that for scripts and interactive sessions, this is the path to
 -- the interpreter (e.g. ghci.)
---
--- /Since: 4.6.0.0/
 getExecutablePath :: IO FilePath
 
 --------------------------------------------------------------------------------

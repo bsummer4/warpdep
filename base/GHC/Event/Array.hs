@@ -1,5 +1,5 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE BangPatterns, CPP, NoImplicitPrelude #-}
+{-# LANGUAGE BangPatterns, CPP, ForeignFunctionInterface, NoImplicitPrelude #-}
 
 module GHC.Event.Array
     (
@@ -26,13 +26,14 @@ module GHC.Event.Array
 
 import Control.Monad hiding (forM_)
 import Data.Bits ((.|.), shiftR)
-import Data.IORef (IORef, atomicModifyIORef', newIORef, readIORef, writeIORef)
+import Data.IORef (IORef, atomicModifyIORef, newIORef, readIORef, writeIORef)
 import Data.Maybe
 import Foreign.C.Types (CSize(..))
 import Foreign.ForeignPtr (ForeignPtr, withForeignPtr)
 import Foreign.Ptr (Ptr, nullPtr, plusPtr)
 import Foreign.Storable (Storable(..))
 import GHC.Base
+import GHC.Err (undefined)
 import GHC.ForeignPtr (mallocPlainForeignPtrBytes, newForeignPtr_)
 import GHC.Num (Num(..))
 import GHC.Real (fromIntegral)
@@ -173,8 +174,9 @@ snoc (Array ref) e = do
 
 clear :: Storable a => Array a -> IO ()
 clear (Array ref) = do
-  atomicModifyIORef' ref $ \(AC es _ cap) ->
-        (AC es 0 cap, ())
+  !_ <- atomicModifyIORef ref $ \(AC es _ cap) ->
+        let e = AC es 0 cap in (e, e)
+  return ()
 
 forM_ :: Storable a => Array a -> (a -> IO ()) -> IO ()
 forM_ ary g = forHack ary g undefined

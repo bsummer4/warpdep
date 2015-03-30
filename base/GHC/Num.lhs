@@ -16,6 +16,7 @@
 --
 -----------------------------------------------------------------------------
 
+-- #hide
 module GHC.Num (module GHC.Num, module GHC.Integer) where
 
 import GHC.Base
@@ -62,7 +63,6 @@ class  Num a  where
     {-# INLINE negate #-}
     x - y               = x + negate y
     negate x            = 0 - x
-    {-# MINIMAL (+), (*), abs, signum, fromInteger, (negate | (-)) #-}
 
 -- | the same as @'flip' ('-')@.
 --

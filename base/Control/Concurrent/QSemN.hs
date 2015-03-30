@@ -1,5 +1,8 @@
 {-# LANGUAGE Trustworthy #-}
+{-# LANGUAGE CPP #-}
+#ifdef __GLASGOW_HASKELL__
 {-# LANGUAGE DeriveDataTypeable, BangPatterns #-}
+#endif
 {-# OPTIONS_GHC -funbox-strict-fields #-}
 
 -----------------------------------------------------------------------------

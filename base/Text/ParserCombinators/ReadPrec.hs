@@ -1,5 +1,5 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE NoImplicitPrelude #-}
+{-# LANGUAGE CPP, NoImplicitPrelude #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -62,8 +62,10 @@ import qualified Text.ParserCombinators.ReadP as ReadP
   )
 
 import Control.Monad( MonadPlus(..) )
+#ifdef __GLASGOW_HASKELL__
 import GHC.Num( Num(..) )
 import GHC.Base
+#endif
 
 -- ---------------------------------------------------------------------------
 -- The readPrec type

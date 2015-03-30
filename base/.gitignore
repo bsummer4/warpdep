@@ -10,8 +10,7 @@
 *.eventlog
 *.genscript
 
-# Backup files
-*~
+/dist/
 
 # Specific generated files
 /GNUmakefile

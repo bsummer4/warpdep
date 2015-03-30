@@ -1,5 +1,6 @@
 {-# LANGUAGE Trustworthy #-}
 {-# LANGUAGE CPP, NoImplicitPrelude #-}
+{-# LANGUAGE ForeignFunctionInterface #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -72,7 +73,9 @@ module System.IO (
     -- ** Determining and changing the size of a file
 
     hFileSize,
+#ifdef __GLASGOW_HASKELL__
     hSetFileSize,
+#endif
 
     -- ** Detecting the end of input
 
@@ -102,7 +105,7 @@ module System.IO (
     hIsReadable, hIsWritable,
     hIsSeekable,
 
-    -- ** Terminal operations (not portable: GHC only)
+    -- ** Terminal operations (not portable: GHC\/Hugs only)
 
     hIsTerminalDevice,
 
@@ -111,7 +114,9 @@ module System.IO (
 
     -- ** Showing handle state (not portable: GHC only)
 
+#ifdef __GLASGOW_HASKELL__
     hShow,
+#endif
 
     -- * Text input and output
 
@@ -153,9 +158,11 @@ module System.IO (
     hSetBinaryMode,
     hPutBuf,
     hGetBuf,
+#if !defined(__HUGS__)
     hGetBufSome,
     hPutBufNonBlocking,
     hGetBufNonBlocking,
+#endif
 
     -- * Temporary files
 
@@ -164,6 +171,7 @@ module System.IO (
     openTempFileWithDefaultPermissions,
     openBinaryTempFileWithDefaultPermissions,
 
+#if !defined(__HUGS__)
     -- * Unicode encoding\/decoding
 
     -- | A text-mode 'Handle' has an associated 'TextEncoding', which
@@ -193,7 +201,9 @@ module System.IO (
     localeEncoding,
     char8,
     mkTextEncoding,
+#endif
 
+#if !defined(__HUGS__)
     -- * Newline conversion
     
     -- | In Haskell, a newline is always represented by the character
@@ -217,6 +227,7 @@ module System.IO (
     Newline(..), nativeNewline, 
     NewlineMode(..), 
     noNewlineTranslation, universalNewlineMode, nativeNewlineMode,
+#endif
   ) where
 
 import Control.Exception.Base
@@ -232,6 +243,7 @@ import Foreign.C.Types
 import System.Posix.Internals
 import System.Posix.Types
 
+#ifdef __GLASGOW_HASKELL__
 import GHC.Base
 import GHC.IO hiding ( bracket, onException )
 import GHC.IO.IOMode
@@ -245,10 +257,19 @@ import GHC.Num
 import Text.Read
 import GHC.Show
 import GHC.MVar
+#endif
+
+#ifdef __HUGS__
+import Hugs.IO
+import Hugs.IOExts
+import Hugs.IORef
+import System.IO.Unsafe ( unsafeInterleaveIO )
+#endif
 
 -- -----------------------------------------------------------------------------
 -- Standard IO
 
+#ifdef __GLASGOW_HASKELL__
 -- | Write a character to the standard output device
 -- (same as 'hPutChar' 'stdout').
 
@@ -356,6 +377,7 @@ readIO s        =  case (do { (x,t) <- reads s ;
 -- 'GHC.IO.Encoding.setLocaleEncoding' this value will not reflect that change.
 localeEncoding :: TextEncoding
 localeEncoding = initLocaleEncoding
+#endif  /* __GLASGOW_HASKELL__ */
 
 -- | Computation 'hReady' @hdl@ indicates whether at least one item is
 -- available for input from handle @hdl@.
@@ -399,6 +421,7 @@ withBinaryFile name mode = bracket (openBinaryFile name mode) hClose
 -- ---------------------------------------------------------------------------
 -- fixIO
 
+#if defined(__GLASGOW_HASKELL__) || defined(__HUGS__)
 fixIO :: (a -> IO a) -> IO a
 fixIO k = do
     m <- newEmptyMVar
@@ -421,6 +444,7 @@ fixIO k = do
 --
 -- See also System.IO.Unsafe.unsafeFixIO.
 --
+#endif
 
 -- | The function creates a temporary file in ReadWrite mode.
 -- The created file isn\'t deleted automatically, so you need to delete it manually.
@@ -485,6 +509,7 @@ openTempFile' loc tmp_dir template binary mode = do
          -- beginning with '.' as the second component.
          _                      -> error "bug in System.IO.openTempFile"
 
+#if defined(__GLASGOW_HASKELL__)
     findTempName x = do
       r <- openNewFile filepath binary mode
       case r of
@@ -499,6 +524,10 @@ openTempFile' loc tmp_dir template binary mode = do
           h <- mkHandleFromFD fD fd_type filepath ReadWriteMode False{-set non-block-} (Just enc)
 
           return (filepath, h)
+#else
+         h <- fdToHandle fd `onException` c_close fd
+         return (filepath, h)
+#endif
 
       where
         filename        = prefix ++ show x ++ suffix
@@ -511,6 +540,11 @@ openTempFile' loc tmp_dir template binary mode = do
                   | last a == pathSeparator = a ++ b
                   | otherwise = a ++ [pathSeparator] ++ b
 
+#if __HUGS__
+        fdToHandle fd   = openFd (fromIntegral fd) False ReadWriteMode binary
+#endif
+
+#if defined(__GLASGOW_HASKELL__)
 data OpenNewFileResult
   = NewFileCreated CInt
   | FileExists
@@ -532,27 +566,28 @@ openNewFile filepath binary mode = do
       errno <- getErrno
       case errno of
         _ | errno == eEXIST -> return FileExists
-#ifdef mingw32_HOST_OS
+# ifdef mingw32_HOST_OS
         -- If c_open throws EACCES on windows, it could mean that filepath is a
         -- directory. In this case, we want to return FileExists so that the
         -- enclosing openTempFile can try again instead of failing outright.
         -- See bug #4968.
         _ | errno == eACCES -> do
           withCString filepath $ \path -> do
-            -- There is a race here: the directory might have been moved or
-            -- deleted between the c_open call and the next line, but there
-            -- doesn't seem to be any direct way to detect that the c_open call
-            -- failed because of an existing directory.
-            exists <- c_fileExists path
-            return $ if exists
-              then FileExists
-              else OpenNewError errno
-#endif
+          -- There is a race here: the directory might have been moved or
+          -- deleted between the c_open call and the next line, but there
+          -- doesn't seem to be any direct way to detect that the c_open call
+          -- failed because of an existing directory.
+          exists <- c_fileExists path
+          return $ if exists
+            then FileExists
+            else OpenNewError errno
+# endif
         _ -> return (OpenNewError errno)
     else return (NewFileCreated fd)
 
-#ifdef mingw32_HOST_OS
+# ifdef mingw32_HOST_OS
 foreign import ccall "file_exists" c_fileExists :: CString -> IO Bool
+# endif
 #endif
 
 -- XXX Should use filepath library

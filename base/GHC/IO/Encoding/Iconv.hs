@@ -1,9 +1,9 @@
 {-# LANGUAGE Trustworthy #-}
 {-# LANGUAGE CPP
            , NoImplicitPrelude
+           , ForeignFunctionInterface
            , NondecreasingIndentation
   #-}
-{-# OPTIONS_HADDOCK hide #-}
 
 -----------------------------------------------------------------------------
 -- |
@@ -19,6 +19,7 @@
 --
 -----------------------------------------------------------------------------
 
+-- #hide
 module GHC.IO.Encoding.Iconv (
 #if !defined(mingw32_HOST_OS)
    iconvEncoding, mkIconvEncoding,
@@ -29,9 +30,7 @@ module GHC.IO.Encoding.Iconv (
 #include "MachDeps.h"
 #include "HsBaseConfig.h"
 
-#if defined(mingw32_HOST_OS)
-import GHC.Base () -- For build ordering
-#else
+#if !defined(mingw32_HOST_OS)
 
 import Foreign.Safe
 import Foreign.C
@@ -141,7 +140,7 @@ iconvRecode iconv_t
   input@Buffer{  bufRaw=iraw, bufL=ir, bufR=iw, bufSize=_  }  iscale
   output@Buffer{ bufRaw=oraw, bufL=_,  bufR=ow, bufSize=os }  oscale
   = do
-    iconv_trace ("haskellChar=" ++ show haskellChar)
+    iconv_trace ("haskelChar=" ++ show haskellChar)
     iconv_trace ("iconvRecode before, input=" ++ show (summaryBuffer input))
     iconv_trace ("iconvRecode before, output=" ++ show (summaryBuffer output))
     withRawBuffer iraw $ \ piraw -> do

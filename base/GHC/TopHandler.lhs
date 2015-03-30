@@ -2,8 +2,10 @@
 {-# LANGUAGE Trustworthy #-}
 {-# LANGUAGE CPP
            , NoImplicitPrelude
+           , ForeignFunctionInterface
            , MagicHash
            , UnboxedTuples
+           , PatternGuards
   #-}
 {-# OPTIONS_GHC -fno-warn-unused-imports #-}
 {-# OPTIONS_HADDOCK hide #-}
@@ -23,6 +25,7 @@
 --
 -----------------------------------------------------------------------------
 
+-- #hide
 module GHC.TopHandler (
         runMainIO, runIO, runIOFastExit, runNonIO,
         topHandler, topHandlerFastExit,
@@ -177,33 +180,10 @@ flushStdHandles = do
   hFlush stdout `catchAny` \_ -> return ()
   hFlush stderr `catchAny` \_ -> return ()
 
-safeExit, fastExit :: Int -> IO a
-safeExit = exitHelper useSafeExit
-fastExit = exitHelper useFastExit
-
-unreachable :: IO a
-unreachable = fail "If you can read this, shutdownHaskellAndExit did not exit."
-
-exitHelper :: CInt -> Int -> IO a
-#ifdef mingw32_HOST_OS
-exitHelper exitKind r =
-  shutdownHaskellAndExit (fromIntegral r) exitKind >> unreachable
-#else
--- On Unix we use an encoding for the ExitCode:
---      0 -- 255  normal exit code
---   -127 -- -1   exit by signal
--- For any invalid encoding we just use a replacement (0xff).
-exitHelper exitKind r
-  | r >= 0 && r <= 255
-  = shutdownHaskellAndExit   (fromIntegral   r)  exitKind >> unreachable
-  | r >= -127 && r <= -1
-  = shutdownHaskellAndSignal (fromIntegral (-r)) exitKind >> unreachable
-  | otherwise
-  = shutdownHaskellAndExit   0xff                exitKind >> unreachable
-
-foreign import ccall "shutdownHaskellAndSignal"
-  shutdownHaskellAndSignal :: CInt -> CInt -> IO ()
-#endif
+-- we have to use unsafeCoerce# to get the 'IO a' result type, since the
+-- compiler doesn't let us declare that as the result type of a foreign export.
+safeExit :: Int -> IO a
+safeExit r = unsafeCoerce# (shutdownHaskellAndExit $ fromIntegral r)
 
 exitInterrupted :: IO a
 exitInterrupted = 
@@ -212,16 +192,20 @@ exitInterrupted =
 #else
   -- we must exit via the default action for SIGINT, so that the
   -- parent of this process can take appropriate action (see #2301)
-  safeExit (-CONST_SIGINT)
+  unsafeCoerce# (shutdownHaskellAndSignal CONST_SIGINT)
+
+foreign import ccall "shutdownHaskellAndSignal"
+  shutdownHaskellAndSignal :: CInt -> IO ()
 #endif
 
 -- NOTE: shutdownHaskellAndExit must be called "safe", because it *can*
 -- re-enter Haskell land through finalizers.
 foreign import ccall "Rts.h shutdownHaskellAndExit"
-  shutdownHaskellAndExit :: CInt -> CInt -> IO ()
+  shutdownHaskellAndExit :: CInt -> IO ()
 
-useFastExit, useSafeExit :: CInt
-useFastExit = 1
-useSafeExit = 0
+fastExit :: Int -> IO a
+fastExit r = unsafeCoerce# (stg_exit (fromIntegral r))
 
+foreign import ccall "Rts.h stg_exit"
+  stg_exit :: CInt -> IO ()
 \end{code}

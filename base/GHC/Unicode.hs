@@ -1,5 +1,5 @@
 {-# LANGUAGE Trustworthy #-}
-{-# LANGUAGE CPP, NoImplicitPrelude #-}
+{-# LANGUAGE CPP, NoImplicitPrelude, ForeignFunctionInterface #-}
 {-# OPTIONS_HADDOCK hide #-}
 
 -----------------------------------------------------------------------------
@@ -18,6 +18,7 @@
 --
 -----------------------------------------------------------------------------
 
+-- #hide
 module GHC.Unicode (
         isAscii, isLatin1, isControl,
         isAsciiUpper, isAsciiLower,

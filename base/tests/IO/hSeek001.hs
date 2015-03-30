@@ -1,3 +1,4 @@
+{-# LANGUAGE CPP #-}
 -- !!! Test seeking
 
 import System.IO
