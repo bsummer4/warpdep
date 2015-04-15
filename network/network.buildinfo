@@ -1,0 +1,6 @@
+ghc-options: -DCALLCONV=ccall -D_GNU_SOURCE
+ghc-prof-options: -DCALLCONV=ccall -D_GNU_SOURCE
+ld-options: 
+cc-options: -DCALLCONV=ccall -D_GNU_SOURCE
+c-sources: cbits/ancilData.c
+extra-libraries: 

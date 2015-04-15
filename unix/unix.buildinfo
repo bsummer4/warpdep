@@ -1,0 +1,3 @@
+buildable: True
+extra-libraries:  rt util dl pthread
+install-includes: HsUnixConfig.h

@@ -1,7 +1,0 @@
-dist
-*.o
-*.hi
-
-# Executables
-benchmarks/bench
-cabal-dev
